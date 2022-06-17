@@ -1,0 +1,1380 @@
+<Routes>
+
+<TrainSignal Tag="3N" Type="PpoTrainSignal">
+
+    <TrRoute Tag="3N_NM3" Type="PpoTrainRoute">
+        <Trace Finish="NM3" OnCoursePoints="" Start="3N"/>
+        <OperatorSelectors Ends="NM3 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH3A" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CH3A_3N" Type="PpoTrainRoute">
+        <Trace Finish="CHDR" OnCoursePoints="+31 " Start="CH3A"/>
+        <OperatorSelectors Ends="NM3 3N CHDR "/>
+        <SignalingDependence Dark="K" OnMain="K" OnMainALSO="K" OnMainGrALSO="K" OnMainGreen="K" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+        <PointsAnDTrack Points="+39 "/>
+    </TrRoute>
+
+    <TrRoute Tag="CH3A_NM1A" Type="PpoTrainRoute">
+        <Trace Finish="CH1A" OnCoursePoints="-31 -29 " Start="CH3A"/>
+        <OperatorSelectors Ends="NM1A CH1A "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <PointsAnDTrack Points="+39 "/>
+    </TrRoute>
+
+    <ShRoute Tag="CH3A_NM1A" Type="PpoShuntingRoute">
+        <Trace Finish="1AP" OnCoursePoints="-31 -29 " Start="CH3A"/>
+        <OperatorSelectors Ends="NM1A CH1A "/>
+    </ShRoute>
+
+    <ShRoute Tag="CH3A_NM3" Type="PpoShuntingRoute">
+        <Trace Finish="3NP" OnCoursePoints="+31 " Start="CH3A"/>
+        <OperatorSelectors Ends="NM3 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CHM8A" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CHM8A_NM8" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="CH8" OnCoursePoints="+44 +46 " Start="CHM8A"/>
+        <OperatorSelectors Ends="NM8 CH8 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZH" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+    <TrRoute Tag="CHM8A_CH11" Type="PpoTrainRoute">
+        <Trace Finish="CH11" OnCoursePoints="+44 +43 -46 -54 -47 " Start="CHM8A"/>
+        <OperatorSelectors Ends="FNM11 CH11 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+
+    <TrRoute Tag="CHM8A_CH12" Type="PpoTrainRoute">
+        <Trace Finish="CH12" OnCoursePoints="+44 +47 -46 -54 -45 " Start="CHM8A"/>
+        <OperatorSelectors Ends="FNM12 CH12 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+
+    <ShRoute Tag="CHM8A_M21" Type="PpoShuntingRoute">
+        <Trace Finish="M21P" OnCoursePoints="+50 +52 -44 -48 " Start="CHM8A"/>
+        <OperatorSelectors Ends="M21 M31 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CHM8A_M24" Type="PpoShuntingRoute">
+        <Trace Finish="14_16P" OnCoursePoints="-44 -48 -50 " Start="CHM8A"/>
+        <OperatorSelectors Ends="M24 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CHM8A_M33" Type="PpoShuntingRoute">
+        <Trace Finish="M33P" OnCoursePoints="+50 -44 -48 -52 " Start="CHM8A"/>
+        <OperatorSelectors Ends="M33 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CHM8A_M29" Type="PpoShuntingRoute">
+        <Trace Finish="54SP" OnCoursePoints="+44 -46 -54 " Start="CHM8A"/>
+        <OperatorSelectors Ends="M29 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CHM8A_CH8" Type="PpoShuntingRoute">
+        <Trace Finish="8P" OnCoursePoints="+44 +46 " Start="CHM8A"/>
+        <OperatorSelectors Ends="NM8 CH8 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="NM1A" Type="PpoTrainSignal">
+
+    <ShRoute Tag="NM1A_CHM1" Type="PpoShuntingRoute">
+        <Trace Finish="1P" OnCoursePoints="+29 " Start="NM1A"/>
+        <OperatorSelectors Ends="CHM1 N1 "/>
+    </ShRoute>
+
+    <ShRoute Tag="NM1A_M25" Type="PpoShuntingRoute">
+        <Trace Finish="3AP" OnCoursePoints="-29 -31 " Start="NM1A"/>
+        <OperatorSelectors Ends="CH3A M25 "/>
+    </ShRoute>
+
+    <TrRoute Tag="NM1A_N3" Type="PpoTrainRoute">
+        <Trace Finish="N3" OnCoursePoints="+39 -29 -31 " Start="NM1A"/>
+        <OperatorSelectors Ends="CH3A N3 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+
+    <TrRoute Tag="NM1A_N1" Type="PpoTrainRoute">
+        <Trace Finish="N1" OnCoursePoints="+29 " Start="NM1A"/>
+        <OperatorSelectors Ends="CHM1 N1 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="N7" Type="PpoTrainSignal">
+
+    <TrRoute Tag="N7_N7A" Type="PpoTrainRoute" ValueRoutePointer="5">
+        <Trace Finish="N7A" OnCoursePoints="+42 " Start="N7"/>
+        <OperatorSelectors Ends="CHM7A N7A "/>
+        <SignalingDependence Dark="ZH" OnMain="K" OnMainALSO="K" OnMainGrALSO="K" OnMainGreen="K" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+     <TrRoute Tag="N7_1CH" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+28 +16 +8 +10 -42 -40 -36 -34 " Start="N7"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="5" DelayStartNotification="75" StartNotification="7P"/>
+    </TrRoute>
+     <TrRoute Tag="N7_1CH_V2" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="-42 -40 +36 +22 +14 -12 -10 " Start="N7" Variants="V2"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="68" StartNotification="7P"/>
+    </TrRoute>
+   <TrRoute Tag="N7_1CH_V4_V2" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="-42 -40 -36 -34 +28 -16 -14 -12 -10 " Start="N7" Variants="V4 V2"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="2" DelayStartNotification="82" StartNotification="7P"/>
+    </TrRoute>
+
+    <TrRoute Tag="N7_2CHD" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2GP" OnCoursePoints="+18 -42 -40 -36 -34 -28 -26 -4 -2 " Start="N7"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="1" DelayStartNotification="79" StartNotification="7P"/>
+    </TrRoute>
+
+    <TrRoute Tag="N7_3CH" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="3GP" OnCoursePoints="+28 +16 -42 -40 -36 -34 -8 -6 " Start="N7"/>
+        <OperatorSelectors Ends="3CH 3GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="5" DelayStartNotification="75" StartNotification="7P"/>
+    </TrRoute>
+
+    <TrRoute Tag="N7_4CHD" Type="PpoTrainRoute" ValueRoutePointer="4">
+        <Trace Finish="4GP" OnCoursePoints="+18 +4 -42 -40 -36 -34 -28 -26 " Start="N7"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="1" DelayStartNotification="79" StartNotification="7P"/>
+    </TrRoute>
+
+	 <TrRoute Tag="N7_CHK" Type="PpoTrainRoute" ValueRoutePointer="6">
+        <Trace Finish="CHKGP" OnCoursePoints="+12 +14 +22 +36 -40 -42 " Start="N7"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="68" StartNotification="7P"/>
+    </TrRoute>
+    <TrRoute Tag="N7_CHK_V4" Type="PpoTrainRoute" ValueRoutePointer="6">
+        <Trace Finish="CHKGP" OnCoursePoints="+28 +12 -42 -40 -36 -34 -16 -14 " Start="N7" Variants="V4"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+         <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="2" DelayStartNotification="82" StartNotification="7P"/>
+    </TrRoute>
+
+
+    <ShRoute Tag="N7_M2" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="-42 -40 -36 -34 -28 -26 +18 +4 " Start="N7"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="0" DelayStartNotification="79" StartNotification="7P"/>
+    </ShRoute>
+    <ShRoute Tag="N7_M4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="-42 -40 -36 -34 -28 -26 +18 -4 -2 " Start="N7"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="0" DelayStartNotification="79" StartNotification="7P"/>
+    </ShRoute>
+    <ShRoute Tag="N7_M6" Type="PpoShuntingRoute">
+        <Trace Finish="3CHP" OnCoursePoints="-42 -40 -36 -34 +28 +16 -8 -6 " Start="N7"/>
+        <OperatorSelectors Ends="M6 "/>
+        <CrossroadNotification DelayOpenSignal="3" DelayStartNotification="76" StartNotification="7P"/>
+    </ShRoute>
+    <ShRoute Tag="N7_M8" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="-42 -40 -36 -34 +28 +16 +8 +10 " Start="N7"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="3" DelayStartNotification="76" StartNotification="7P"/>
+    </ShRoute>
+    <ShRoute Tag="N7_M8_V2" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="-42 -40 -36 -34 +28 -16 -14 -12 -10 " Start="N7" Variants="V2"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="3" DelayStartNotification="82" StartNotification="7P"/>
+    </ShRoute>
+    <ShRoute Tag="N7_M10" Type="PpoShuntingRoute">
+        <Trace Finish="CHKAP" OnCoursePoints="-42 -40 -36 -34 +28 -16 -14 +12 " Start="N7"/>
+        <OperatorSelectors Ends="M10 "/>
+        <CrossroadNotification DelayOpenSignal="3" DelayStartNotification="82" StartNotification="7P"/>
+    </ShRoute>
+	 <ShRoute Tag="N7_M18" Type="PpoShuntingRoute">
+        <Trace Finish="22_36P" OnCoursePoints="-42 -40 +36 " Start="N7"/>
+        <OperatorSelectors Ends="M22 M18 "/>
+    </ShRoute>
+	 <ShRoute Tag="N7_N7A" Type="PpoShuntingRoute">
+        <Trace Finish="7AP" OnCoursePoints="+42 " Start="N7"/>
+        <OperatorSelectors Ends="CHM7A N7A "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH5" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CH5_1N" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1NPP" OnCoursePoints="+13 +9 -27 -25 -23 -3 -1 " Start="CH5"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="ZB" OnMainALSO="ZB" OnMainGrALSO="ZB" OnMainGreen="ZB" OnSide="ZB" OnSideALSO="K" Stop="ZHB"/>
+    </TrRoute>
+    <TrRoute Tag="CH5_2ND" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2NUP" OnCoursePoints="+3 +9 +13 -23 -25 -27 " Start="CH5"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+        <SignalingDependence Dark="K" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+    </TrRoute>
+    <TrRoute Tag="CH5_4ND" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="4NUP" OnCoursePoints="+5 +7 +11 +17 +21 +25 -27 " Start="CH5"/>
+        <OperatorSelectors Ends="4ND 4NUP "/>
+       <SignalingDependence Dark="K" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+    </TrRoute>
+    <ShRoute Tag="CH5_M1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+13 +9 +3 -27 -25 -23 " Start="CH5"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CH5_M1_V1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+25 +21 +17 +3 -27 -11 -9 " Start="CH5" Variants="V1"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CH5_M3_V1" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+25 +21 +17 -27 -11 -9 -3 -1 " Start="CH5" Variants="V1"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CH5_M3" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+13 +9 -27 -25 -23 -3 -1 " Start="CH5"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CH5_M5" Type="PpoShuntingRoute">
+        <Trace Finish="4NDP" OnCoursePoints="+25 +21 +17 +11 +7 +5 -27 " Start="CH5"/>
+        <OperatorSelectors Ends="M5 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="N6" Type="PpoTrainSignal">
+    <TrRoute Tag="N6_1CH" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+8 +10 +16 +28 -34 -36 +40 " Start="N6"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="8" DelayStartNotification="29" StartNotification="6P"/>
+    </TrRoute>
+    <TrRoute Tag="N6_1CH_V2" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+40 +36 +22 +14 -12 -10 " Start="N6" Variants="V2"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="20" StartNotification="6P"/>
+    </TrRoute>
+		 <TrRoute Tag="N6_1CH_V4_V2" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+40 +28 -36 -34 -16 -14 -12 -10 " Start="N6" Variants="V4 V2"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+         <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="1" DelayStartNotification="36" StartNotification="6P"/>
+    </TrRoute>
+
+    <TrRoute Tag="N6_2CHD" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2GP" OnCoursePoints="-2 -4 +18 -26 -28 -34 -36 +40 " Start="N6"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="4" DelayStartNotification="33" StartNotification="6P"/>
+    </TrRoute>
+
+    <TrRoute Tag="N6_3CH" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="3GP" OnCoursePoints="+40 +28 +16 -36 -34 -8 -6 " Start="N6"/>
+        <OperatorSelectors Ends="3CH 3GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="8" DelayStartNotification="29" StartNotification="6P"/>
+    </TrRoute>
+
+    <TrRoute Tag="N6_4CHD" Type="PpoTrainRoute" ValueRoutePointer="4">
+        <Trace Finish="4GP" OnCoursePoints="+40 +18 +4 -36 -34 -28 -26 " Start="N6"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="4" DelayStartNotification="33" StartNotification="6P"/>
+    </TrRoute>
+
+
+   <TrRoute Tag="N6_CHK" Type="PpoTrainRoute" ValueRoutePointer="5">
+        <Trace Finish="CHKGP" OnCoursePoints="+40 +36 +22 +14 +12 " Start="N6"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+        <SignalingDependence Dark="Z" OnMain="Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="Z" OnSideALSO="ZH" Stop="Z"/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="20" StartNotification="6P"/>
+    </TrRoute>
+    <TrRoute Tag="N6_CHK_V4" Type="PpoTrainRoute" ValueRoutePointer="5">
+        <Trace Finish="CHKGP" OnCoursePoints="+40 +28 +12 -36 -34 -16 -14 " Start="N6" Variants="V4"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+         <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="1" DelayStartNotification="36" StartNotification="6P"/>
+    </TrRoute>
+
+    <ShRoute Tag="N6_M2" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="+40 +18 +4 -36 -34 -28 -26 " Start="N6"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="3" DelayStartNotification="42" StartNotification="6P"/>
+    </ShRoute>
+   <ShRoute Tag="N6_M4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="+40 +18 -36 -34 -28 -26 -4 -2 " Start="N6"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="3" DelayStartNotification="42" StartNotification="6P"/>
+    </ShRoute>
+    <ShRoute Tag="N6_M6" Type="PpoShuntingRoute">
+        <Trace Finish="3CHP" OnCoursePoints="+40 +28 +16 -36 -34 -8 -6 " Start="N6"/>
+        <OperatorSelectors Ends="M6 "/>
+        <CrossroadNotification DelayOpenSignal="6" DelayStartNotification="39" StartNotification="6P"/>
+    </ShRoute>
+    <ShRoute Tag="N6_M8" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+40 -36 -34 +28 +16 +8 +10 " Start="N6"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="6" DelayStartNotification="39" StartNotification="6P"/>
+    </ShRoute>
+   <ShRoute Tag="N6_M8_V2" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+40 -36 -34 +28 -16 -14 -12 -10 " Start="N6" Variants="V2"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="1" DelayStartNotification="44" StartNotification="6P"/>
+    </ShRoute>
+    <ShRoute Tag="N6_M10" Type="PpoShuntingRoute">
+        <Trace Finish="CHKAP" OnCoursePoints="+40 -36 -34 +28 -16 -14 +12 " Start="N6"/>
+        <OperatorSelectors Ends="M10 "/>
+        <CrossroadNotification DelayOpenSignal="1" DelayStartNotification="44" StartNotification="6P"/>
+    </ShRoute>
+
+    <ShRoute Tag="N6_M18" Type="PpoShuntingRoute">
+        <Trace Finish="22_36P" OnCoursePoints="+40 +36 " Start="N6"/>
+        <OperatorSelectors Ends="M22 M18 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH11" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CH11_4ND" Type="PpoTrainRoute">
+        <Trace Finish="4NUP" OnCoursePoints="+5 -7 " Start="CH11"/>
+        <OperatorSelectors Ends="4ND 4NUP "/>
+        <SignalingDependence Dark="K" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+    </TrRoute>
+
+    <ShRoute Tag="CH11_M5" Type="PpoShuntingRoute">
+        <Trace Finish="4NDP" OnCoursePoints="+5 -7 " Start="CH11"/>
+        <OperatorSelectors Ends="M5 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CHM7A" Type="PpoTrainSignal">
+
+    <ShRoute Tag="CHM7A_N7" Type="PpoShuntingRoute">
+        <Trace Finish="7P" OnCoursePoints="+42 " Start="CHM7A"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+    </ShRoute>
+
+    <TrRoute Tag="CHM7A_N7" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+42 " Start="CHM7A"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZH" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CHM1" Type="PpoTrainSignal">
+
+    <ShRoute Tag="CHM1_NM1A" Type="PpoShuntingRoute">
+        <Trace Finish="1AP" OnCoursePoints="+29 " Start="CHM1"/>
+        <OperatorSelectors Ends="NM1A CH1A "/>
+    </ShRoute>
+
+    <TrRoute Tag="CHM1_NM1A" Type="PpoTrainRoute">
+        <Trace Finish="CH1A" OnCoursePoints="+29 " Start="CHM1"/>
+        <OperatorSelectors Ends="NM1A CH1A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="ZHM_ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH12" Type="PpoTrainSignal">
+
+    <ShRoute Tag="CH12_M5" Type="PpoShuntingRoute">
+        <Trace Finish="4NDP" OnCoursePoints="-5 " Start="CH12"/>
+        <OperatorSelectors Ends="M5 "/>
+    </ShRoute>
+    <TrRoute Tag="CH12_4ND" Type="PpoTrainRoute">
+        <Trace Finish="4NUP" OnCoursePoints="-5 " Start="CH12"/>
+        <OperatorSelectors Ends="4ND 4NUP "/>
+        <SignalingDependence Dark="K" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="NM3" Type="PpoTrainSignal">
+
+    <TrRoute Tag="NM3_N3" Type="PpoTrainRoute">
+        <Trace Finish="N3" OnCoursePoints="+31 +39 " Start="NM3"/>
+        <OperatorSelectors Ends="CH3A N3 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+    <ShRoute Tag="NM3_M25" Type="PpoShuntingRoute">
+        <Trace Finish="3AP" OnCoursePoints="+31 " Start="NM3"/>
+        <OperatorSelectors Ends="CH3A M25 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="NM8" Type="PpoTrainSignal">
+
+    <ShRoute Tag="NM8_CHM8A" Type="PpoShuntingRoute">
+        <Trace Finish="8AP" OnCoursePoints="+46 +44 " Start="NM8"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+    </ShRoute>
+
+    <TrRoute Tag="NM8_N8A" Type="PpoTrainRoute">
+        <Trace Finish="N8A" OnCoursePoints="+46 +44 " Start="NM8"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZH" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="N1" Type="PpoTrainSignal">
+
+    <ShRoute Tag="N1_M2" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="+30 +26 +18 +4 " Start="N1"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="23" DelayStartNotification="15" StartNotification="1AP"/>
+    </ShRoute>
+
+    <ShRoute Tag="N1_M4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="+30 +26 +18 -4 -2 " Start="N1"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="23" DelayStartNotification="15" StartNotification="1AP"/>
+    </ShRoute>
+
+    <TrRoute Tag="N1_2CHD" Type="PpoTrainRoute">
+        <Trace Finish="2GP" OnCoursePoints="+30 +26 +18 -4 -2 " Start="N1"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="25" DelayStartNotification="3" Point="+15" StartNotification="1SP"/>
+        <CrossroadNotification DelayOpenSignal="25" DelayStartNotification="8" Point="-15" StartNotification="15SP"/>
+    </TrRoute>
+
+    <TrRoute Tag="N1_4CHD" Type="PpoTrainRoute">
+        <Trace Finish="4GP" OnCoursePoints="+30 +26 +18 +4 " Start="N1"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+        <SignalingDependence Dark="K" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+        <CrossroadNotification DelayOpenSignal="25" DelayStartNotification="3" Point="+15" StartNotification="1SP"/>
+        <CrossroadNotification DelayOpenSignal="25" DelayStartNotification="8" Point="-15" StartNotification="15SP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="4CHD" Type="PpoTrainSignal">
+
+    <TrRoute Tag="4CHD_N1" Type="PpoTrainRoute">
+        <Trace Finish="CHM1" OnCoursePoints="+4 +18 +26 +30 " Start="4CHD"/>
+        <OperatorSelectors Ends="N1 CHM1 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+    <TrRoute Tag="4CHD_N2" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+4 +18 +26 +38 -30 -32 " Start="4CHD"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+    <TrRoute Tag="4CHD_CH3A" Type="PpoTrainRoute">
+        <Trace Finish="CH3A" OnCoursePoints="+4 +39 -18 -20 " Start="4CHD"/>
+        <OperatorSelectors Ends="N3 CH3A "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+    <TrRoute Tag="4CHD_N4" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+4 +18 +26 -30 -32 -38 " Start="4CHD"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+    <TrRoute Tag="4CHD_N6" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+4 +18 +40 -26 -28 -34 -36 " Start="4CHD"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+    <TrRoute Tag="4CHD_N7" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+4 +18 -26 -28 -34 -36 -40 -42 " Start="4CHD"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+   <TrRoute Tag="4CHD_N2_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+4 +18 +34 +32 +38 -26 -28 " Start="4CHD" Variants="V4"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+    <TrRoute Tag="4CHD_N4_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+4 +18 +34 +32 -26 -28 -38 " Start="4CHD" Variants="V4"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="2" NotificationPoint="2" StartNotification="4GP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH7" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CH7_1N" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1NPP" OnCoursePoints="+19 -17 -11 -9 -3 -1 " Start="CH7"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="K" OnMainGreen="K" OnSide="DZHMB" OnSideALSO="K" Stop="DZHB"/>
+    </TrRoute>
+    <TrRoute Tag="CH7_2ND" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2NUP" OnCoursePoints="+19 +3 -17 -11 -9 " Start="CH7"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="CH7_4ND" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="4NUP" OnCoursePoints="+19 +11 +7 +5 -17 " Start="CH7"/>
+        <OperatorSelectors Ends="4ND 4NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+    <ShRoute Tag="CH7_M5" Type="PpoShuntingRoute">
+        <Trace Finish="4NDP" OnCoursePoints="+19 +11 +7 +5 -17 " Start="CH7"/>
+        <OperatorSelectors Ends="M5 "/>
+    </ShRoute>
+    <ShRoute Tag="CH7_M1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+19 +3 -17 -11 -9 " Start="CH7"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+    <ShRoute Tag="CH7_M3" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+19 -17 -11 -9 -3 -1 " Start="CH7"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="2ND" Type="PpoTrainSignal">
+
+    <TrRoute Tag="2ND_NM1A" Type="PpoTrainRoute">
+        <Trace Finish="NM1A" OnCoursePoints="+3 +9 -13 -15 " Start="2ND"/>
+        <OperatorSelectors Ends="CH1A NM1A "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="2ND_N2" Type="PpoTrainRoute">
+        <Trace Finish="N2" OnCoursePoints="+3 +9 +13 +23 " Start="2ND"/>
+        <OperatorSelectors Ends="CH2 N2 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+    <TrRoute Tag="2ND_N4" Type="PpoTrainRoute">
+        <Trace Finish="N4" OnCoursePoints="+3 +9 +13 +27 -23 -25 " Start="2ND"/>
+        <OperatorSelectors Ends="CH4 N4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="2ND_N6" Type="PpoTrainRoute">
+        <Trace Finish="N6" OnCoursePoints="+3 +17 -9 -11 -21 " Start="2ND"/>
+        <OperatorSelectors Ends="CH6 N6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="2ND_N7" Type="PpoTrainRoute">
+        <Trace Finish="N7" OnCoursePoints="+3 +19 -9 -11 -17 " Start="2ND"/>
+        <OperatorSelectors Ends="CH7 N7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="2ND_NM8" Type="PpoTrainRoute">
+        <Trace Finish="NM8" OnCoursePoints="+3 -9 -11 -17 -19 " Start="2ND"/>
+        <OperatorSelectors Ends="CH8 NM8 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="2ND_CH4_V1" Type="PpoTrainRoute">
+        <Trace Finish="N4" OnCoursePoints="+3 +17 +21 +25 +27 -9 -11 " Start="2ND" Variants="V1"/>
+        <OperatorSelectors Ends="CH4 N4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH1A" Type="PpoTrainSignal">
+
+   <TrRoute Tag="CH1A_1N" Type="PpoTrainRoute">
+        <Trace Finish="1NPP" OnCoursePoints="+15 +1 " Start="CH1A"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="ZB" OnMainALSO="ZB" OnMainGrALSO="ZB" OnMainGreen="ZB" OnSide="ZB" OnSideALSO="K" Stop="ZHB"/>
+    </TrRoute>
+ <TrRoute Tag="CH1A_2ND" Type="PpoTrainRoute">
+        <Trace Finish="2NUP" OnCoursePoints="+9 +3 -15 -13 " Start="CH1A"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+    <ShRoute Tag="CH1A_M3" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+15 +1 " Start="CH1A"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+    <ShRoute Tag="CH1A_M1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+9 +3 -15 -13 " Start="CH1A"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="4ND" Type="PpoTrainSignal">
+
+    <TrRoute Tag="4ND_N4" Type="PpoTrainRoute">
+        <Trace Finish="N4" OnCoursePoints="+5 +7 +11 +17 +21 +25 +27 " Start="4ND"/>
+        <OperatorSelectors Ends="CH4 N4 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHM_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZHM_Z" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+    <TrRoute Tag="4ND_N6" Type="PpoTrainRoute">
+        <Trace Finish="N6" OnCoursePoints="+5 +7 +11 +17 -21 " Start="4ND"/>
+        <OperatorSelectors Ends="CH6 N6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="4ND_N7" Type="PpoTrainRoute">
+        <Trace Finish="N7" OnCoursePoints="+5 +7 +11 +19 -17 " Start="4ND"/>
+        <OperatorSelectors Ends="CH7 N7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="4ND_NM8" Type="PpoTrainRoute">
+        <Trace Finish="NM8" OnCoursePoints="+5 +7 +11 -17 -19 " Start="4ND"/>
+        <OperatorSelectors Ends="CH8 NM8 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="1N" Type="PpoTrainSignal">
+
+   <TrRoute Tag="1N_NM1A" Type="PpoTrainRoute">
+        <Trace Finish="NM1A" OnCoursePoints="+1 +15 " Start="1N"/>
+        <OperatorSelectors Ends="CH1A NM1A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+    <TrRoute Tag="1N_N2" Type="PpoTrainRoute">
+        <Trace Finish="N2" OnCoursePoints="+9 +13 +23 -1 -3 " Start="1N"/>
+        <OperatorSelectors Ends="CH2 N2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="1N_N4" Type="PpoTrainRoute">
+        <Trace Finish="N4" OnCoursePoints="+9 +13 +27 -1 -3 -23 -25 " Start="1N"/>
+        <OperatorSelectors Ends="CH4 N4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+  <TrRoute Tag="1N_N6" Type="PpoTrainRoute">
+        <Trace Finish="N6" OnCoursePoints="+17 -1 -3 -9 -11 -21 " Start="1N"/>
+        <OperatorSelectors Ends="CH6 N6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="1N_N7" Type="PpoTrainRoute">
+        <Trace Finish="N7" OnCoursePoints="+19 -1 -3 -9 -11 -17 " Start="1N"/>
+        <OperatorSelectors Ends="CH7 N7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="1N_NM8" Type="PpoTrainRoute">
+        <Trace Finish="NM8" OnCoursePoints="-1 -3 -9 -11 -17 -19 " Start="1N"/>
+        <OperatorSelectors Ends="CH8 NM8 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="1N_N4_V1" Type="PpoTrainRoute">
+        <Trace Finish="N4" OnCoursePoints="+17 +21 +25 +27 -1 -3 -9 -11 " Start="1N" Variants="V1"/>
+        <OperatorSelectors Ends="CH4 N4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CHK" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CHK_CH2" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+12 +28 +34 +32 +38 -14 -16 " Start="CHK"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+    <TrRoute Tag="CHK_CH4" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+12 +28 +34 +32 -14 -16 -38 " Start="CHK"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+    <TrRoute Tag="CHK_CH6" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+12 +14 +22 +36 +40 " Start="CHK"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+        <SignalingDependence Dark="ZH" OnMain="K" OnMainALSO="K" OnMainGrALSO="K" OnMainGreen="K" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+    <TrRoute Tag="CHK_CH7" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+12 +14 +22 +36 -40 -42 " Start="CHK"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+    <TrRoute Tag="CHK_CHM7A" Type="PpoTrainRoute">
+        <Trace Finish="CHM7A" OnCoursePoints="+12 +14 -22 -24 " Start="CHK"/>
+        <OperatorSelectors Ends="N7A CHM7A "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+    <TrRoute Tag="CHK_CHM8A" Type="PpoTrainRoute">
+        <Trace Finish="CHM8A" OnCoursePoints="+12 +14 +24 -22 " Start="CHK"/>
+        <OperatorSelectors Ends="N8A CHM8A "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+   <TrRoute Tag="CHK_N6_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+12 +28 +40 -14 -16 -34 -36 " Start="CHK" Variants="V4"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+        <SignalingDependence Dark="DZH" OnMain="K" OnMainALSO="K" OnMainGrALSO="K" OnMainGreen="K" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+    <TrRoute Tag="CHK_N7_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+12 +28 -14 -16 -34 -36 -40 -42 " Start="CHK" Variants="V4"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="18" StartNotification="CHKGP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="2CHD" Type="PpoTrainSignal">
+
+    <TrRoute Tag="2CHD_CHM1" Type="PpoTrainRoute">
+        <Trace Finish="CHM1" OnCoursePoints="+18 +26 +30 -2 -4 " Start="2CHD"/>
+        <OperatorSelectors Ends="N1 CHM1 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="6" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+    <TrRoute Tag="2CHD_CH2" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+18 +26 +38 -2 -4 -30 -32 " Start="2CHD"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="6" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+    <TrRoute Tag="2CHD_CH3A" Type="PpoTrainRoute">
+        <Trace Finish="CH3A" OnCoursePoints="+2 +20 +39 " Start="2CHD"/>
+        <OperatorSelectors Ends="N3 CH3A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="K" OnMainGreen="ZH" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="1" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+    <TrRoute Tag="2CHD_CH4" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+18 +26 -2 -4 -30 -32 -38 " Start="2CHD"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="6" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+    <TrRoute Tag="2CHD_CH6" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+18 +40 -2 -4 -26 -28 -34 -36 " Start="2CHD"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="6" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+    <TrRoute Tag="2CHD_CH7" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+18 -2 -4 -26 -28 -34 -36 -40 -42 " Start="2CHD"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="6" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+    <TrRoute Tag="2CHD_CH2_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+18 +34 +32 +38 -2 -4 -26 -28 " Start="2CHD" Variants="V4"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="6" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+    <TrRoute Tag="2CHD_CH4_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+18 +34 +32 -2 -4 -26 -28 -38 " Start="2CHD" Variants="V4"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="6" NotificationPoint="1" StartNotification="2GP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="3CH" Type="PpoTrainSignal">
+
+    <TrRoute Tag="3CH_CH2" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+16 +28 +34 +32 +38 -6 -8 " Start="3CH"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="8" DelayStartNotification="1" NotificationPoint="1" StartNotification="3GP"/>
+    </TrRoute>
+    <TrRoute Tag="3CH_CH4" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+16 +28 +34 +32 -6 -8 -38 " Start="3CH"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="8" DelayStartNotification="1" NotificationPoint="1" StartNotification="3GP"/>
+    </TrRoute>
+    <TrRoute Tag="3CH_CH6" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+16 +28 +40 -6 -8 -34 -36 " Start="3CH"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="8" DelayStartNotification="1" NotificationPoint="1" StartNotification="3GP"/>
+    </TrRoute>
+	<TrRoute Tag="3CH_CH7" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+16 +28 -6 -8 -34 -36 -40 -42 " Start="3CH"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="8" DelayStartNotification="1" NotificationPoint="1" StartNotification="3GP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="1CH" Type="PpoTrainSignal">
+
+    <TrRoute Tag="1CH_CH2" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+10 +8 +16 +28 +34 +32 +38 " Start="1CH"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="ZHM_Z" OnSideALSO="ZH" Stop="ZH"/>
+        <CrossroadNotification DelayOpenSignal="23" DelayStartNotification="18" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CH4" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+10 +8 +16 +28 +34 +32 -38 " Start="1CH"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="23" DelayStartNotification="18" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CH6" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+10 +8 +16 +28 +40 -34 -36 " Start="1CH"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="23" DelayStartNotification="18" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CH7" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+10 +8 +16 +28 -34 -36 -40 -42 " Start="1CH"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="23" DelayStartNotification="18" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CHM7A" Type="PpoTrainRoute">
+        <Trace Finish="CHM7A" OnCoursePoints="+14 -10 -12 -22 -24 " Start="1CH"/>
+        <OperatorSelectors Ends="N7A CHM7A "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CHM8A" Type="PpoTrainRoute">
+        <Trace Finish="CHM8A" OnCoursePoints="+14 +24 -10 -12 -22 " Start="1CH"/>
+        <OperatorSelectors Ends="N8A CHM8A "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CH2_V2" Type="PpoTrainRoute">
+        <Trace Finish="CH2" OnCoursePoints="+28 +34 +32 +38 -10 -12 -14 -16 " Start="1CH" Variants="V2"/>
+        <OperatorSelectors Ends="N2 CH2 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+		<CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CH4_V2" Type="PpoTrainRoute">
+        <Trace Finish="CH4" OnCoursePoints="+28 +34 +32 -10 -12 -14 -16 -38 " Start="1CH" Variants="V2"/>
+        <OperatorSelectors Ends="N4 CH4 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+   <TrRoute Tag="1CH_CH6_V2" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+14 +22 +36 +40 -10 -12 " Start="1CH" Variants="V2"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_N6_V2_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH6" OnCoursePoints="+28 +40 -10 -12 -14 -16 -34 -36 " Start="1CH" Variants="V2 V4"/>
+        <OperatorSelectors Ends="N6 CH6 "/>
+         <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CH7_V2_V4" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+28 -10 -12 -14 -16 -34 -36 -40 -42 " Start="1CH" Variants="V2 V4"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+    <TrRoute Tag="1CH_CH7_V2" Type="PpoTrainRoute">
+        <Trace Finish="CH7" OnCoursePoints="+14 +22 +36 -10 -12 -40 -42 " Start="1CH" Variants="V2"/>
+        <OperatorSelectors Ends="N7 CH7 "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="21" DelayStartNotification="23" NotificationPoint="1" StartNotification="1GP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH8" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CH8_1N" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1NPP" OnCoursePoints="-19 -17 -11 -9 -3 -1 " Start="CH8"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="K" OnMainGreen="K" OnSide="DZHMB" OnSideALSO="K" Stop="DZHB"/>
+    </TrRoute>
+    <TrRoute Tag="CH8_2ND" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2NUP" OnCoursePoints="+3 -19 -17 -11 -9 " Start="CH8"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+         <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="CH8_4ND" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="4NUP" OnCoursePoints="+11 +7 +5 -19 -17 " Start="CH8"/>
+        <OperatorSelectors Ends="4ND 4NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+    <ShRoute Tag="CH8_M5" Type="PpoShuntingRoute">
+        <Trace Finish="4NDP" OnCoursePoints="+11 +7 +5 -19 -17 " Start="CH8"/>
+        <OperatorSelectors Ends="M5 "/>
+    </ShRoute>
+    <ShRoute Tag="CH8_M1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+3 -19 -17 -11 -9 " Start="CH8"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+    <ShRoute Tag="CH8_M3" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="-19 -17 -11 -9 -3 -1 " Start="CH8"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="N7A" Type="PpoTrainSignal">
+
+    <TrRoute Tag="N7A_1CH" Type="PpoTrainRoute">
+        <Trace Finish="1GP" OnCoursePoints="+14 -24 -22 -12 -10 " Start="N7A"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="29" DelayStartNotification="82" Point="+42" StartNotification="7P"/>
+    </TrRoute>
+
+    <TrRoute Tag="N7A_CHK" Type="PpoTrainRoute">
+        <Trace Finish="CHKGP" OnCoursePoints="+14 +12 -24 -22 " Start="N7A"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="29" DelayStartNotification="82" Point="+42" StartNotification="7P"/>
+    </TrRoute>
+
+    <ShRoute Tag="N7A_M10" Type="PpoShuntingRoute">
+        <Trace Finish="CHKAP" OnCoursePoints="+14 +12 -24 -22 " Start="N7A"/>
+        <OperatorSelectors Ends="M10 "/>
+        <CrossroadNotification DelayOpenSignal="29" DelayStartNotification="82" Point="+42" StartNotification="7P"/>
+    </ShRoute>
+
+    <ShRoute Tag="N7A_M8" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+14 -24 -22 -12 -10 " Start="N7A"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="29" DelayStartNotification="82" Point="+42" StartNotification="7P"/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH6" Type="PpoTrainSignal">
+
+    <TrRoute Tag="CH6_1N" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1NPP" OnCoursePoints="+17 -21 -11 -9 -3 -1 " Start="CH6"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="K" OnMainGreen="K" OnSide="DZHMB" OnSideALSO="K" Stop="DZHB"/>
+    </TrRoute>
+    <TrRoute Tag="CH6_2ND" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2NUP" OnCoursePoints="+17 +3 -21 -11 -9 " Start="CH6"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="CH6_4ND" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="4NUP" OnCoursePoints="+17 +11 +7 +5 -21 " Start="CH6"/>
+        <OperatorSelectors Ends="4ND 4NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+
+    <ShRoute Tag="CH6_M1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+17 +3 -21 -11 -9 " Start="CH6"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CH6_M5" Type="PpoShuntingRoute">
+        <Trace Finish="4NDP" OnCoursePoints="+17 +11 +7 +5 -21 " Start="CH6"/>
+        <OperatorSelectors Ends="M5 "/>
+    </ShRoute>
+
+    <ShRoute Tag="CH6_M3" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+17 -21 -11 -9 -3 -1 " Start="CH6"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH2" Type="PpoTrainSignal">
+
+    <ShRoute Tag="CH2_M1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+23 +13 +9 +3 " Start="CH2"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+
+    <TrRoute Tag="CH2_2ND" Type="PpoTrainRoute">
+        <Trace Finish="2NUP" OnCoursePoints="+23 +13 +9 +3 " Start="CH2"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+        <SignalingDependence Dark="K" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+    </TrRoute>
+
+    <ShRoute Tag="CH2_M3" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+23 +13 +9 -3 -1 " Start="CH2"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+
+    <TrRoute Tag="CH2_1N" Type="PpoTrainRoute">
+        <Trace Finish="1NPP" OnCoursePoints="+23 +13 +9 -3 -1 " Start="CH2"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="K" Stop="DZHB"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="N3" Type="PpoTrainSignal">
+
+    <ShRoute Tag="N3_M4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="+20 +2 " Start="N3"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="35" DelayStartNotification="15" StartNotification="3AP"/>
+    </ShRoute>
+
+    <ShRoute Tag="N3_M2" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="+4 -20 -18 " Start="N3"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="34" DelayStartNotification="0" StartNotification="39SP"/>
+    </ShRoute>
+
+    <TrRoute Tag="N3_4CHD" Type="PpoTrainRoute">
+        <Trace Finish="4GP" OnCoursePoints="+4 -20 -18 " Start="N3"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <PointsAnDTrack Points="+39 "/>
+        <CrossroadNotification DelayOpenSignal="34" DelayStartNotification="42" Point="+31" StartNotification="3NP"/>
+        <CrossroadNotification DelayOpenSignal="34" DelayStartNotification="7" Point="-31" StartNotification="29SP"/>
+    </TrRoute>
+    <TrRoute Tag="N3_2CHD" Type="PpoTrainRoute">
+        <Trace Finish="2GP" OnCoursePoints="+20 +2 " Start="N3"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+        <PointsAnDTrack Points="+39 "/>
+        <SignalingDependence Dark="ZH" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+        <CrossroadNotification DelayOpenSignal="35" DelayStartNotification="37" Point="+31" StartNotification="3NP"/>
+        <CrossroadNotification DelayOpenSignal="35" DelayStartNotification="3" Point="-31" StartNotification="29SP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="N2" Type="PpoTrainSignal">
+
+    <TrRoute Tag="N2_1CH" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+38 +32 +34 +28 +16 +8 +10 " Start="N2"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="ZB" OnMainALSO="ZB" OnMainGrALSO="ZB" OnMainGreen="ZB" OnSide="ZB" OnSideALSO="ZB" Stop="ZHB"/>
+        <CrossroadNotification DelayOpenSignal="20" DelayStartNotification="4" Point="+3" StartNotification="3SP"/>
+        <CrossroadNotification DelayOpenSignal="20" DelayStartNotification="12" Point="-3" StartNotification="3SP"/>
+    </TrRoute>
+    <TrRoute Tag="N2_2CHD" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2GP" OnCoursePoints="+38 +26 +18 -32 -30 -4 -2 " Start="N2"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="16" DelayStartNotification="1" StartNotification="2P"/>
+    </TrRoute>
+    <TrRoute Tag="N2_3CH" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="3GP" OnCoursePoints="+38 +32 +34 +28 +16 -8 -6 " Start="N2"/>
+        <OperatorSelectors Ends="3CH 3GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="20" DelayStartNotification="4" Point="+3" StartNotification="3SP"/>
+        <CrossroadNotification DelayOpenSignal="20" DelayStartNotification="12" Point="-3" StartNotification="3SP"/>
+    </TrRoute>
+    <TrRoute Tag="N2_4CHD" Type="PpoTrainRoute" ValueRoutePointer="4">
+        <Trace Finish="4GP" OnCoursePoints="+38 +26 +18 +4 -32 -30 " Start="N2"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+       <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="16" DelayStartNotification="1" StartNotification="2P"/>
+    </TrRoute>
+    <TrRoute Tag="N2_CHK" Type="PpoTrainRoute" ValueRoutePointer="5">
+        <Trace Finish="CHKGP" OnCoursePoints="+38 +32 +34 +28 +12 -16 -14 " Start="N2"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="1" StartNotification="2P"/>
+    </TrRoute>
+    <TrRoute Tag="N2_1CH_V2" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+38 +32 +34 +28 -16 -14 -12 -10 " Start="N2" Variants="V2"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="1" StartNotification="2P"/>
+    </TrRoute>
+    <TrRoute Tag="N2_2CHD_V4" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2GP" OnCoursePoints="+38 +32 +34 +18 -28 -26 -4 -2 " Start="N2" Variants="V4"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+         <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="0" StartNotification="2P"/>
+    </TrRoute>
+    <TrRoute Tag="N2_4CHD_V4" Type="PpoTrainRoute" ValueRoutePointer="4">
+        <Trace Finish="4GP" OnCoursePoints="+38 +32 +34 +18 +4 -28 -26 " Start="N2" Variants="V4"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+         <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="0" StartNotification="2P"/>
+    </TrRoute>
+
+
+    <ShRoute Tag="N2_M2" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="+38 +26 +18 +4 -32 -30 " Start="N2"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="35" StartNotification="2P"/>
+    </ShRoute>
+    <ShRoute Tag="N2_M2_V4" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="+38 +32 +34 +18 +4 -28 -26 " Start="N2" Variants="V4"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="35" StartNotification="2P"/>
+    </ShRoute>
+   <ShRoute Tag="N2_M4_V4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="+38 +32 +34 +18 -28 -26 -4 -2 " Start="N2" Variants="V4"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="35" StartNotification="2P"/>
+    </ShRoute>
+    <ShRoute Tag="N2_M4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="+38 +26 +18 -32 -30 -4 -2 " Start="N2"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="35" StartNotification="2P"/>
+    </ShRoute>
+    <ShRoute Tag="N2_M6" Type="PpoShuntingRoute">
+        <Trace Finish="3CHP" OnCoursePoints="+38 +32 +34 +28 +16 -8 -6 " Start="N2"/>
+        <OperatorSelectors Ends="M6 "/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="32" StartNotification="2P"/>
+    </ShRoute>
+    <ShRoute Tag="N2_M8" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+38 +32 +34 +28 +16 +8 +10 " Start="N2"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="17" DelayStartNotification="32" StartNotification="2P"/>
+    </ShRoute>
+    <ShRoute Tag="N2_M8_V2" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+38 +32 +34 +28 -16 -14 -12 -10 " Start="N2" Variants="V2"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="37" StartNotification="2P"/>
+    </ShRoute>
+    <ShRoute Tag="N2_M10" Type="PpoShuntingRoute">
+        <Trace Finish="CHKAP" OnCoursePoints="+38 +32 +34 +28 +12 -16 -14 " Start="N2"/>
+        <OperatorSelectors Ends="M10 "/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="37" StartNotification="2P"/>
+    </ShRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="N8A" Type="PpoTrainSignal">
+
+    <ShRoute Tag="N8A_M8" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+24 +14 -22 -12 -10 " Start="N8A"/>
+        <OperatorSelectors Ends="M8 "/>
+		<CrossroadNotification DelayOpenSignal="28" DelayStartNotification="1" Point="+44" StartNotification="44_48SP"/>
+        <CrossroadNotification DelayOpenSignal="28" DelayStartNotification="3" Point="-44" StartNotification="50SP"/>
+    </ShRoute>
+
+    <ShRoute Tag="N8A_M10" Type="PpoShuntingRoute">
+        <Trace Finish="CHKAP" OnCoursePoints="+24 +14 +12 -22 " Start="N8A"/>
+        <OperatorSelectors Ends="M10 "/>
+		<CrossroadNotification DelayOpenSignal="28" DelayStartNotification="1" Point="+44" StartNotification="44_48SP"/>
+        <CrossroadNotification DelayOpenSignal="28" DelayStartNotification="3" Point="-44" StartNotification="50SP"/>
+    </ShRoute>
+
+    <TrRoute Tag="N8A_1CH" Type="PpoTrainRoute">
+        <Trace Finish="1GP" OnCoursePoints="+24 +14 -22 -12 -10 " Start="N8A"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="28" DelayStartNotification="1" Point="+46" StartNotification="44_48SP"/>
+        <CrossroadNotification DelayOpenSignal="28" DelayStartNotification="3" Point="-46" StartNotification="44_48SP"/>
+    </TrRoute>
+
+    <TrRoute Tag="N8A_CHK" Type="PpoTrainRoute">
+        <Trace Finish="CHKGP" OnCoursePoints="+24 +14 +12 -22 " Start="N8A"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="28" DelayStartNotification="1" Point="+46" StartNotification="44_48SP"/>
+        <CrossroadNotification DelayOpenSignal="28" DelayStartNotification="3" Point="-46" StartNotification="44_48SP"/>
+    </TrRoute>
+
+</TrainSignal>
+
+<TrainSignal Tag="CH4" Type="PpoTrainSignal">
+
+ <TrRoute Tag="CH4_1N" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1NPP" OnCoursePoints="+27 +13 +9 -25 -23 -3 -1 " Start="CH4"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="K" Stop="DZHB"/>
+    </TrRoute>
+    <TrRoute Tag="CH4_2ND" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2NUP" OnCoursePoints="+27 +13 +9 +3 -25 -23 " Start="CH4"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+    <TrRoute Tag="CH4_4ND" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="4NUP" OnCoursePoints="+27 +25 +21 +17 +11 +7 +5 " Start="CH4"/>
+        <OperatorSelectors Ends="4ND 4NUP "/>
+        <SignalingDependence Dark="K" OnMain="ZHZ_Z" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="Z" OnSide="K" OnSideALSO="K" Stop="ZH"/>
+    </TrRoute>
+    <TrRoute Tag="CH4_1N_V1" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1NPP" OnCoursePoints="+27 +25 +21 +17 -11 -9 -3 -1 " Start="CH4" Variants="V1"/>
+        <OperatorSelectors Ends="1N 1NPP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="K" Stop="DZHB"/>
+    </TrRoute>
+    <TrRoute Tag="CH4_2ND_V1" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2NUP" OnCoursePoints="+27 +25 +21 +17 +3 -11 -9 " Start="CH4" Variants="V1"/>
+        <OperatorSelectors Ends="2ND 2NUP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="K" OnSideALSO="K" Stop="DZH"/>
+    </TrRoute>
+
+    <ShRoute Tag="CH4_M1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+27 +13 +9 +3 -25 -23 " Start="CH4"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+    <ShRoute Tag="CH4_M1_V1" Type="PpoShuntingRoute">
+        <Trace Finish="2NDP" OnCoursePoints="+27 +25 +21 +17 +3 -11 -9 " Start="CH4" Variants="V1"/>
+        <OperatorSelectors Ends="M1 "/>
+    </ShRoute>
+    <ShRoute Tag="CH4_M5" Type="PpoShuntingRoute">
+        <Trace Finish="4NDP" OnCoursePoints="+27 +25 +21 +17 +11 +7 +5 " Start="CH4"/>
+        <OperatorSelectors Ends="M5 "/>
+    </ShRoute>
+    <ShRoute Tag="CH4_M3_V1" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+27 +25 +21 +17 -11 -9 -3 -1 " Start="CH4" Variants="V1"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+    <ShRoute Tag="CH4_M3" Type="PpoShuntingRoute">
+        <Trace Finish="1NP" OnCoursePoints="+27 +13 +9 -25 -23 -3 -1 " Start="CH4"/>
+        <OperatorSelectors Ends="M3 "/>
+    </ShRoute>
+</TrainSignal>
+
+<TrainSignal Tag="N4" Type="PpoTrainSignal">
+    <TrRoute Tag="N4_1CH" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+32 +34 +28 +16 +8 +10 -38 " Start="N4"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="19" DelayStartNotification="4" StartNotification="4P"/>
+    </TrRoute>
+    <TrRoute Tag="N4_2CHD" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2GP" OnCoursePoints="+26 +18 -38 -32 -30 -4 -2 " Start="N4"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="9" StartNotification="4P"/>
+    </TrRoute>
+    <TrRoute Tag="N4_3CH" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="3GP" OnCoursePoints="+32 +34 +28 +16 -38 -8 -6 " Start="N4"/>
+        <OperatorSelectors Ends="3CH 3GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="19" DelayStartNotification="4" StartNotification="4P"/>
+    </TrRoute>
+   <TrRoute Tag="N4_4CHD" Type="PpoTrainRoute" ValueRoutePointer="4">
+        <Trace Finish="4GP" OnCoursePoints="+26 +18 +4 -38 -32 -30 " Start="N4"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+        <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="14" DelayStartNotification="9" StartNotification="4P"/>
+    </TrRoute>
+    <TrRoute Tag="N4_CHK" Type="PpoTrainRoute" ValueRoutePointer="5">
+        <Trace Finish="CHKGP" OnCoursePoints="+32 +34 +28 +12 -38 -16 -14 " Start="N4"/>
+        <OperatorSelectors Ends="CHK CHKGP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZH" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZH" OnSide="DZH" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="10" DelayStartNotification="12" StartNotification="4P"/>
+    </TrRoute>
+    <TrRoute Tag="N4_1CH_V2" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="1GP" OnCoursePoints="+32 +34 +28 -38 -16 -14 -12 -10 " Start="N4" Variants="V2"/>
+        <OperatorSelectors Ends="1CH 1GP "/>
+         <SignalingDependence Dark="K" OnMain="DZHMB" OnMainALSO="DZHMB" OnMainGrALSO="DZHMB" OnMainGreen="DZHMB" OnSide="DZHMB" OnSideALSO="DZHMB" Stop="DZHB"/>
+        <CrossroadNotification DelayOpenSignal="10" DelayStartNotification="12" StartNotification="4P"/>
+    </TrRoute>
+    <TrRoute Tag="N4_2CHD_V4" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="2GP" OnCoursePoints="+32 +34 +18 -38 -28 -26 -4 -2 " Start="N4" Variants="V4"/>
+        <OperatorSelectors Ends="2CHD 2GP "/>
+        <SignalingDependence Dark="DZH" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="10" StartNotification="4P"/>
+    </TrRoute>
+    <TrRoute Tag="N4_4CHD_V4" Type="PpoTrainRoute" ValueRoutePointer="4">
+        <Trace Finish="4GP" OnCoursePoints="+32 +34 +18 +4 -38 -28 -26 " Start="N4" Variants="V4"/>
+        <OperatorSelectors Ends="4CHD 4GP "/>
+         <SignalingDependence Dark="K" OnMain="DZHM" OnMainALSO="DZH" OnMainGrALSO="DZH" OnMainGreen="DZHM" OnSide="DZHM" OnSideALSO="DZH" Stop="DZH"/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="10" StartNotification="4P"/>
+    </TrRoute>
+
+    <ShRoute Tag="N4_M8" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+32 +34 +28 +16 +8 +10 -38 " Start="N4"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="29" StartNotification="4P"/>
+    </ShRoute>
+    <ShRoute Tag="N4_M8_V2" Type="PpoShuntingRoute">
+        <Trace Finish="1CHP" OnCoursePoints="+32 +34 +28 -38 -16 -14 -12 -10 " Start="N4" Variants="V2"/>
+        <OperatorSelectors Ends="M8 "/>
+        <CrossroadNotification DelayOpenSignal="10" DelayStartNotification="34" StartNotification="4P"/>
+    </ShRoute>
+    <ShRoute Tag="N4_M4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="+26 +18 -38 -32 -30 -4 -2 " Start="N4"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="32" StartNotification="4P"/>
+    </ShRoute>
+    <ShRoute Tag="N4_M4_V4" Type="PpoShuntingRoute">
+        <Trace Finish="2CHDP" OnCoursePoints="+32 +34 +18 -38 -28 -26 -4 -2 " Start="N4" Variants="V4"/>
+        <OperatorSelectors Ends="M4 "/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="32" StartNotification="4P"/>
+   </ShRoute>
+    <ShRoute Tag="N4_M6" Type="PpoShuntingRoute">
+        <Trace Finish="3CHP" OnCoursePoints="+32 +34 +28 +16 -38 -8 -6 " Start="N4"/>
+        <OperatorSelectors Ends="M6 "/>
+        <CrossroadNotification DelayOpenSignal="15" DelayStartNotification="29" StartNotification="4P"/>
+    </ShRoute>
+    <ShRoute Tag="N4_M10" Type="PpoShuntingRoute">
+        <Trace Finish="CHKAP" OnCoursePoints="+32 +34 +28 +12 -38 -16 -14 " Start="N4"/>
+        <OperatorSelectors Ends="M10 "/>
+        <CrossroadNotification DelayOpenSignal="10" DelayStartNotification="34" StartNotification="4P"/>
+    </ShRoute>
+    <ShRoute Tag="N4_M2_V4" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="+32 +34 +18 +4 -38 -28 -26 " Start="N4" Variants="V4"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="32" StartNotification="4P"/>
+    </ShRoute>
+    <ShRoute Tag="N4_M2" Type="PpoShuntingRoute">
+        <Trace Finish="4CHDP" OnCoursePoints="+26 +18 +4 -38 -32 -30 " Start="N4"/>
+        <OperatorSelectors Ends="M2 "/>
+        <CrossroadNotification DelayOpenSignal="12" DelayStartNotification="32" StartNotification="4P"/>
+    </ShRoute>
+</TrainSignal>
+
+<TrainSignal Tag="NM9_12" Type="PpoTrainSignal">
+
+    <ShRoute Tag="M23_8AP" Type="PpoShuntingRoute" ValueRoutePointer="5">
+        <Trace Finish="8AP" OnCoursePoints="+45 +47 +44 -54 -46 " Start="M23"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+    </ShRoute>
+    <ShRoute Tag="FNM12_8AP" Type="PpoShuntingRoute" ValueRoutePointer="4">
+        <Trace Finish="8AP" OnCoursePoints="-45 +47 +44 -54 -46 " Start="FNM12"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+    </ShRoute>
+    <ShRoute Tag="FNM11_8AP" Type="PpoShuntingRoute" ValueRoutePointer="3">
+        <Trace Finish="8AP" OnCoursePoints="+43 -47 +44 -54 -46 " Start="FNM11"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+    </ShRoute>
+    <ShRoute Tag="FNM10_8AP" Type="PpoShuntingRoute" ValueRoutePointer="2">
+        <Trace Finish="8AP" OnCoursePoints="-41 -43 -47 +44 -54 -46 " Start="FNM10"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+    </ShRoute>
+    <ShRoute Tag="FNM9_8AP" Type="PpoShuntingRoute" ValueRoutePointer="1">
+        <Trace Finish="8AP" OnCoursePoints="+41 -43 -47 +44 -54 -46 " Start="FNM9"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+    </ShRoute>
+
+
+    <TrRoute Tag="FNM12_N8A" Type="PpoTrainRoute" ValueRoutePointer="4">
+        <Trace Finish="N8A" OnCoursePoints="-45 +47 +44 -54 -46 " Start="FNM12"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZH" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+    <TrRoute Tag="FNM11_N8A" Type="PpoTrainRoute" ValueRoutePointer="3">
+        <Trace Finish="N8A" OnCoursePoints="+43 -47 +44 -54 -46 " Start="FNM11"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZH" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+    <TrRoute Tag="FNM10_N8A" Type="PpoTrainRoute" ValueRoutePointer="2">
+        <Trace Finish="N8A" OnCoursePoints="-41 -43 -47 +44 -54 -46 " Start="FNM10"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZH" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+    <TrRoute Tag="FNM9_N8A" Type="PpoTrainRoute" ValueRoutePointer="1">
+        <Trace Finish="N8A" OnCoursePoints="+41 -43 -47 +44 -54 -46 " Start="FNM9"/>
+        <OperatorSelectors Ends="CHM8A N8A "/>
+        <SignalingDependence Dark="ZH" OnMain="ZH" OnMainALSO="ZH" OnMainGrALSO="ZH" OnMainGreen="ZH" OnSide="ZH" OnSideALSO="ZH" Stop="ZH"/>
+    </TrRoute>
+
+</TrainSignal>
+
+
+</Routes>

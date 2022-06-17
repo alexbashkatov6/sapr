@@ -1,0 +1,234 @@
+[
+    {
+        "class": "PpoControlAreaBorder",
+        "tag": "S_108_338",
+        "data": {
+            "id": "0",
+            "indent": "0",
+            "idControlArea": "SEBEZH"
+        }
+    },
+    {
+        "class": "PpoControlAreaBorder",
+        "tag": "L_108_338",
+        "data": {
+            "id": "0",
+            "indent": "0",
+            "idControlArea": "LEN_VIT"
+        }
+    },
+    {
+        "class": "PpoControlAreaBorder",
+        "tag": "L_107_304P",
+        "data": {
+            "id": "L_107_304P",
+            "indent": "L_107_304P",
+            "idControlArea": "LEN_VIT"
+        }
+    },
+    {
+        "class": "PpoControlAreaBorder",
+        "tag": "S_107_304P",
+        "data": {
+            "id": "S_107_304P",
+            "indent": "S_107_304P",
+            "idControlArea": "SEBEZH"
+        }
+    },
+    {
+        "class": "PpoControlAreaBorder",
+        "tag": "S_208_303P",
+        "data": {
+            "id": "S_208_303P",
+            "indent": "S_208_303P",
+            "idControlArea": "SEBEZH"
+        }
+    },
+    {
+        "class": "PpoControlAreaBorder",
+        "tag": "V_208_303P",
+        "data": {
+            "id": "V_208_303P",
+            "indent": "V_208_303P",
+            "idControlArea": "LEN_VIT"
+        }
+    },
+    {
+        "class": "PpoSemiAutomaticBlockingSystemRi",
+        "tag": "NVP",
+        "data": {
+            "addrKI_SNP": "USO:1:1:29",
+            "addrKI_S1U": "USO:1:1:30",
+            "addrKI_1U": "USO:1:1:31",
+            "addrKI_FP": "USO:1:1:32",
+            "addrKI_POS": "USO:1:1:33",
+            "addrKI_PS": "USO:1:1:34",
+            "addrKI_OP": "USO:1:1:35",
+            "addrKI_DSO": "USO:1:1:36",
+            "addrKI_KZH": "USO:1:1:37",
+
+            "addrUI_KS": "USO:1:1:29",
+
+            "output_DSO": "DSO_NVP",
+            "output_OSO": "OSO_NVP",
+            "output_FDP": "FDP_NVP",
+            "output_IFP": "IFP_NVP"
+        }
+    },
+    {
+        "class": "PpoSemiAutomaticBlockingSystem",
+        "tag": "NVP",
+        "data": {
+            "id": "NVP",
+            "indent": "NVP",
+            "idControlArea": "SEBEZH",
+            "iObjTag": "NVP",
+            "isInvitationSignalOpeningBefore": "false"
+        }
+    },
+    {
+        "class": "PpoSemiAutomaticBlockingSystemRi",
+        "tag": "CHSP",
+        "data": {
+            "addrKI_SNP": "USO:1:1:38",
+            "addrKI_S1U": "USO:1:1:39",
+            "addrKI_1U": "USO:1:1:40",
+            "addrKI_FP": "USO:1:1:41",
+            "addrKI_POS": "USO:1:1:42",
+            "addrKI_PS": "USO:1:1:43",
+            "addrKI_OP": "USO:1:1:44",
+            "addrKI_DSO": "USO:1:1:45",
+            "addrKI_KZH": "USO:1:1:46",
+
+            "addrUI_KS": "USO:1:1:34",
+
+            "output_DSO": "DSO_CHSP",
+            "output_OSO": "OSO_CHSP",
+            "output_FDP": "FDP_CHSP",
+            "output_IFP": "IFP_CHSP",
+
+            "notificationPoints": [
+                {
+                    "point": "USO:1:1:40",
+                    "delay": "Fixed_1"
+                }
+            ]
+        }
+    },
+    {
+        "class": "PpoSemiAutomaticBlockingSystem",
+        "tag": "CHSP",
+        "data": {
+            "id": "CHSP",
+            "indent": "CHSP",
+            "idControlArea": "SEBEZH",
+            "iObjTag": "CHSP",
+            "isInvitationSignalOpeningBefore": "false"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "NSHP",
+        "data": {
+            "addrKI_SNP": "USO:1:1:15",
+            "addrKI_SN": "USO:1:1:16",
+            "addrKI_S1U": "USO:1:1:17",
+            "addrKI_S1P": "USO:1:1:18",
+            "addrKI_1U": "USO:1:1:18",
+            "addrKI_1P": "USO:1:1:18",
+            "addrKI_2U": "USO:1:1:19",
+            "addrKI_3U": "Fixed_1",
+            "addrKI_ZU": "USO:1:1:18",
+            "addrKI_KP": "USO:1:1:20",
+            "addrKI_KZH": "USO:1:1:21",
+            "addrKI_UUB": "Fixed_1",
+            "addrKI_PB": "Fixed_1",
+            "addrKI_KV": "Fixed_1",
+            "addrKI_A": "Fixed_1",
+
+            "addrUI_KS": "USO:1:1:18",
+            "addrUI_I": "USO:1:1:19",
+            "addrUI_KZH": "NoAddr",
+            "addrUI_VIP1": "NoAddr",
+            "addrUI_VIP2": "NoAddr",
+            "addrUI_VIP3": "NoAddr",
+            "addrUI_OKV": "NoAddr",
+            "addrUI_KM": "NoAddr",
+
+            "output_SNK": "SNK_NSHP",
+            "output_DS": "NoAddr",
+            "output_OV": "OV_NSHP",
+            "output_PV": "PV_NSHP",
+            "output_RUU": "NoAddr",
+            "output_R": "NoAddr",
+
+            "notificationPoints": [
+                {
+                    "point": "USO:1:1:18",
+                    "delay": "Fixed_1"
+                }
+            ]
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "NSHP",
+        "data": {
+            "id": "NSHP",
+            "indent": "NSHP",
+            "idControlArea": "LEN_VIT",
+            "iObjTag": "NSHP",
+            "isInvitationSignalOpeningBefore": "false",
+            "singleTrack": "Yes"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "CHNP",
+        "data": {
+            "addrKI_SNP": "USO:1:1:22",
+            "addrKI_SN": "USO:1:1:23",
+            "addrKI_S1U": "USO:1:1:24",
+            "addrKI_S1P": "USO:1:1:25",
+            "addrKI_1U": "USO:1:1:25",
+            "addrKI_1P": "USO:1:1:25",
+            "addrKI_2U": "USO:1:1:26",
+            "addrKI_3U": "Fixed_1",
+            "addrKI_ZU": "USO:1:1:25",
+            "addrKI_KP": "USO:1:1:27",
+            "addrKI_KZH": "USO:1:1:28",
+            "addrKI_UUB": "Fixed_1",
+            "addrKI_PB": "Fixed_1",
+            "addrKI_KV": "Fixed_1",
+            "addrKI_A": "Fixed_1",
+
+            "addrUI_KS": "USO:1:1:23",
+            "addrUI_I": "USO:1:1:24",
+            "addrUI_KZH": "NoAddr",
+            "addrUI_VIP1": "NoAddr",
+            "addrUI_VIP2": "NoAddr",
+            "addrUI_VIP3": "NoAddr",
+            "addrUI_OKV": "NoAddr",
+            "addrUI_KM": "NoAddr",
+
+            "output_SNK": "SNK_CHNP",
+            "output_DS": "NoAddr",
+            "output_OV": "OV_CHNP",
+            "output_PV": "PV_CHNP",
+            "output_RUU": "NoAddr",
+            "output_R": "NoAddr"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "CHNP",
+        "data": {
+            "id": "CHNP",
+            "indent": "CHNP",
+            "idControlArea": "LEN_VIT",
+            "iObjTag": "CHNP",
+            "isInvitationSignalOpeningBefore": "false",
+            "singleTrack": "Yes"
+        }
+    }
+]

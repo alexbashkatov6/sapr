@@ -1,0 +1,520 @@
+[
+    {
+        "class": "PpoRailCrossingRi",
+        "tag": "P14KM",
+        "data": {
+			"NCHPI": "USO:2:1:29",
+			"KP_O" : "USO:2:1:33",
+			"KP_A" : "USO:2:1:32",
+			"ZG"   : "USO:2:1:30",
+			"KZP"  : "USO:2:1:31"
+        }
+    },  
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P14KM_1",
+        "data": {
+            "NPI":  "USO:2:1:37",
+			"CHPI": "USO:2:1:38"
+        }
+    },
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P14KM_2",
+        "data": {
+            "NPI":  "USO:2:1:39",
+			"CHPI": "USO:2:1:40"
+        }
+    },
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P14KM_3",
+        "data": {
+            "NPI":  "USO:2:1:41",
+			"CHPI": "USO:2:1:42"
+        }
+    },
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P14KM_6",
+        "data": {
+            "NPI":  "USO:2:1:43",
+			"CHPI": "USO:2:1:44"
+        }
+    },
+
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "1NPP_PP1I",
+        "data": {
+            "NPI":  "USO:2:1:12",
+			"CHPI": "USO:2:1:12"
+        }
+    },
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "2NUP_PP1I",
+        "data": {
+            "NPI":  "USO:2:1:16",
+			"CHPI": "USO:2:1:16"
+        }
+    },
+
+    {
+        "class": "PpoRailCrossing",
+        "tag": "P14KM",
+        "data": {
+            "id": "P14KM",
+            "indent": "P14KM",
+            "idControlArea": "RU",
+            "iObjTag": "P14KM",
+            "crossroad": ["P14_1", "P14_2", "P14_3", "P14_6"]
+        }
+    },
+    {
+        "class": "PpoTrackCrossroad",
+        "tag": "P14_1",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag": "P14KM_1",
+            "railCrossing": "P14KM"
+        }
+    },
+    {
+        "class": "PpoTrackCrossroad",
+        "tag": "P14_2",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag": "P14KM_2",
+            "railCrossing": "P14KM"
+        }
+    },
+    {
+        "class": "PpoTrackCrossroad",
+        "tag": "P14_3",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag": "P14KM_3",
+            "railCrossing": "P14KM"
+        }
+    },
+    {
+        "class": "PpoTrackCrossroad",
+        "tag": "P14_6",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag": "P14KM_6",
+            "railCrossing": "P14KM"
+        }
+    },
+
+
+    {
+        "class": "PpoGroupRailFittersWarningArea",
+        "tag": "GroupOM1"
+    },
+    {
+        "class": "PpoGroupRailFittersWarningArea",
+        "tag": "GroupOM2"
+    },
+
+    {
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM2",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:36",
+			"AddrMUI_RRM": "USO:2:3:1",
+			"AddrMUI_OM":  "USO:2:3:2"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM2",
+        "data": {
+            "id": "OM2",
+            "indent": "OM2",
+            "idControlArea": "RU",
+            "iObjTag": "OM2",
+            "group": "GroupOM2",
+            "points": ["2","20"]
+        }
+    },
+	
+    {
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM3",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:37",
+			"AddrMUI_RRM": "USO:2:3:3",
+			"AddrMUI_OM":  "USO:2:3:4"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM3",
+        "data": {
+            "id": "OM3",
+            "indent": "OM3",
+            "idControlArea": "RU",
+            "iObjTag": "OM3",
+            "group": "GroupOM2",
+            "points": ["4","18","26","30"]
+        }
+    },
+	
+    {
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM4",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:38",
+			"AddrMUI_RRM": "USO:2:3:5",
+			"AddrMUI_OM":  "USO:2:3:6"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM4",
+        "data": {
+            "id": "OM4",
+            "indent": "OM4",
+            "idControlArea": "RU",
+            "iObjTag": "OM4",
+            "group": "GroupOM2",
+            "points": ["6","8"]
+        }
+    },
+	
+    {
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM5",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:39",
+			"AddrMUI_RRM": "USO:2:3:7",
+			"AddrMUI_OM":  "USO:2:3:8"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM5",
+        "data": {
+            "id": "OM5",
+            "indent": "OM5",
+            "idControlArea": "RU",
+            "iObjTag": "OM5",
+            "group": "GroupOM2",
+            "points": ["10","12","14","22"]
+        }
+    },
+	
+    {
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM6",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:40",
+			"AddrMUI_RRM": "USO:2:3:9",
+			"AddrMUI_OM":  "USO:2:3:10"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM6",
+        "data": {
+            "id": "OM6",
+            "indent": "OM6",
+            "idControlArea": "RU",
+            "iObjTag": "OM6",
+            "group": "GroupOM2",
+            "points": ["24"]
+        }
+    },	
+	
+    {
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM7",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:41",
+			"AddrMUI_RRM": "USO:2:3:11",
+			"AddrMUI_OM":  "USO:2:3:12"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM7",
+        "data": {
+            "id": "OM7",
+            "indent": "OM7",
+            "idControlArea": "RU",
+            "iObjTag": "OM7",
+            "group": "GroupOM2",
+            "points": ["16","28","32","34","38"]
+        }
+    },		
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM8",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:42",
+			"AddrMUI_RRM": "USO:2:3:13",
+			"AddrMUI_OM":  "USO:2:3:14"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM8",
+        "data": {
+            "id": "OM8",
+            "indent": "OM8",
+            "idControlArea": "RU",
+            "iObjTag": "OM8",
+            "group": "GroupOM2",
+            "points": ["36","40","42"]
+        }
+    },		
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM9",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:43",
+			"AddrMUI_RRM": "USO:2:3:15",
+			"AddrMUI_OM":  "USO:2:3:16"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM9",
+        "data": {
+            "id": "OM9",
+            "indent": "OM9",
+            "idControlArea": "RU",
+            "iObjTag": "OM9",
+            "group": "GroupOM2",
+            "points": ["44","46","48"]
+        }
+    },			
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM11",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:44",
+			"AddrMUI_RRM": "USO:2:3:25",
+			"AddrMUI_OM":  "USO:2:3:26"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM11",
+        "data": {
+            "id": "OM11",
+            "indent": "OM11",
+            "idControlArea": "RU",
+            "iObjTag": "OM11",
+            "group": "GroupOM1",
+            "points": ["50","52"]
+        }
+    },	
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM12",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:45",
+			"AddrMUI_RRM": "USO:2:3:27",
+			"AddrMUI_OM":  "USO:2:3:28"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM12",
+        "data": {
+            "id": "OM12",
+            "indent": "OM12",
+            "idControlArea": "RU",
+            "iObjTag": "OM12",
+            "group": "GroupOM1",
+            "points": ["41","43","45","47","54"]
+        }
+    },	
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM13",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:46",
+			"AddrMUI_RRM": "USO:2:3:29",
+			"AddrMUI_OM":  "USO:2:3:30"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM13",
+        "data": {
+            "id": "OM13",
+            "indent": "OM13",
+            "idControlArea": "RU",
+            "iObjTag": "OM13",
+            "group": "GroupOM1",
+            "points": ["33","35","37"]
+        }
+    },	
+
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM14",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:47",
+			"AddrMUI_RRM": "USO:2:3:31",
+			"AddrMUI_OM":  "USO:2:3:32"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM14",
+        "data": {
+            "id": "OM14",
+            "indent": "OM14",
+            "idControlArea": "RU",
+            "iObjTag": "OM14",
+            "group": "GroupOM1",
+            "points": ["31","39"]
+        }
+    },		
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM15",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:48",
+			"AddrMUI_RRM": "USO:2:3:33",
+			"AddrMUI_OM":  "USO:2:3:34"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM15",
+        "data": {
+            "id": "OM15",
+            "indent": "OM15",
+            "idControlArea": "RU",
+            "iObjTag": "OM15",
+            "group": "GroupOM1",
+            "points": ["1","15","29"]
+        }
+    },			
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM16",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:49",
+			"AddrMUI_RRM": "USO:2:3:35",
+			"AddrMUI_OM":  "USO:2:3:36"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM16",
+        "data": {
+            "id": "OM16",
+            "indent": "OM16",
+            "idControlArea": "RU",
+            "iObjTag": "OM16",
+            "group": "GroupOM1",
+            "points": ["3","9","13","23"]
+        }
+    },				
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM17",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:50",
+			"AddrMUI_RRM": "USO:2:3:37",
+			"AddrMUI_OM":  "USO:2:3:38"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM17",
+        "data": {
+            "id": "OM17",
+            "indent": "OM17",
+            "idControlArea": "RU",
+            "iObjTag": "OM17",
+            "group": "GroupOM1",
+            "points": ["5","7","11","17","19"]
+        }
+    },					
+	
+	{
+        "class": "PpoRailFittersWarningAreaRi",
+        "tag": "OM18",
+        "data": {
+            "AddrMKI_KNM": "USO:2:1:51",
+			"AddrMUI_RRM": "USO:2:3:39",
+			"AddrMUI_OM":  "USO:2:3:40"
+        }
+    },
+    {
+        "class": "PpoRailFittersWarningArea",
+        "tag": "OM18",
+        "data": {
+            "id": "OM18",
+            "indent": "OM18",
+            "idControlArea": "RU",
+            "iObjTag": "OM18",
+            "group": "GroupOM1",
+            "points": ["21","25","27"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayCrossroad",
+        "tag": "PP1_1NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag": "1NPP_PP1I",
+            "timeBlocking3U": 37,
+            "timeBlocking4U": 138,
+            "timeOccupancy2U": 7,
+            "timeOccupancy3U": 8,
+            "timeOccupancy4U": 33,
+            "_2U": "1N13P",
+            "_3U": "1N11P",
+            "_4UD": "1N5P",
+            "_4U": ["1N9P", "1N7P", "1N5P" ],
+            "_4UB": ["1N9P", "1N7P" ]
+        }
+    },
+    {
+        "class": "PpoInterstationWayCrossroad",
+        "tag": "PP1_2NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag": "2NUP_PP1I",
+            "timeBlocking3U": 37,
+            "timeBlocking4U": 134,
+            "timeOccupancy2U": 13,
+            "timeOccupancy3U": 8,
+            "timeOccupancy4U": 32,
+            "_2U": "2N16P",
+            "_3U": "2N14P",
+            "_4UD": "2N6P",
+            "_4U": ["2N12P","2N10P","2N8P", "2N6P" ],
+            "_4UB": ["2N12P","2N10P","2N8P" ]
+        }
+    }
+]

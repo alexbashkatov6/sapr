@@ -1,0 +1,69 @@
+[
+    {
+        "class": "PpoControlDeviceDerailmentStockCi",
+        "tag": "iObj_UKSPS_CHK",
+        "data": {
+            "addrKI_1KSO": "30",
+            "addrKI_1KSR": "30",
+            "addrKI_2KSO": "31",
+            "addrKI_2KSR": "31",
+
+            "addrKI_KSV": "USO:2:1:35",
+            "addrKI_SNP": "Fixed_0",
+            "addrKI_1UP": "Fixed_1",
+            "addrKI_2UP": "Fixed_1",
+            "addrKI_1UU": "Fixed_1",
+            "addrKI_2UU": "Fixed_1",
+
+            "addrUI_1KSD": "USO:2:2:23",
+            "addrUI_2KSB": "USO:2:1:35",
+            "addrUI_KSVA": "USO:2:1:36",
+
+            "enterSignal": "CHK"
+        }
+    },
+    {
+        "class": "PpoControlDeviceDerailmentStock",
+        "tag": "UKSPS_CHK",
+        "data": {
+            "id": "UKSPS_CHK",
+            "indent": "UKSPS_CHK",
+            "idControlArea": "RU",
+            "iObjTag" : "iObj_UKSPS_CHK"
+        }
+    },
+
+    {
+        "class": "PpoControlDeviceDerailmentStockCi",
+        "tag": "iObj_UKSPS_1N",
+        "data": {
+            "addrKI_1KSO": "52",
+            "addrKI_1KSR": "52",
+            "addrKI_2KSO": "53",
+            "addrKI_2KSR": "53",
+
+            "addrKI_KSV": "USO:2:1:34",
+            "addrKI_SNP": "PPO:1:1",
+            "addrKI_1UP":  "PPO:1:4",
+            "addrKI_2UP":  "Fixed_1",
+            "addrKI_1UU":  "Fixed_1",
+            "addrKI_2UU":  "Fixed_1",
+
+            "addrUI_1KSD": "USO:2:2:22",
+            "addrUI_2KSB": "USO:2:1:34",
+            "addrUI_KSVA": "USO:2:1:36",
+
+            "enterSignal": "1N"
+        }
+    },
+    {
+        "class": "PpoControlDeviceDerailmentStock",
+        "tag": "UKSPS_1N",
+        "data": {
+            "id": "UKSPS_1N",
+            "indent": "UKSPS_1N",
+            "idControlArea": "RU",
+            "iObjTag" : "iObj_UKSPS_1N"
+        }
+    }
+]

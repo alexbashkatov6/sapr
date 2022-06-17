@@ -1,0 +1,63 @@
+[
+    {
+        "class": "TrafficOperatorWorkset",
+        "data": {
+            "num": 101,
+            "id": "DNC_1",
+            "indent": "DNC_1",
+            "controlArea": [
+                "LEN_VIT"
+            ],
+            "commonRemoteCommands": "commonRemoteCommands1",
+            "confirmedRemoteCommands": "confirmedRemoteCommands1",
+            "key": "0xFFFFFFFFFFFFFFFFULL"
+        }
+    },
+    {
+        "class": "TrafficOperatorWorkset",
+        "data": {
+            "num": 102,
+            "id": "DNC_2",
+            "indent": "DNC_2",
+            "controlArea": [
+                "SEBEZH"
+            ],
+            "commonRemoteCommands": "commonRemoteCommands2",
+            "confirmedRemoteCommands": "confirmedRemoteCommands2",
+            "key": "0xFFFFFFFFFFFFFFFFULL"
+        }
+    },
+
+
+    {
+        "class": "StationOperatorWorkset",
+        "data": {
+            "num": 1,
+            "id": "DSP",
+            "indent": "DSP",
+            "controlArea": [
+                "LEN_VIT","SEBEZH"
+            ]
+        }
+    },
+
+    {
+        "class": "ControlArea",
+        "tag": "LEN_VIT",
+        "data": {
+            "id": "LEN_VIT",
+            "indent": "LEN_VIT",
+            "initialOperatorNum": 1
+        }
+    },
+    {
+        "class": "ControlArea",
+        "tag": "SEBEZH",
+        "data": {
+            "id": "SEBEZH",
+            "indent": "SEBEZH",
+            "initialOperatorNum": 1
+        }
+    }
+]
+

@@ -1,0 +1,302 @@
+[
+    {
+        "class": "PpoControlDeviceDerailmentStockCi",
+        "tag": "iObj_UKSPS_NSH",
+        "data": {
+            "addrKI_1KSO": "118",
+            "addrKI_1KSR": "118",
+            "addrKI_2KSO": "119",
+            "addrKI_2KSR": "119",
+
+            "addrKI_KSV": "USO:1:1:47",
+            "addrKI_SNP": "Fixed_0",
+            "addrKI_1UP": "Fixed_1",
+            "addrKI_2UP": "Fixed_1",
+            "addrKI_1UU": "Fixed_1",
+            "addrKI_2UU": "Fixed_1",
+
+            "addrUI_1KSD": "USO:1:1:35",
+            "addrUI_2KSB": "USO:1:1:36",
+            "addrUI_KSVA": "USO:1:1:43",
+
+            "enterSignal": "NSH"
+        }
+    },
+    {
+        "class": "PpoControlDeviceDerailmentStock",
+        "tag": "NSHUKSPS",
+        "data": {
+            "id": "NSHUKSPS",
+            "indent": "NSHUKSPS",
+            "idControlArea": "LEN_VIT",
+            "iObjTag" : "iObj_UKSPS_NSH"
+        }
+    },
+
+
+    {
+        "class": "PpoControlDeviceDerailmentStockCi",
+        "tag": "iObj_UKSPS_CHN",
+        "data": {
+            "addrKI_1KSO": "11",
+            "addrKI_1KSR": "11",
+            "addrKI_2KSO": "12",
+            "addrKI_2KSR": "12",
+
+            "addrKI_KSV": "USO:1:1:48",
+            "addrKI_SNP": "Fixed_0",
+            "addrKI_1UP": "Fixed_1",
+            "addrKI_2UP": "Fixed_1",
+            "addrKI_1UU": "Fixed_1",
+            "addrKI_2UU": "Fixed_1",
+
+            "addrUI_1KSD": "USO:1:1:37",
+            "addrUI_2KSB": "USO:1:1:38",
+            "addrUI_KSVA": "USO:1:1:43",
+
+            "enterSignal": "CHN"
+        }
+    },
+    {
+        "class": "PpoControlDeviceDerailmentStock",
+        "tag": "CHNUKSPS",
+        "data": {
+            "id": "CHNUKSPS",
+            "indent": "CHNUKSPS",
+            "idControlArea": "LEN_VIT",
+            "iObjTag" : "iObj_UKSPS_CHN"
+        }
+    },
+
+
+    {
+        "class": "PpoControlDeviceDerailmentStockCi",
+        "tag": "iObj_UKSPS_NV",
+        "data": {
+            "addrKI_1KSO": "13",
+            "addrKI_1KSR": "13",
+            "addrKI_2KSO": "14",
+            "addrKI_2KSR": "14",
+
+            "addrKI_KSV": "USO:1:1:49",
+            "addrKI_SNP": "Fixed_0",
+            "addrKI_1UP": "Fixed_1",
+            "addrKI_2UP": "Fixed_1",
+            "addrKI_1UU": "Fixed_1",
+            "addrKI_2UU": "Fixed_1",
+
+            "addrUI_1KSD": "USO:1:1:39",
+            "addrUI_2KSB": "USO:1:1:40",
+            "addrUI_KSVA": "USO:1:1:43",
+
+            "enterSignal": "NV"
+        }
+    },
+    {
+        "class": "PpoControlDeviceDerailmentStock",
+        "tag": "NVUKSPS",
+        "data": {
+            "id": "NVUKSPS",
+            "indent": "NVUKSPS",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "iObj_UKSPS_NV"
+        }
+    },
+
+
+    {
+        "class": "PpoControlDeviceDerailmentStockCi",
+        "tag": "iObj_UKSPS_CHS",
+        "data": {
+            "addrKI_1KSO": "120",
+            "addrKI_1KSR": "120",
+            "addrKI_2KSO": "121",
+            "addrKI_2KSR": "121",
+
+            "addrKI_KSV": "USO:1:1:50",
+            "addrKI_SNP": "Fixed_0",
+            "addrKI_1UP": "Fixed_1",
+            "addrKI_2UP": "Fixed_1",
+            "addrKI_1UU": "Fixed_1",
+            "addrKI_2UU": "Fixed_1",
+
+            "addrUI_1KSD": "USO:1:1:41",
+            "addrUI_2KSB": "USO:1:1:42",
+            "addrUI_KSVA": "USO:1:1:43",
+
+            "enterSignal": "CHS"
+        }
+    },
+    {
+        "class": "PpoControlDeviceDerailmentStock",
+        "tag": "CHSUKSPS",
+        "data": {
+            "id": "CHSUKSPS",
+            "indent": "CHSUKSPS",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "iObj_UKSPS_CHS"
+        }
+    },
+
+
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO1",
+        "data": {
+            "addrKI_KEO": "USO:1:2:36",
+            "addrKI_KI" : "USO:1:2:37",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO1",
+        "data": {
+            "id": "EO1",
+            "indent": "EO1",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO1"
+        }
+    },
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO2",
+        "data": {
+            "addrKI_KEO": "USO:1:2:38",
+            "addrKI_KI" : "USO:1:2:39",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO2",
+        "data": {
+            "id": "EO2",
+            "indent": "EO2",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO2"
+        }
+    },
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO3",
+        "data": {
+            "addrKI_KEO": "USO:1:2:40",
+            "addrKI_KI" : "USO:1:2:41",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO3",
+        "data": {
+            "id": "EO3",
+            "indent": "EO3",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO3"
+        }
+    },
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO4",
+        "data": {
+            "addrKI_KEO": "USO:1:2:42",
+            "addrKI_KI" : "USO:1:2:43",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO4",
+        "data": {
+            "id": "EO4",
+            "indent": "EO4",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO4"
+        }
+    },
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO5",
+        "data": {
+            "addrKI_KEO": "USO:1:2:44",
+            "addrKI_KI" : "USO:1:2:45",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO5",
+        "data": {
+            "id": "EO5",
+            "indent": "EO5",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO5"
+        }
+    },
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO6",
+        "data": {
+            "addrKI_KEO": "USO:1:2:46",
+            "addrKI_KI" : "USO:1:2:47",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO6",
+        "data": {
+            "id": "EO6",
+            "indent": "EO6",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO6"
+        }
+    },
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO7",
+        "data": {
+            "addrKI_KEO": "USO:1:2:48",
+            "addrKI_KI" : "USO:1:2:49",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO7",
+        "data": {
+            "id": "EO7",
+            "indent": "EO7",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO7"
+        }
+    },
+    {
+        "class": "PpoElectricHeatingRi",
+        "tag": "EO9",
+        "data": {
+            "addrKI_KEO": "USO:1:2:50",
+            "addrKI_KI" : "USO:1:2:51",
+            "output_VO" : "ElectricHeatingOn",
+            "output_OO" : "ElectricHeatingOff"
+        }
+    },
+    {
+        "class": "PpoElectricHeating",
+        "tag": "EO9",
+        "data": {
+            "id": "EO9",
+            "indent": "EO9",
+            "idControlArea": "SEBEZH",
+            "iObjTag" : "EO9"
+        }
+    }
+]

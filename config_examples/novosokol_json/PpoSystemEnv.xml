@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.1" >
+
+    <!-- Системное окружение -->
+
+    <SystemEnvironment  ExchId="17E" >
+
+      <ExchParams     RunFrequency="1" />
+
+      <DSP  Num="1"   TerminalCount="3" />
+
+      <USO  Num="1"   MSI="4" MVU="4"  />  <!-- ????? ????? ????? ????? ????? -->
+      <USO  Num="2"   BSW="14" BST="10" />
+      <USO  Num="3"   BSW="11" BST="10" />
+      <USO  Num="4"   BSW="16" BST="10" />
+      <USO  Num="5"   BSW="10" BST="10" />
+      <USO  Num="6"   BSW="6"  BST="10" />
+      <USO  Num="7"   BSW="14" BST="10" />
+      <USO  Num="8"   BSW="10" BST="10" />
+      <USO  Num="9"   BSW="11" BST="6"  />
+      <USO  Num="10"  BSW="18" BST="5"  />
+      <USO  Num="11"  BSW="11" BST="4"  />
+
+    </SystemEnvironment>
+
+</PPO>

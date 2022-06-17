@@ -1,0 +1,1625 @@
+<TObjects>
+      <TObject  Type="PpoSemiAutomaticBlockingSystem"  Tag="CHKGP" >
+
+        <TopologicalLinks  ConnPnt0="CHK:0" />
+
+      </TObject>
+
+
+      <TObject  Type="PpoInterstationWayCrossroad"  Tag="PP1_1NP" >
+
+        <TopologicalLinks  ConnPnt0="1N13P:2"  ConnPnt1="3_1NP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayCrossroad"  Tag="PP1_2NP" >
+
+        <TopologicalLinks  ConnPnt0="2N16P:2"  ConnPnt1="2N14P:1" />
+
+      </TObject>
+
+
+      <TObject  Type="PpoPointSection"  Tag="1SP" >
+
+        <TopologicalLinks  ConnPnt1="M3:1"  ConnPnt2="1:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="2SP" >
+
+        <TopologicalLinks  ConnPnt1="2:0"  ConnPnt2="M4:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="3SP" >
+
+        <TopologicalLinks  ConnPnt1="3:0"  ConnPnt2="M7:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="4SP" >
+
+        <TopologicalLinks  ConnPnt1="P14_1:0"  ConnPnt2="4:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="5_7SP" >
+
+        <TopologicalLinks  ConnPnt1="M5:1"  ConnPnt2="5:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="6_8SP" >
+
+        <TopologicalLinks  ConnPnt1="P14_2:0"  ConnPnt2="8:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="9_13SP" >
+
+        <TopologicalLinks  ConnPnt1="M7:1"  ConnPnt2="9:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="10SP" >
+
+        <TopologicalLinks  ConnPnt1="10:0"  ConnPnt2="M8:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="11SP" >
+
+        <TopologicalLinks  ConnPnt1="11:0"  ConnPnt2="U6_8:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="12SP" >
+
+        <TopologicalLinks  ConnPnt1="M12:0"  ConnPnt2="12:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="14_24SP" >
+
+        <TopologicalLinks  ConnPnt1="14:0"  ConnPnt2="P14_6:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="15SP" >
+
+        <TopologicalLinks  ConnPnt1="15:0"  ConnPnt2="CH1A:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="16_34SP" >
+
+        <TopologicalLinks  ConnPnt1="34:0"  ConnPnt2="28:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="17_19SP" >
+
+        <TopologicalLinks  ConnPnt1="M9:1"  ConnPnt2="17:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="18_26SP" >
+
+        <TopologicalLinks  ConnPnt1="18:0"  ConnPnt2="M14:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="20SP" >
+
+        <TopologicalLinks  ConnPnt1="N3:1"  ConnPnt2="20:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="21SP" >
+
+        <TopologicalLinks  ConnPnt1="17:1"  ConnPnt2="21:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="23SP" >
+
+        <TopologicalLinks  ConnPnt1="M11:1"  ConnPnt2="23:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="25SP" >
+
+        <TopologicalLinks  ConnPnt1="25:0"  ConnPnt2="U4_5:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="27SP" >
+
+        <TopologicalLinks  ConnPnt1="M13:1"  ConnPnt2="27:0" />
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="29SP" >
+
+        <TopologicalLinks  ConnPnt1="NM1A:1"  ConnPnt2="29:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="30SP" >
+
+        <TopologicalLinks  ConnPnt1="30:0"  ConnPnt2="26:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="31SP" >
+
+        <TopologicalLinks  ConnPnt1="31:0"  ConnPnt2="CH3A:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="32SP" >
+
+        <TopologicalLinks  ConnPnt1="M20:0"  ConnPnt2="32:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="33_37SP" >
+
+        <TopologicalLinks  ConnPnt1="35:0"  ConnPnt2="37:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="36_40SP" >
+
+        <TopologicalLinks  ConnPnt1="40:0"  ConnPnt2="36:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="38SP" >
+
+        <TopologicalLinks  ConnPnt1="38:0"  ConnPnt2="M20:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="39SP" >
+
+        <TopologicalLinks  ConnPnt1="39:0"  ConnPnt2="M27:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="41SP" >
+
+        <TopologicalLinks  ConnPnt1="41:0"  ConnPnt2="43:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="42SP" >
+
+        <TopologicalLinks  ConnPnt1="N7:1"  ConnPnt2="42:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="43_47SP" >
+
+        <TopologicalLinks  ConnPnt1="47:0"  ConnPnt2="M29:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="44_48SP" >
+
+        <TopologicalLinks  ConnPnt1="44:0"  ConnPnt2="CHM8A:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="50SP" >
+
+        <TopologicalLinks  ConnPnt1="50:0"  ConnPnt2="48:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="52SP" >
+
+        <TopologicalLinks  ConnPnt1="52:0"  ConnPnt2="50:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="54SP" >
+
+        <TopologicalLinks  ConnPnt1="NM9_12:1"  ConnPnt2="54:0" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoAutomaticBlockingSystem"  Tag="1GP" >
+
+        <TopologicalLinks  ConnPnt0="1CH:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoAutomaticBlockingSystem"  Tag="1NPP" >
+
+        <TopologicalLinks  ConnPnt0="1N:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoAutomaticBlockingSystem"  Tag="2GP" >
+
+        <TopologicalLinks  ConnPnt0="2CHD:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoAutomaticBlockingSystem"  Tag="2NUP" >
+
+        <TopologicalLinks  ConnPnt0="2ND:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoAutomaticBlockingSystem"  Tag="3GP" >
+
+        <TopologicalLinks  ConnPnt0="3CH:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoAutomaticBlockingSystem"  Tag="4GP" >
+
+        <TopologicalLinks  ConnPnt0="4CHD:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoAutomaticBlockingSystem"  Tag="4NUP" >
+
+        <TopologicalLinks  ConnPnt0="4ND:0" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoFictionalTrainSignal"  Tag="FNM9" >
+
+        <TopologicalLinks  ConnPnt0="9P:2"  ConnPnt1="41:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoFictionalTrainSignal"  Tag="FNM10" >
+
+        <TopologicalLinks  ConnPnt0="10P:2"  ConnPnt1="41:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoFictionalTrainSignal"  Tag="FNM11" >
+
+        <TopologicalLinks  ConnPnt0="11P:2"  ConnPnt1="43:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoFictionalTrainSignal"  Tag="FNM12" >
+
+        <TopologicalLinks  ConnPnt0="12P:2"  ConnPnt1="45:2" />
+
+      </TObject>
+
+
+
+
+      <TObject  Type="PpoRoutePointer"  Tag="U4_5" >
+
+        <TopologicalLinks  ConnPnt0="M13:0"  ConnPnt1="25SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoRoutePointer"  Tag="U6_8" >
+
+        <TopologicalLinks  ConnPnt0="M9:0"  ConnPnt1="11SP:2" />
+
+      </TObject>
+
+
+
+
+      <TObject  Type="PpoTrackSection"  Tag="1NP" >
+
+        <TopologicalLinks  ConnPnt1="1N:1"  ConnPnt2="M3:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="1CHP" >
+
+        <TopologicalLinks  ConnPnt1="M8:0"  ConnPnt2="1CH:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="2NDP" >
+
+        <TopologicalLinks  ConnPnt1="2ND:1"  ConnPnt2="M1:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="2CHDP" >
+
+        <TopologicalLinks  ConnPnt1="M4:0"  ConnPnt2="2CHD:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="3NP" >
+
+        <TopologicalLinks  ConnPnt1="3N:1"  ConnPnt2="NM3:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="3CHP" >
+
+        <TopologicalLinks  ConnPnt1="M6:0"  ConnPnt2="3CH:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="4NDP" >
+
+        <TopologicalLinks  ConnPnt1="4ND:1"  ConnPnt2="M5:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="4CHDP" >
+
+        <TopologicalLinks  ConnPnt1="M2:0"  ConnPnt2="4CHD:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="M21_M31P" >
+
+        <TopologicalLinks  ConnPnt1="M21:1"  ConnPnt2="M31:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="22_36P" >
+
+        <TopologicalLinks  ConnPnt1="M22:0"  ConnPnt2="M18:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="CHKAP" >
+
+        <TopologicalLinks  ConnPnt1="M10:0"  ConnPnt2="CHK:1" />
+
+      </TObject>
+
+
+
+
+      <TObject  Type="PpoGroupTrainSignal"  Tag="NM9_12" >
+
+        <TopologicalLinks  ConnPnt0="M29:0"  ConnPnt1="54SP:1" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N3P" >
+
+        <TopologicalLinks  ConnPnt1="1N5P:2"  ConnPnt2="1N1P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N5P" >
+
+        <TopologicalLinks  ConnPnt1="1_1NP:1"  ConnPnt2="1N3P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N1P" >
+
+        <TopologicalLinks  ConnPnt1="1N3P:2"  ConnPnt2="1N_1NP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N7P" >
+
+        <TopologicalLinks  ConnPnt1="1N9P:2"  ConnPnt2="1_1NP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N9P" >
+
+        <TopologicalLinks  ConnPnt1="1N11P:2"  ConnPnt2="1N7P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N11P" >
+
+        <TopologicalLinks  ConnPnt1="3_1NP:1"  ConnPnt2="1N9P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1CH3P" >
+
+        <TopologicalLinks  ConnPnt1="1CH1P:2"  ConnPnt2="CHR1_1CHP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1CH1P" >
+
+        <TopologicalLinks  ConnPnt1="1CH_1CHP:0"  ConnPnt2="1CH3P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N13P" >
+
+        <TopologicalLinks  ConnPnt1="CHD_1NP:0"  ConnPnt2="PP1_1NP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N8P" >
+
+        <TopologicalLinks  ConnPnt1="2N10P:2"  ConnPnt2="4_2NP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N2P" >
+
+        <TopologicalLinks  ConnPnt1="2N4P:2"  ConnPnt2="6_2NP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N4P" >
+
+        <TopologicalLinks  ConnPnt1="2N6P:2"  ConnPnt2="2N2P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N6P" >
+
+        <TopologicalLinks  ConnPnt1="4_2NP:0"  ConnPnt2="2N4P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N12P" >
+
+        <TopologicalLinks  ConnPnt1="F2_2NP:1"  ConnPnt2="2N10P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH2P" >
+
+        <TopologicalLinks  ConnPnt1="2CHD_2CHP:0"  ConnPnt2="2_2CHP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH8P" >
+
+        <TopologicalLinks  ConnPnt1="2CH6P:2"  ConnPnt2="CHR2_2CHP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N14P" >
+
+        <TopologicalLinks  ConnPnt1="PP1_2NP:1"  ConnPnt2="2_2NP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N16P" >
+
+        <TopologicalLinks  ConnPnt1="CH_2NP:0"  ConnPnt2="PP1_2NP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH6P" >
+
+        <TopologicalLinks  ConnPnt1="2CH4P:2"  ConnPnt2="2CH8P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH4P" >
+
+        <TopologicalLinks  ConnPnt1="2_2CHP:1"  ConnPnt2="2CH6P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N10P" >
+
+        <TopologicalLinks  ConnPnt1="2N12P:2"  ConnPnt2="2N8P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="3CH1P" >
+
+        <TopologicalLinks  ConnPnt1="3CH_3CHP:0"  ConnPnt2="3CH3P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="3CH3P" >
+
+        <TopologicalLinks  ConnPnt1="3CH1P:2"  ConnPnt2="CHR3_3CHP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N6P" >
+
+        <TopologicalLinks  ConnPnt1="2_4NP:0"  ConnPnt2="4N4P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N2P" >
+
+        <TopologicalLinks  ConnPnt1="4N4P:2"  ConnPnt2="4_4NP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N4P" >
+
+        <TopologicalLinks  ConnPnt1="4N6P:2"  ConnPnt2="4N2P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N8P" >
+
+        <TopologicalLinks  ConnPnt1="4N10P:2"  ConnPnt2="2_4NP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4CH6P" >
+
+        <TopologicalLinks  ConnPnt1="4CH4P:2"  ConnPnt2="CHR4_4CHP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4CH4P" >
+
+        <TopologicalLinks  ConnPnt1="4CH2P:2"  ConnPnt2="4CH6P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4CH2P" >
+
+        <TopologicalLinks  ConnPnt1="2_4CHP:1"  ConnPnt2="4CH4P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N10P" >
+
+        <TopologicalLinks  ConnPnt1="4N12P:2"  ConnPnt2="4N8P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N12P" >
+
+        <TopologicalLinks  ConnPnt1="CHR_4NP:0"  ConnPnt2="4N10P:1" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoTrackAnD"  Tag="1P" >
+
+        <TopologicalLinks  ConnPnt1="CHM1:0"  ConnPnt2="N1:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="1AP" >
+
+        <TopologicalLinks  ConnPnt1="CH1A:0"  ConnPnt2="NM1A:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="2P" >
+
+        <TopologicalLinks  ConnPnt1="CH2:0"  ConnPnt2="N2:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="3P" >
+
+        <TopologicalLinks  ConnPnt1="M27:0"  ConnPnt2="N3:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="3AP" >
+
+        <TopologicalLinks  ConnPnt1="CH3A:0"  ConnPnt2="M25:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="4P" >
+
+        <TopologicalLinks  ConnPnt1="CH4:0"  ConnPnt2="N4:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="5P" >
+
+        <TopologicalLinks  ConnPnt1="CH5:0"  ConnPnt2="5T:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="6P" >
+
+        <TopologicalLinks  ConnPnt1="CH6:0"  ConnPnt2="N6:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="7P" >
+
+        <TopologicalLinks  ConnPnt1="CH7:0"  ConnPnt2="N7:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="7AP" >
+
+        <TopologicalLinks  ConnPnt1="CHM7A:0"  ConnPnt2="N7A:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="8P" >
+
+        <TopologicalLinks  ConnPnt1="CH8:0"  ConnPnt2="NM8:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="8AP" >
+
+        <TopologicalLinks  ConnPnt1="CHM8A:0"  ConnPnt2="N8A:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="9P" >
+
+        <TopologicalLinks  ConnPnt1="9T:0"  ConnPnt2="FNM9:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="10P" >
+
+        <TopologicalLinks  ConnPnt1="10T:0"  ConnPnt2="FNM10:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="11P" >
+
+        <TopologicalLinks  ConnPnt1="CH11:0"  ConnPnt2="FNM11:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="12P" >
+
+        <TopologicalLinks  ConnPnt1="CH12:0"  ConnPnt2="FNM12:0" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoTrackCrossroad"  Tag="P14_1" >
+
+        <TopologicalLinks  ConnPnt0="4SP:1"  ConnPnt1="M14:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackCrossroad"  Tag="P14_3" >
+
+        <TopologicalLinks  ConnPnt0="20:1"  ConnPnt1="2:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackCrossroad"  Tag="P14_2" >
+
+        <TopologicalLinks  ConnPnt0="6_8SP:1"  ConnPnt1="M16:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackCrossroad"  Tag="P14_6" >
+
+        <TopologicalLinks  ConnPnt0="14_24SP:2"  ConnPnt1="M12:1" />
+
+      </TObject>
+
+
+      <TObject  Type="PpoLineEnd"  Tag="5T" >
+
+        <TopologicalLinks  ConnPnt0="5P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="9T" >
+
+        <TopologicalLinks  ConnPnt0="9P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="10T" >
+
+        <TopologicalLinks  ConnPnt0="10P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="14_16P" >
+
+        <TopologicalLinks  ConnPnt0="M24:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M15P" >
+
+        <TopologicalLinks  ConnPnt0="M15:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="18T" >
+
+        <TopologicalLinks  ConnPnt0="M17:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="19T" >
+
+        <TopologicalLinks  ConnPnt0="M19:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M21P" >
+
+        <TopologicalLinks  ConnPnt0="M21:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M23P" >
+
+        <TopologicalLinks  ConnPnt0="M23:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M33P" >
+
+        <TopologicalLinks  ConnPnt0="M33:0" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="1N_1NP" >
+
+        <TopologicalLinks  ConnPnt0="1N1P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="CHD_1NP" >
+
+        <TopologicalLinks  ConnPnt0="1N13P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="1CH_1CHP" >
+
+        <TopologicalLinks  ConnPnt0="1CH1P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="CHR1_1CHP" >
+
+        <TopologicalLinks  ConnPnt0="1CH3P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="CH_2NP" >
+
+        <TopologicalLinks  ConnPnt0="2N16P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="2ND_2NP" >
+
+        <TopologicalLinks  ConnPnt0="6_2NP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="2CHD_2CHP" >
+
+        <TopologicalLinks  ConnPnt0="2CH2P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="CHR2_2CHP" >
+
+        <TopologicalLinks  ConnPnt0="2CH8P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="3CH_3CHP" >
+
+        <TopologicalLinks  ConnPnt0="3CH1P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="CHR3_3CHP" >
+
+        <TopologicalLinks  ConnPnt0="3CH3P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="4ND_4NP" >
+
+        <TopologicalLinks  ConnPnt0="4_4NP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="CHR_4NP" >
+
+        <TopologicalLinks  ConnPnt0="4N12P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="4CHD_4CHP" >
+
+        <TopologicalLinks  ConnPnt0="2_4CHP:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayBorder"  Tag="CHR4_4CHP" >
+
+        <TopologicalLinks  ConnPnt0="4CH6P:2" />
+
+      </TObject>
+
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="1_1NP" >
+
+        <TopologicalLinks  ConnPnt0="1N7P:2"  ConnPnt1="1N5P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="2_2NP" >
+
+        <TopologicalLinks  ConnPnt0="F2_2NP:0"  ConnPnt1="2N14P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="2_4NP" >
+
+        <TopologicalLinks  ConnPnt0="4N6P:1"  ConnPnt1="4N8P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="2_4CHP" >
+
+        <TopologicalLinks  ConnPnt0="4CHD_4CHP:0"  ConnPnt1="4CH2P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="2_2CHP" >
+
+        <TopologicalLinks  ConnPnt0="2CH2P:2"  ConnPnt1="2CH4P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="3_1NP" >
+
+        <TopologicalLinks  ConnPnt0="PP1_1NP:1"  ConnPnt1="1N11P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="4_4NP" >
+
+        <TopologicalLinks  ConnPnt0="4ND_4NP:0"  ConnPnt1="4N2P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="4_2NP" >
+
+        <TopologicalLinks  ConnPnt0="2N6P:1"  ConnPnt1="2N8P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWaySignal"  Tag="6_2NP" >
+
+        <TopologicalLinks  ConnPnt0="2ND_2NP:0"  ConnPnt1="2N2P:2" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoTrainSignal"  Tag="1N" >
+
+        <TopologicalLinks  ConnPnt0="1NPP:0"  ConnPnt1="1NP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N1" >
+
+        <TopologicalLinks  ConnPnt0="1P:2"  ConnPnt1="30:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="1CH" >
+
+        <TopologicalLinks  ConnPnt0="1GP:0"  ConnPnt1="1CHP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CHM1" >
+
+        <TopologicalLinks  ConnPnt0="1P:1"  ConnPnt1="29:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="NM1A" >
+
+        <TopologicalLinks  ConnPnt0="1AP:2"  ConnPnt1="29SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH1A" >
+
+        <TopologicalLinks  ConnPnt0="1AP:1"  ConnPnt1="15SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N2" >
+
+        <TopologicalLinks  ConnPnt0="2P:2"  ConnPnt1="38:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="2ND" >
+
+        <TopologicalLinks  ConnPnt0="2NUP:0"  ConnPnt1="2NDP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH2" >
+
+        <TopologicalLinks  ConnPnt0="2P:1"  ConnPnt1="23:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="2CHD" >
+
+        <TopologicalLinks  ConnPnt0="2GP:0"  ConnPnt1="2CHDP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="3N" >
+
+        <TopologicalLinks  ConnPnt0="CHDR:0"  ConnPnt1="3NP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N3" >
+
+        <TopologicalLinks  ConnPnt0="3P:2"  ConnPnt1="20SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="NM3" >
+
+        <TopologicalLinks  ConnPnt0="3NP:2"  ConnPnt1="31:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="3CH" >
+
+        <TopologicalLinks  ConnPnt0="3GP:0"  ConnPnt1="3CHP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH3A" >
+
+        <TopologicalLinks  ConnPnt0="3AP:1"  ConnPnt1="31SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N4" >
+
+        <TopologicalLinks  ConnPnt0="4P:2"  ConnPnt1="38:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="4ND" >
+
+        <TopologicalLinks  ConnPnt0="4NUP:0"  ConnPnt1="4NDP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH4" >
+
+        <TopologicalLinks  ConnPnt0="4P:1"  ConnPnt1="27:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="4CHD" >
+
+        <TopologicalLinks  ConnPnt0="4GP:0"  ConnPnt1="4CHDP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH5" >
+
+        <TopologicalLinks  ConnPnt0="5P:1"  ConnPnt1="27:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N6" >
+
+        <TopologicalLinks  ConnPnt0="6P:2"  ConnPnt1="40:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH6" >
+
+        <TopologicalLinks  ConnPnt0="6P:1"  ConnPnt1="21:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N7" >
+
+        <TopologicalLinks  ConnPnt0="7P:2"  ConnPnt1="42SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N7A" >
+
+        <TopologicalLinks  ConnPnt0="7AP:2"  ConnPnt1="24:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH7" >
+
+        <TopologicalLinks  ConnPnt0="7P:1"  ConnPnt1="19:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CHM7A" >
+
+        <TopologicalLinks  ConnPnt0="7AP:1"  ConnPnt1="42:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="NM8" >
+
+        <TopologicalLinks  ConnPnt0="8P:2"  ConnPnt1="46:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="N8A" >
+
+        <TopologicalLinks  ConnPnt0="8AP:2"  ConnPnt1="24:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH8" >
+
+        <TopologicalLinks  ConnPnt0="8P:1"  ConnPnt1="19:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CHM8A" >
+
+        <TopologicalLinks  ConnPnt0="8AP:1"  ConnPnt1="44_48SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH11" >
+
+        <TopologicalLinks  ConnPnt0="11P:1"  ConnPnt1="7:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CH12" >
+
+        <TopologicalLinks  ConnPnt0="12P:1"  ConnPnt1="5:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrainSignal"  Tag="CHK" >
+
+        <TopologicalLinks  ConnPnt0="CHKGP:0"  ConnPnt1="CHKAP:2" />
+
+      </TObject>
+
+
+      <TObject  Type="PpoPoint"  Tag="1" >
+
+        <TopologicalLinks  ConnPnt0="1SP:2"  ConnPnt1="15:1"  ConnPnt2="3:2" />
+
+        <PointSection  TObjTag="...1SP" />
+
+        <PositionPlus>
+
+        </PositionPlus>
+
+        <PositionMinus>
+
+        </PositionMinus>
+
+        <RailFittersWarningArea  TObjTag="..." />
+
+        <PointMachineInterface  IObjTag="1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="2" >
+
+        <TopologicalLinks  ConnPnt0="2SP:1"  ConnPnt1="P14_3:1"  ConnPnt2="4:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="3" >
+
+        <TopologicalLinks  ConnPnt0="3SP:1"  ConnPnt1="M1:1"  ConnPnt2="1:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="4" >
+
+        <TopologicalLinks  ConnPnt0="4SP:2"  ConnPnt1="M2:1"  ConnPnt2="2:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="5" >
+
+        <TopologicalLinks  ConnPnt0="5_7SP:2"  ConnPnt1="7:0"  ConnPnt2="CH12:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="6" >
+
+        <TopologicalLinks  ConnPnt0="8:2"  ConnPnt2="M6:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="7" >
+
+        <TopologicalLinks  ConnPnt0="5:1"  ConnPnt1="11:1"  ConnPnt2="CH11:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="8" >
+
+        <TopologicalLinks  ConnPnt0="6_8SP:2"  ConnPnt1="10:1"  ConnPnt2="6:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="9" >
+
+        <TopologicalLinks  ConnPnt0="9_13SP:2"  ConnPnt1="13:0"  ConnPnt2="11:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="10" >
+
+        <TopologicalLinks  ConnPnt0="10SP:1"  ConnPnt1="8:1"  ConnPnt2="12:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="11" >
+
+        <TopologicalLinks  ConnPnt0="11SP:1"  ConnPnt1="7:1"  ConnPnt2="9:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="12" >
+
+        <TopologicalLinks  ConnPnt0="12SP:2"  ConnPnt1="M10:1"  ConnPnt2="10:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="13" >
+
+        <TopologicalLinks  ConnPnt0="9:1"  ConnPnt1="M11:0"  ConnPnt2="15:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="14" >
+
+        <TopologicalLinks  ConnPnt0="14_24SP:1"  ConnPnt1="22:0"  ConnPnt2="16:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="15" >
+
+        <TopologicalLinks  ConnPnt0="15SP:1"  ConnPnt1="1:1"  ConnPnt2="13:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="16" >
+
+        <TopologicalLinks  ConnPnt0="28:1"  ConnPnt1="M16:1"  ConnPnt2="14:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="17" >
+
+        <TopologicalLinks  ConnPnt0="17_19SP:2"  ConnPnt1="21SP:1"  ConnPnt2="19:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="18" >
+
+        <TopologicalLinks  ConnPnt0="18_26SP:1"  ConnPnt1="26:0"  ConnPnt2="20:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="19" >
+
+        <TopologicalLinks  ConnPnt0="17:2"  ConnPnt1="CH7:1"  ConnPnt2="CH8:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="20" >
+
+        <TopologicalLinks  ConnPnt0="20SP:2"  ConnPnt1="P14_3:0"  ConnPnt2="18:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="21" >
+
+        <TopologicalLinks  ConnPnt0="21SP:2"  ConnPnt1="25:1"  ConnPnt2="CH6:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="22" >
+
+        <TopologicalLinks  ConnPnt0="14:1"  ConnPnt1="M18:1"  ConnPnt2="24:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="23" >
+
+        <TopologicalLinks  ConnPnt0="23SP:2"  ConnPnt1="CH2:1"  ConnPnt2="25:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="24" >
+
+        <TopologicalLinks  ConnPnt0="22:2"  ConnPnt1="N8A:1"  ConnPnt2="N7A:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="25" >
+
+        <TopologicalLinks  ConnPnt0="25SP:1"  ConnPnt1="21:1"  ConnPnt2="23:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="26" >
+
+        <TopologicalLinks  ConnPnt0="18:1"  ConnPnt1="30SP:2"  ConnPnt2="28:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="27" >
+
+        <TopologicalLinks  ConnPnt0="27SP:2"  ConnPnt1="CH4:1"  ConnPnt2="CH5:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="28" >
+
+        <TopologicalLinks  ConnPnt0="16_34SP:2"  ConnPnt1="16:0"  ConnPnt2="26:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="29" >
+
+        <TopologicalLinks  ConnPnt0="29SP:2"  ConnPnt1="CHM1:1"  ConnPnt2="31:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="30" >
+
+        <TopologicalLinks  ConnPnt0="30SP:1"  ConnPnt1="N1:1"  ConnPnt2="32:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="31" >
+
+        <TopologicalLinks  ConnPnt0="31SP:1"  ConnPnt1="NM3:1"  ConnPnt2="29:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="32" >
+
+        <TopologicalLinks  ConnPnt0="32SP:2"  ConnPnt1="34:1"  ConnPnt2="30:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="33" >
+
+        <TopologicalLinks  ConnPnt0="35:1"  ConnPnt1="M19:1"  ConnPnt2="M17:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="34" >
+
+        <TopologicalLinks  ConnPnt0="16_34SP:1"  ConnPnt1="32:1"  ConnPnt2="36:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="35" >
+
+        <TopologicalLinks  ConnPnt0="33_37SP:1"  ConnPnt1="33:0"  ConnPnt2="M15:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="36" >
+
+        <TopologicalLinks  ConnPnt0="36_40SP:2"  ConnPnt1="M22:1"  ConnPnt2="34:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="37" >
+
+        <TopologicalLinks  ConnPnt0="33_37SP:2"  ConnPnt2="39:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="38" >
+
+        <TopologicalLinks  ConnPnt0="38SP:1"  ConnPnt1="N2:1"  ConnPnt2="N4:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="39" >
+
+        <TopologicalLinks  ConnPnt0="39SP:1"  ConnPnt1="M25:1"  ConnPnt2="37:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="40" >
+
+        <TopologicalLinks  ConnPnt0="36_40SP:1"  ConnPnt1="N6:1"  ConnPnt2="42:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="41" >
+
+        <TopologicalLinks  ConnPnt0="41SP:1"  ConnPnt1="FNM9:1"  ConnPnt2="FNM10:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="42" >
+
+        <TopologicalLinks  ConnPnt0="42SP:2"  ConnPnt1="CHM7A:1"  ConnPnt2="40:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="43" >
+
+        <TopologicalLinks  ConnPnt0="47:2"  ConnPnt1="FNM11:1"  ConnPnt2="41SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="44" >
+
+        <TopologicalLinks  ConnPnt0="44_48SP:1"  ConnPnt1="46:0"  ConnPnt2="48:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="45" >
+
+        <TopologicalLinks  ConnPnt0="47:1"  ConnPnt1="M23:1"  ConnPnt2="FNM12:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="46" >
+
+        <TopologicalLinks  ConnPnt0="44:1"  ConnPnt1="NM8:1"  ConnPnt2="54:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="47" >
+
+        <TopologicalLinks  ConnPnt0="43_47SP:1"  ConnPnt1="45:0"  ConnPnt2="43:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="48" >
+
+        <TopologicalLinks  ConnPnt0="44:2"  ConnPnt2="50SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="50" >
+
+        <TopologicalLinks  ConnPnt0="50SP:1"  ConnPnt1="52SP:2"  ConnPnt2="M24:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="52" >
+
+        <TopologicalLinks  ConnPnt0="52SP:1"  ConnPnt1="M31:1"  ConnPnt2="M33:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoPoint"  Tag="54" >
+
+        <TopologicalLinks  ConnPnt0="54SP:2"  ConnPnt2="46:2" />
+
+      </TObject>
+
+
+      <TObject  Type="PpoAdjacentStationTrainSignal"  Tag="CHDR" >
+
+        <TopologicalLinks  ConnPnt0="3N:0" />
+
+      </TObject>
+
+
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M1" >
+
+        <TopologicalLinks  ConnPnt0="2NDP:2"  ConnPnt1="3:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M2" >
+
+        <TopologicalLinks  ConnPnt0="4CHDP:1"  ConnPnt1="4:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M3" >
+
+        <TopologicalLinks  ConnPnt0="1NP:2"  ConnPnt1="1SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M4" >
+
+        <TopologicalLinks  ConnPnt0="2CHDP:1"  ConnPnt1="2SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M5" >
+
+        <TopologicalLinks  ConnPnt0="4NDP:2"  ConnPnt1="5_7SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M6" >
+
+        <TopologicalLinks  ConnPnt0="3CHP:1"  ConnPnt1="6:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M7" >
+
+        <TopologicalLinks  ConnPnt0="3SP:2"  ConnPnt1="9_13SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M8" >
+
+        <TopologicalLinks  ConnPnt0="1CHP:1"  ConnPnt1="10SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M9" >
+
+        <TopologicalLinks  ConnPnt0="U6_8:0"  ConnPnt1="17_19SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M10" >
+
+        <TopologicalLinks  ConnPnt0="CHKAP:1"  ConnPnt1="12:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M11" >
+
+        <TopologicalLinks  ConnPnt0="13:1"  ConnPnt1="23SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M12" >
+
+        <TopologicalLinks  ConnPnt0="12SP:1"  ConnPnt1="P14_6:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M13" >
+
+        <TopologicalLinks  ConnPnt0="U4_5:0"  ConnPnt1="27SP:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M14" >
+
+        <TopologicalLinks  ConnPnt0="P14_1:1"  ConnPnt1="18_26SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M15" >
+
+        <TopologicalLinks  ConnPnt0="M15P:0"  ConnPnt1="35:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M16" >
+
+        <TopologicalLinks  ConnPnt0="P14_2:1"  ConnPnt1="16:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M17" >
+
+        <TopologicalLinks  ConnPnt0="18T:0"  ConnPnt1="33:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M18" >
+
+        <TopologicalLinks  ConnPnt0="22_36P:2"  ConnPnt1="22:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M19" >
+
+        <TopologicalLinks  ConnPnt0="19T:0"  ConnPnt1="33:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M20" >
+
+        <TopologicalLinks  ConnPnt0="32SP:1"  ConnPnt1="38SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M21" >
+
+        <TopologicalLinks  ConnPnt0="M21P:0"  ConnPnt1="M21_M31P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M22" >
+
+        <TopologicalLinks  ConnPnt0="22_36P:1"  ConnPnt1="36:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M23" >
+
+        <TopologicalLinks  ConnPnt0="M23P:0"  ConnPnt1="45:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M24" >
+
+        <TopologicalLinks  ConnPnt0="14_16P:0"  ConnPnt1="50:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M25" >
+
+        <TopologicalLinks  ConnPnt0="3AP:2"  ConnPnt1="39:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M27" >
+
+        <TopologicalLinks  ConnPnt0="3P:1"  ConnPnt1="39SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M29" >
+
+        <TopologicalLinks  ConnPnt0="NM9_12:0"  ConnPnt1="43_47SP:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M31" >
+
+        <TopologicalLinks  ConnPnt0="M21_M31P:2"  ConnPnt1="52:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M33" >
+
+        <TopologicalLinks  ConnPnt0="M33P:0"  ConnPnt1="52:2" />
+
+      </TObject>
+
+
+      <TObject  Type="PpoInterstationWayFictionalSignal"  Tag="F2_2NP" >
+
+        <TopologicalLinks  ConnPnt0="2_2NP:0"  ConnPnt1="2N12P:1" />
+
+      </TObject>
+
+</TObjects>

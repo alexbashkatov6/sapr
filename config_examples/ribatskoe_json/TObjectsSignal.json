@@ -1,0 +1,989 @@
+[
+  {
+        "class": "PpoTrainSignal",
+        "tag": "N6",
+        "data": {
+            "id": "N6",
+            "indent": "N6",
+            "idControlArea": "RU",
+            "iObjTag": "N6",
+            "delayOpenSignalShRoute" : 1,
+            "delayOpenSignalTrRoute" : 1,
+            "startWarningArea": {"obj":"21SP"},
+            "routePointer": "RP_N6"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "N2",
+        "data": {
+            "id": "N2",
+            "indent": "N2",
+            "idControlArea": "RU",
+            "iObjTag": "N2",
+            "delayOpenSignalShRoute" : 12,
+            "delayOpenSignalTrRoute" : 12,
+            "startWarningArea": {"obj":"2NDP"},
+            "routePointer": "RP_N2"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "N8A",
+        "data": {
+            "id": "N8A",
+            "indent": "N8A",
+            "idControlArea": "RU",
+            "iObjTag": "N8A",
+            "delayOpenSignalShRoute" : 28,
+            "delayOpenSignalTrRoute" : 28,
+            "startWarningArea": {"obj":"8AP"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "N1",
+        "data": {
+            "id": "N1",
+            "indent": "N1",
+            "idControlArea": "RU",
+            "iObjTag": "N1",
+            "railCrossing" : "P14KM",
+            "delayOpenSignalShRoute" : 23,
+            "delayOpenSignalTrRoute" : 25,
+            "startWarningArea": {"obj":"1NP"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "N3",
+        "data": {
+            "id": "N3",
+            "indent": "N3",
+            "idControlArea": "RU",
+            "iObjTag": "N3",
+            "railCrossing" : "P14KM",
+            "delayOpenSignalShRoute" : 34,
+            "delayOpenSignalTrRoute" : 34,
+            "startUp" : "3AP",
+            "startWarningArea": {"obj":"3NP"}
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M20",
+        "data": {
+            "id": "M20",
+            "indent": "M20",
+            "idControlArea": "RU",
+            "iObjTag": "M20"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M22",
+        "data": {
+            "id": "M22",
+            "indent": "M22",
+            "idControlArea": "RU",
+            "iObjTag": "M22"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "1CH",
+        "data": {
+            "id": "1CH",
+            "indent": "1CH",
+            "idControlArea": "RU",
+            "iObjTag": "1CH",
+            "delayOpenSignalTrRoute": 19,
+            "startWarningArea": {"obj":"1GP","point": 1}
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M2",
+        "data": {
+            "id": "M2",
+            "indent": "M2",
+            "idControlArea": "RU",
+            "iObjTag": "M2",
+            "delayOpenSignalShRoute": 31
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M4",
+        "data": {
+            "id": "M4",
+            "indent": "M4",
+            "idControlArea": "RU",
+            "iObjTag": "M4",
+            "delayOpenSignalShRoute": 31
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M6",
+        "data": {
+            "id": "M6",
+            "indent": "M6",
+            "idControlArea": "RU",
+            "iObjTag": "M6",
+            "delayOpenSignalShRoute": 31
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M8",
+        "data": {
+            "id": "M8",
+            "indent": "M8",
+            "idControlArea": "RU",
+            "iObjTag": "M8",
+            "delayOpenSignalShRoute": 32
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M10",
+        "data": {
+            "id": "M10",
+            "indent": "M10",
+            "idControlArea": "RU",
+            "iObjTag": "M10"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CHK",
+        "data": {
+            "id": "CHK",
+            "indent": "CHK",
+            "idControlArea": "RU",
+            "iObjTag": "CHK",
+            "delayOpenSignalTrRoute": 15,
+            "startWarningArea": {"obj":"CHKGP"},
+            "uksps": "UKSPS_CHK"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "N7",
+        "data": {
+            "id": "N7",
+            "indent": "N7",
+            "idControlArea": "RU",
+            "iObjTag": "N7",
+            "delayOpenSignalShRoute" : 0,
+            "delayOpenSignalTrRoute" : 1,
+            "startWarningArea": {"obj":"7P"},
+            "routePointer": "RP_N7"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CHM7A",
+        "data": {
+            "id": "CHM7A",
+            "indent": "CHM7A",
+            "idControlArea": "RU",
+            "iObjTag": "CHM7A",
+            "startWarningArea": {"obj":"12SP"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "NM8",
+        "data": {
+            "id": "NM8",
+            "indent": "NM8",
+            "idControlArea": "RU",
+            "iObjTag": "NM8",
+            "startWarningArea": {"obj":"8P"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CHM8A",
+        "data": {
+            "id": "CHM8A",
+            "indent": "CHM8A",
+            "idControlArea": "RU",
+            "iObjTag": "CHM8A",
+            "startWarningArea": {"obj":"8AP"},
+            "routePointer": "RP_CHM8A"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "N4",
+        "data": {
+            "id": "N4",
+            "indent": "N4",
+            "idControlArea": "RU",
+            "iObjTag": "N4",
+            "delayOpenSignalShRoute" : 10,
+            "delayOpenSignalTrRoute" : 10,
+            "startWarningArea": {"obj":"4NDP"},
+            "routePointer": "RP_N4"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "3CH",
+        "data": {
+            "id": "3CH",
+            "indent": "3CH",
+            "idControlArea": "RU",
+            "iObjTag": "3CH",
+            "delayOpenSignalTrRoute": 5,
+            "startWarningArea": {"obj":"3GP","point": 1}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "N7A",
+        "data": {
+            "id": "N7A",
+            "indent": "N7A",
+            "idControlArea": "RU",
+            "iObjTag": "N7A",
+            "delayOpenSignalShRoute" : 29,
+            "delayOpenSignalTrRoute" : 29,
+            "startWarningArea": {"obj":"7P"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "2CHD",
+        "data": {
+            "id": "2CHD",
+            "indent": "2CHD",
+            "idControlArea": "RU",
+            "iObjTag": "2CHD",
+            "delayOpenSignalTrRoute": 10,
+            "startWarningArea": {"obj":"2GP","point": 1}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "4CHD",
+        "data": {
+            "id": "4CHD",
+            "indent": "4CHD",
+            "idControlArea": "RU",
+            "iObjTag": "4CHD",
+            "delayOpenSignalTrRoute": 17,
+            "startWarningArea": {"obj":"4GP","point": 2}
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M12",
+        "data": {
+            "id": "M12",
+            "indent": "M12",
+            "idControlArea": "RU",
+            "iObjTag": "M12",
+            "delayOpenSignalShRoute": 50
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M14",
+        "data": {
+            "id": "M14",
+            "indent": "M14",
+            "idControlArea": "RU",
+            "iObjTag": "M14"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M16",
+        "data": {
+            "id": "M16",
+            "indent": "M16",
+            "idControlArea": "RU",
+            "iObjTag": "M16"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M18",
+        "data": {
+            "id": "M18",
+            "indent": "M18",
+            "idControlArea": "RU",
+            "iObjTag": "M18",
+            "delayOpenSignalShRoute" : 33
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M24",
+        "data": {
+            "id": "M24",
+            "indent": "M24",
+            "idControlArea": "RU",
+            "iObjTag": "M24"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M15",
+        "data": {
+            "id": "M15",
+            "indent": "M15",
+            "idControlArea": "RU",
+            "iObjTag": "M15"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M17",
+        "data": {
+            "id": "M17",
+            "indent": "M17",
+            "idControlArea": "RU",
+            "iObjTag": "M17"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M19",
+        "data": {
+            "id": "M19",
+            "indent": "M19",
+            "idControlArea": "RU",
+            "iObjTag": "M19"
+        }
+    },
+    {
+        "class": "PpoShuntingSignalWithTrackAnD",
+        "tag": "M25",
+        "data": {
+            "id": "M25",
+            "indent": "M25",
+            "idControlArea": "RU",
+            "iObjTag": "M25",
+            "routePullTrain": "M25_N3"
+        }
+    },
+    {
+        "class": "PpoShuntingSignalWithTrackAnD",
+        "tag": "M27",
+        "data": {
+            "id": "M27",
+            "indent": "M27",
+            "idControlArea": "RU",
+            "iObjTag": "M27",
+            "routePullTrain": "M27_CH3A"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M33",
+        "data": {
+            "id": "M33",
+            "indent": "M33",
+            "idControlArea": "RU",
+            "iObjTag": "M33"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M21",
+        "data": {
+            "id": "M21",
+            "indent": "M21",
+            "idControlArea": "RU",
+            "iObjTag": "M21"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M31",
+        "data": {
+            "id": "M31",
+            "indent": "M31",
+            "idControlArea": "RU",
+            "iObjTag": "M31"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M29",
+        "data": {
+            "id": "M29",
+            "indent": "M29",
+            "idControlArea": "RU",
+            "iObjTag": "M29"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M13",
+        "data": {
+            "id": "M13",
+            "indent": "M13",
+            "idControlArea": "RU",
+            "iObjTag": "M13"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH2",
+        "data": {
+            "id": "CH2",
+            "indent": "CH2",
+            "idControlArea": "RU",
+            "iObjTag": "CH2",
+            "startWarningArea": {"obj":"1CHP"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH6",
+        "data": {
+            "id": "CH6",
+            "indent": "CH6",
+            "idControlArea": "RU",
+            "iObjTag": "CH6",
+            "startWarningArea": {"obj":"6P"},
+            "groupRoutePointers": ["U6_8"]
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH8",
+        "data": {
+            "id": "CH8",
+            "indent": "CH8",
+            "idControlArea": "RU",
+            "iObjTag": "CH8",
+            "startWarningArea": {"obj":"8P"},
+            "groupRoutePointers":["U6_8"]
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M1",
+        "data": {
+            "id": "M1",
+            "indent": "M1",
+            "idControlArea": "RU",
+            "iObjTag": "M1"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M3",
+        "data": {
+            "id": "M3",
+            "indent": "M3",
+            "idControlArea": "RU",
+            "iObjTag": "M3"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M5",
+        "data": {
+            "id": "M5",
+            "indent": "M5",
+            "idControlArea": "RU",
+            "iObjTag": "M5"
+        }
+    },
+    {
+        "class": "PpoFictionalRepeatingShuntingSignal",
+        "tag": "M23",
+        "data": {
+            "id": "M23",
+            "indent": "M23",
+            "idControlArea": "RU",
+            "iObjTag": "M23",
+            "groupSignal": "NM9_12"            
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH3A",
+        "data": {
+            "id": "CH3A",
+            "indent": "CH3A",
+            "idControlArea": "RU",
+            "iObjTag": "CH3A",
+            "startUp" : "3P",
+            "startWarningArea": {"obj":"2CHDP"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CHM1",
+        "data": {
+            "id": "CHM1",
+            "indent": "CHM1",
+            "idControlArea": "RU",
+            "iObjTag": "CHM1",
+            "startWarningArea": {"obj":"4GP","point": 1}
+        }
+    },
+    {
+        "class": "PpoGroupTrainSignal",
+        "tag": "NM9_12",
+        "data": {
+            "id": "NM9_12",
+            "indent": "NM9_12",
+            "idControlArea": "RU",
+            "iObjTag": "NM9_12",
+            "routePointer": "RP_NM9_12"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "4ND",
+        "data": {
+            "id": "4ND",
+            "indent": "4ND",
+            "idControlArea": "RU",
+            "iObjTag": "4ND",
+            "startWarningArea": {"obj":"4NUP","point": 1}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "1N",
+        "data": {
+            "id": "1N",
+            "indent": "1N",
+            "idControlArea": "RU",
+            "iObjTag": "1N",
+            "startWarningArea": {"obj":"1NPP","point": 2},
+            "uksps": "UKSPS_1N"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "2ND",
+        "data": {
+            "id": "2ND",
+            "indent": "2ND",
+            "idControlArea": "RU",
+            "iObjTag": "2ND",
+            "startWarningArea": {"obj":"2NUP","point": 1}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "3N",
+        "data": {
+            "id": "3N",
+            "indent": "3N",
+            "idControlArea": "RU",
+            "iObjTag": "3N",
+            "shutOffTime" : 10
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH11",
+        "data": {
+            "id": "CH11",
+            "indent": "CH11",
+            "idControlArea": "RU",
+            "iObjTag": "CH11",
+            "startWarningArea": {"obj":"11P"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH12",
+        "data": {
+            "id": "CH12",
+            "indent": "CH12",
+            "idControlArea": "RU",
+            "iObjTag": "CH12",
+            "startWarningArea": {"obj":"12P"}
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M7",
+        "data": {
+            "id": "M7",
+            "indent": "M7",
+            "idControlArea": "RU",
+            "iObjTag": "M7"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M9",
+        "data": {
+            "id": "M9",
+            "indent": "M9",
+            "idControlArea": "RU",
+            "iObjTag": "M9"
+        }
+    },
+    {
+        "class": "PpoShuntingSignal",
+        "tag": "M11",
+        "data": {
+            "id": "M11",
+            "indent": "M11",
+            "idControlArea": "RU",
+            "iObjTag": "M11"
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH7",
+        "data": {
+            "id": "CH7",
+            "indent": "CH7",
+            "idControlArea": "RU",
+            "iObjTag": "CH7",
+            "startWarningArea": {"obj":"7P"},
+            "groupRoutePointers": ["U6_8"]
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH1A",
+        "data": {
+            "id": "CH1A",
+            "indent": "CH1A",
+            "idControlArea": "RU",
+            "iObjTag": "CH1A",
+            "startWarningArea": {"obj":"4SP"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "NM1A",
+        "data": {
+            "id": "NM1A",
+            "indent": "NM1A",
+            "idControlArea": "RU",
+            "iObjTag": "NM1A",
+            "startWarningArea": {"obj":"1NPP", "point": 1}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH4",
+        "data": {
+            "id": "CH4",
+            "indent": "CH4",
+            "idControlArea": "RU",
+            "iObjTag": "CH4",
+            "startWarningArea": {"obj":"16_34SP"},
+            "groupRoutePointers": ["U4_5","U6_8"]
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "NM3",
+        "data": {
+            "id": "NM3",
+            "indent": "NM3",
+            "idControlArea": "RU",
+            "iObjTag": "NM3",
+            "startWarningArea": {"obj":"CHDR"}
+        }
+    },
+    {
+        "class": "PpoTrainSignal",
+        "tag": "CH5",
+        "data": {
+            "id": "CH5",
+            "indent": "CH5",
+            "idControlArea": "RU",
+            "iObjTag": "CH5",
+            "startWarningArea": {"obj":"5P"},
+            "groupRoutePointers": ["U4_5","U6_8"]
+        }
+    },
+    {
+        "class": "PpoFictionalSignal",
+        "tag": "FNM9",
+        "data": {
+            "id": "FNM9",
+            "indent": "FNM9",
+            "idControlArea": "RU",
+            "iObjTag": "FNM9",
+            "groupSignal": "NM9_12",
+            "startWarningArea": {"obj":"9P"}
+        }
+    },
+    {
+        "class": "PpoFictionalSignal",
+        "tag": "FNM10",
+        "data": {
+            "id": "FNM10",
+            "indent": "FNM10",
+            "idControlArea": "RU",
+            "iObjTag": "FNM10",
+            "groupSignal": "NM9_12",
+            "startWarningArea": {"obj":"10P"}
+        }
+    },
+    {
+        "class": "PpoFictionalSignal",
+        "tag": "FNM11",
+        "data": {
+            "id": "FNM11",
+            "indent": "FNM11",
+            "idControlArea": "RU",
+            "groupSignal": "NM9_12",
+            "startWarningArea": {"obj":"11P"}
+        }
+    },
+    {
+        "class": "PpoFictionalSignal",
+        "tag": "FNM12",
+        "data": {
+            "id": "FNM12",
+            "indent": "FNM12",
+            "idControlArea": "RU",
+            "groupSignal": "NM9_12",
+            "startWarningArea": {"obj":"12P"}
+        }
+    },
+    {
+        "class": "PpoWarningSignal",
+        "tag": "PCHK",
+        "data": {
+            "id": "PCHK",
+            "indent": "PCHK",
+            "idControlArea": "RU",
+            "iObjTag": "PCHK",
+            "signalTag": "CHK"
+        }
+    },
+
+    {
+        "class": "PpoRoutePointer",
+        "tag": "U4_5",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "routePointer": "RP_Y4_5"
+        }
+    },
+
+    {
+        "class": "PpoRoutePointer",
+        "tag": "U6_8",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "routePointer": "RP_Y6_8"
+        }
+    },
+
+
+
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "2_2CHP",
+        "data": {
+            "id": "2_2CHP",
+            "indent": "2_2CHP",
+            "idControlArea": "RU",
+            "iObjTag": "2_2CHP",
+            "stateInterstationWay": "2GP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "2_4CHP",
+        "data": {
+            "id": "2_4CHP",
+            "indent": "2_4CHP",
+            "idControlArea": "RU",
+            "iObjTag": "2_4CHP",
+            "stateInterstationWay": "4GP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "3_1NP",
+        "data": {
+            "id": "3_1NP",
+            "indent": "3_1NP",
+            "idControlArea": "RU",
+            "iObjTag": "3_1NP",
+            "protectiveTrack": "1N3P",
+            "signalRepeat": "SignalRelayRepeater3_1NP",
+            "stateInterstationWay": "1NPP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "1_1NP",
+        "data": {
+            "id": "1_1NP",
+            "indent": "1_1NP",
+            "idControlArea": "RU",
+            "iObjTag": "1_1NP",
+            "stateInterstationWay": "1NPP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "2_2NP",
+        "data": {
+            "id": "2_2NP",
+            "indent": "2_2NP",
+            "idControlArea": "RU",
+            "iObjTag": "2_2NP",
+            "stateInterstationWay": "2NUP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "4_2NP",
+        "data": {
+            "id": "4_2NP",
+            "indent": "4_2NP",
+            "idControlArea": "RU",
+            "iObjTag": "4_2NP",
+            "protectiveTrack": "2N16P",
+            "stateInterstationWay": "2NUP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "6_2NP",
+        "data": {
+            "id": "6_2NP",
+            "indent": "6_2NP",
+            "idControlArea": "RU",
+            "iObjTag": "6_2NP",
+            "protectiveTrack": "2N12P",
+            "stateInterstationWay": "2NUP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "2_4NP",
+        "data": {
+            "id": "2_4NP",
+            "indent": "2_4NP",
+            "idControlArea": "RU",
+            "iObjTag": "2_4NP",
+            "stateInterstationWay": "4NUP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWaySignal",
+        "tag": "4_4NP",
+        "data": {
+            "id": "4_4NP",
+            "indent": "4_4NP",
+            "idControlArea": "RU",
+            "iObjTag": "4_4NP",
+            "protectiveTrack": "4N12P",
+            "stateInterstationWay": "4NUP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoInterstationWayFictionalSignal",
+        "tag": "F2_2NP",
+        "data": {
+            "id": "F2_2NP",
+            "indent": "F2_2NP",
+            "idControlArea": "RU",
+            "signalRepeat": "SignalRelayRepeaterF2_2NP",
+            "stateInterstationWay": "2NUP_PKL_RKL"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CH_IZHORY",
+        "data": {
+            "id": "CH_IZHORY",
+            "indent": "CH_IZHORY",
+            "idControlArea": "RU",
+            "iObjTag": "izhory_CH"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CHD_IZHORY",
+        "data": {
+            "id": "CHD_IZHORY",
+            "indent": "CHD_IZHORY",
+            "idControlArea": "RU",
+            "iObjTag": "izhory_CHD"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CHR_IZHORY",
+        "data": {
+            "id": "CHR_IZHORY",
+            "indent": "CHR_IZHORY",
+            "idControlArea": "RU",
+            "iObjTag": "izhory_CHR"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CHDR_IZHORY",
+        "data": {
+            "id": "CHDR_IZHORY",
+            "indent": "CHDR_IZHORY",
+            "idControlArea": "RU",
+            "iObjTag": "izhory_CHDR"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CHR1_SPSM",
+        "data": {
+            "id": "CHR1_SPSM",
+            "indent": "CHR1_SPSM",
+            "idControlArea": "RU",
+            "iObjTag": "obyhovo_CHR1"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CHR2_SPSM",
+        "data": {
+            "id": "CHR2_SPSM",
+            "indent": "CHR2_SPSM",
+            "idControlArea": "RU",
+            "iObjTag": "obyhovo_CHR2"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CHR3_SPSM",
+        "data": {
+            "id": "CHR3_SPSM",
+            "indent": "CHR3_SPSM",
+            "idControlArea": "RU",
+            "iObjTag": "obyhovo_CHR3"
+        }
+    },
+    {
+        "class": "PpoIndicationSignal",
+        "tag": "CHR4_SPSM",
+        "data": {
+            "id": "CHR4_SPSM",
+            "indent": "CHR4_SPSM",
+            "idControlArea": "RU",
+            "iObjTag": "obyhovo_CHR4"
+        }
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "class": "PpoRailCrossingRi",
+        "tag": "P1",
+        "data": {
+		    "NCHPI": "USO:1:2:1",
+		    "KP_O" : "USO:1:2:3",
+		    "KP_A" : "USO:1:2:2",
+		    "ZG"   : "USO:1:2:5",
+		    "KZP"  : "USO:1:2:4"
+        }
+    },  
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P1_1",
+        "data": {
+            "NPI":  "USO:1:2:1",
+		    "CHPI": "USO:1:2:2"
+        }
+    },
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P1_NSHAP",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "LEN_VIT",
+        "iObjTag": "P1_1",
+        "railCrossing": "P1"
+      }
+    },
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P1_M101_103P",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "LEN_VIT",
+        "iObjTag": "P1_1",
+        "railCrossing": "P1"
+      }
+    },
+    {
+        "class": "PpoRailCrossing",
+        "tag": "P1",
+        "data": {
+            "id": "P1",
+            "indent": "P1",
+            "idControlArea": "LEN_VIT",
+            "iObjTag": "P1",
+            "crossroad": ["P1_NSHAP", "P1_M101_103P"]
+        }
+    },
+
+
+
+
+    {
+        "class": "PpoRailCrossingRi",
+        "tag": "P2",
+        "data": {
+		    "NCHPI": "USO:1:2:6",
+		    "KP_O" : "USO:1:2:8",
+		    "KP_A" : "USO:1:2:7",
+		    "ZG"   : "USO:1:2:10",
+		    "KZP"  : "USO:1:2:9"
+        }
+    },  
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P2_1",
+        "data": {
+            "NPI":  "USO:1:2:3",
+		    "CHPI": "USO:1:2:4"
+        }
+    },
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P2_2",
+        "data": {
+            "NPI":  "USO:1:2:5",
+		    "CHPI": "USO:1:2:6"
+        }
+    },
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P2_105AP",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "LEN_VIT",
+        "iObjTag": "P2_1",
+        "railCrossing": "P2"
+      }
+    },
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P2_107_109SP",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "LEN_VIT",
+        "iObjTag": "P2_1",
+        "railCrossing": "P2"
+      }
+    },
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P2_M302_304P",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "SEBEZH",
+        "iObjTag": "P2_2",
+        "railCrossing": "P2"
+      }
+    },
+    {
+        "class": "PpoRailCrossing",
+        "tag": "P2",
+        "data": {
+            "id": "P2",
+            "indent": "P2",
+            "idControlArea": "LEN_VIT",
+            "iObjTag": "P2",
+            "crossroad": ["P2_105AP", "P2_107_109SP", "P2_M302_304P"]
+        }
+    },
+
+
+
+
+
+    {
+        "class": "PpoRailCrossingRi",
+        "tag": "P3",
+        "data": {
+		    "NCHPI": "USO:1:2:11",
+		    "KP_O" : "USO:1:2:13",
+		    "KP_A" : "USO:1:2:12",
+		    "ZG"   : "USO:1:2:15",
+		    "KZP"  : "USO:1:2:14"
+        }
+    },  
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P3_1",
+        "data": {
+            "NPI":  "USO:1:2:7",
+		    "CHPI": "USO:1:2:8"
+        }
+    },
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P3_107_304P",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "LEN_VIT",
+        "iObjTag": "P3_1",
+        "railCrossing": "P3"
+      }
+    },
+    {
+        "class": "PpoRailCrossing",
+        "tag": "P3",
+        "data": {
+            "id": "P3",
+            "indent": "P3",
+            "idControlArea": "LEN_VIT",
+            "iObjTag": "P3",
+            "crossroad": ["P3_107_304P"]
+        }
+    },
+
+
+
+
+
+
+    {
+        "class": "PpoRailCrossingRi",
+        "tag": "P4",
+        "data": {
+		    "NCHPI": "USO:1:2:16",
+		    "KP_O" : "USO:1:2:18",
+		    "KP_A" : "USO:1:2:17",
+		    "ZG"   : "USO:1:2:20",
+		    "KZP"  : "USO:1:2:19"
+        }
+    },  
+    {
+        "class": "PpoTrainNotificationRi",
+        "tag": "P4_1",
+        "data": {
+            "NPI":  "USO:1:2:9",
+		    "CHPI": "USO:1:2:10"
+        }
+    },
+
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P4M_201SP",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "LEN_VIT",
+        "iObjTag": "P4_1",
+        "railCrossing": "P4"
+      }
+    },
+    {
+      "class": "PpoTrackCrossroad",
+      "tag": "P4_203_207SP",
+      "data": {
+        "id": "0",
+        "indent": "0",
+        "idControlArea": "LEN_VIT",
+        "iObjTag": "P4_1",
+        "railCrossing": "P4"
+      }
+    },
+    {
+        "class": "PpoRailCrossing",
+        "tag": "P4",
+        "data": {
+            "id": "P4",
+            "indent": "P4",
+            "idControlArea": "LEN_VIT",
+            "iObjTag": "P4",
+            "crossroad": ["P4_203_207SP", "P4M_201SP"]
+        }
+    },
+
+    {
+        "class": "PpoRailCrossingRi",
+        "tag": "P5",
+        "data": {
+		    "NCHPI": "USO:1:2:21",
+		    "KP_O" : "USO:1:2:23",
+		    "KP_A" : "USO:1:2:22",
+		    "ZG"   : "USO:1:2:25",
+		    "KZP"  : "USO:1:2:24"
+        }
+    },  
+    {
+        "class": "PpoRailCrossing",
+        "tag": "P5",
+        "data": {
+            "id": "P5",
+            "indent": "P5",
+            "idControlArea": "SEBEZH",
+            "iObjTag": "P4"
+        }
+    }
+]

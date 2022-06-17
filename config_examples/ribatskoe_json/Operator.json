@@ -1,0 +1,23 @@
+[
+    {
+        "class": "StationOperatorWorkset",
+        "data": {
+            "num": 1,
+            "id": 0,
+            "indent": 0,
+            "controlArea": [
+                "RU"
+            ]
+        }
+    },
+    {
+        "class": "ControlArea",
+        "tag": "Rybatskoe",
+        "data": {
+            "id": "RU",
+            "indent": "RU",
+            "initialOperatorNum": 1
+        }
+    }
+]
+

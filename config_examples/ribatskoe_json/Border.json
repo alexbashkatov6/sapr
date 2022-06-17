@@ -1,0 +1,1379 @@
+[
+    {
+          "class": "PpoAutomaticBlockingSystem",
+          "tag": "1GP",
+          "data": {
+              "id": "1GP",
+              "indent": "1GP",
+              "idControlArea": "RU",
+              "iObjTag": "ABTC_1GP",
+              "isInvitationSignalOpeningBefore": "false"
+          }
+      },
+      {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "1NPP",
+        "data": {
+            "id": "1NPP",
+            "indent": "1NPP",
+            "idControlArea": "RU",
+            "iObjTag": "ABTC_1NPP",
+            "isInvitationSignalOpeningBefore": "false"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "2GP",
+        "data": {
+            "id": "2GP",
+            "indent": "2GP",
+            "idControlArea": "RU",
+            "iObjTag": "ABTC_2GP"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "2NUP",
+        "data": {
+            "id": "2NUP",
+            "indent": "2NUP",
+            "idControlArea": "RU",
+            "iObjTag": "ABTC_2NUP"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "3GP",
+        "data": {
+            "id": "3GP",
+            "indent": "3GP",
+            "idControlArea": "RU",
+            "iObjTag": "ABTC_3GP",
+            "isInvitationSignalOpeningBefore": "false"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "4GP",
+        "data": {
+            "id": "4GP",
+            "indent": "4GP",
+            "idControlArea": "RU",
+            "iObjTag": "ABTC_4GP"
+        }
+    },
+    {
+        "class": "PpoAutomaticBlockingSystem",
+        "tag": "4NUP",
+        "data": {
+            "id": "4NUP",
+            "indent": "4NUP",
+            "idControlArea": "RU",
+            "iObjTag": "ABTC_4NUP"
+        }
+    },
+      {
+        "class": "PpoSemiAutomaticBlockingSystem",
+        "tag": "CHKGP",
+        "data": {
+            "id": "CHKGP",
+            "indent": "CHKGP",
+            "idControlArea": "RU",
+            "iObjTag": "CHKGP",
+            "isInvitationSignalOpeningBefore": "false"
+        }
+    },
+    {
+        "class": "PpoAdjacentStationTrainSignal",
+        "tag": "CHDR",
+        "data": {
+            "id": "CHDRP",
+            "indent": "CHDRP",
+            "idControlArea": "RU",
+            "iObjTag": "CHDR",
+            "isInvitationSignalOpeningBefore": "false"
+        }
+    },
+
+
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "1N_1NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "rybatskoe_1N_1NP",
+
+            "stateInterstationWay": "1NPP_PKL_RKL",
+
+            "oppositeBorder": "CHD_1NP",
+
+            "removalZone1": ["1N1P", "CHD_1NP"],
+            "removalZone2": ["CHD_1NP", "CHD_1NP", "RU"],
+
+            "approachZone1":  ["1N1P", "1N5P"],
+            "approachZone2":  ["1N7P", "1N11P"],
+            "approachZone3":  ["1N13P", "CHD_1NP", "VIP1"],
+
+            "notificationPoints": ["1N3P","1N9P"],
+
+            "approachZoneCancelRoute" : "_2approachZone"
+
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "CHD_1NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "izhory_CHD_1NP",
+
+            "stateInterstationWay": "1NPP_PKL_RKL",
+
+            "oppositeBorder": "1N_1NP",
+
+            "protectiveTrack": "1N9P",
+
+            "removalZone1": ["1N13P","1N9P"],
+            "removalZone2": ["3_1NP","1N3P"],
+            "removalZone3": ["1_1NP", "1N1P"],
+
+            "approachZone1":  ["1N13P",  "1N_1NP","VIP1"],
+            "approachZone2":  ["1N_1NP", "1N_1NP", "VIP2"],
+            "approachZone3":  ["1N_1NP", "1N_1NP", "VIP3"],
+
+            "notificationPoints": ["1N7P"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "1CH_1CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "rybatskoe_1CH_1GP",
+
+            "stateInterstationWay": "1GP_PKL_RKL",
+
+            "oppositeBorder": "CHR1_1CHP",
+
+            "removalZone1": ["1CH1P","CHR1_1CHP"],
+            "removalZone2": ["CHR1_1CHP", "CHR1_1CHP", "RU"],
+
+            "approachZone1":  ["1CH1P"    ,"CHR1_1CHP", "VIP1"],
+            "approachZone2":  ["CHR1_1CHP","CHR1_1CHP", "VIP2"],
+
+            "notificationPoints": ["CHR1_1CHP"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "CHR1_1CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "obyhovo_CHR1_1GP",
+
+            "stateInterstationWay": "1GP_PKL_RKL",
+
+            "oppositeBorder": "1CH_1CHP",
+
+            "removalZone1": ["1CH3P","1CH_1CHP"],
+            "removalZone2": ["1CH_1CHP", "1CH_1CHP", "RU"],
+
+            "approachZone1":  ["1CH3P"   ,"1CH_1CHP", "VIP1"],
+            "approachZone2":  ["1CH_1CHP","1CH_1CHP", "VIP2"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "CH_2NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "izhory_CH_2NP",
+
+            "stateInterstationWay": "2NUP_PKL_RKL",
+
+            "oppositeBorder": "2ND_2NP",
+
+            "protectiveTrack": "2N8P",
+
+            "removalZone1": ["2N16P", "2N8P" ],
+            "removalZone2": ["F2_2NP", "2N2P"],
+            "removalZone3": ["2ND_2NP", "2ND_2NP", "RU"],
+
+            "approachZone1":  ["2N16P" , "2N14P"],
+            "approachZone2":  ["2N12P" , "2N8P"],
+            "approachZone3":  ["2N6P"  , "2N2P"],
+
+            "notificationPoints": ["2N10P"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "2ND_2NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "rybatskoe_2ND_2NP",
+
+            "type" : "PassingSignal",
+
+            "stateInterstationWay": "2NUP_PKL_RKL",
+
+            "oppositeBorder": "CH_2NP",
+
+            "protectiveTrack": "2N6P",
+
+            "removalZone1": ["2N2P", "2N6P" ],
+            "removalZone2": ["6_2NP", "2N12P"],
+            "removalZone3": ["4_2NP", "2N16P"],
+
+            "approachZone1":  ["2N2P"  , "2N12P"],
+            "approachZone2":  ["2N14P" , "CH_2NP", "VIP1"],
+            "approachZone3":  ["CH_2NP", "CH_2NP", "VIP2"],
+
+            "notificationPoints": ["2N12P"],
+
+            "approachZoneCancelRoute" : "_2approachZone"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "2CHD_2CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "rybatskoe_2CHD_2GP",
+
+            "stateInterstationWay": "2GP_PKL_RKL",
+
+            "oppositeBorder": "CHR2_2CHP",
+
+            "protectiveTrack": "2CH6P",
+
+            "removalZone1": ["2CH2P","2CH6P"],
+            "removalZone2": ["2_2CHP", "2CH8P"],
+
+            "approachZone1":  ["2CH2P"    ,"CHR2_2CHP", "VIP1"],
+            "approachZone2":  ["CHR2_2CHP","CHR2_2CHP", "VIP2"],
+
+            "notificationPoints": ["2CH6P"],
+            "approachZoneCancelRoute" : "_2approachZone"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "CHR2_2CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "obyhovo_CHR2_2GP",
+
+            "stateInterstationWay": "2GP_PKL_RKL",
+
+            "oppositeBorder": "2CHD_2CHP",
+
+            "removalZone1": ["2CH8P","2CHD_2CHP"],
+            "removalZone2": ["2CHD_2CHP", "2CHD_2CHP", "RU"],
+
+            "approachZone1":  ["2CH8P", "2CH4P"],
+            "approachZone2":  ["2CH2P","2CHD_2CHP", "VIP1"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "3CH_3CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "rybatskoe_3CH_3GP",
+
+            "stateInterstationWay": "3GP_PKL_RKL",
+
+            "oppositeBorder": "CHR3_3CHP",
+
+            "removalZone1": ["3CH1P","CHR3_3CHP"],
+            "removalZone2": ["CHR3_3CHP", "CHR3_3CHP", "RU"],
+
+            "approachZone1":  ["3CH1P"    ,"CHR3_3CHP", "VIP1"],
+            "approachZone2":  ["CHR3_3CHP","CHR3_3CHP", "VIP2"],
+
+            "notificationPoints": ["3CH3P"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "CHR3_3CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "obyhovo_CHR3_3GP",
+
+            "stateInterstationWay": "3GP_PKL_RKL",
+
+            "oppositeBorder": "3CH_3CHP",
+
+            "removalZone1": ["3CH3P","3CH_3CHP"],
+            "removalZone2": ["3CH_3CHP", "3CH_3CHP", "RU"],
+
+            "approachZone1":  ["3CH3P"   ,"3CH_3CHP", "VIP1"],
+            "approachZone2":  ["3CH_3CHP","3CH_3CHP", "VIP2"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "4ND_4NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "rybatskoe_4ND_4NP",
+
+            "type" : "PassingSignal",
+
+            "stateInterstationWay": "4NUP_PKL_RKL",
+
+            "oppositeBorder": "CHR_4NP",
+
+            "protectiveTrack": "4N6P",
+
+            "removalZone1": ["4N2P", "4N6P" ],
+            "removalZone2": ["4_4NP", "4N12P"],
+            "removalZone3": ["2_4NP", "4N12P"],
+
+            "approachZone1":  ["4N2P"  , "CHR_4NP", "VIP1"],
+            "approachZone2":  ["CHR_4NP","CHR_4NP", "VIP2"],
+
+            "notificationPoints": ["4N8P"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "CHR_4NP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "izhory_CHR_4NP",
+
+            "stateInterstationWay": "4NUP_PKL_RKL",
+
+            "oppositeBorder": "4ND_4NP",
+
+            "removalZone1": ["4N12P", "4ND_4NP"],
+            "removalZone2": ["4ND_4NP", "4ND_4NP", "RU"],
+            "removalZone3": ["4ND_4NP", "4ND_4NP", "RU2"],
+
+            "approachZone1":  ["4N12P", "4N8P"],
+            "approachZone2":  ["4N6P" , "4N2P"],
+            "approachZone3":  ["4ND_4NP", "4ND_4NP", "VIP1"],
+
+            "notificationPoints": ["4N6P","4N10P"]
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "CHR4_4CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "obyhovo_CHR4_4GP",
+
+            "stateInterstationWay": "4GP_PKL_RKL",
+
+            "oppositeBorder": "4CHD_4CHP",
+
+            "removalZone1": ["4CH6P", "4CHD_4CHP" ],
+            "removalZone2": ["4CHD_4CHP", "4CHD_4CHP", "RU"],
+
+            "approachZone1":  ["4CH6P", "4CH2P"],
+            "approachZone2":  ["4CHD_4CHP","4CHD_4CHP", "VIP1"]
+
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorder",
+        "tag": "4CHD_4CHP",
+        "data": {
+            "id": 0,
+            "indent": 0,
+            "idControlArea": "RU",
+            "iObjTag" : "rybatskoe_4CHD_4GP",
+
+            "type" : "PassingSignal",
+
+            "stateInterstationWay": "4GP_PKL_RKL",
+
+            "oppositeBorder": "CHR4_4CHP",
+
+            "protectiveTrack": "4CH4P",
+
+            "removalZone1": ["4CH2P", "4CH4P"],
+            "removalZone2": ["2_4CHP", "4CH6P"],
+
+            "approachZone1":  ["4CH2P", "CHR4_4CHP", "VIP1"],
+            "approachZone2":  ["CHR4_4CHP", "CHR4_4CHP", "VIP2"],
+
+            "notificationPoints": ["4CH2P","CHR4_4CHP"]
+        }
+    },
+
+
+
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "ABTC_1NPP",
+        "data": {
+            "addrKI_SNP": "PPO:1:1",
+            "addrKI_SN":  "PPO:1:2",
+            "addrKI_S1U": "PPO:1:3",
+            "addrKI_S1P": "PPO:1:15",
+            "addrKI_1U":  "PPO:1:4",
+            "addrKI_1P":  "PPO:1:14",
+            "addrKI_2U":  "PPO:1:5",
+            "addrKI_3U":  "PPO:1:6",
+            "addrKI_ZU":  "PPO:1:4",
+            "addrKI_KP":  "PPO:1:7",
+            "addrKI_KZH": "PPO:MAX_UINT",
+            "addrKI_UUB": "PPO:1:8",
+            "addrKI_PB":  "PPO:1:9",
+            "addrKI_KV":  "PPO:1:11",
+            "addrKI_A":   "PPO:1:10",
+
+            "addrUI_KS":   "PPO:0",
+            "addrUI_I":    "PPO:2:7",
+            "addrUI_KZH":  "PPO:0",
+            "addrUI_VIP1": "PPO:2:8",
+            "addrUI_VIP2": "PPO:2:9",
+            "addrUI_VIP3": "PPO:2:10",
+            "addrUI_OKV":  "PPO:2:11",
+            "addrUI_KM":   "PPO:2:19",
+
+            "output_SNK": "SNK_1NPP",
+            "output_DS":  "DS_1NPP",
+            "output_OV":  "OV_1NPP",
+            "output_PV":  "PV_1NPP",
+            "output_RUU": "RUU_1NPP",
+            "output_R":   "R_1NPP",
+
+            "adjEnterSig": "izhory_CHD",
+
+            "notificationPoints": [{"point": "PPO:1:12"},{"point": "PPO:1:13"}]
+        }
+    },
+
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "ABTC_2NUP",
+        "data": {
+            "addrKI_SNP": "PPO:3:1",
+            "addrKI_SN":  "PPO:3:2",
+            "addrKI_S1U": "PPO:3:3",
+            "addrKI_S1P": "PPO:3:17",
+            "addrKI_1U":  "PPO:3:4",
+            "addrKI_1P":  "PPO:3:16",
+            "addrKI_2U":  "PPO:3:5",
+            "addrKI_3U":  "PPO:3:6",
+            "addrKI_ZU":  "PPO:3:4",
+            "addrKI_KP":  "PPO:3:7",
+            "addrKI_KZH": "USO:2:1:15",
+            "addrKI_UUB": "PPO:3:8",
+            "addrKI_PB":  "PPO:3:9",
+            "addrKI_KV":  "PPO:MAX_UINT",
+            "addrKI_A":   "PPO:3:10",
+
+            "addrUI_KS":   "PPO:0",
+            "addrUI_I":    "PPO:4:7",
+            "addrUI_KZH":  "PPO:4:8",
+            "addrUI_VIP1": "PPO:4:9",
+            "addrUI_VIP2": "PPO:4:10",
+            "addrUI_VIP3": "PPO:4:11",
+            "addrUI_OKV":  "PPO:4:12",
+            "addrUI_KM":  "PPO:4:20",
+
+            "output_SNK": "SNK_2NUP",
+            "output_DS":  "DS_2NUP",
+            "output_OV":  "OV_2NUP",
+            "output_PV":  "PV_2NUP",
+            "output_RUU": "RUU_2NUP",
+            "output_R":   "R_2NUP",
+
+            "adjEnterSig": "izhory_rybatskoe_6_2NP",
+
+            "notificationPoints": [{"point": "PPO:3:15"}]
+        }
+    },
+
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "ABTC_4NUP",
+        "data": {
+            "addrKI_SNP": "PPO:5:1",
+            "addrKI_SN":  "PPO:5:2",
+            "addrKI_S1U": "PPO:5:3",
+            "addrKI_S1P": "PPO:5:17",
+            "addrKI_1U":  "PPO:5:4",
+            "addrKI_1P":  "PPO:5:16",
+            "addrKI_2U":  "PPO:5:5",
+            "addrKI_3U":  "PPO:5:6",
+            "addrKI_ZU":  "PPO:5:4",
+            "addrKI_KP":  "PPO:5:7",
+            "addrKI_KZH": "USO:2:1:16",
+            "addrKI_UUB": "PPO:5:8",
+            "addrKI_PB":  "PPO:5:9",
+            "addrKI_KV":  "PPO:MAX_UINT",
+            "addrKI_A":   "PPO:5:10",
+
+            "addrUI_KS":   "PPO:0",
+            "addrUI_I":    "PPO:6:7",
+            "addrUI_KZH":  "PPO:6:8",
+            "addrUI_VIP1": "PPO:6:9",
+            "addrUI_VIP2": "PPO:6:10",
+            "addrUI_VIP3": "PPO:6:11",
+            "addrUI_OKV":  "PPO:6:12",
+            "addrUI_KM":  "PPO:6:19",
+
+            "output_SNK": "SNK_4NUP",
+            "output_DS":  "DS_4NUP",
+            "output_OV":  "OV_4NUP",
+            "output_PV":  "PV_4NUP",
+            "output_RUU": "RUU_4NUP",
+            "output_R":   "R_4NUP",
+
+            "adjEnterSig": "izhory_rybatskoe_4_4NP",
+
+            "notificationPoints": [{"point": "PPO:5:15"}]
+        }
+    },
+
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "ABTC_1GP",
+        "data": {
+            "addrKI_SNP": "PPO:7:1",
+            "addrKI_SN":  "PPO:7:2",
+            "addrKI_S1U": "PPO:7:3",
+            "addrKI_S1P": "PPO:7:14",
+            "addrKI_1U":  "PPO:7:4",
+            "addrKI_1P":  "PPO:7:13",
+            "addrKI_2U":  "PPO:7:5",
+            "addrKI_3U":  "PPO:0",
+            "addrKI_ZU":  "PPO:7:4",
+            "addrKI_KP":  "PPO:7:6",
+            "addrKI_KZH": "USO:1:1:14",
+            "addrKI_UUB": "PPO:7:7",
+            "addrKI_PB":  "PPO:7:8",
+            "addrKI_KV":  "PPO:7:12",
+            "addrKI_A":   "PPO:7:9",
+
+            "addrUI_KS":   "PPO:0",
+            "addrUI_I":    "PPO:8:7",
+            "addrUI_KZH":  "PPO:0",
+            "addrUI_VIP1": "PPO:8:8",
+            "addrUI_VIP2": "PPO:8:9",
+            "addrUI_VIP3": "PPO:8:10",
+            "addrUI_OKV":  "PPO:8:11",
+            "addrUI_KM":  "PPO:8:18",
+
+            "output_SNK": "SNK_1GP",
+            "output_DS":  "DS_1GP",
+            "output_OV":  "OV_1GP",
+            "output_PV":  "PV_1GP",
+            "output_RUU": "RUU_1GP",
+            "output_R":   "R_1GP",
+
+            "adjEnterSig": "obyhovo_CHR1",
+
+            "notificationPoints": [{"point": "PPO:7:11", "delay": "PPO:7:10" }]
+        }
+    },
+
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "ABTC_2GP",
+        "data": {
+            "addrKI_SNP": "PPO:9:1",
+            "addrKI_SN":  "PPO:9:2",
+            "addrKI_S1U": "PPO:9:3",
+            "addrKI_S1P": "PPO:9:15",
+            "addrKI_1U":  "PPO:9:4",
+            "addrKI_1P":  "PPO:9:14",
+            "addrKI_2U":  "PPO:9:5",
+            "addrKI_3U":  "PPO:9:13",
+            "addrKI_ZU":  "PPO:9:4",
+            "addrKI_KP":  "PPO:9:6",
+            "addrKI_KZH": "USO:2:1:17",
+            "addrKI_UUB": "PPO:9:7",
+            "addrKI_PB":  "PPO:9:8",
+            "addrKI_KV":  "PPO:9:12",
+            "addrKI_A":   "PPO:9:9",
+
+            "addrUI_KS":   "PPO:0",
+            "addrUI_I":    "PPO:10:7",
+            "addrUI_KZH":  "PPO:10:8",
+            "addrUI_VIP1": "PPO:10:9",
+            "addrUI_VIP2": "PPO:10:10",
+            "addrUI_VIP3": "PPO:10:11",
+            "addrUI_OKV":  "PPO:10:12",
+            "addrUI_KM":   "PPO:10:19",
+
+            "output_SNK": "SNK_2GP",
+            "output_DS":  "DS_2GP",
+            "output_OV":  "OV_2GP",
+            "output_PV":  "PV_2GP",
+            "output_RUU": "RUU_2GP",
+            "output_R":   "R_2GP",
+
+            "notificationPoints": [{ "point": "PPO:9:11", "delay": "PPO:9:10"}]
+        }
+    },
+
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "ABTC_3GP",
+        "data": {
+            "addrKI_SNP": "PPO:11:1",
+            "addrKI_SN":  "PPO:11:2",
+            "addrKI_S1U": "PPO:11:3",
+            "addrKI_S1P": "PPO:11:14",
+            "addrKI_1U":  "PPO:11:4",
+            "addrKI_1P":  "PPO:11:13",
+            "addrKI_2U":  "PPO:11:5",
+            "addrKI_3U":  "PPO:0",
+            "addrKI_ZU":  "PPO:11:4",
+            "addrKI_KP":  "PPO:11:6",
+            "addrKI_KZH": "USO:1:2:10",
+            "addrKI_UUB": "PPO:11:7",
+            "addrKI_PB":  "PPO:11:8",
+            "addrKI_KV":  "PPO:11:11",
+            "addrKI_A":   "PPO:11:9",
+
+            "addrUI_KS":   "PPO:0",
+            "addrUI_I":    "PPO:12:7",
+            "addrUI_KZH":  "PPO:0",
+            "addrUI_VIP1": "PPO:12:8",
+            "addrUI_VIP2": "PPO:12:9",
+            "addrUI_VIP3": "PPO:12:10",
+            "addrUI_OKV":  "PPO:12:11",
+            "addrUI_KM":   "PPO:12:18",
+
+            "output_SNK": "SNK_3GP",
+            "output_DS":  "DS_3GP",
+            "output_OV":  "OV_3GP",
+            "output_PV":  "PV_3GP",
+            "output_RUU": "RUU_3GP",
+            "output_R":   "R_3GP",
+
+            "adjEnterSig": "obyhovo_CHR3",
+
+            "notificationPoints": [{ "point": "PPO:11:10", "delay": "PPO:11:12"}]
+        }
+    },
+
+    {
+        "class": "PpoAutomaticBlockingSystemRi",
+        "tag": "ABTC_4GP",
+        "data": {
+            "addrKI_SNP": "PPO:13:1",
+            "addrKI_SN":  "PPO:13:2",
+            "addrKI_S1U": "PPO:13:3",
+            "addrKI_S1P": "PPO:13:19",
+            "addrKI_1U":  "PPO:13:4",
+            "addrKI_1P":  "PPO:13:18",
+            "addrKI_2U":  "PPO:13:5",
+            "addrKI_3U":  "PPO:0",
+            "addrKI_ZU":  "PPO:13:4",
+            "addrKI_KP":  "PPO:13:6",
+            "addrKI_KZH": "USO:2:1:18",
+            "addrKI_UUB": "PPO:13:7",
+            "addrKI_PB":  "PPO:13:8",
+            "addrKI_KV":  "PPO:MAX_UINT",
+            "addrKI_A":   "PPO:13:9",
+
+            "addrUI_KS":   "PPO:0",
+            "addrUI_I":    "PPO:14:7",
+            "addrUI_KZH":  "PPO:14:8",
+            "addrUI_VIP1": "PPO:14:9",
+            "addrUI_VIP2": "PPO:14:10",
+            "addrUI_VIP3": "PPO:14:11",
+            "addrUI_OKV":  "PPO:14:12",
+            "addrUI_KM":  "PPO:14:19",
+
+            "output_SNK": "SNK_4GP",
+            "output_DS":  "DS_4GP",
+            "output_OV":  "OV_4GP",
+            "output_PV":  "PV_4GP",
+            "output_RUU": "RUU_4GP",
+            "output_R":   "R_4GP",
+
+            "adjEnterSig": "obyhovo_rybatskoe_2_4CHP",
+
+            "notificationPoints": [{"point": "PPO:13:10"},{ "point": "PPO:13:11", "delay": "PPO:13:17"}]
+        }
+    },
+
+    {
+        "class": "PpoAdjacentStationTrainSignalRi",
+        "tag": "CHDR",
+        "data": {
+            "addrKI_SNP": "CPU:1:3:1",
+            "addrKI_S1U": "CPU:1:3:2",
+            "addrKI_S1P": "CPU:1:3:7",
+            "addrKI_1U":  "CPU:1:3:3",
+            "addrKI_2U":  "CPU:1:3:4",
+            "addrKI_3U":  "CPU:0",
+
+            "addrUI_SNP": "CPU:1:3:1",
+            "addrUI_S1U": "CPU:1:3:2",
+            "addrUI_S1P": "CPU:1:3:9",
+            "addrUI_1U":  "CPU:1:3:3",
+            "addrUI_2U":  "CPU:1:3:4",
+            "addrUI_3U":  "CPU:0",
+
+            "adjEnterSig": "izhory_CHDR",
+            "selfSignal" : "3N",
+
+            "trackEnter" : "track_3NP"
+        }
+    },
+
+    {
+        "class": "PpoSemiAutomaticBlockingSystemRi",
+        "tag": "CHKGP",
+        "data": {
+            "addrKI_SNP": "USO:2:1:19",
+            "addrKI_S1U": "USO:2:1:20",
+            "addrKI_1U":  "USO:2:1:21",
+            "addrKI_FP":  "USO:2:1:22",
+            "addrKI_POS": "USO:2:1:23",
+            "addrKI_PS":  "USO:2:1:24",
+            "addrKI_OP":  "USO:2:1:25",
+            "addrKI_DSO": "USO:2:1:26",
+            "addrKI_KZH": "USO:2:1:27",
+
+            "addrUI_KS":  "USO:2:1:29",
+
+            "output_DSO":  "DSO_CHKGP",
+            "output_OSO":  "OSO_CHKGP",
+            "output_FDP":  "FDP_CHKGP",
+            "output_IFP":  "IFP_CHKGP"
+        }
+    },
+
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "izhory_CHD_1NP",
+        "data": {
+            "addrKI_SNK": "CPU:1:1:1",
+            "addrKI_DS" : "CPU:1:1:2",
+            "addrKI_OV" : "CPU:1:1:3",
+            "addrKI_PV" : "CPU:1:1:4",
+            "addrKI_RUU": "CPU:1:1:5",
+            "addrKI_R"  : "CPU:1:1:6",
+
+            "addrKI_KS" : "CPU:0",
+            "addrKI_I"  : "CPU:1:1:7",
+            "addrKI_KZH": "CPU:1:1:9",
+
+            "addrKI_VIP1":  "CPU:1:1:8",
+            "addrKI_VIP2":  "CPU:0",
+            "addrKI_VIP3":  "CPU:0",
+
+            "addrKI_KM": "CPU:1:1:13",
+            "addrKI_OKV": "CPU:1:1:16",
+
+            "addrUI_SNP": "CPU:1:1:1",
+            "addrUI_SN" : "CPU:1:1:2",
+            "addrUI_S1U": "CPU:1:1:3",
+            "addrUI_S1P": "CPU:0",
+            "addrUI_1U" : "CPU:1:1:4",
+            "addrUI_2U" : "CPU:1:1:5",
+            "addrUI_3U" : "CPU:1:1:6",
+            "addrUI_ZU" : "CPU:1:1:4",
+            "addrUI_KP" : "CPU:1:1:7",
+            "addrUI_UB" : "CPU:1:1:8",
+            "addrUI_PB" : "CPU:1:1:9",
+            "addrUI_KV" : "USO:2:1:9",
+            "addrUI_A"  : "USO:0",
+
+            "notificationPoints": [{"point": "CPU:1:1:10"}],
+
+            "enterSignal": "izhory_CHD",
+            "track_P1"   : "track_izhory_CHDP",
+            "track_P2"   : "track_izhory_2SP"
+        }
+    },
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "izhory_CH_2NP",
+        "data": {
+            "addrKI_SNK": "CPU:1:2:1",
+            "addrKI_DS" : "CPU:1:2:2",
+            "addrKI_OV" : "CPU:1:2:3",
+            "addrKI_PV" : "CPU:1:2:4",
+            "addrKI_RUU": "CPU:1:2:5",
+            "addrKI_R"  : "CPU:1:2:6",
+
+            "addrKI_KS" : "CPU:0",
+            "addrKI_I"  : "CPU:1:2:7",
+            "addrKI_KZH": "CPU:MAX_UINT",
+
+            "addrKI_VIP1":  "CPU:1:2:8",
+            "addrKI_VIP2":  "CPU:1:2:9",
+            "addrKI_VIP3":  "CPU:0",
+
+            "addrKI_KM": "CPU:1:2:17",
+            "addrKI_OKV": "CPU:1:2:20",
+
+            "addrUI_SNP": "CPU:1:2:1",
+            "addrUI_SN" : "CPU:1:2:2",
+            "addrUI_S1U": "CPU:1:2:3",
+            "addrUI_S1P": "CPU:0",
+            "addrUI_1U" : "CPU:1:2:4",
+            "addrUI_2U" : "CPU:1:2:5",
+            "addrUI_3U" : "CPU:1:2:6",
+            "addrUI_ZU" : "CPU:1:2:4",
+            "addrUI_KP" : "CPU:1:2:7",
+            "addrUI_UB" : "CPU:1:2:8",
+            "addrUI_PB" : "CPU:1:2:9",
+            "addrUI_KV" : "USO:2:1:13",
+            "addrUI_A"  : "USO:0",
+
+            "notificationPoints": [{"point": "CPU:1:2:10"}],
+
+            "enterSignal": "izhory_CH",
+            "track_P1"   : "track_izhory_CHP",
+            "track_P2"   : "track_izhory_4_6SP"
+        }
+    },
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "izhory_CHR_4NP",
+        "data": {
+            "addrKI_SNK": "CPU:1:4:1",
+            "addrKI_DS" : "CPU:1:4:2",
+            "addrKI_OV" : "CPU:1:4:3",
+            "addrKI_PV" : "CPU:1:4:4",
+            "addrKI_RUU": "CPU:1:4:5",
+            "addrKI_R"  : "CPU:1:4:6",
+
+            "addrKI_KS" : "CPU:0",
+            "addrKI_I"  : "CPU:1:4:7",
+            "addrKI_KZH": "CPU:MAX_UINT",
+
+            "addrKI_VIP1":  "CPU:1:4:8",
+            "addrKI_VIP2":  "CPU:1:4:9",
+            "addrKI_VIP3":  "CPU:0",
+
+            "addrKI_KM": "CPU:1:4:15",
+            "addrKI_OKV": "CPU:1:4:18",
+
+            "addrUI_SNP": "CPU:1:4:1",
+            "addrUI_SN" : "CPU:1:4:2",
+            "addrUI_S1U": "CPU:1:4:3",
+            "addrUI_S1P": "CPU:0",
+            "addrUI_1U" : "CPU:1:4:4",
+            "addrUI_2U" : "CPU:1:4:5",
+            "addrUI_3U" : "CPU:1:4:6",
+            "addrUI_ZU" : "CPU:1:4:4",
+            "addrUI_KP" : "CPU:1:4:7",
+            "addrUI_UB" : "CPU:1:4:8",
+            "addrUI_PB" : "CPU:1:4:9",
+            "addrUI_KV" : "USO:2:1:22",
+            "addrUI_A"  : "USO:0",
+
+            "notificationPoints": [{"point": "CPU:1:4:10"},{"point": "CPU:1:4:11"}],
+
+            "enterSignal": "izhory_CHR",
+            "track_P1"   : "track_izhory_CHRP",
+            "track_P2"   : "track_izhory_18SP"
+        }
+    },
+
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "rybatskoe_1N_1NP",
+        "data": {
+            "addrKI_SNK": "PPO:2:1",
+            "addrKI_DS" : "PPO:2:2",
+            "addrKI_OV" : "PPO:2:3",
+            "addrKI_PV" : "PPO:2:4",
+            "addrKI_RUU": "PPO:2:5",
+            "addrKI_R"  : "PPO:2:6",
+
+            "addrKI_KS" : "PPO:0",
+            "addrKI_I"  : "PPO:2:7",
+            "addrKI_KZH": "PPO:MAX_UINT",
+
+            "addrKI_VIP1":  "PPO:2:8",
+            "addrKI_VIP2":  "PPO:2:9",
+            "addrKI_VIP3":  "PPO:2:10",
+
+            "addrKI_KM": "PPO:2:19",
+            "addrKI_OKV": "PPO:2:11",
+
+            "addrUI_SNP": "PPO:1:1",
+            "addrUI_SN" : "PPO:1:2",
+            "addrUI_S1U": "PPO:1:3",
+            "addrUI_S1P": "PPO:1:15",
+            "addrUI_1U" : "PPO:1:4",
+            "addrUI_2U" : "PPO:1:5",
+            "addrUI_3U" : "PPO:1:6",
+            "addrUI_ZU" : "PPO:1:4",
+            "addrUI_KP" : "PPO:1:7",
+            "addrUI_UB" : "PPO:1:8",
+            "addrUI_PB" : "PPO:1:9",
+            "addrUI_KV" : "PPO:1:11",
+            "addrUI_A"  : "PPO:1:10",
+
+            "notificationPoints": [{"point": "PPO:1:12"},{"point": "PPO:1:13"}],
+
+            "enterSignal": "rybatskoe_1N",
+            "track_P1"   : "track_rybtatskoe_1NP",
+            "track_P2"   : "track_rybatskoe_1SP"
+        }
+    },
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "rybatskoe_2ND_2NP",
+        "data": {
+            "addrKI_SNK": "PPO:4:1",
+            "addrKI_DS" : "PPO:4:2",
+            "addrKI_OV" : "PPO:4:3",
+            "addrKI_PV" : "PPO:4:4",
+            "addrKI_RUU": "PPO:4:5",
+            "addrKI_R"  : "PPO:4:6",
+
+            "addrKI_KS" : "PPO:0",
+            "addrKI_I"  : "PPO:4:7",
+            "addrKI_KZH": "PPO:4:8",
+
+            "addrKI_VIP1":  "PPO:4:9",
+            "addrKI_VIP2":  "PPO:4:10",
+            "addrKI_VIP3":  "PPO:4:11",
+
+            "addrKI_KM": "PPO:4:20",
+            "addrKI_OKV": "PPO:4:12",
+
+            "addrUI_SNP": "PPO:3:1",
+            "addrUI_SN" : "PPO:3:2",
+            "addrUI_S1U": "PPO:3:3",
+            "addrUI_S1P": "PPO:3:17",
+            "addrUI_1U" : "PPO:3:4",
+            "addrUI_2U" : "PPO:3:5",
+            "addrUI_3U" : "PPO:3:6",
+            "addrUI_ZU" : "PPO:3:4",
+            "addrUI_KP" : "PPO:3:7",
+            "addrUI_UB" : "PPO:3:8",
+            "addrUI_PB" : "PPO:3:9",
+            "addrUI_KV" : "PPO:0",
+            "addrUI_A"  : "PPO:3:10",
+
+            "notificationPoints": [{"point": "PPO:3:15"}],
+
+            "enterSignal": "rybatskoe_2ND",
+            "track_P1"   : "track_rybatskoe_2NDP",
+            "track_P2"   : "track_rybatskoe_3SP"
+        }
+    },
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "rybatskoe_4ND_4NP",
+        "data": {
+            "addrKI_SNK": "PPO:6:1",
+            "addrKI_DS" : "PPO:6:2",
+            "addrKI_OV" : "PPO:6:3",
+            "addrKI_PV" : "PPO:6:4",
+            "addrKI_RUU": "PPO:6:5",
+            "addrKI_R"  : "PPO:6:6",
+
+            "addrKI_KS" : "PPO:0",
+            "addrKI_I"  : "PPO:6:7",
+            "addrKI_KZH": "PPO:6:8",
+
+            "addrKI_VIP1":  "PPO:6:9",
+            "addrKI_VIP2":  "PPO:6:10",
+            "addrKI_VIP3":  "PPO:6:11",
+
+            "addrKI_KM": "PPO:6:19",
+            "addrKI_OKV": "PPO:6:12",
+
+            "addrUI_SNP": "PPO:5:1",
+            "addrUI_SN" : "PPO:5:2",
+            "addrUI_S1U": "PPO:5:3",
+            "addrUI_S1P": "PPO:5:17",
+            "addrUI_1U" : "PPO:5:4",
+            "addrUI_2U" : "PPO:5:5",
+            "addrUI_3U" : "PPO:5:6",
+            "addrUI_ZU" : "PPO:5:4",
+            "addrUI_KP" : "PPO:5:7",
+            "addrUI_UB" : "PPO:5:8",
+            "addrUI_PB" : "PPO:5:9",
+            "addrUI_KV" : "PPO:0",
+            "addrUI_A"  : "PPO:5:10",
+
+            "notificationPoints": [{"point": "PPO:5:15"}],
+
+            "enterSignal": "rybatskoe_4ND",
+            "track_P1"   : "track_rybatskoe_4NDP",
+            "track_P2"   : "track_rybatskoe_5_7SP"
+        }
+    },
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "rybatskoe_1CH_1GP",
+        "data": {
+            "addrKI_SNK": "PPO:8:1",
+            "addrKI_DS" : "PPO:8:2",
+            "addrKI_OV" : "PPO:8:3",
+            "addrKI_PV" : "PPO:8:4",
+            "addrKI_RUU": "PPO:8:5",
+            "addrKI_R"  : "PPO:8:6",
+
+            "addrKI_KS" : "PPO:0",
+            "addrKI_I"  : "PPO:8:7",
+            "addrKI_KZH": "PPO:MAX_UINT",
+
+            "addrKI_VIP1":  "PPO:8:8",
+            "addrKI_VIP2":  "PPO:8:9",
+            "addrKI_VIP3":  "PPO:8:10",
+
+            "addrKI_KM": "PPO:8:18",
+            "addrKI_OKV": "PPO:8:11",
+
+            "addrUI_SNP": "PPO:7:1",
+            "addrUI_SN" : "PPO:7:2",
+            "addrUI_S1U": "PPO:7:3",
+            "addrUI_S1P": "PPO:7:14",
+            "addrUI_1U" : "PPO:7:4",
+            "addrUI_2U" : "PPO:7:5",
+            "addrUI_3U" : "PPO:0",
+            "addrUI_ZU" : "PPO:7:4",
+            "addrUI_KP" : "PPO:7:6",
+            "addrUI_UB" : "PPO:7:7",
+            "addrUI_PB" : "PPO:7:8",
+            "addrUI_KV" : "PPO:7:12",
+            "addrUI_A"  : "PPO:7:9",
+
+            "notificationPoints": [{"point": "PPO:7:11","delay": "PPO:7:10"}],
+
+            "enterSignal": "rybatskoe_1CH",
+            "track_P1"   : "track_rybatskoe_1CHP",
+            "track_P2"   : "track_rybatskoe_10SP"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "rybatskoe_2CHD_2GP",
+        "data": {
+            "addrKI_SNK": "PPO:10:1",
+            "addrKI_DS" : "PPO:10:2",
+            "addrKI_OV" : "PPO:10:3",
+            "addrKI_PV" : "PPO:10:4",
+            "addrKI_RUU": "PPO:10:5",
+            "addrKI_R"  : "PPO:10:6",
+
+            "addrKI_KS" : "PPO:0",
+            "addrKI_I"  : "PPO:10:7",
+            "addrKI_KZH": "PPO:10:8",
+
+            "addrKI_VIP1":  "PPO:10:9",
+            "addrKI_VIP2":  "PPO:10:10",
+            "addrKI_VIP3":  "PPO:10:11",
+
+            "addrKI_KM": "PPO:10:19",
+            "addrKI_OKV": "PPO:10:12",
+
+            "addrUI_SNP": "PPO:9:1",
+            "addrUI_SN" : "PPO:9:2",
+            "addrUI_S1U": "PPO:9:3",
+            "addrUI_S1P": "PPO:9:15",
+            "addrUI_1U" : "PPO:9:4",
+            "addrUI_2U" : "PPO:9:5",
+            "addrUI_3U" : "PPO:0",
+            "addrUI_ZU" : "PPO:9:4",
+            "addrUI_KP" : "PPO:9:6",
+            "addrUI_UB" : "PPO:9:7",
+            "addrUI_PB" : "PPO:9:8",
+            "addrUI_KV" : "PPO:9:12",
+            "addrUI_A"  : "PPO:9:9",
+
+            "notificationPoints": [{ "point": "PPO:9:11","delay": "PPO:9:10"}],
+            "enterSignal": "rybatskoe_2CHD",
+            "track_P1"   : "track_rybatskoe_2CHDP",
+            "track_P2"   : "track_rybatskoe_2SP"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "rybatskoe_3CH_3GP",
+        "data": {
+            "addrKI_SNK": "PPO:12:1",
+            "addrKI_DS" : "PPO:12:2",
+            "addrKI_OV" : "PPO:12:3",
+            "addrKI_PV" : "PPO:12:4",
+            "addrKI_RUU": "PPO:12:5",
+            "addrKI_R"  : "PPO:12:6",
+
+            "addrKI_KS" : "PPO:0",
+            "addrKI_I"  : "PPO:12:7",
+            "addrKI_KZH": "PPO:MAX_UINT",
+
+            "addrKI_VIP1":  "PPO:12:8",
+            "addrKI_VIP2":  "PPO:12:9",
+            "addrKI_VIP3":  "PPO:12:10",
+
+            "addrKI_KM": "PPO:12:18",
+            "addrKI_OKV": "PPO:12:11",
+
+            "addrUI_SNP": "PPO:11:1",
+            "addrUI_SN" : "PPO:11:2",
+            "addrUI_S1U": "PPO:11:3",
+            "addrUI_S1P": "PPO:11:14",
+            "addrUI_1U" : "PPO:11:4",
+            "addrUI_2U" : "PPO:11:5",
+            "addrUI_3U" : "PPO:0",
+            "addrUI_ZU" : "PPO:11:4",
+            "addrUI_KP" : "PPO:11:6",
+            "addrUI_UB" : "PPO:11:7",
+            "addrUI_PB" : "PPO:11:8",
+            "addrUI_KV" : "PPO:11:11",
+            "addrUI_A"  : "PPO:11:9",
+
+            "notificationPoints": [{ "point": "PPO:11:10","delay": "PPO:11:12"}],
+            "enterSignal": "rybatskoe_3CH",
+            "track_P1"   : "track_rybatskoe_3CHP",
+            "track_P2"   : "track_rybatskoe_6_8SP"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "rybatskoe_4CHD_4GP",
+        "data": {
+            "addrKI_SNK": "PPO:14:1",
+            "addrKI_DS" : "PPO:14:2",
+            "addrKI_OV" : "PPO:14:3",
+            "addrKI_PV" : "PPO:14:4",
+            "addrKI_RUU": "PPO:14:5",
+            "addrKI_R"  : "PPO:14:6",
+
+            "addrKI_KS" : "PPO:0",
+            "addrKI_I"  : "PPO:14:7",
+            "addrKI_KZH": "PPO:14:8",
+
+            "addrKI_VIP1":  "PPO:14:9",
+            "addrKI_VIP2":  "PPO:14:10",
+            "addrKI_VIP3":  "PPO:14:11",
+
+            "addrKI_KM": "PPO:14:19",
+            "addrKI_OKV": "PPO:14:12",
+
+            "addrUI_SNP": "PPO:13:1",
+            "addrUI_SN" : "PPO:13:2",
+            "addrUI_S1U": "PPO:13:3",
+            "addrUI_S1P": "PPO:13:19",
+            "addrUI_1U" : "PPO:13:4",
+            "addrUI_2U" : "PPO:13:5",
+            "addrUI_3U" : "PPO:0",
+            "addrUI_ZU" : "PPO:13:4",
+            "addrUI_KP" : "PPO:13:6",
+            "addrUI_UB" : "PPO:13:7",
+            "addrUI_PB" : "PPO:13:8",
+            "addrUI_KV" : "PPO:0",
+            "addrUI_A"  : "PPO:13:9",
+
+            "notificationPoints": [{ "point": "PPO:13:10"},{ "point": "PPO:13:11", "delay": "PPO:13:17"}],
+            "enterSignal": "rybatskoe_4CHD",
+            "track_P1"   : "track_rybatskoe_4CHDP",
+            "track_P2"   : "track_rybatskoe_4SP"
+        }
+    },
+
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "obyhovo_CHR1_1GP",
+        "data": {
+            "addrKI_SNK": "USO:1:1:5",
+            "addrKI_DS" : "USO:1:1:6",
+            "addrKI_OV" : "USO:1:1:7",
+            "addrKI_PV" : "USO:1:1:8",
+            "addrKI_RUU": "USO:1:1:9",
+            "addrKI_R"  : "USO:1:1:10",
+
+            "addrKI_KS" : "USO:1:1:12",
+            "addrKI_I"  : "USO:1:1:11",
+            "addrKI_KZH": "USO:1:1:14",
+
+            "addrKI_VIP1":  "NoAddr",
+            "addrKI_VIP2":  "USO:1:1:13",
+            "addrKI_VIP3":  "USO:0",
+
+            "addrKI_KM": "USO:0",
+            "addrKI_OKV": "USO:1:1:23",
+            "addrKI_Notification" : "USO:1:1:15",
+
+            "addrUI_SNP": "USO:1:1:7",
+            "addrUI_SN" : "USO:1:1:8",
+            "addrUI_S1U": "USO:1:1:9",
+            "addrUI_S1P": "USO:0",
+            "addrUI_1U" : "USO:1:1:10",
+            "addrUI_2U" : "USO:1:1:11",
+            "addrUI_3U" : "USO:0",
+            "addrUI_ZU" : "USO:1:1:10",
+            "addrUI_KP" : "USO:1:1:12",
+            "addrUI_UB" : "USO:1:1:13",
+            "addrUI_PB" : "USO:1:1:14",
+            "addrUI_KV" : "USO:1:1:16",
+            "addrUI_A"  : "USO:1:1:15",
+
+            "enterSignal": "obyhovo_CHR1",
+            "track_P1"   : "track_obyhovo_CHR1P",
+            "track_P2"   : "track_obyhovo_CHR1P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "obyhovo_CHR2_2GP",
+        "data": {
+            "addrKI_SNK": "USO:1:1:29",
+            "addrKI_DS" : "USO:1:1:30",
+            "addrKI_OV" : "USO:1:1:31",
+            "addrKI_PV" : "USO:1:1:32",
+            "addrKI_RUU": "USO:1:1:33",
+            "addrKI_R"  : "USO:1:1:34",
+
+            "addrKI_KS" : "USO:1:1:36",
+            "addrKI_I"  : "USO:1:1:35",
+            "addrKI_KZH": "USO:MAX_UINT",
+
+            "addrKI_VIP1":  "NoAddr",
+            "addrKI_VIP2":  "USO:1:1:37",
+            "addrKI_VIP3":  "USO:0",
+
+            "addrKI_KM": "USO:1:1:42",
+            "addrKI_OKV": "USO:1:1:44",
+
+            "addrUI_SNP": "USO:1:1:25",
+            "addrUI_SN" : "USO:1:1:26",
+            "addrUI_S1U": "USO:1:1:27",
+            "addrUI_S1P": "USO:0",
+            "addrUI_1U" : "USO:1:1:28",
+            "addrUI_2U" : "USO:1:1:29",
+            "addrUI_3U" : "USO:0",
+            "addrUI_ZU" : "USO:1:1:28",
+            "addrUI_KP" : "USO:1:1:30",
+            "addrUI_UB" : "USO:1:1:31",
+            "addrUI_PB" : "USO:1:1:32",
+            "addrUI_KV" : "USO:1:1:34",
+            "addrUI_A"  : "USO:1:1:33",
+
+            "enterSignal": "obyhovo_CHR2",
+            "track_P1"   : "track_obyhovo_CHR2P",
+            "track_P2"   : "track_obyhovo_CHR2P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "obyhovo_CHR3_3GP",
+        "data": {
+            "addrKI_SNK": "USO:1:2:1",
+            "addrKI_DS" : "USO:1:2:2",
+            "addrKI_OV" : "USO:1:2:3",
+            "addrKI_PV" : "USO:1:2:4",
+            "addrKI_RUU": "USO:1:2:5",
+            "addrKI_R"  : "USO:1:2:6",
+
+            "addrKI_KS" : "USO:1:2:8",
+            "addrKI_I"  : "USO:1:2:7",
+            "addrKI_KZH": "USO:1:2:10",
+
+            "addrKI_VIP1":  "NoAddr",
+            "addrKI_VIP2":  "USO:1:2:9",
+            "addrKI_VIP3":  "USO:0",
+
+            "addrKI_KM": "USO:1:2:16",
+            "addrKI_OKV": "USO:1:2:19",
+
+            "addrUI_SNP": "USO:1:2:1",
+            "addrUI_SN" : "USO:1:2:2",
+            "addrUI_S1U": "USO:1:2:3",
+            "addrUI_S1P": "USO:0",
+            "addrUI_1U" : "USO:1:2:4",
+            "addrUI_2U" : "USO:1:2:5",
+            "addrUI_3U" : "USO:0",
+            "addrUI_ZU" : "USO:1:2:4",
+            "addrUI_KP" : "USO:1:2:6",
+            "addrUI_UB" : "USO:1:2:7",
+            "addrUI_PB" : "USO:1:2:8",
+            "addrUI_KV" : "USO:1:2:10",
+            "addrUI_A"  : "USO:1:2:9",
+
+            "enterSignal": "obyhovo_CHR3",
+            "track_P1"   : "track_obyhovo_CHR3P",
+            "track_P2"   : "track_obyhovo_204_208SP"
+        }
+    },
+    {
+        "class": "PpoInterstationWayBorderRi",
+        "tag": "obyhovo_CHR4_4GP",
+        "data": {
+            "addrKI_SNK": "USO:1:2:29",
+            "addrKI_DS" : "USO:1:2:30",
+            "addrKI_OV" : "USO:1:2:31",
+            "addrKI_PV" : "USO:1:2:32",
+            "addrKI_RUU": "USO:1:2:33",
+            "addrKI_R"  : "USO:1:2:34",
+
+            "addrKI_KS" : "USO:1:2:36",
+            "addrKI_I"  : "USO:1:2:35",
+            "addrKI_KZH": "USO:MAX_UINT",
+
+            "addrKI_VIP1":  "NoAddr",
+            "addrKI_VIP2":  "USO:1:2:37",
+            "addrKI_VIP3":  "USO:0",
+
+            "addrKI_KM": "USO:1:2:44",
+            "addrKI_OKV": "USO:1:2:47",
+            "addrKI_Notification" : "USO:1:2:38",
+
+            "addrUI_SNP": "USO:1:2:25",
+            "addrUI_SN" : "USO:1:2:26",
+            "addrUI_S1U": "USO:1:2:27",
+            "addrUI_S1P": "USO:0",
+            "addrUI_1U" : "USO:1:2:28",
+            "addrUI_2U" : "USO:1:2:29",
+            "addrUI_3U" : "USO:0",
+            "addrUI_ZU" : "USO:1:2:28",
+            "addrUI_KP" : "USO:1:2:30",
+            "addrUI_UB" : "USO:1:2:31",
+            "addrUI_PB" : "USO:1:2:32",
+            "addrUI_KV" : "USO:1:2:34",
+            "addrUI_A"  : "USO:1:2:33",
+
+            "enterSignal": "obyhovo_CHR4",
+            "track_P1"   : "track_obyhovo_CHR4P",
+            "track_P2"   : "track_obyhovo_202SP"
+        }
+    }
+]

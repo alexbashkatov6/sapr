@@ -1,0 +1,518 @@
+
+
+    # def recursive_remove_widget(self, start_widget: QObject):
+    #     # pass
+    #     for child in start_widget.children():
+    #         if isinstance(child, QWidget):
+    #             self.column_layout.removeWidget(child)
+    #             PyQt5.sip.delete(child)
+                # child = None
+
+# class Verificator:
+#     def __init__(self):
+#         self._verify_function = None
+#
+#     @property
+#     def verify_function(self) -> Callable:
+#         return self._verify_function
+#
+#     @verify_function.setter
+#     def verify_function(self, func: Callable):
+#         self._verify_function = func
+#
+#     def verify(self, value) -> str:
+#         return self.verify_function(value)
+#
+#
+# def bounded_set_of_values(value, possible_values: Iterable) -> str:
+#     if value in possible_values:
+#         return ""
+#     return "Value {} not in possible values {}".format(value, possible_values)
+#
+#
+# class BoundedVerificator(Verificator):
+#     def __init__(self, possible_values: Iterable):
+#         super().__init__()
+#         self.verify_function = partial(bounded_set_of_values, possible_values=possible_values)
+#         self.possible_values = possible_values
+#
+#
+# class Cell:
+#     pass
+#
+#
+# class ElementaryObjectCell(Cell):
+#     def __init__(self):
+#         self._verificator = None
+#         self._input_value = None
+#         self._verified_value = None
+#         self._check_status = ""
+#
+#     @property
+#     def input_value(self):
+#         return self._input_value
+#
+#     @input_value.setter
+#     def input_value(self, val):
+#         self._input_value = val
+#
+#     @property
+#     def check_status(self) -> str:
+#         return self._check_status
+#
+#     @property
+#     def verified_value(self):
+#         return self._verified_value
+#
+#     @property
+#     def verificator(self):
+#         return self._verificator
+#
+#     @verificator.setter
+#     def verificator(self, value):
+#         self._verificator = value
+#
+#     def verify(self):
+#         if self.verificator:
+#             self._check_status = self.verificator.verify(self.input_value)
+#             if not self.check_status:
+#                 self._verified_value = self.input_value
+#
+#     def reset_input_value(self):
+#         self.input_value = self.verified_value
+#
+#     def view(self) -> tuple[str, str]:
+#         return "LineEdit", self.input_value
+#
+#
+# class CompositeObjectCell(Cell):
+#     def __init__(self):
+#         self.mapping: OrderedDict[str, Cell] = OrderedDict()
+#
+#     def view(self) -> list[list]:
+#         result = []
+#         for attr_name, cell in self.mapping.items():
+#             if isinstance(cell, ElementaryObjectCell):
+#                 result.append([("Label", attr_name), cell.view()])
+#             elif isinstance(cell, CompositeObjectCell):
+#                 result.extend(cell.view())
+#             elif isinstance(cell, ListCell):
+#                 result.extend(cell.view(attr_name))
+#         return result
+#
+#
+# class ListCell(Cell):
+#     def __init__(self):
+#         self.cells: list[Cell] = []
+
+    # def append_cell(self):
+    #     pass
+    #
+    # def cell_at_index(self) -> Any:
+    #     pass
+    #
+    # def remove_cell(self):
+    #     pass
+
+#     def view(self, attr_name) -> list[list]:
+#         result = []
+#         result.append([("CenterLabel", attr_name), ("AddButton")])
+#         for cell in self.cells:
+#             if isinstance(cell, ElementaryObjectCell):
+#                 result.append([cell.view()])
+#                 result.append([("RemoveButton")])
+#             elif isinstance(cell, CompositeObjectCell):
+#                 result.extend(cell.view())
+#                 result.append([("RemoveButton")])
+#             elif isinstance(cell, ListCell):
+#                 raise NotImplementedError("Not implemented")
+#         return result
+#
+
+    def dict_expansion(self, d: Union[dict, OrderedDict]):
+        # print("dict_expansion")
+        for attr_name, attr_prop_dict in d.items():
+            current_value = attr_prop_dict["current_value"]
+            possible_values = attr_prop_dict["possible_values"]
+            check_status = attr_prop_dict["check_status"]
+            if attr_name.startswith("spacing"):
+                self.space_indexes.append(self.column_layout.count())
+                self.column_layout.addSpacing(int(current_value))
+                continue
+            if isinstance(current_value, (str, list)):
+                horizontal_wgt = QWidget(self)
+                horizontal_layout = QHBoxLayout()
+                horizontal_layout.setContentsMargins(2, 2, 2, 2)
+                horizontal_wgt.setLayout(horizontal_layout)
+                label = QLabel(attr_name)
+                horizontal_layout.addWidget(label)
+                if isinstance(current_value, str):
+                    line_edit = QLineEdit(current_value)
+                    if possible_values:
+                        completer = QCompleter(possible_values, self)
+                        line_edit.setCompleter(completer)
+                    if check_status:
+                        line_edit.setStyleSheet("background-color: #f00")
+                    elif current_value:
+                        line_edit.setStyleSheet("background-color: #0f0")
+                    else:
+                        line_edit.setStyleSheet("background-color: white")
+                    line_edit.returnPressed.connect(partial(self.edit_finished, attr_name=attr_name))
+                    line_edit.textEdited.connect(self.reset_color_editing)
+                else:
+                    line_edit = QLineEdit(", ".join(current_value), self)
+                horizontal_layout.addWidget(line_edit)
+                self.column_layout.addWidget(horizontal_wgt)
+            elif isinstance(current_value, (dict, OrderedDict)):
+                print("got dict", current_value)
+                header_widget = QWidget(self)
+                horizontal_layout = QHBoxLayout()
+                horizontal_layout.setContentsMargins(2, 2, 2, 2)
+                header_widget.setLayout(horizontal_layout)
+                label = QLabel(attr_name)
+                horizontal_layout.addWidget(label, alignment=Qt.AlignCenter)
+                self.column_layout.addWidget(header_widget)
+                self.dict_expansion(current_value)
+#
+
+    # def attr_changed(self, attr_name: str, index: int, new_attr_value: str):
+    #     print("attr changed", attr_name, index, new_attr_value)
+    #     current_obj = self.current_object
+    #     if index == -1:
+    #         setattr(current_obj, attr_name, new_attr_value)
+    #     else:
+    #         old_list = copy(getattr(current_obj, attr_name))
+    #         old_list[index] = new_attr_value
+    #         setattr(current_obj, attr_name, old_list)
+    #     self.got_object_name(self.current_object.tag)
+
+    # def add_attrib_list_element(self, address: list):
+    #     print("add_attrib_list", address)
+    #     current_obj = self.current_object
+    #     descr = getattr(current_obj.__class__, attr_name)
+    #     if isinstance(descr, StrBoundedValuesDescriptor):
+    #         new_item = ""
+    #     elif isinstance(descr, ObjectListDescriptor):
+    #         new_item = descr.obj_type()
+    #     else:
+    #         raise NotImplementedError("NotImplementedError")
+    #     old_list = copy(getattr(current_obj, attr_name))
+    #     old_list.append(new_item)
+    #     setattr(current_obj, attr_name, old_list)
+    #     self.got_object_name(self.current_object.tag)
+
+    # def remove_attrib_list_element(self, address: list):
+    #     print("remove_attrib_list", address)
+    #     current_obj = self.current_object
+    #     old_list = copy(getattr(current_obj, attr_name))
+    #     old_list.pop(index)
+    #     setattr(current_obj, attr_name, old_list)
+    #     self.got_object_name(self.current_object.tag)
+
+    # def edit_finished(self, attr_name, index):
+    #     line_edit: QLineEdit = self.sender()
+    #     if line_edit.completer():
+    #         completer = line_edit.completer()
+    #         completer.popup().setVisible(False)
+    #     self.attr_edited.emit(attr_name, index, line_edit.text())
+
+    # def add_element(self, attr_name):
+    #     self.add_element_request.emit(attr_name)
+    #
+    # def remove_element(self, attr_name, index):
+    #     self.remove_element_request.emit(attr_name, index)
+
+
+        # print("last_clicked_index", self.last_clicked_index)
+        # if self.last_clicked_index == 0:
+        #     wgt_under_last_index = title_label
+        # else:
+        #     wgt_under_last_index = self.reversed_widget_indexes[self.last_clicked_index]
+        # print("wgt ensure = ", wgt_under_last_index)
+        # self.scroll_widget.ensureVisible(100, 28*self.last_clicked_index, 0, 0)
+        # self.scroll_widget.ensureWidgetVisible(wgt_under_last_index)
+        if self.last_clicked_index >= len(info_list):
+            self.last_clicked_index = len(info_list) - 1
+        print("last_clicked_index", self.last_clicked_index)
+        self.widget_indexes = {}
+        title_label = None
+        i = -1
+                        if not title_label:
+                            title_label = label
+
+    @property
+    def reversed_widget_indexes(self) -> dict[int, QWidget]:
+        result = {}
+        for wgt, i in self.widget_indexes.items():
+            result[i] = wgt
+        return result
+
+        # self.external_layout = QVBoxLayout()
+        # self.internal_widget = QWidget()
+        # self.external_layout.addWidget(self.internal_widget)
+        # self.column_layout = QVBoxLayout()
+        # self.column_layout.setSpacing(0)
+        # self.column_layout.setContentsMargins(0, 0, 0, 0)
+        # self.internal_widget.setLayout(self.column_layout)
+        # self.setLayout(self.external_layout)
+        # self.space_indexes = []
+
+        # # self.scroll_widget = QScrollArea()
+        # self.external_layout = QVBoxLayout()
+        # self.internal_widget = QWidget()
+        # self.external_layout.addWidget(self.internal_widget)
+        # # self.scroll_widget.setWidget(self.internal_widget)
+        # self.column_layout = QVBoxLayout()
+        # self.column_layout.setSpacing(0)
+        # self.column_layout.setContentsMargins(0, 0, 0, 0)
+        # # self.setLayout(self.column_layout)
+        # self.internal_widget.setLayout(self.column_layout)
+        # self.setLayout(self.external_layout)
+        # self.space_indexes = []
+
+        # opt = QStyleOptionGroupBox()
+        # opt.lineWidth = 5
+        # gb.initStyleOption(opt)
+        # gb.setLineWidth(5)
+        # gb.show()
+
+
+def is_empty(obj: Any) -> bool:
+    if isinstance(obj, str):
+        if (not obj) or obj.isspace():
+            return False
+        return True
+    elif isinstance(obj, list):
+        return all([is_empty(elem) for elem in obj])
+    elif isinstance(obj, (dict, OrderedDict)):
+        return all([is_empty(obj[key]) for key in obj])
+
+
+# tpl_to_obj_id: OrderedDict[str, str] = OrderedDict()
+# tpl_to_obj_id['PpoPoint'] = "Str"
+# tpl_to_obj_id['PpoTrainSignal'] = "SvP"
+# tpl_to_obj_id['PpoShuntingSignal'] = "SvM"
+# tpl_to_obj_id['PpoPointSection'] = "SPU"
+# tpl_to_obj_id['PpoTrackSection'] = "SPU"
+# tpl_to_obj_id['PpoTrackAnD'] = "Put"
+# tpl_to_obj_id['PpoAutomaticBlockingSystem'] = "AdjAB"
+# tpl_to_obj_id['PpoSemiAutomaticBlockingSystem'] = "AdjPAB"
+# tpl_to_obj_id['PpoLineEnd'] = "Tpk"
+# tpl_to_obj_id['PpoControlAreaBorder'] = "GRU"
+
+
+        # i = 0
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["      INTERFACE OBJECTS"] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        #
+        # self.objects_tree["PpoLightSignalCi"] = OrderedDict()
+        # self.objects_tree["PpoLightSignalRi"] = OrderedDict()
+        #
+        # self.objects_tree["PpoRoutePointerRi"] = OrderedDict()
+        #
+        # self.objects_tree["PpoPointMachineCi"] = OrderedDict()
+        #
+        # self.objects_tree["PpoAutomaticBlockingSystemRi"] = OrderedDict()
+        # self.objects_tree["PpoSemiAutomaticBlockingSystemRi"] = OrderedDict()
+        #
+        # self.objects_tree["PpoRailCrossingRi"] = OrderedDict()
+        # self.objects_tree["PpoTrainNotificationRi"] = OrderedDict()
+        #
+        # self.objects_tree["PpoControlDeviceDerailmentStockCi"] = OrderedDict()
+        #
+        # self.objects_tree["PpoTrackReceiverRi"] = OrderedDict()
+        #
+        # self.objects_tree["PpoCodeEnablingRelayALS"] = OrderedDict()
+        # self.objects_tree["PpoTrackEncodingPoint"] = OrderedDict()
+        #
+        # self.objects_tree["PpoGeneralPurposeRelayInput"] = OrderedDict()
+        # self.objects_tree["PpoGeneralPurposeRelayOutput"] = OrderedDict()
+        #
+        # self.objects_tree["PpoElectricHeatingRi"] = OrderedDict()
+        #
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["      TECHNOLOGY OBJECTS"] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        #
+        # self.objects_tree["PpoControlAreaBorder"] = OrderedDict()
+        #
+        # self.objects_tree["PpoTrainSignal"] = OrderedDict()
+        # self.objects_tree["PpoWarningSignal"] = OrderedDict()
+        # self.objects_tree["PpoRepeatSignal"] = OrderedDict()
+        # self.objects_tree["PpoShuntingSignal"] = OrderedDict()
+        #
+        # self.objects_tree["PpoRoutePointer"] = OrderedDict()
+        #
+        # self.objects_tree["PpoPointSection"] = OrderedDict()
+        # self.objects_tree["PpoTrackSection"] = OrderedDict()
+        # self.objects_tree["PpoTrackAnD"] = OrderedDict()
+        # self.objects_tree["PpoLineEnd"] = OrderedDict()
+        #
+        # self.objects_tree["PpoPoint"] = OrderedDict()
+        #
+        # self.objects_tree["PpoAutomaticBlockingSystem"] = OrderedDict()
+        # self.objects_tree["PpoSemiAutomaticBlockingSystem"] = OrderedDict()
+        #
+        # self.objects_tree["PpoTrackCrossroad"] = OrderedDict()
+        # self.objects_tree["PpoRailCrossing"] = OrderedDict()
+        #
+        # self.objects_tree["PpoControlDeviceDerailmentStock"] = OrderedDict()
+        #
+        # self.objects_tree["PpoTrackUnit"] = OrderedDict()
+        # self.objects_tree["PpoTrackEncodingPoint"] = OrderedDict()
+        #
+        # self.objects_tree["PpoElectricHeating"] = OrderedDict()
+        #
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["      ADJACENT POINT CLASSES"] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["PpoShuntingSignalWithTrackAnD"] = OrderedDict()
+        # self.objects_tree["PpoTrackAnDwithPoint"] = OrderedDict()
+        #
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["      ROUTE CLASSES"] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["PpoTrainRoute"] = OrderedDict()
+        # self.objects_tree["PpoShuntingRoute"] = OrderedDict()
+        #
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["      OPERATOR CLASSES"] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["TrafficOperatorWorkset"] = OrderedDict()
+        # self.objects_tree["StationOperatorWorkset"] = OrderedDict()
+        # self.objects_tree["ControlArea"] = OrderedDict()
+        #
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["      TS CLASSES"] = OrderedDict()
+        # i += 1
+        # self.objects_tree[" " * i] = OrderedDict()
+        # self.objects_tree["PpoCabinetUsoBk"] = OrderedDict()
+        # self.objects_tree["PpoInsulationResistanceMonitoring"] = OrderedDict()
+        # self.objects_tree["PpoPointMachinesCurrentMonitoring"] = OrderedDict()
+        # self.objects_tree["PpoTelesignalization"] = OrderedDict()
+        # self.objects_tree["PpoPointsMonitoring"] = OrderedDict()
+        # self.objects_tree["PpoLightModeRi"] = OrderedDict()
+        # self.objects_tree["PpoLightMode"] = OrderedDict()
+        # self.objects_tree["PpoFireAndSecurityAlarm"] = OrderedDict()
+        # self.objects_tree["PpoDieselGenerator"] = OrderedDict()
+
+
+
+# @dataclass
+# class SingleAttribute:
+#     index_in_complex: int = 0
+#     obj: Any = None
+#     last_input_value: str = ""
+#     accepted_value: Any = None
+#     is_suggested: bool = False
+#     error_message: str = ""
+#     possible_values: list[str] = field(default_factory=list)
+
+
+# result = {}
+# result[NAMED_ATTRIBUTE_PROPERTIES] = named_attr.attrib_exchange_dict
+# if issubclass(named_attr.single_attribute_type, str):
+#     if named_attr.is_list:
+#         subresult = []
+#         for sa in named_attr.single_attribute_list:
+#             sa: StrSingleAttribute
+#             if to_file:
+#                 subresult.append(sa.last_input_value)  # ! here use accepted for future
+#             else:
+#                 subresult.append({SINGLE_ATTRIBUTE_KEY: sa.attrib_exchange_dict})
+#     else:
+#         sa: StrSingleAttribute = named_attr.single_attribute_list[0]
+#         if to_file:
+#             subresult = sa.last_input_value
+#         else:
+#             subresult = {SINGLE_ATTRIBUTE_KEY: sa.attrib_exchange_dict}
+# else:
+#     if named_attr.is_list:
+#         subresult = []
+#         for sa in named_attr.single_attribute_list:
+#             sa: ObjSingleAttribute
+#             sa.obj: PpoObject
+#             subresult.append(sa.obj.to_file_json_dict(to_file))
+#     else:
+#         sa: ObjSingleAttribute = named_attr.single_attribute_list[0]
+#         subresult = sa.obj.to_file_json_dict(to_file)
+# result[SINGLE_ATTRIBUTE_PROPERTIES] = subresult
+
+    # def __init__(self):
+    #     self.tags = set()
+    #
+    # def __get__(self, instance, owner):
+    #     if not instance:
+    #         return self
+    #     return getattr(instance, "_tag")
+    #
+    # def __set__(self, instance, value: str):
+    #     instance._tag = value
+    #     self.tags.add(instance._tag)
+
+
+
+class AllAttributesOdDescriptor:
+    def __init__(self):
+        self.name = None
+
+    def __set_name__(self, owner, name):
+        self.name = name
+
+    def __get__(self, instance, owner):
+        if not instance:
+            return [key for key in owner.__dict__.keys() if not key.startswith("__")]
+
+        result = OrderedDict()
+        for attr_name in getattr(owner, self.name):
+            result[attr_name] = getattr(instance, attr_name)
+        return result
+
+
+class DataDescriptor:
+
+    def __get__(self, instance, owner):
+        if not instance:
+            return [key for key in owner.__dict__.keys() if not key.startswith("__")]
+
+        data_odict = OrderedDict()
+        for attr_name in owner.data:
+            if attr_name == "id_":
+                data_odict["id"] = getattr(instance, attr_name)
+            else:
+                descr = getattr(owner, attr_name)
+                # if isinstance(descr, ObjectListDescriptor):
+                #     obj_list = getattr(instance, attr_name)
+                #     result = []
+                #     for obj in obj_list:
+                #         all_attrs = obj.all_attributes
+                #         result.append(all_attrs)
+                #     data_odict[attr_name] = result
+                # else:
+                #     data_odict[attr_name] = getattr(instance, attr_name)
+        return data_odict
+
+    def __set__(self, instance, value):
+        raise NotImplementedError('{} setter not implemented'.format(self.__class__.__name__))
+

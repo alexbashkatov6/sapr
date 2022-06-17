@@ -1,0 +1,710 @@
+[
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "NSHAP_KVN_P107",
+        "data": {
+            "addr": "USO:1:3:1",
+            "okv": "NML2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "NSHAP_KVN_M107",
+        "data": {
+            "addr": "USO:1:3:1",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "103S_KVN_P107",
+        "data": {
+            "addr": "USO:1:3:7",
+            "okv": "NML2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "103S_KVN_M107",
+        "data": {
+            "addr": "USO:1:3:7",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "M111_113P_KVN_P107",
+        "data": {
+            "addr": "USO:1:3:3",
+            "okv": "NML2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "M111_113P_KVN_M107",
+        "data": {
+            "addr": "USO:1:3:3",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "107_109S_KVN_P107",
+        "data": {
+            "addr": "USO:1:3:9",
+            "okv": "NML2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "107_109S_KVN_M107",
+        "data": {
+            "addr": "USO:1:3:9",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "115S_KVN",
+        "data": {
+            "addr": "USO:1:3:14",
+            "okv": "NML2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "2LP_KVN",
+        "data": {
+            "addr": "USO:1:3:17",
+            "okv": "NML2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "107_304P_KVN",
+        "data": {
+            "addr": "USO:1:4:46",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "304_306S_KVCH",
+        "data": {
+            "addr": "USO:1:4:25",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "308S_KVCH",
+        "data": {
+            "addr": "USO:1:4:27",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "310_314S_KVCH",
+        "data": {
+            "addr": "USO:1:4:29",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "312_320S_KVCH",
+        "data": {
+            "addr": "USO:1:4:30",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "3SP_KVCH",
+        "data": {
+            "addr": "USO:1:4:38",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "CHNAP_KVCH_P202",
+        "data": {
+            "addr": "USO:1:4:10",
+            "okv": "CHMV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "CHNAP_KVCH_M202",
+        "data": {
+            "addr": "USO:1:4:10",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "202_206S_KVCH_P202",
+        "data": {
+            "addr": "USO:1:4:11",
+            "okv": "CHMV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "202_206S_KVCH_M202",
+        "data": {
+            "addr": "USO:1:4:11",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "214S_KVCH",
+        "data": {
+            "addr": "USO:1:4:12",
+            "okv": "CHMV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "2AVP_KVCH",
+        "data": {
+            "addr": "USO:1:4:3",
+            "okv": "CHMV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "215S_KVCH",
+        "data": {
+            "addr": "USO:1:4:1",
+            "okv": "CHMV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "2BVP_KVCH",
+        "data": {
+            "addr": "USO:1:4:5",
+            "okv": "CHMV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "204S_KVCH",
+        "data": {
+            "addr": "USO:1:4:17",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "208_220S_KVCH",
+        "data": {
+            "addr": "USO:1:4:18",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "208_303P_KVCH",
+        "data": {
+            "addr": "USO:1:4:19",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "301_303S_KVN",
+        "data": {
+            "addr": "USO:1:4:23",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "305_307S_KVN",
+        "data": {
+            "addr": "USO:1:4:26",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "309_313S_KVN",
+        "data": {
+            "addr": "USO:1:4:28",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "315_319S_KVN",
+        "data": {
+            "addr": "USO:1:4:31",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "327S_KVN",
+        "data": {
+            "addr": "USO:1:4:32",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "3SP_KVN",
+        "data": {
+            "addr": "USO:1:4:37",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "NVAP_KVN",
+        "data": {
+            "addr": "USO:1:4:20",
+            "okv": "NS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "CHSAP_KVCH",
+        "data": {
+            "addr": "USO:1:4:21",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "M302_304P_KVCH",
+        "data": {
+            "addr": "USO:1:4:22",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "302S_KVCH",
+        "data": {
+            "addr": "USO:1:4:24",
+            "okv": "CHS3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "115S_KVCH",
+        "data": {
+            "addr": "USO:1:3:15",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "312_320S_KVN",
+        "data": {
+            "addr": "USO:1:3:38",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "310_314S_KVN",
+        "data": {
+            "addr": "USO:1:3:37",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "308S_KVN",
+        "data": {
+            "addr": "USO:1:3:36",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "304_306S_KVN",
+        "data": {
+            "addr": "USO:1:3:35",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "107_304P_KVCH",
+        "data": {
+            "addr": "USO:1:3:5",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "107_109S_KVCH",
+        "data": {
+            "addr": "USO:1:3:10",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "M111_113P_KVCH",
+        "data": {
+            "addr": "USO:1:3:4",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "103S_KVCH",
+        "data": {
+            "addr": "USO:1:3:8",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "NSHAP_KVCH",
+        "data": {
+            "addr": "USO:1:3:2",
+            "okv": "NSHP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "214S_KVN",
+        "data": {
+            "addr": "USO:1:3:47",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "327S_KVCH",
+        "data": {
+            "addr": "USO:1:3:34",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "315_319S_KVCH",
+        "data": {
+            "addr": "USO:1:3:33",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "309_313S_KVCH",
+        "data": {
+            "addr": "USO:1:3:32",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "305_307S_KVCH",
+        "data": {
+            "addr": "USO:1:3:31",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "301_303S_KVCH",
+        "data": {
+            "addr": "USO:1:3:30",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "208_303P_KVN",
+        "data": {
+            "addr": "USO:1:3:41",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "208_220S_KVN",
+        "data": {
+            "addr": "USO:1:3:46",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "204S_KVN",
+        "data": {
+            "addr": "USO:1:3:45",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "202_206S_KVN",
+        "data": {
+            "addr": "USO:1:3:43",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "CHNAP_KVN",
+        "data": {
+            "addr": "USO:1:3:39",
+            "okv": "CHNP_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "112S_KVN",
+        "data": {
+            "addr": "USO:1:4:48",
+            "okv": "NV3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "M102_110P_KVN",
+        "data": {
+            "addr": "USO:1:4:15",
+            "okv": "NV3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "203_207S_KVN",
+        "data": {
+            "addr": "USO:1:4:16",
+            "okv": "NV3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "3VP_KVN",
+        "data": {
+            "addr": "USO:1:4:6",
+            "okv": "NV3_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "203_207S_KVCH",
+        "data": {
+            "addr": "USO:1:3:44",
+            "okv": "CHL1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "M102_110P_KVCH",
+        "data": {
+            "addr": "USO:1:3:40",
+            "okv": "CHL1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "112S_KVCH",
+        "data": {
+            "addr": "USO:1:3:11",
+            "okv": "CHL1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "1LP_KVCH",
+        "data": {
+            "addr": "USO:1:3:16",
+            "okv": "CHL1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "102_104S_KVN",
+        "data": {
+            "addr": "USO:1:4:47",
+            "okv": "NV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "201S_KVN",
+        "data": {
+            "addr": "USO:1:4:13",
+            "okv": "NV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "2BVP_KVN",
+        "data": {
+            "addr": "USO:1:4:4",
+            "okv": "NV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "215S_KVN",
+        "data": {
+            "addr": "USO:1:4:14",
+            "okv": "NV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "2AVP_KVN",
+        "data": {
+            "addr": "USO:1:4:2",
+            "okv": "NV2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "201S_KVCH",
+        "data": {
+            "addr": "USO:1:3:42",
+            "okv": "CHL2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "102_104S_KVCH",
+        "data": {
+            "addr": "USO:1:3:6",
+            "okv": "CHL2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "2LP_KVCH",
+        "data": {
+            "addr": "USO:1:3:18",
+            "okv": "CHL2_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "336S_KVN",
+        "data": {
+            "addr": "USO:1:4:35",
+            "okv": "NS1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "1SP_KVN",
+        "data": {
+            "addr": "USO:1:4:36",
+            "okv": "NS1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "336S_KVCH",
+        "data": {
+            "addr": "USO:1:3:27",
+            "okv": "CHS1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "1ASP_KVCH",
+        "data": {
+            "addr": "USO:1:3:28",
+            "okv": "CHS1_KV"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "114S_KVN",
+        "data": {
+            "addr": "USO:1:3:12"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "114S_KVCH",
+        "data": {
+            "addr": "USO:1:3:13"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "4ALP_KVN",
+        "data": {
+            "addr": "USO:1:3:19"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "4ALP_KVCH",
+        "data": {
+            "addr": "USO:1:3:20"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "4BLP_KVN",
+        "data": {
+            "addr": "USO:1:3:21"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "4BLP_KVCH",
+        "data": {
+            "addr": "USO:1:3:22"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "332_334S_KVN",
+        "data": {
+            "addr": "USO:1:4:33"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "332_334S_KVCH",
+        "data": {
+            "addr": "USO:1:4:34"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "8ASP_KVN",
+        "data": {
+            "addr": "USO:1:4:39"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "8ASP_KVCH",
+        "data": {
+            "addr": "USO:1:4:40"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "8BSP_KVN",
+        "data": {
+            "addr": "USO:1:4:41"
+        }
+    },
+    {
+        "class": "PpoCodeEnablingRelayALS",
+        "tag": "8BSP_KVCH",
+        "data": {
+            "addr": "USO:1:4:42"
+        }
+    }
+]

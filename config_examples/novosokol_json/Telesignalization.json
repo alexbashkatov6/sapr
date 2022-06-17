@@ -1,0 +1,230 @@
+[
+
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk2",
+        "data": {
+            "lightSignals": ["CHN","M202","M204","M206","M208","M210","M303","NV1","NV2","NV3"],
+            "hiCratePointMachines": ["202","206","210","214","218CO"],
+            "loCratePointMachines": ["204","208","212","216","220"],
+            "controlDeviceDerailmentStocks" : ["iObj_UKSPS_CHN","iObj_UKSPS_NV"]
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk3",
+        "data": {
+            "lightSignals": ["NV5","NV6","NV7","M212","M214","M216","M218","M301","M307","NV4","NV"],
+            "hiCratePointMachines": ["222","228","301CO","305","309"],
+            "loCratePointMachines": ["224","226CO","303","307CO","311CO"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk4",
+        "data": {
+            "lightSignals": ["M305","M313","M309","M311","M323","M317","M1","M2","M3","M13","M211","M213","M203","PCHS","M207","M209"],
+            "hiCratePointMachines": ["2SB","3","313","317","321"],
+            "loCratePointMachines": ["1","5","315","319","323"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk5",
+        "data": {
+            "lightSignals": ["M315","M321","CHS1","CHMB7","M319","M205","CHMB6","CHMB5","CHMB4","CHMB3"],
+            "hiCratePointMachines": ["3SB","217SO","325","329","333"],
+            "loCratePointMachines": ["215","219","327","331","335"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk6",
+        "data": {
+            "lightSignals": ["CHS2","CHS4","CHS5","CHS3","CHS6","CHS7"],
+            "hiCratePointMachines": ["337","211","205","201","102"],
+            "loCratePointMachines": ["213","209","207","203","104"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk7",
+        "data": {
+            "lightSignals": ["M104","M106","PCHS3","CHS8","M110","M112","NML2","NML4","PNML2","NML3","CHMS1","M102","NMS1","M324"],
+            "hiCratePointMachines": ["106","110","336","114","334SO"],
+            "loCratePointMachines": ["108","112","338","1SB","332"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk8",
+        "data": {
+            "lightSignals": ["M320","M322","M318","M108","NML1","CHMB2","NS6","NS7","M114","M116"],
+            "hiCratePointMachines": ["330","326","320","316","312"],
+            "loCratePointMachines": ["328","324","322","318","314"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk9",
+        "data": {
+            "lightSignals": ["NS8","NS4","NS1","NS2","NS3","M310","M316","M312","M314","M306","M308"],
+            "hiCratePointMachines": ["310","304","306SO"],
+            "loCratePointMachines": ["308","302","119"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk10",
+        "data": {
+            "lightSignals": ["CHS","M302","M304","M119","M117","M113","M121","M125","M127","M105","M115","M107","M111","M109","M103","NS5","PNV","M201"],
+            "hiCratePointMachines": ["109","107","101"],
+            "loCratePointMachines": ["105","103"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk11",
+        "data": {
+            "lightSignals": ["CHL3","CHL4","CHL1","CHL2","M123","M101","NSH"],
+            "hiCratePointMachines": ["117","115"],
+            "loCratePointMachines": ["113","111"],
+            "controlDeviceDerailmentStocks" : ["iObj_UKSPS_NSH","iObj_UKSPS_CHS"]
+        }
+    },
+
+
+	{
+        "class": "PpoInsulationResistanceMonitoring",
+        "tag": "ControlIzolation",
+        "data": {
+            "cabinets": ["UsoBk2","UsoBk3","UsoBk4","UsoBk5","UsoBk6","UsoBk7","UsoBk8","UsoBk9","UsoBk10","UsoBk11"],
+            "addrKI_OK": "USO:1:1:6"
+        }
+    },
+
+	{
+        "class": "PpoPointMachinesCurrentMonitoring",
+        "tag": "KTPS",
+        "data": {
+            "cabinets"   : ["UsoBk2","UsoBk3","UsoBk4","UsoBk5","UsoBk6","UsoBk7","UsoBk8","UsoBk9","UsoBk10","UsoBk11"],
+            "addrKI_KTPS": "NoAddr"
+        }
+    },
+
+    {
+        "class": "PpoTelesignalization",
+        "tag": "KSZ",
+        "data": {
+            "id": "KSZ",
+            "indent": "KSZ",
+            "idControlArea": "SEBEZH",            
+			"iObjTag": "ControlIzolation"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "KTPS",
+        "data": {
+            "id": "KTPS",
+            "indent": "KTPS",
+            "idControlArea": "SEBEZH",            
+			"iObjTag": "KTPS"
+        }
+    },
+
+    {
+        "class": "PpoPointsMonitoring",
+        "tag": "STRELKI",
+        "data": {
+            "id": "STRELKI",
+            "indent": "STRELKI",
+            "idControlArea": "SEBEZH"
+        }
+    },
+
+    {
+        "class": "PpoLightModeRi",
+        "tag": "DN_DSN",
+        "data": {
+            "addrKI_DN1": "NoAddr",
+            "addrKI_DN2": "SPU:1:20",
+            "addrKI_DSN": "Fixed_1",
+
+            "addrUI_DN":  "USO:1:1:5",
+            "addrUI_DSN": "NoAddr",
+            "addrUI_ASV": "USO:1:1:6"
+        }
+    },
+    {
+        "class": "PpoLightMode",
+        "tag": "DN",
+        "data": {
+            "id": "DN",
+            "indent": "DN",
+            "idControlArea": "SEBEZH",            
+			"iObjTag": "DN_DSN"
+        }
+    },
+    {
+        "class": "PpoFireAndSecurityAlarm",
+        "tag": "POS",
+        "data": {
+            "id": "POS",
+            "indent": "POS",
+            "idControlArea": "SEBEZH",            
+			"iObjTag": "POS"
+        }
+    },
+
+    {
+        "class": "PpoTelesignalization",
+        "tag": "KPP",
+        "data": {
+            "id": "KPP",
+            "indent": "KPP",
+            "idControlArea": "SEBEZH",            
+			"iObjTag": "KPP"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "VZU",
+        "data": {
+            "id": "VZU",
+            "indent": "VZU",
+            "idControlArea": "SEBEZH",            
+			"iObjTag": "KVZU"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "ADG",
+        "data": {
+            "id": "ADG",
+            "indent": "ADG",
+            "idControlArea": "SEBEZH",            
+			"iObjTag": "ADG"
+        }
+    },
+    {
+        "class": "PpoDieselGenerator",
+        "tag": "DGA",
+        "data": {
+            "id": "DGA",
+            "indent": "DGA",
+            "idControlArea": "SEBEZH",            
+			"dieselControl"        : "KT",
+			"startDieselGenerator" : "ZDGA",
+			"stopDieselGenerator"  : "ODGA"
+        }
+    }
+]

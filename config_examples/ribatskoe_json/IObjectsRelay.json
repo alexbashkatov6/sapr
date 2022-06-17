@@ -1,0 +1,1111 @@
+[
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "KPP",
+        "data": {
+			"inputAddr": ["USO:2:1:8"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "ADG",
+        "data": {
+			"inputAddr": ["USO:2:1:3"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "KVZU",
+        "data": {
+			"inputAddr": ["USO:2:1:7"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "KIP",
+        "data": {
+			"inputAddr": ["USO:1:1:3"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "KT",
+        "data": {
+			"inputAddr": ["USO:2:1:4"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "SCHVP",
+        "data": {
+			"inputAddr": ["SPU:1:2","SPU:1:4"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "F1",
+        "data": {
+			"inputAddr": ["SPU:1:6","SPU:1:12"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "F2",
+        "data": {
+			"inputAddr": ["SPU:1:8","SPU:1:14"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "DGA",
+        "data": {
+			"inputAddr": ["SPU:1:10","SPU:1:16"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "APU",
+        "data": {
+			"inputAddr": ["SPU:1:18"]
+        }
+    },
+
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "ZDGA",
+        "data": {
+            "addrUI": "USO:2:1:3",
+            "defaultValue": "0"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "ODGA",
+        "data": {
+			"addrUI": "USO:2:1:4",
+            "defaultValue": "0"
+        }
+    },
+
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "POS",
+        "data": {
+			"inputAddr": ["USO:2:1:12","USO:2:1:13","USO:2:1:11"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayTranslator",
+        "tag": "P14KM_KZP",
+        "data": {
+			"SrcKI": "USO:2:1:31",
+			"DstUI": "USO:1:1:3"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayTranslator",
+        "tag": "P14KM_KPA",
+        "data": {
+			"SrcKI": "USO:2:1:32",
+			"DstUI": "USO:1:1:4"
+        }
+    },	
+    {
+        "class": "PpoGeneralPurposeRelayTranslator",
+        "tag": "P14KM_KPO",
+        "data": {
+			"SrcKI": "USO:2:1:33",
+			"DstUI": "USO:1:1:5"
+        }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater1CH_USO",
+        "data": {   "addrKI": "8",
+                    "KO":   "USO:1:1:17",
+                    "KPS":  "USO:1:1:18",
+                    "RU":   "USO:1:1:19",
+                    "GM":   "USO:1:1:20",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:1:1:21",
+			        "ZS":   "USO:1:1:22",
+			        "ZK":   "USO:1:1:23"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater2CHD_USO",
+        "data": {   "addrKI": "23",
+                    "KO":   "USO:1:1:35",
+                    "KPS":  "USO:1:1:36",
+                    "RU":   "USO:1:1:37",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:1:1:38"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater3CH_USO",
+        "data": {   "addrKI": "21",
+                    "KO":   "USO:1:2:11",
+                    "KPS":  "USO:1:2:12",
+                    "RU":   "USO:1:2:13",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:0"
+                }
+    },
+
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater4CHD_USO",
+        "data": {   "addrKI": "24",
+                    "KO":   "USO:1:2:35",
+                    "KPS":  "USO:1:2:36",
+                    "RU":   "USO:1:2:37",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:1:2:38"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater3N",
+        "data": {   "addrKI": "57",
+                    "KO":   "USO:2:1:17",
+                    "KPS":  "USO:2:1:18",
+                    "RU":   "USO:2:1:19",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:2:1:20"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater3_1NP",
+        "data": {   "addrKI": "0",
+                    "KO":   "USO:0",
+                    "KPS":  "USO:0",
+                    "RU":   "USO:2:1:10",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:2:1:11"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeaterF2_2NP",
+        "data": {   "addrKI": "0",
+                    "KO":   "USO:0",
+                    "KPS":  "USO:0",
+                    "RU":   "USO:2:1:14",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:2:1:15"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater4ND",
+        "data": {   "addrKI": "54",
+                    "KO":   "USO:0",
+                    "KPS":  "USO:0",
+                    "RU":   "USO:2:1:23",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:2:1:24"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeaterCHK",
+        "data": {   "addrKI": "15",
+                    "KO":   "USO:0",
+                    "KPS":  "USO:2:1:30",
+                    "RU":   "USO:2:1:31",
+                    "GM":   "USO:0",
+                    "KMGS": "USO:0",
+			        "ZHZS": "USO:0",
+			        "ZS":   "USO:0",
+			        "ZK":   "USO:0"
+                }
+    },
+
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater3N_CPU",
+        "data": {   "addrKI": "57",
+                    "KO":   "CPU:1:3:5",
+                    "KPS":  "CPU:1:3:6",
+                    "RU":   "CPU:1:3:7",
+                    "GM":   "CPU:0",
+                    "KMGS": "CPU:0",
+			        "ZHZS": "CPU:1:3:8",
+			        "ZS":   "CPU:0",
+			        "ZK":   "CPU:0"
+                }
+    },
+
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater1N_PPO",
+        "data": {   "addrKI": "55",
+                    "KO":   "PPO:2:13",
+                    "KPS":  "PPO:2:14",
+                    "RU":   "PPO:2:15",
+                    "GM":   "PPO:2:16",
+                    "KMGS": "PPO:2:17",
+			        "ZHZS": "PPO:2:18",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater2ND_PPO",
+        "data": {   "addrKI": "56",
+                    "KO":   "PPO:4:14",
+                    "KPS":  "PPO:4:15",
+                    "RU":   "PPO:4:16",
+                    "GM":   "PPO:4:17",
+                    "KMGS": "PPO:4:18",
+			        "ZHZS": "PPO:4:19",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater4ND_PPO",
+        "data": {   "addrKI": "54",
+                    "KO":   "PPO:6:13",
+                    "KPS":  "PPO:6:14",
+                    "RU":   "PPO:6:15",
+                    "GM":   "PPO:6:16",
+                    "KMGS": "PPO:6:17",
+			        "ZHZS": "PPO:6:18",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater1CH_PPO",
+        "data": {   "addrKI": "8",
+                    "KO":   "PPO:8:12",
+                    "KPS":  "PPO:8:13",
+                    "RU":   "PPO:8:14",
+                    "GM":   "PPO:8:15",
+                    "KMGS": "PPO:8:16",
+			        "ZHZS": "PPO:8:17",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater2CHD_PPO",
+        "data": {   "addrKI": "23",
+                    "KO":   "PPO:10:13",
+                    "KPS":  "PPO:10:14",
+                    "RU":   "PPO:10:15",
+                    "GM":   "PPO:10:16",
+                    "KMGS": "PPO:10:17",
+			        "ZHZS": "PPO:10:18",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater3CH_PPO",
+        "data": {   "addrKI": "21",
+                    "KO":   "PPO:12:12",
+                    "KPS":  "PPO:12:13",
+                    "RU":   "PPO:12:14",
+                    "GM":   "PPO:12:15",
+                    "KMGS": "PPO:12:16",
+			        "ZHZS": "PPO:12:17",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater4CHD_PPO",
+        "data": {   "addrKI": "24",
+                    "KO":   "PPO:14:13",
+                    "KPS":  "PPO:14:14",
+                    "RU":   "PPO:14:15",
+                    "GM":   "PPO:14:16",
+                    "KMGS": "PPO:14:17",
+			        "ZHZS": "PPO:14:18",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater6_2NP_PPO",
+        "data": {   "addrKI": "75",
+                    "KO":   "PPO:3:11",
+                    "KPS":  "PPO:0",
+                    "RU":   "PPO:3:12",
+                    "GM":   "PPO:3:13",
+                    "KMGS": "PPO:0",
+			        "ZHZS": "PPO:3:14",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater4_4NP_PPO",
+        "data": {   "addrKI": "77",
+                    "KO":   "PPO:5:11",
+                    "KPS":  "PPO:0",
+                    "RU":   "PPO:5:12",
+                    "GM":   "PPO:5:13",
+                    "KMGS": "PPO:0",
+			        "ZHZS": "PPO:5:14",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+
+    {
+        "class": "PpoSignalRelayRepeater",
+        "tag": "SignalRelayRepeater2_4CHP_PPO",
+        "data": {   "addrKI": "70",
+                    "KO":   "PPO:13:12",
+                    "KPS":  "PPO:0",
+                    "RU":   "PPO:13:13",
+                    "GM":   "PPO:13:14",
+                    "KMGS": "PPO:13:16",
+			        "ZHZS": "PPO:13:15",
+			        "ZS":   "PPO:0",
+			        "ZK":   "PPO:0"
+                }
+    },
+
+    {
+        "class": "PpoTrackRelayRepeater",
+        "tag": "3NP_Repeat",
+        "data": {
+			"trackReceivers": ["A3NP", "B3NP"],
+            "AddrMUI": "USO:2:1:21"
+        }
+    },
+    {
+        "class": "PpoTrackRelayRepeater",
+        "tag": "CHKAP_Repeat",
+        "data": {
+			"trackReceivers": ["CHKAP"],
+            "AddrMUI": "USO:2:1:32"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "12SP_Repeat",
+        "data": {
+			"trackReceivers": ["A12SP", "B12SP"],
+            "AddrMUI": "USO:2:1:33"
+        }
+    },
+    {
+        "class": "PpoTrackRelayRepeater",
+        "tag": "4SP_Repeat",
+        "data": {
+			"trackReceivers": ["A4SP", "B4SP"],
+            "AddrMUI": "USO:2:1:45"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "6_8SP_Repeat",
+        "data": {
+			"trackReceivers": ["A6_8SP", "B6_8SP"],
+            "AddrMUI": "USO:2:1:46"
+        }
+    },
+    {
+        "class": "PpoTrackRelayRepeater",
+        "tag": "14_24SP_Repeat",
+        "data": {
+			"trackReceivers": ["A14_24SP", "B14_24SP", "C14_24SP", "D14_24SP"],
+            "AddrMUI": "USO:2:1:47"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "20SP_Repeat",
+        "data": {
+			"trackReceivers": ["A20SP", "B20SP"],
+            "AddrMUI": "USO:2:1:48"
+        }
+    },
+
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "1NP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["1NP"],
+            "AddrMUI": "PPO:2:20"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "1SP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["A1SP","B1SP"],
+            "AddrMUI": "PPO:2:21"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "2NDP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["2NDP"],
+            "AddrMUI": "PPO:4:21"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "3SP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["A3SP","B3SP"],
+            "AddrMUI": "PPO:4:22"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "4NDP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["4NDP"],
+            "AddrMUI": "PPO:6:20"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "5_7SP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["A5_7SP","B5_7SP","C5_7SP"],
+            "AddrMUI": "PPO:6:21"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "1CHP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["1CHP"],
+            "AddrMUI": "PPO:8:19"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "10SP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["A10SP","B10SP"],
+            "AddrMUI": "PPO:8:20"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "2CHDP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["2CHDP"],
+            "AddrMUI": "PPO:10:20"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "2SP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["A2SP","B2SP"],
+            "AddrMUI": "PPO:10:21"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "3CHP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["3CHP"],
+            "AddrMUI": "PPO:12:19"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "6_8SP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["A6_8SP","B6_8SP"],
+            "AddrMUI": "PPO:12:20"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "4CHDP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["4CHDP"],
+            "AddrMUI": "PPO:14:20"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "4SP_Repeat_AB",
+        "data": {
+			"trackReceivers": ["A4SP","B4SP"],
+            "AddrMUI": "PPO:14:21"
+        }
+    },
+
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "1NPP_1N1P_Repeat_AB",
+        "data": {
+			"trackReceivers": ["1N1P"],
+            "longFreeTime" : 5,
+            "AddrMUI": "PPO:1:14"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "2NUP_2N2P_Repeat_AB",
+        "data": {
+			"trackReceivers": ["2N2P"],
+            "longFreeTime" : 5,
+            "AddrMUI": "PPO:3:16"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "4NUP_4N2P_Repeat_AB",
+        "data": {
+			"trackReceivers": ["4N2P"],
+            "longFreeTime" : 5,
+            "AddrMUI": "PPO:5:16"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "1GP_1CH1P_Repeat_AB",
+        "data": {
+			"trackReceivers": ["1CH1P"],
+            "longFreeTime" : 5,
+            "AddrMUI": "PPO:7:13"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "2GP_2CH2P_Repeat_AB",
+        "data": {
+			"trackReceivers": ["2CH2P"],
+            "longFreeTime" : 5,
+            "AddrMUI": "PPO:9:14"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "3GP_3CH1P_Repeat_AB",
+        "data": {
+			"trackReceivers": ["3CH1P"],
+            "longFreeTime" : 5,
+            "AddrMUI": "PPO:11:13"
+        }
+    },
+	{
+        "class": "PpoTrackRelayRepeater",
+        "tag": "4GP_4CH2P_Repeat_AB",
+        "data": {
+			"trackReceivers": ["4CH2P"],
+            "longFreeTime" : 5,
+            "AddrMUI": "PPO:13:18"
+        }
+    },
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_1NPP",
+        "data": {
+            "addrUI": "PPO:2:1",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DS_1NPP",
+        "data": {
+            "addrUI": "PPO:2:2",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_1NPP",
+        "data": {
+            "addrUI": "PPO:2:3",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_1NPP",
+        "data": {
+            "addrUI": "PPO:2:4",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "RUU_1NPP",
+        "data": {
+            "addrUI": "PPO:2:5",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "R_1NPP",
+        "data": {
+            "addrUI": "PPO:2:6",
+            "defaultValue": "0"
+        }
+    },
+
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_2NUP",
+        "data": {
+            "addrUI": "PPO:4:1",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DS_2NUP",
+        "data": {
+            "addrUI": "PPO:4:2",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_2NUP",
+        "data": {
+            "addrUI": "PPO:4:3",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_2NUP",
+        "data": {
+            "addrUI": "PPO:4:4",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "RUU_2NUP",
+        "data": {
+            "addrUI": "PPO:4:5",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "R_2NUP",
+        "data": {
+            "addrUI": "PPO:4:6",
+            "defaultValue": "0"
+        }
+    },
+
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_4NUP",
+        "data": {
+            "addrUI": "PPO:6:1",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DS_4NUP",
+        "data": {
+            "addrUI": "PPO:6:2",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_4NUP",
+        "data": {
+            "addrUI": "PPO:6:3",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_4NUP",
+        "data": {
+            "addrUI": "PPO:6:4",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "RUU_4NUP",
+        "data": {
+            "addrUI": "PPO:6:5",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "R_4NUP",
+        "data": {
+            "addrUI": "PPO:6:6",
+            "defaultValue": "0"
+        }
+    },
+
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_1GP",
+        "data": {
+            "addrUI": "PPO:8:1",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DS_1GP",
+        "data": {
+            "addrUI": "PPO:8:2",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_1GP",
+        "data": {
+            "addrUI": "PPO:8:3",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_1GP",
+        "data": {
+            "addrUI": "PPO:8:4",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "RUU_1GP",
+        "data": {
+            "addrUI": "PPO:8:5",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "R_1GP",
+        "data": {
+            "addrUI": "PPO:8:6",
+            "defaultValue": "0"
+        }
+    },
+
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_2GP",
+        "data": {
+            "addrUI": "PPO:10:1",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DS_2GP",
+        "data": {
+            "addrUI": "PPO:10:2",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_2GP",
+        "data": {
+            "addrUI": "PPO:10:3",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_2GP",
+        "data": {
+            "addrUI": "PPO:10:4",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "RUU_2GP",
+        "data": {
+            "addrUI": "PPO:10:5",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "R_2GP",
+        "data": {
+            "addrUI": "PPO:10:6",
+            "defaultValue": "0"
+        }
+    },
+
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_3GP",
+        "data": {
+            "addrUI": "PPO:12:1",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DS_3GP",
+        "data": {
+            "addrUI": "PPO:12:2",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_3GP",
+        "data": {
+            "addrUI": "PPO:12:3",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_3GP",
+        "data": {
+            "addrUI": "PPO:12:4",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "RUU_3GP",
+        "data": {
+            "addrUI": "PPO:12:5",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "R_3GP",
+        "data": {
+            "addrUI": "PPO:12:6",
+            "defaultValue": "0"
+        }
+    },
+
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_4GP",
+        "data": {
+            "addrUI": "PPO:14:1",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DS_4GP",
+        "data": {
+            "addrUI": "PPO:14:2",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_4GP",
+        "data": {
+            "addrUI": "PPO:14:3",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_4GP",
+        "data": {
+            "addrUI": "PPO:14:4",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "RUU_4GP",
+        "data": {
+            "addrUI": "PPO:14:5",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "R_4GP",
+        "data": {
+            "addrUI": "PPO:14:6",
+            "defaultValue": "0"
+        }
+    },
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DSO_CHKGP",
+        "data": {
+            "addrUI": "USO:2:1:25",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OSO_CHKGP",
+        "data": {
+            "addrUI": "USO:2:1:26",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "FDP_CHKGP",
+        "data": {
+            "addrUI": "USO:2:1:27",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "IFP_CHKGP",
+        "data": {
+            "addrUI": "USO:2:1:28",
+            "defaultValue": "0"
+        }
+    },
+
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "1NPP_PKL_RKL",
+        "data": {
+			"inputAddr": ["USO:2:2:1","USO:2:2:6"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "2NUP_PKL_RKL",
+        "data": {
+			"inputAddr": ["USO:2:2:11","USO:2:2:17"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "4NUP_PKL_RKL",
+        "data": {
+			"inputAddr": ["USO:2:2:22","USO:2:2:29"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "1GP_PKL_RKL",
+        "data": {
+			"inputAddr": ["USO:2:2:34","USO:2:2:36"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "2GP_PKL_RKL",
+        "data": {
+			"inputAddr": ["USO:2:2:39","USO:2:2:42"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "3GP_PKL_RKL",
+        "data": {
+			"inputAddr": ["USO:2:2:46","USO:2:2:48"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "4GP_PKL_RKL",
+        "data": {
+			"inputAddr": ["USO:2:2:51","USO:2:2:54"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeGroupRelayInput",
+        "tag": "KKL",
+        "data": {
+			"inputAddr": ["USO:2:2:1","USO:2:2:6","USO:2:2:11","USO:2:2:17","USO:2:2:22","USO:2:2:29","USO:2:2:34","USO:2:2:36","USO:2:2:39","USO:2:2:42","USO:2:2:46","USO:2:2:48","USO:2:2:51","USO:2:2:54"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayTranslator",
+        "tag": "_3U_2GP",
+        "data": {
+			"SrcKI": "USO:1:1:40",
+			"DstUI": "PPO:9:13"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayTranslator",
+        "tag": "4ND_KO",
+        "data": {
+			"SrcKI": "PPO:6:13",
+			"DstUI": "CPU:1:4:12"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayTranslator",
+        "tag": "4ND_KPS",
+        "data": {
+			"SrcKI": "PPO:6:14",
+			"DstUI": "CPU:1:4:13"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayTranslator",
+        "tag": "4ND_RU",
+        "data": {
+			"SrcKI": "PPO:6:15",
+			"DstUI": "CPU:1:4:14"
+        }
+    }
+]

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Системное окружение -->
+
+    <SystemEnvironment  ExchId="17E" >
+
+      <ExchParam  RunFrequency   = "1"
+                  SelfNetAddrCPU = "0" />
+
+      <DSP  Num="1"  TerminalCount="3" />
+
+      <USO  Num="1"  MSI="2"  MVU="2"  />
+      <USO  Num="2"  MSI="2"  MVU="3"  />
+      <USO  Num="4"  BSW="16" BST="10" />
+      <USO  Num="6"  BSW="15" BST="10" />
+      <USO  Num="8"  BSW="22" BST="10" />
+      <USO  Num="10" BSW="15" BST="10" />
+      <USO  Num="12" BSW="9"  BST="11" />
+
+      <CPU  Num="1"  MKI="4"  MUI="4"  NetAddr="1" />
+
+      <MPPO    RecordCount="14"   />
+
+      <MBRC    RecordCount="154" />
+      <MBALSN  RecordCount="138" />
+
+    </SystemEnvironment>
+
+</PPO>

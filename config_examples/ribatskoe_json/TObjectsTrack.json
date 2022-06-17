@@ -1,0 +1,1170 @@
+[
+    {
+       "class": "PpoPointSection",
+       "tag": "1SP",
+       "data": {
+           "id": "1SP",
+           "indent": "1SP",
+           "idControlArea": "RU",
+           "length": 5,
+           "trackUnit": "track_1SP"
+       }
+   },
+   {
+    "class": "PpoPointSection",
+    "tag": "2SP",
+    "data": {
+        "id": "2SP",
+        "indent": "2SP",
+        "idControlArea": "RU",
+        "length": 5,
+        "trackUnit": "track_2SP"
+    }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "3SP",
+        "data": {
+            "id": "3SP",
+            "indent": "3SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_3SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "4SP",
+        "data": {
+            "id": "4SP",
+            "indent": "4SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_4SP",
+            "Сrossroad" : "P14_1"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "5_7SP",
+        "data": {
+            "id": "5_7SP",
+            "indent": "5_7SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_5_7SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "6_8SP",
+        "data": {
+            "id": "6_8SP",
+            "indent": "6_8SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_6_8SP",
+            "Сrossroad" : "P14_2"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "9_13SP",
+        "data": {
+            "id": "9_13SP",
+            "indent": "9_13SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_9_13SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "10SP",
+        "data": {
+            "id": "10SP",
+            "indent": "10SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_10SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "11SP",
+        "data": {
+            "id": "11SP",
+            "indent": "11SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_11SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "12SP",
+        "data": {
+            "id": "12SP",
+            "indent": "12SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_12SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "14_24SP",
+        "data": {
+            "id": "14_24SP",
+            "indent": "14_24SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_14_24SP",
+            "Сrossroad" : "P14_6"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "15SP",
+        "data": {
+            "id": "15SP",
+            "indent": "15SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_15SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "16_34SP",
+        "data": {
+            "id": "16_34SP",
+            "indent": "16_34SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_16_34SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "17_19SP",
+        "data": {
+            "id": "17_19SP",
+            "indent": "17_19SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_17_19SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "18_26SP",
+        "data": {
+            "id": "18_26SP",
+            "indent": "18_26SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_18_26SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "20SP",
+        "data": {
+            "id": "20SP",
+            "indent": "20SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_20SP",
+            "Сrossroad" : "P14_3"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "21SP",
+        "data": {
+            "id": "21SP",
+            "indent": "21SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_21SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "23SP",
+        "data": {
+            "id": "23SP",
+            "indent": "23SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_23SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "25SP",
+        "data": {
+            "id": "25SP",
+            "indent": "25SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_25SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "27SP",
+        "data": {
+            "id": "27SP",
+            "indent": "27SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_27SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "29SP",
+        "data": {
+            "id": "29SP",
+            "indent": "29SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_29SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "30SP",
+        "data": {
+            "id": "30SP",
+            "indent": "30SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_30SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "31SP",
+        "data": {
+            "id": "31SP",
+            "indent": "31SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_31SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "32SP",
+        "data": {
+            "id": "32SP",
+            "indent": "32SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_32SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "33_37SP",
+        "data": {
+            "id": "33_37SP",
+            "indent": "33_37SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_33_37SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "36_40SP",
+        "data": {
+            "id": "36_40SP",
+            "indent": "36_40SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_36_40SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "38SP",
+        "data": {
+            "id": "38SP",
+            "indent": "38SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_38SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "39SP",
+        "data": {
+            "id": "39SP",
+            "indent": "39SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_39SP",
+            "type" : "1"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "41SP",
+        "data": {
+            "id": "41SP",
+            "indent": "41SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_41SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "42SP",
+        "data": {
+            "id": "42SP",
+            "indent": "42SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_42SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "43_47SP",
+        "data": {
+            "id": "43_47SP",
+            "indent": "43_47SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_43_47SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "44_48SP",
+        "data": {
+            "id": "44_48SP",
+            "indent": "44_48SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_44_48SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "50SP",
+        "data": {
+            "id": "50SP",
+            "indent": "50SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_50SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "52SP",
+        "data": {
+            "id": "52SP",
+            "indent": "52SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_52SP"
+        }
+    },
+    {
+        "class": "PpoPointSection",
+        "tag": "54SP",
+        "data": {
+            "id": "54SP",
+            "indent": "54SP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_54SP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "1NP",
+        "data": {
+            "id": "1NP",
+            "indent": "1NP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_1NP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "1CHP",
+        "data": {
+            "id": "1CHP",
+            "indent": "1CHP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_1CHP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "2NDP",
+        "data": {
+            "id": "2NDP",
+            "indent": "2NDP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_2NDP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "2CHDP",
+        "data": {
+            "id": "2CHDP",
+            "indent": "2CHDP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_2CHDP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "3NP",
+        "data": {
+            "id": "3NP",
+            "indent": "3NP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_3NP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "3CHP",
+        "data": {
+            "id": "3CHP",
+            "indent": "3CHP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_3CHP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "4NDP",
+        "data": {
+            "id": "4NDP",
+            "indent": "4NDP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_4NDP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "4CHDP",
+        "data": {
+            "id": "4CHDP",
+            "indent": "4CHDP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_4CHDP"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "CHKAP",
+        "data": {
+            "id": "CHKAP",
+            "indent": "CHKAP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_CHKAP"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "M15P",
+        "data": {
+            "id": "M15P",
+            "indent": "M15P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_M15P"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "M21P",
+        "data": {
+            "id": "M21P",
+            "indent": "M21P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_M21P"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "M21_M31P",
+        "data": {
+            "id": "M21_M31P",
+            "indent": "M21_M31P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_M21_M31P"
+        }
+    },
+    {
+        "class": "PpoTrackSection",
+        "tag": "22_36P",
+        "data": {
+            "id": "22_36P",
+            "indent": "22_36P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_22_36P"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "M23P",
+        "data": {
+            "id": "M23P",
+            "indent": "M23P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_M23P"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "M33P",
+        "data": {
+            "id": "M33P",
+            "indent": "M33P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_M33P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "1P",
+        "data": {
+            "id": "1P",
+            "indent": "1P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_1P"
+        }
+    },
+	  {
+        "class": "PpoAnDtrack",
+        "tag": "1AP",
+        "data": {
+            "id": "1AP",
+            "indent": "1AP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_1AP"
+        }
+    },
+	  {
+        "class": "PpoAnDtrack",
+        "tag": "2P",
+        "data": {
+            "id": "2P",
+            "indent": "2P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_2P"
+        }
+    },
+	 {
+        "class": "PpoTrackAnDwithPoint",
+        "tag": "3P",
+        "data": {
+            "id": "3P",
+            "indent": "3P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_3P",
+            "directionPointAnDTrack": "Direction21",
+            "oppositeTrackAnDwithPoint": "3AP"
+        }
+    },
+	 {
+        "class": "PpoTrackAnDwithPoint",
+        "tag": "3AP",
+        "data": {
+            "id": "3AP",
+            "indent": "3AP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_3AP",
+            "directionPointAnDTrack": "Direction12",
+            "oppositeTrackAnDwithPoint": "3P"
+        }
+    },
+	 {
+        "class": "PpoAnDtrack",
+        "tag": "4P",
+        "data": {
+            "id": "4P",
+            "indent": "4P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_4P"
+        }
+    },
+	 {
+        "class": "PpoAnDtrack",
+        "tag": "5P",
+        "data": {
+            "id": "5P",
+            "indent": "5P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_5P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "6P",
+        "data": {
+            "id": "6P",
+            "indent": "6P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_6P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "7P",
+        "data": {
+            "id": "7P",
+            "indent": "7P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_7P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "7AP",
+        "data": {
+            "id": "7AP",
+            "indent": "7AP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_7AP"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "8P",
+        "data": {
+            "id": "8P",
+            "indent": "8P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_8P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "8AP",
+        "data": {
+            "id": "8AP",
+            "indent": "8AP",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_8AP"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "9P",
+        "data": {
+            "id": "9P",
+            "indent": "9P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_9P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "10P",
+        "data": {
+            "id": "10P",
+            "indent": "10P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_10P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "11P",
+        "data": {
+            "id": "11P",
+            "indent": "11P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_11P"
+        }
+    },
+    {
+        "class": "PpoAnDtrack",
+        "tag": "12P",
+        "data": {
+            "id": "12P",
+            "indent": "12P",
+            "idControlArea": "RU",
+            "length": 5,
+            "trackUnit": "track_12P"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "5T",
+        "data": {
+            "idControlArea": "RU"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "9T",
+        "data": {
+            "idControlArea": "RU"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "10T",
+        "data": {
+            "idControlArea": "RU"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "18T",
+        "data": {
+            "idControlArea": "RU"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "19T",
+        "data": {
+            "idControlArea": "RU"
+        }
+    },
+    {
+        "class": "PpoLineEnd",
+        "tag": "14_16P",
+        "data": {
+            "idControlArea": "RU"
+        }
+    },
+
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1N1P",
+        "data": {
+            "id": "1N1P",
+            "indent": "1N1P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1N1P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1N3P",
+        "data": {
+            "id": "1N3P",
+            "indent": "1N3P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1N3P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1N5P",
+        "data": {
+            "id": "1N5P",
+            "indent": "1N5P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1N5P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1N7P",
+        "data": {
+            "id": "1N7P",
+            "indent": "1N7P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1N7P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1N9P",
+        "data": {
+            "id": "1N9P",
+            "indent": "1N9P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1N9P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1N11P",
+        "data": {
+            "id": "1N11P",
+            "indent": "1N11P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1N11P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1N13P",
+        "data": {
+            "id": "1N13P",
+            "indent": "1N13P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1N13P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1CH1P",
+        "data": {
+            "id": "1CH1P",
+            "indent": "1CH1P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1CH1P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "1CH3P",
+        "data": {
+            "id": "1CH3P",
+            "indent": "1CH3P",
+            "idControlArea": "RU",
+            "trackUnit": "track_1CH3P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N2P",
+        "data": {
+            "id": "2N2P",
+            "indent": "2N2P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N2P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N4P",
+        "data": {
+            "id": "2N4P",
+            "indent": "2N4P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N4P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N6P",
+        "data": {
+            "id": "2N6P",
+            "indent": "2N6P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N6P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N8P",
+        "data": {
+            "id": "2N8P",
+            "indent": "2N8P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N8P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N10P",
+        "data": {
+            "id": "2N10P",
+            "indent": "2N10P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N10P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N12P",
+        "data": {
+            "id": "2N12P",
+            "indent": "2N12P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N12P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N14P",
+        "data": {
+            "id": "2N14P",
+            "indent": "2N14P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N14P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2N16P",
+        "data": {
+            "id": "2N16P",
+            "indent": "2N16P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2N16P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2CH2P",
+        "data": {
+            "id": "2CH2P",
+            "indent": "2CH2P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2CH2P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2CH4P",
+        "data": {
+            "id": "2CH4P",
+            "indent": "2CH4P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2CH4P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2CH6P",
+        "data": {
+            "id": "2CH6P",
+            "indent": "2CH6P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2CH6P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "2CH8P",
+        "data": {
+            "id": "2CH8P",
+            "indent": "2CH8P",
+            "idControlArea": "RU",
+            "trackUnit": "track_2CH8P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "3CH1P",
+        "data": {
+            "id": "3CH1P",
+            "indent": "3CH1P",
+            "idControlArea": "RU",
+            "trackUnit": "track_3CH1P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "3CH3P",
+        "data": {
+            "id": "3CH3P",
+            "indent": "3CH3P",
+            "idControlArea": "RU",
+            "trackUnit": "track_3CH3P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4N2P",
+        "data": {
+            "id": "4N2P",
+            "indent": "4N2P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4N2P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4N4P",
+        "data": {
+            "id": "4N4P",
+            "indent": "4N4P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4N4P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4N6P",
+        "data": {
+            "id": "4N6P",
+            "indent": "4N6P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4N6P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4N8P",
+        "data": {
+            "id": "4N8P",
+            "indent": "4N8P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4N8P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4N10P",
+        "data": {
+            "id": "4N10P",
+            "indent": "4N10P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4N10P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4N12P",
+        "data": {
+            "id": "4N12P",
+            "indent": "4N12P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4N12P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4CH2P",
+        "data": {
+            "id": "4CH2P",
+            "indent": "4CH2P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4CH2P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4CH4P",
+        "data": {
+            "id": "4CH4P",
+            "indent": "4CH4P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4CH4P"
+        }
+    },
+    {
+        "class": "PpoInterstationWayTrack",
+        "tag": "4CH6P",
+        "data": {
+            "id": "4CH6P",
+            "indent": "4CH6P",
+            "idControlArea": "RU",
+            "trackUnit": "track_4CH6P"
+        }
+    },
+    {
+        "class": "PpoIndicationTrack",
+        "tag": "indTrack_izory_CHP",
+        "data": {
+            "id": "CHP_IZHORY",
+            "indent": "CHP_IZHORY",
+            "idControlArea": "RU",
+            "trackUnit": "track_izhory_CHP"
+        }
+    },
+    {
+        "class": "PpoIndicationTrack",
+        "tag": "indTrack_izory_CHDP",
+        "data": {
+            "id": "CHDP_IZHORY",
+            "indent": "CHDP_IZHORY",
+            "idControlArea": "RU",
+            "trackUnit": "track_izhory_CHDP"
+        }
+    },
+    {
+        "class": "PpoIndicationTrack",
+        "tag": "indTrack_izory_CHRP",
+        "data": {
+            "id": "CHRP_IZHORY",
+            "indent": "CHRP_IZHORY",
+            "idControlArea": "RU",
+            "trackUnit": "track_izhory_CHRP"
+        }
+    },
+    {
+        "class": "PpoIndicationTrack",
+        "tag": "indTrack_obyhovo_CHR1P_SPSM_2SP",
+        "data": {
+            "id": "CHR1P_SPSM",
+            "indent": "CHR1P_SPSM",
+            "idControlArea": "RU",
+            "trackUnit": "track_obyhovo_CHR1P"
+        }
+    },
+    {
+        "class": "PpoIndicationTrack",
+        "tag": "indTrack_obyhovo_CHR2P_SPSM_CHR2P",
+        "data": {
+            "id": "CHR2P_SPSM",
+            "indent": "CHR2P_SPSM",
+            "idControlArea": "RU",
+            "trackUnit": "track_obyhovo_CHR2P"
+        }
+    },
+    {
+        "class": "PpoIndicationTrack",
+        "tag": "indTrack_obyhovo_CHR3P_SPSM_CHR3P",
+        "data": {
+            "id": "CHR3P_SPSM",
+            "indent": "CHR3P_SPSM",
+            "idControlArea": "RU",
+            "trackUnit": "track_obyhovo_CHR3P"
+        }
+    },
+    {
+        "class": "PpoIndicationTrack",
+        "tag": "indTrack_obyhovo_CHR4P_SPSM_CHR4P",
+        "data": {
+            "id": "CHR4P_SPSM",
+            "indent": "CHR4P_SPSM",
+            "idControlArea": "RU",
+            "trackUnit": "track_obyhovo_CHR4P"
+        }
+    }
+]

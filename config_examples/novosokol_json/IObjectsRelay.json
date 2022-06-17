@@ -1,0 +1,266 @@
+[
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "KPP",
+        "data": {
+			"inputAddr": ["USO:1:1:5"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "POS",
+        "data": {
+			"inputAddr": ["USO:1:1:9","USO:1:1:10","USO:1:1:8"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "ADG",
+        "data": {
+			"inputAddr": ["USO:1:1:3"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "KT",
+        "data": {
+			"inputAddr": ["USO:1:1:4"]
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "ZDGA",
+        "data": {
+            "addrUI": "USO:1:1:3",
+            "defaultValue": "0"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "ODGA",
+        "data": {
+			"addrUI": "USO:1:1:4",
+            "defaultValue": "0"
+        }
+    },
+
+    {
+        "class": "PpoGeneralPurposeRelayInput",
+        "tag": "KVZU",
+        "data": {
+			"inputAddr": ["USO:1:1:7"]
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DSO_NVP",
+        "data": {
+            "addrUI": "USO:1:1:25",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OSO_NVP",
+        "data": {
+            "addrUI": "USO:1:1:26",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "FDP_NVP",
+        "data": {
+            "addrUI": "USO:1:1:27",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "IFP_NVP",
+        "data": {
+            "addrUI": "USO:1:1:28",
+            "defaultValue": "0"
+        }
+    },
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "DSO_CHSP",
+        "data": {
+            "addrUI": "USO:1:1:30",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OSO_CHSP",
+        "data": {
+            "addrUI": "USO:1:1:31",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "FDP_CHSP",
+        "data": {
+            "addrUI": "USO:1:1:32",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "IFP_CHSP",
+        "data": {
+            "addrUI": "USO:1:1:33",
+            "defaultValue": "0"
+        }
+    },
+
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_NSHP",
+        "data": {
+            "addrUI": "USO:1:1:15",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_NSHP",
+        "data": {
+            "addrUI": "USO:1:1:16",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_NSHP",
+        "data": {
+            "addrUI": "USO:1:1:17",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "SNK_CHNP",
+        "data": {
+            "addrUI": "USO:1:1:20",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "OV_CHNP",
+        "data": {
+            "addrUI": "USO:1:1:21",
+            "defaultValue": "0"
+        }
+    },
+	{
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "PV_CHNP",
+        "data": {
+            "addrUI": "USO:1:1:22",
+            "defaultValue": "0"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "NML2_KV",
+        "data": {
+            "addrUI": "USO:1:3:23"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "CHL1_KV",
+        "data": {
+            "addrUI": "USO:1:3:24"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "CHL2_KV",
+        "data": {
+            "addrUI": "USO:1:3:25"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "NSHP_KV",
+        "data": {
+            "addrUI": "USO:1:3:26"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "CHMV2_KV",
+        "data": {
+            "addrUI": "USO:1:4:7"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "NV2_KV",
+        "data": {
+            "addrUI": "USO:1:4:8"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "NV3_KV",
+        "data": {
+            "addrUI": "USO:1:4:9"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "CHNP_KV",
+        "data": {
+            "addrUI": "USO:1:3:48"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "NS1_KV",
+        "data": {
+            "addrUI": "USO:1:4:43"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "NS3_KV",
+        "data": {
+            "addrUI": "USO:1:4:44"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "CHS1_KV",
+        "data": {
+            "addrUI": "USO:1:3:29"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "CHS3_KV",
+        "data": {
+            "addrUI": "USO:1:4:45"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "ElectricHeatingOn",
+        "data": {
+            "addrUI": "USO:1:1:7"
+        }
+    },
+    {
+        "class": "PpoGeneralPurposeRelayOutput",
+        "tag": "ElectricHeatingOff",
+        "data": {
+            "addrUI": "USO:1:1:8"
+        }
+    }
+]

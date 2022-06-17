@@ -1,0 +1,800 @@
+[
+  {
+        "class": "PpoPoint",
+        "tag": "11",
+        "data": {
+            "id": "11",
+            "indent": "11",
+            "idControlArea": "RU",
+            "iObjTag": "11",
+            "pointsMonitoring": "STRELKI",
+            "section": "11SP",
+            "railFittersWarningArea": "OM17",
+            "guardPlusPlus": ["9"],
+            "guardMinusMinus": ["7"],
+			"lockingPlus" : ["9_13SP"],
+            "additionalGuardLock" : {"section":"5_7SP", "point": "7", "position": "-"}
+
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "4",
+        "data": {
+            "id": "4",
+            "indent": "4",
+            "idControlArea": "RU",
+            "iObjTag": "4",
+            "pointsMonitoring": "STRELKI",
+            "section": "4SP",
+            "railFittersWarningArea": "OM3",
+            "guardPlusPlus": ["2"],
+			"lockingPlus" : ["2SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "15",
+        "data": {
+            "id": "15",
+            "indent": "15",
+            "idControlArea": "RU",
+            "iObjTag": "15",
+            "pointsMonitoring": "STRELKI",
+            "section": "15SP",
+            "railFittersWarningArea": "OM15",
+            "guardPlusPlus": ["13"],
+            "guardMinusPlus": ["1"],
+			"lockingPlus" : ["9_13SP"],
+			"lockingMinus" : ["1SP"],
+            "additionalGuardLock" : {"section":"1SP", "point": "1", "position": "+"}
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "22",
+        "data": {
+            "id": "22",
+            "indent": "22",
+            "idControlArea": "RU",
+            "iObjTag": "22",
+            "pointsMonitoring": "STRELKI",
+            "section": "14_24SP",
+            "railFittersWarningArea": "OM5"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "33",
+        "data": {
+            "id": "33",
+            "indent": "33",
+            "idControlArea": "RU",
+            "iObjTag": "33",
+            "pointsMonitoring": "STRELKI",
+            "section": "33_37SP",
+            "railFittersWarningArea": "OM13"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "48",
+        "data": {
+            "id": "48",
+            "indent": "48",
+            "idControlArea": "RU",
+            "iObjTag": "48",
+            "pointsMonitoring": "STRELKI",
+            "section": "44_48SP",
+            "railFittersWarningArea": "OM9",
+     	     "autoReturn": "60"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "37",
+        "data": {
+            "id": "37",
+            "indent": "37",
+            "idControlArea": "RU",
+            "iObjTag": "37",
+            "pointsMonitoring": "STRELKI",
+            "section": "33_37SP",
+            "railFittersWarningArea": "OM13",
+            "lockingPlus"  : ["39SP"],	
+			"lockingPlusSignal"  : ["CH3A","N3"],
+            "guardPlusPlus": ["39"],	
+			"autoReturn": "60"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "44",
+        "data": {
+            "id": "44",
+            "indent": "44",
+            "idControlArea": "RU",
+            "iObjTag": "44",
+            "pointsMonitoring": "STRELKI",
+            "section": "44_48SP",
+            "railFittersWarningArea": "OM9",
+            "guardPlusPlus": ["48"],
+            "guardMinusPlus": ["54"],
+			"lockingPlus" : ["44_48SP"],
+			"lockingMinus" : ["54SP"]
+
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "41",
+        "data": {
+            "id": "41",
+            "indent": "41",
+            "idControlArea": "RU",
+            "iObjTag": "41",
+            "pointsMonitoring": "STRELKI",
+            "section": "41SP",
+            "railFittersWarningArea": "OM12"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "6",
+        "data": {
+            "id": "6",
+            "indent": "6",
+            "idControlArea": "RU",
+            "iObjTag": "6",
+            "pointsMonitoring": "STRELKI",
+            "section": "6_8SP",
+            "railFittersWarningArea": "OM4"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "26",
+        "data": {
+            "id": "26",
+            "indent": "26",
+            "idControlArea": "RU",
+            "iObjTag": "26",
+            "pointsMonitoring": "STRELKI",
+            "section": "18_26SP",
+            "railFittersWarningArea": "OM3",
+            "guardPlusPlus": ["28"],
+            "oversizedMinus": [{"section": "30SP"}],
+			"lockingPlus" : ["16_34SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "42",
+        "data": {
+            "id": "42",
+            "indent": "42",
+            "idControlArea": "RU",
+            "iObjTag": "42",
+            "pointsMonitoring": "STRELKI",
+            "section": "42SP",
+            "railFittersWarningArea": "OM8",
+            "guardPlusPlus": ["40"],
+			"lockingPlus" : ["36_40SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "20",
+        "data": {
+            "id": "20",
+            "indent": "20",
+            "idControlArea": "RU",
+            "iObjTag": "20",
+            "pointsMonitoring": "STRELKI",
+            "section": "20SP",
+            "railFittersWarningArea": "OM2",
+            "guardPlusPlus": ["18"],
+            "guardMinusPlus": ["2"],
+			"lockingPlus" : ["18_26SP"],
+			"lockingMinus" : ["2SP"],
+            "additionalGuardLock" : {"section":"2SP", "point": "2", "position": "+"}
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "54",
+        "data": {
+            "id": "54",
+            "indent": "54",
+            "idControlArea": "RU",
+            "iObjTag": "54",
+            "pointsMonitoring": "STRELKI",
+            "section": "54SP",
+            "railFittersWarningArea": "OM12",
+            "autoReturn": "180",
+            "lockingPlus" : ["44_48SP"],
+            "lockingMinus" : ["44_48SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "3",
+        "data": {
+            "id": "3",
+            "indent": "3",
+            "idControlArea": "RU",
+            "iObjTag": "3",
+            "pointsMonitoring": "STRELKI",
+            "section": "3SP",
+            "railFittersWarningArea": "OM16",
+            "guardPlusPlus": ["1"],
+			"lockingPlus" : ["1SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "12",
+        "data": {
+            "id": "12",
+            "indent": "12",
+            "idControlArea": "RU",
+            "iObjTag": "12",
+            "pointsMonitoring": "STRELKI",
+            "section": "12SP",
+            "railFittersWarningArea": "OM5",
+            "guardPlusPlus": ["10"],
+			"lockingPlus" : ["10SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "25",
+        "data": {
+            "id": "25",
+            "indent": "25",
+            "idControlArea": "RU",
+            "iObjTag": "25",
+            "pointsMonitoring": "STRELKI",
+            "section": "25SP",
+            "railFittersWarningArea": "OM18",
+            "guardPlusPlus": ["23"],
+            "guardMinusMinus": ["21"],
+			"lockingPlus" : ["23SP"],
+            "additionalGuardLock" : {"section":"21SP", "point": "21", "position": "-"}
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "34",
+        "data": {
+            "id": "34",
+            "indent": "34",
+            "idControlArea": "RU",
+            "iObjTag": "34",
+            "pointsMonitoring": "STRELKI",
+            "section": "16_34SP",
+            "railFittersWarningArea": "OM7",
+            "guardPlusPlus": ["36","32"],
+            "oversizedMinus": [{"section": "30SP", "point": "32" ,"position" : "-"}],
+			"lockingPlus" : ["36_40SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "29",
+        "data": {
+            "id": "29",
+            "indent": "29",
+            "idControlArea": "RU",
+            "iObjTag": "29",
+            "pointsMonitoring": "STRELKI",
+            "section": "29SP",
+            "railFittersWarningArea": "OM15",
+            "guardPlusPlus": ["31"],
+			"lockingPlus" : ["31SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "32",
+        "data": {
+            "id": "32",
+            "indent": "32",
+            "idControlArea": "RU",
+            "iObjTag": "32",
+            "pointsMonitoring": "STRELKI",
+            "section": "32SP",
+            "railFittersWarningArea": "OM7",
+            "guardPlusPlus": ["30"],
+            "oversizedMinus": [{"section": "16_34SP", "point": "34" ,"position" : "-"}],
+			"lockingPlus" : ["30SP"],
+            "additionalGuardLock" : {"section":"16_34SP", "point": "34", "position": "-"}
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "24",
+        "data": {
+            "id": "24",
+            "indent": "24",
+            "idControlArea": "RU",
+            "iObjTag": "24",
+            "pointsMonitoring": "STRELKI",
+            "section": "14_24SP",
+            "railFittersWarningArea": "OM6"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "18",
+        "data": {
+            "id": "18",
+            "indent": "18",
+            "idControlArea": "RU",
+            "iObjTag": "18",
+            "pointsMonitoring": "STRELKI",
+            "section": "18_26SP",
+            "railFittersWarningArea": "OM3",
+            "guardPlusPlus": ["20"],
+            "guardMinusPlus": ["28"],
+			"lockingPlus"  : ["20SP"],
+			"lockingMinus" : ["16_34SP"],
+			"additionalSwitch" : [
+                                    { "point": "26", 
+                                      "selfPosition" : "-",
+                                      "dependencePosition" : "+" 
+                                    }
+                                 ]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "46",
+        "data": {
+            "id": "46",
+            "indent": "46",
+            "idControlArea": "RU",
+            "iObjTag": "46",
+            "pointsMonitoring": "STRELKI",
+            "section": "44_48SP",
+            "railFittersWarningArea": "OM9",
+            "guardPlusPlus": ["54"],
+            "guardMinusMinus": ["54"],
+			"lockingPlus" : ["54SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "1",
+        "data": {
+            "id": "1",
+            "indent": "1",
+            "idControlArea": "RU",
+            "iObjTag": "1",
+            "pointsMonitoring": "STRELKI",
+            "section": "1SP",
+            "railFittersWarningArea": "OM15",
+            "guardPlusPlus": ["3"],
+            "guardMinusPlus": ["15"],
+			"lockingPlus"  : ["3SP"],
+			"lockingMinus" : ["15SP"],
+            "additionalGuardLock" : {"section":"15SP", "point": "15", "position": "+"}
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "8",
+        "data": {
+            "id": "8",
+            "indent": "8",
+            "idControlArea": "RU",
+            "iObjTag": "8",
+            "pointsMonitoring": "STRELKI",
+            "section": "6_8SP",
+            "railFittersWarningArea": "OM4",
+            "guardPlusPlus": ["6"],
+            "oversizedMinus": [{"section": "10SP", "point": "10" ,"position" : "-"}],
+			"lockingMinus" : ["10SP"],
+            "additionalGuardLock" : {"section":"10SP", "point": "10", "position": "-"}
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "5",
+        "data": {
+            "id": "5",
+            "indent": "5",
+            "idControlArea": "RU",
+            "iObjTag": "5",
+            "pointsMonitoring": "STRELKI",
+            "section": "5_7SP",
+            "railFittersWarningArea": "OM17",
+			"additionalSwitch" : [
+                                    { "point": "7", 
+                                      "selfPosition" : "-",
+                                      "dependencePosition" : "-" 
+                                    }
+                                 ]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "28",
+        "data": {
+            "id": "28",
+            "indent": "28",
+            "idControlArea": "RU",
+            "iObjTag": "28",
+            "pointsMonitoring": "STRELKI",
+            "section": "16_34SP",
+            "railFittersWarningArea": "OM7",
+            "guardPlusPlus": ["26"],
+            "guardMinusPlus": ["14"],
+			"lockingPlus"  : ["18_26SP"],
+			"lockingMinus" : ["14_24SP"],
+			"additionalSwitch" : [
+                                    { "point": "16", 
+                                      "selfPosition" : "-",
+                                      "dependencePosition" : "+" 
+                                    }
+                                 ]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "27",
+        "data": {
+            "id": "27",
+            "indent": "27",
+            "idControlArea": "RU",
+            "iObjTag": "27",
+            "pointsMonitoring": "STRELKI",
+            "section": "27SP",
+            "railFittersWarningArea": "OM18"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "30",
+        "data": {
+            "id": "30",
+            "indent": "30",
+            "idControlArea": "RU",
+            "iObjTag": "30",
+            "pointsMonitoring": "STRELKI",
+            "section": "30SP",
+            "railFittersWarningArea": "OM3",
+            "guardPlusPlus": ["32"],
+			"lockingPlus"  : ["32SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "31",
+        "data": {
+            "id": "31",
+            "indent": "31",
+            "idControlArea": "RU",
+            "iObjTag": "31",
+            "pointsMonitoring": "STRELKI",
+            "section": "31SP",
+            "guardPlusPlus": ["29"],
+			"lockingPlus"  : ["29SP"],
+            "railFittersWarningArea": "OM14"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "2",
+        "data": {
+            "id": "2",
+            "indent": "2",
+            "idControlArea": "RU",
+            "iObjTag": "2",
+            "pointsMonitoring": "STRELKI",
+            "section": "2SP",
+            "railFittersWarningArea": "OM2",
+            "guardPlusPlus": ["4"],
+            "guardMinusPlus": ["20"],
+			"lockingPlus"   : ["4SP"],
+			"lockingMinus"  : ["20SP"],
+            "additionalGuardLock" : {"section":"20SP", "point": "20", "position": "+"}
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "13",
+        "data": {
+            "id": "13",
+            "indent": "13",
+            "idControlArea": "RU",
+            "iObjTag": "13",
+            "pointsMonitoring": "STRELKI",
+            "section": "9_13SP",
+            "railFittersWarningArea": "OM16",
+            "guardPlusPlus": ["15"],
+			"lockingPlus"  : ["15SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "14",
+        "data": {
+            "id": "14",
+            "indent": "14",
+            "idControlArea": "RU",
+            "iObjTag": "14",
+            "pointsMonitoring": "STRELKI",
+            "section": "14_24SP",
+            "railFittersWarningArea": "OM5",
+            "guardPlusPlus": ["16"],
+			"lockingPlus"  : ["16_34SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "17",
+        "data": {
+            "id": "17",
+            "indent": "17",
+            "idControlArea": "RU",
+            "iObjTag": "17",
+            "pointsMonitoring": "STRELKI",
+            "section": "17_19SP",
+            "railFittersWarningArea": "OM17"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "40",
+        "data": {
+            "id": "40",
+            "indent": "40",
+            "idControlArea": "RU",
+            "iObjTag": "40",
+            "pointsMonitoring": "STRELKI",
+            "section": "36_40SP",
+            "railFittersWarningArea": "OM8",
+            "guardPlusPlus": ["42"],
+			"lockingPlus"  : ["42SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "35",
+        "data": {
+            "id": "35",
+            "indent": "35",
+            "idControlArea": "RU",
+            "iObjTag": "35",
+            "pointsMonitoring": "STRELKI",
+            "section": "33_37SP",
+            "railFittersWarningArea": "OM13"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "50",
+        "data": {
+            "id": "50",
+            "indent": "50",
+            "idControlArea": "RU",
+            "iObjTag": "50",
+            "pointsMonitoring": "STRELKI",
+            "section": "50SP",
+            "railFittersWarningArea": "OM11"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "39",
+        "data": {
+            "id": "39",
+            "indent": "39",
+            "idControlArea": "RU",
+            "iObjTag": "39",
+            "type": 2,
+            "pointsMonitoring": "STRELKI",
+            "section": "39SP",
+            "railFittersWarningArea": "OM14",
+            "guardPlusPlus": ["37"],
+			"lockingPlus"  : ["33_37SP"],
+			"lockingPlusSignal"  : ["CH3A","N3"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "52",
+        "data": {
+            "id": "52",
+            "indent": "52",
+            "idControlArea": "RU",
+            "iObjTag": "52",
+            "pointsMonitoring": "STRELKI",
+            "section": "52SP",
+            "railFittersWarningArea": "OM11"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "43",
+        "data": {
+            "id": "43",
+            "indent": "43",
+            "idControlArea": "RU",
+            "iObjTag": "43",
+            "pointsMonitoring": "STRELKI",
+            "section": "43_47SP",
+            "railFittersWarningArea": "OM12"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "19",
+        "data": {
+            "id": "19",
+            "indent": "19",
+            "idControlArea": "RU",
+            "iObjTag": "19",
+            "pointsMonitoring": "STRELKI",
+            "section": "17_19SP",
+            "railFittersWarningArea": "OM17"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "21",
+        "data": {
+            "id": "21",
+            "indent": "21",
+            "idControlArea": "RU",
+            "iObjTag": "21",
+            "pointsMonitoring": "STRELKI",
+            "section": "21SP",
+            "guardPlusPlus": ["25"],
+            "railFittersWarningArea": "OM18",
+            "oversizedMinus": [{"section": "25SP", "point": "25" ,"position" : "-"}],
+			"lockingMinus"  : ["25SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "23",
+        "data": {
+            "id": "23",
+            "indent": "23",
+            "idControlArea": "RU",
+            "iObjTag": "23",
+            "pointsMonitoring": "STRELKI",
+            "section": "23SP",
+            "railFittersWarningArea": "OM16",
+            "guardPlusPlus": ["25"],
+			"lockingPlus"  : ["25SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "45",
+        "data": {
+            "id": "45",
+            "indent": "45",
+            "idControlArea": "RU",
+            "iObjTag": "45",
+            "pointsMonitoring": "STRELKI",
+            "section": "43_47SP",
+            "railFittersWarningArea": "OM12"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "47",
+        "data": {
+            "id": "47",
+            "indent": "47",
+            "idControlArea": "RU",
+            "iObjTag": "47",
+            "pointsMonitoring": "STRELKI",
+            "section": "43_47SP",
+            "railFittersWarningArea": "OM12"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "7",
+        "data": {
+            "id": "7",
+            "indent": "7",
+            "idControlArea": "RU",
+            "iObjTag": "7",
+            "pointsMonitoring": "STRELKI",
+            "section": "5_7SP",
+            "railFittersWarningArea": "OM17",
+            "guardPlusPlus" : ["11"],
+            "oversizedMinus": [{"section": "11SP", "point": "11" ,"position" : "-"}],
+			"lockingMinus"  : ["11SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "9",
+        "data": {
+            "id": "9",
+            "indent": "9",
+            "idControlArea": "RU",
+            "iObjTag": "9",
+            "pointsMonitoring": "STRELKI",
+            "section": "9_13SP",
+            "railFittersWarningArea": "OM16",
+            "guardPlusPlus" : ["11"],
+            "guardMinusPlus": ["15"],
+			"lockingPlus"   : ["11SP"],
+			"lockingMinus"  : ["15SP"],
+			"additionalSwitch" : [
+                                    { "point": "13", 
+                                      "selfPosition" : "-",
+                                      "dependencePosition" : "+" 
+                                    }
+                                 ]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "36",
+        "data": {
+            "id": "36",
+            "indent": "36",
+            "idControlArea": "RU",
+            "iObjTag": "36",
+            "pointsMonitoring": "STRELKI",
+            "section": "36_40SP",
+            "railFittersWarningArea": "OM8",
+            "guardPlusPlus": ["34"],
+			"lockingPlus"  : ["16_34SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "38",
+        "data": {
+            "id": "38",
+            "indent": "38",
+            "idControlArea": "RU",
+            "iObjTag": "38",
+            "pointsMonitoring": "STRELKI",
+            "section": "38SP",
+            "railFittersWarningArea": "OM7"
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "10",
+        "data": {
+            "id": "10",
+            "indent": "10",
+            "idControlArea": "RU",
+            "iObjTag": "10",
+            "pointsMonitoring": "STRELKI",
+            "section": "10SP",
+            "railFittersWarningArea": "OM5",
+            "guardPlusPlus": ["12","8"],
+            "guardMinusMinus": ["8"],
+			"lockingPlus"  : ["12SP"]
+        }
+    },
+    {
+        "class": "PpoPoint",
+        "tag": "16",
+        "data": {
+            "id": "16",
+            "indent": "16",
+            "idControlArea": "RU",
+            "iObjTag": "16",
+            "pointsMonitoring": "STRELKI",
+            "section": "16_34SP",
+            "railFittersWarningArea": "OM7",
+            "guardPlusPlus": ["14"],
+			"lockingPlus"  : ["14_24SP"]
+        }
+    }
+]
+

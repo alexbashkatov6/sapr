@@ -1,0 +1,1043 @@
+[
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "NSHAPN_P107",
+        "data": {
+            "encUnitALS": "NSHAP_KVN_P107",
+            "plusPoints": [
+                "107",
+                "109",
+                "115"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "NSHAPN_M107",
+        "data": {
+            "encUnitALS": "NSHAP_KVN_M107",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "107",
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "103SN_P107",
+        "data": {
+            "encUnitALS": "103S_KVN_P107",
+            "plusPoints": [
+                "107",
+                "109",
+                "115"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "103SN_M107",
+        "data": {
+            "encUnitALS": "103S_KVN_M107",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "107",
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "M111_113PN_P107",
+        "data": {
+            "encUnitALS": "M111_113P_KVN_P107",
+            "plusPoints": [
+                "107",
+                "109",
+                "115"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "M111_113PN_M107",
+        "data": {
+            "encUnitALS": "M111_113P_KVN_M107",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "107",
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "107_109SN_P107",
+        "data": {
+            "encUnitALS": "107_109S_KVN_P107",
+            "plusPoints": [
+                "107",
+                "109",
+                "115"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "107_109SN_M107",
+        "data": {
+            "encUnitALS": "107_109S_KVN_M107",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "107",
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "115SN",
+        "data": {
+            "encUnitALS": "115S_KVN",
+            "plusPoints": [
+                "115"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "2LPN",
+        "data": {
+            "encUnitALS": "2LP_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "107_304PN",
+        "data": {
+            "encUnitALS": "107_304P_KVN",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "304_306SCH",
+        "data": {
+            "encUnitALS": "304_306S_KVCH",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "308SCH",
+        "data": {
+            "encUnitALS": "308S_KVCH",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "310_314SCH",
+        "data": {
+            "encUnitALS": "310_314S_KVCH",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "312_320SCH",
+        "data": {
+            "encUnitALS": "312_320S_KVCH",
+            "plusPoints": [
+                "316",
+                "320"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "3SPCH",
+        "data": {
+            "encUnitALS": "3SP_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "CHNAPCH_P202",
+        "data": {
+            "encUnitALS": "CHNAP_KVCH_P202",
+            "plusPoints": [
+                "202",
+                "206"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "CHNAPCH_M202",
+        "data": {
+            "encUnitALS": "CHNAP_KVCH_M202",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "202",
+                "208",
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "202_206SCH_P202",
+        "data": {
+            "encUnitALS": "202_206S_KVCH_P202",
+            "plusPoints": [
+                "202",
+                "206"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "202_206SCH_M202",
+        "data": {
+            "encUnitALS": "202_206S_KVCH_M202",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "202",
+                "208",
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "214SCH",
+        "data": {
+            "encUnitALS": "214S_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "2AVPCH",
+        "data": {
+            "encUnitALS": "2AVP_KVCH",
+            "own": [
+                "IIAVP"
+            ],
+            "freeState": [
+                "215SP",
+                "IIBVP"
+            ],
+            "plusPoints": [
+                "215"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "215SCH",
+        "data": {
+            "encUnitALS": "215S_KVCH",
+            "own": [
+                "215SP"
+            ],
+            "freeState": [
+                "IIBVP"
+            ],
+            "plusPoints": [
+                "215"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "2BVPCH",
+        "data": {
+            "encUnitALS": "2BVP_KVCH",
+            "own": [
+                "IIBVP"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "204SCH",
+        "data": {
+            "encUnitALS": "204S_KVCH",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "208",
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "208_220SCH",
+        "data": {
+            "encUnitALS": "208_220S_KVCH",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "208",
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "208_303PCH",
+        "data": {
+            "encUnitALS": "208_303P_KVCH",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "301_303SN",
+        "data": {
+            "encUnitALS": "301_303S_KVN",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "305_307SN",
+        "data": {
+            "encUnitALS": "305_307S_KVN",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "309_313SN",
+        "data": {
+            "encUnitALS": "309_313S_KVN",
+            "plusPoints": [
+                "319",
+                "327"
+            ],
+            "minusPoints": [
+                "313"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "315_319SN",
+        "data": {
+            "encUnitALS": "315_319S_KVN",
+            "plusPoints": [
+                "319",
+                "327"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "327SN",
+        "data": {
+            "encUnitALS": "327S_KVN",
+            "plusPoints": [
+                "327"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "3SPN",
+        "data": {
+            "encUnitALS": "3SP_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "NVAPN",
+        "data": {
+            "encUnitALS": "NVAP_KVN",
+            "plusPoints": [
+                "319",
+                "327"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "CHSAPCH",
+        "data": {
+            "encUnitALS": "CHSAP_KVCH",
+            "plusPoints": [
+                "302",
+                "316",
+                "320"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "M302_304PCH",
+        "data": {
+            "encUnitALS": "M302_304P_KVCH",
+            "plusPoints": [
+                "302",
+                "316",
+                "320"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "302SCH",
+        "data": {
+            "encUnitALS": "302S_KVCH",
+            "plusPoints": [
+                "302",
+                "316",
+                "320"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "115SCH",
+        "data": {
+            "encUnitALS": "115S_KVCH",
+            "plusPoints": [
+                "115"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "107_109SCH_P107",
+        "data": {
+            "encUnitALS": "107_109S_KVCH",
+            "plusPoints": [
+                "107",
+                "109"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "312_320SN",
+        "data": {
+            "encUnitALS": "312_320S_KVN",
+            "plusPoints": [
+                "316",
+                "320"
+            ],
+            "minusPoints": [
+                "308",
+                "312"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "310_314SN",
+        "data": {
+            "encUnitALS": "310_314S_KVN",
+            "minusPoints": [
+                "308",
+                "310"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "308SN",
+        "data": {
+            "encUnitALS": "308S_KVN",
+            "minusPoints": [
+                "308"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "304_306SN",
+        "data": {
+            "encUnitALS": "304_306S_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "107_304PCH",
+        "data": {
+            "encUnitALS": "107_304P_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "107_109SCH_M107",
+        "data": {
+            "encUnitALS": "107_109S_KVCH",
+            "minusPoints": [
+                "107"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "M111_113PCH",
+        "data": {
+            "encUnitALS": "M111_113P_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "103SCH",
+        "data": {
+            "encUnitALS": "103S_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "NSHAPCH",
+        "data": {
+            "encUnitALS": "NSHAP_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "214SN",
+        "data": {
+            "encUnitALS": "214S_KVN",
+            "plusPoints": [
+                "214"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "202_206SN_P202",
+        "data": {
+            "encUnitALS": "202_206S_KVN",
+            "plusPoints": [
+                "202",
+                "206"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "327SCH",
+        "data": {
+            "encUnitALS": "327S_KVCH",
+            "plusPoints": [
+                "327"
+            ],
+            "minusPoints": [
+                "315"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "315_319SCH",
+        "data": {
+            "encUnitALS": "315_319S_KVCH",
+            "plusPoints": [
+                "319"
+            ],
+            "minusPoints": [
+                "315"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "309_313SCH",
+        "data": {
+            "encUnitALS": "309_313S_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "305_307SCH",
+        "data": {
+            "encUnitALS": "305_307S_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "301_303SCH",
+        "data": {
+            "encUnitALS": "301_303S_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "208_303PN",
+        "data": {
+            "encUnitALS": "208_303P_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "208_220SN",
+        "data": {
+            "encUnitALS": "208_220S_KVN",
+            "minusPoints": [
+                "208"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "204SN",
+        "data": {
+            "encUnitALS": "204S_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "202_206SN_M202",
+        "data": {
+            "encUnitALS": "202_206S_KVN",
+            "minusPoints": [
+                "202"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "CHNAPN",
+        "data": {
+            "encUnitALS": "CHNAP_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "112SN",
+        "data": {
+            "encUnitALS": "112S_KVN",
+            "plusPoints": [
+                "203",
+                "205"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "M102_110PN",
+        "data": {
+            "encUnitALS": "M102_110P_KVN",
+            "plusPoints": [
+                "203",
+                "205"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "203_207SN",
+        "data": {
+            "encUnitALS": "203_207S_KVN",
+            "plusPoints": [
+                "203",
+                "205"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "3VPN",
+        "data": {
+            "encUnitALS": "3VP_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "203_207SCH",
+        "data": {
+            "encUnitALS": "203_207S_KVCH",
+            "plusPoints": [
+                "203",
+                "205"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "M102_110PCH",
+        "data": {
+            "encUnitALS": "M102_110P_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "112SCH",
+        "data": {
+            "encUnitALS": "112S_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "1LPCH",
+        "data": {
+            "encUnitALS": "1LP_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "102_104SN",
+        "data": {
+            "encUnitALS": "102_104S_KVN",
+            "plusPoints": [
+                "102",
+                "201",
+                "215"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "201SN",
+        "data": {
+            "encUnitALS": "201S_KVN",
+            "plusPoints": [
+                "201",
+                "215"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "2BVPN",
+        "data": {
+            "encUnitALS": "2BVP_KVN",
+            "own": [
+                "IIBVP"
+            ],
+            "freeState": [
+                "215SP",
+                "IIAVP"
+            ],
+            "plusPoints": [
+                "215"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "215SN",
+        "data": {
+            "encUnitALS": "215S_KVN",
+            "own": [
+                "215SP"
+            ],
+            "freeState": [
+                "IIAVP"
+            ],
+            "plusPoints": [
+                "215"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "2AVPN",
+        "data": {
+            "encUnitALS": "2AVP_KVN",
+            "own": [
+                "IIAVP"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "201SCH",
+        "data": {
+            "encUnitALS": "201S_KVCH",
+            "plusPoints": [
+                "102",
+                "201"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "102_104SCH",
+        "data": {
+            "encUnitALS": "102_104S_KVCH",
+            "plusPoints": [
+                "102"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "2LPCH",
+        "data": {
+            "encUnitALS": "2LP_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "336SN",
+        "data": {
+            "encUnitALS": "336S_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "1SPN",
+        "data": {
+            "encUnitALS": "1SP_KVN"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "336SCH",
+        "data": {
+            "encUnitALS": "336S_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "1ASPCH",
+        "data": {
+            "encUnitALS": "1ASP_KVCH"
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "114SN",
+        "data": {
+            "encUnitALS": "114S_KVN",
+            "own": [
+                "114SP"
+            ],
+            "freeState": [
+                "4BLP"
+            ],
+            "plusPoints": [
+                "114"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "114SCH",
+        "data": {
+            "encUnitALS": "114S_KVCH",
+            "own": [
+                "114SP"
+            ],
+            "freeState": [
+                "4ALP"
+            ],
+            "plusPoints": [
+                "114"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "4ALPN",
+        "data": {
+            "encUnitALS": "4ALP_KVN",
+            "own": [
+                "4ALP"
+            ],
+            "freeState": [
+                "114SP",
+                "4BLP"
+            ],
+            "plusPoints": [
+                "114"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "4ALPCH",
+        "data": {
+            "encUnitALS": "4ALP_KVCH",
+            "own": [
+                "4ALP"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "4BLPN",
+        "data": {
+            "encUnitALS": "4BLP_KVN",
+            "own": [
+                "4BLP"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "4BLPCH",
+        "data": {
+            "encUnitALS": "4BLP_KVCH",
+            "own": [
+                "4BLP"
+            ],
+            "freeState": [
+                "114SP",
+                "4ALP"
+            ],
+            "plusPoints": [
+                "114"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "332_334SN",
+        "data": {
+            "encUnitALS": "332_334S_KVN",
+            "own": [
+                "332_334SP"
+            ],
+            "freeState": [
+                "8ASP"
+            ],
+            "plusPoints": [
+                "332"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "332_334SCH",
+        "data": {
+            "encUnitALS": "332_334S_KVCH",
+            "own": [
+                "332_334SP"
+            ],
+            "freeState": [
+                "8BSP"
+            ],
+            "plusPoints": [
+                "332"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "8ASPN",
+        "data": {
+            "encUnitALS": "8ASP_KVN",
+            "own": [
+                "8ASP"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "8ASPCH",
+        "data": {
+            "encUnitALS": "8ASP_KVCH",
+            "own": [
+                "8ASP"
+            ],
+            "freeState": [
+                "332_334SP",
+                "8BSP"
+            ],
+            "plusPoints": [
+                "332"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "8BSPN",
+        "data": {
+            "encUnitALS": "8BSP_KVN",
+            "own": [
+                "8BSP"
+            ],
+            "freeState": [
+                "332_334SP",
+                "8ASP"
+            ],
+            "plusPoints": [
+                "332"
+            ]
+        }
+    },
+    {
+        "class": "PpoTrackEncodingPoint",
+        "tag": "8BSPCH",
+        "data": {
+            "encUnitALS": "8BSP_KVCH",
+            "own": [
+                "8BSP"
+            ]
+        }
+    }
+]

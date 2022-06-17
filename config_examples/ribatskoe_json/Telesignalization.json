@@ -1,0 +1,288 @@
+[
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk4",
+        "data": {
+            "lightSignals": ["N6","N2","N8A","N1","N3","M20","M22","1CH","M2","M4","M6","M8","M10","PCHK","CHK","N7"],
+            "hiCratePointMachines": ["11","15","33","37","41"],
+            "loCratePointMachines": ["4","22","48","44","6"],
+            "controlDeviceDerailmentStocks" : ["iObj_UKSPS_CHK"]
+        }
+    },
+
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk6",
+        "data": {
+            "lightSignals": ["CHM7A","NM8","CHM8A","N4","3CH","N7A","2CHD","4CHD","M12","M14","M16","M18","M24"],
+            "hiCratePointMachines": ["26","20","3","25","29"],
+            "loCratePointMachines": ["42","54","12","34","32"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk8",
+        "data": {
+            "lightSignals": ["M15","M17","M19","M25","M27","M33","M21","M31","M29","M13","CH2","CH6","CH8","M1","M3","M5","M23","CH3A","CHM1","NM9_12"],
+            "hiCratePointMachines": ["24","46","8","28","30"],
+            "loCratePointMachines": ["18","1","5","27","31"],
+            "controlDeviceDerailmentStocks" : ["iObj_UKSPS_1N"]
+        }
+    },
+
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk10",
+        "data": {
+            "lightSignals": ["4ND","1N","2ND","3N","CH11","CH12","M7","M9","M11","CH7","CH1A","NM1A","CH4","NM3","CH5"],
+            "hiCratePointMachines": ["2","14","40","50","52"],
+            "loCratePointMachines": ["13","17","35","39","43"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+
+	{
+        "class": "PpoCabinetUsoBk",
+        "tag": "UsoBk12",
+        "data": {
+            "lightSignals": ["2_2CHP","2_4CHP","3_1NP","1_1NP","2_2NP","4_2NP","6_2NP","2_4NP","4_4NP"],
+            "hiCratePointMachines": ["19","23","47","9","38","16"],
+            "loCratePointMachines": ["21","45","7","36","10"],
+            "controlDeviceDerailmentStocks" : []
+        }
+    },
+
+	{
+        "class": "PpoInsulationResistanceMonitoring",
+        "tag": "ControlIzolation",
+        "data": {
+            "cabinets": ["UsoBk4","UsoBk6","UsoBk8","UsoBk10","UsoBk12"],
+            "addrKI_OK": "USO:2:1:9"
+        }
+    },
+
+	{
+        "class": "PpoPointMachinesCurrentMonitoring",
+        "tag": "KTPS",
+        "data": {
+            "cabinets"   : ["UsoBk4","UsoBk6","UsoBk8","UsoBk10","UsoBk12"],
+            "addrKI_KTPS": "NoAddr"
+        }
+    },
+
+
+
+
+    {
+        "class": "PpoTelesignalization",
+        "tag": "KPP",
+        "data": {
+            "id": "KPP",
+            "indent": "KPP",
+            "idControlArea": "RU",            
+			"iObjTag": "KPP"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "VZU",
+        "data": {
+            "id": "VZU",
+            "indent": "VZU",
+            "idControlArea": "RU",            
+			"iObjTag": "KVZU"
+        }
+    },
+
+    {
+        "class": "PpoTelesignalization",
+        "tag": "ADG",
+        "data": {
+            "id": "ADG",
+            "indent": "ADG",
+            "idControlArea": "RU",            
+			"iObjTag": "ADG"
+        }
+    },
+    {
+        "class": "PpoFireAndSecurityAlarm",
+        "tag": "POS",
+        "data": {
+            "id": "POS",
+            "indent": "POS",
+            "idControlArea": "RU",            
+			"iObjTag": "POS"
+        }
+    },
+    {
+        "class": "PpoPointsMonitoring",
+        "tag": "STRELKI",
+        "data": {
+            "id": "STRELKI",
+            "indent": "STRELKI",
+            "idControlArea": "RU"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "ControlIzolation",
+        "data": {
+            "id": "KSZ",
+            "indent": "KSZ",
+            "idControlArea": "RU",            
+			"iObjTag": "ControlIzolation"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "KTPS",
+        "data": {
+            "id": "KTPS",
+            "indent": "KTPS",
+            "idControlArea": "RU",            
+			"iObjTag": "KTPS"
+        }
+    },
+    {
+        "class": "PpoDieselGenerator",
+        "tag": "DGA",
+        "data": {
+            "id": "DGA",
+            "indent": "DGA",
+            "idControlArea": "RU",            
+			"dieselControl"        : "KT",
+			"startDieselGenerator" : "ZDGA",
+			"stopDieselGenerator"  : "ODGA"
+        }
+    },
+
+    {
+        "class": "PpoLightModeRi",
+        "tag": "DN_DSN",
+        "data": {
+            "addrKI_DN1": "USO:2:1:6",
+            "addrKI_DN2": "SPU:1:20",
+            "addrKI_DSN": "USO:2:1:5",
+
+            "addrUI_DN":  "USO:2:1:7",
+            "addrUI_DSN": "USO:2:1:5",
+            "addrUI_ASV": "USO:2:1:6"
+        }
+    },
+    {
+        "class": "PpoLightMode",
+        "tag": "DN",
+        "data": {
+            "id": "DN",
+            "indent": "DN",
+            "idControlArea": "RU",            
+			"iObjTag": "DN_DSN"
+        }
+    },
+    {
+        "class": "PpoEncodingUnitsMonitoring",
+        "tag": "iObj_ALS",
+        "data": {
+            "generators" : ["1SNGK","1SCHGK","2SNGK","2SCHGK","3SNGK","3SCHGK","4SNGK","4SCHGK","5_7SNGK","5_7SCHGK","6_8ASNGK","6_8SNGK","6_8SCHGK","9_13SNGK","9_13SCHGK","11SNGK","11SCHGK","12SCHGK","14_24SCHGK","15SNGK","15SCHGK","16_34SNGK","16_34SCHGK","17_19SNGK","17_19SCHGK","18_26SNGK","18_26SCHGK","20SNGK","20SCHGK","23SNGK","23SCHGK","27SNGK","27SCHGK","29SNGK","29SCHGK","30SNGK","30SCHGK","31SNGK","31SCHGK","36_40SCHGK","39SNGK","39SCHGK","42SNGK","42SCHGK","44_48SNGK","44_48SCHGK","SH1GK","SH2GK","SH4GK","1NPNGK","1NPCHGK","2NDPNGK","2NDPCHGK","2CHDPNGK","2CHDPCHGK","3NPNGK","3NPCHGK","3NPGK","3CHPNGK","3CHPCHGK","4NDPNGK","4NDPCHGK","4CHDPNGK","4CHDPCHGK","CHKAPCHGK","22_36PCHGK","1PNGK","1PCHGK","1PGK","1APNGK","1APCHGK","2PNGK","2PCHGK","2PGK","3PNGK","3PCHGK","3APNGK","3APCHGK","4PNGK","4PCHGK","4PGK","5PCHGK","6PNGK","6PCHGK","6PGK","7PNGK","7PCHGK","7PGK","7APNGK","7APCHGK","8PNGK","8PCHGK","8PGK","8APNGK","8APCHGK","11PCHGK","11PGK","12PCHGK","12PGK","1N1PGK","1N1_3PGK","1N3_5PGK","1N5_7PGK","1N7_9PGK","1N9_11PGK","1N11_13PGK","1N13PGK","1CH1PGK","1CH1_3PGK","1CH3PGK","2N2PGK","2N2_4PGK","2N4_6PGK","2N6_8PGK","2N8_10PGK","2N10_12PGK","2N12_14PGK","2N14_16PGK","2N16PGK","2CH2PGK","2CH2_4PGK","2CH4_6PGK","2CH6_8PGK","2CH8PGK","3CH1PGK","3CH1_3PGK","3CH3PGK","4N2PGK","4N2_4PGK","4N4_6PGK","4N6_8PGK","4N8_10PGK","4N10_12PGK","4N12PGK","4CH2PGK","4CH2_4PGK","4CH4_6PGK","4CH6PGK"]
+        }
+    },
+    {
+        "class": "PpoTrackSensorsMonitoring",
+        "tag": "iObj_ARC",
+        "data": {
+            "receivers" : ["A1SP","B1SP","A2SP","B2SP","A3SP","B3SP","A4SP","B4SP","A5_7SP","B5_7SP","C5_7SP","A6_8SP","B6_8SP","A9_13SP","B9_13SP","C9_13SP","A10SP","B10SP","A11SP","B11SP","A12SP","B12SP","A14_24SP","B14_24SP","C14_24SP","D14_24SP","A15SP","B15SP","A16_34SP","B16_34SP","C16_34SP","D16_34SP","A17_19SP","B17_19SP","C17_19SP","A18_26SP","B18_26SP","C18_26SP","A20SP","B20SP","A21SP","B21SP","A23SP","B23SP","A25SP","B25SP","A27SP","B27SP","A29SP","B29SP","A30SP","B30SP","A31SP","B31SP","A32SP","B32SP","A33_37SP","B33_37SP","C33_37SP","A36_40SP","B36_40SP","C36_40SP","A38SP","B38SP","A39SP","B39SP","A41SP","B41SP","A42SP","B42SP","A43_47SP","B43_47SP","C43_47SP","D43_47SP","A44_48SP","B44_48SP","C44_48SP","A50SP","B50SP","A52SP","B52SP","54SP","1NP","1CHP","2NDP","2CHDP","A3NP","B3NP","3CHP","4NDP","4CHDP","CHKAP","M15P","M21P","M21_31P","22_36P","M23P","M33P","A1P","B1P","1AP","A2P","B2P","3P","3AP","A4P","B4P","5P","A6P","B6P","A7P","B7P","7AP","A8P","B8P","8AP","9P","10P","A11P","B11P","A12P","B12P","1N1P","1N3P","1N5P","1N7P","1N9P","1N11P","1N13P","1CH1P","1CH3P","2N2P","2N4P","2N6P","2N8P","2N10P","2N12P","2N14P","2N16P","2CH2P","2CH4P","2CH6P","2CH8P","3CH1P","3CH3P","4N2P","4N4P","4N6P","4N8P","4N10P","4N12P","4CH2P","4CH4P","4CH6P"]
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "ALS",
+        "data": {
+            "id": "ALS",
+            "indent": "ALS",
+            "idControlArea": "RU",            
+			"iObjTag": "iObj_ALS"
+        }
+    },
+    {
+        "class": "PpoIndicationGroupTrackSensors",
+        "tag": "ARC",
+        "data": {
+            "id": "ARC",
+            "indent": "ARC",
+            "idControlArea": "RU",            
+			"iObjTag": "iObj_ARC"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "KKL",
+        "data": {
+            "id": "KKL",
+            "indent": "KKL",
+            "idControlArea": "RU",            
+			"iObjTag": "KKL"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "APU_SPSM",
+        "data": {
+            "id": "APU_SPSM",
+            "indent": "APU_SPSM",
+            "idControlArea": "RU",
+			"iObjTag": "KIP"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "APU",
+        "data": {
+            "id": "APU",
+            "indent": "APU",
+            "idControlArea": "RU",
+			"iObjTag": "APU"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "SCHVP",
+        "data": {
+            "id": "SCHVP",
+            "indent": "SCHVP",
+            "idControlArea": "RU",
+			"iObjTag": "SCHVP"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "F1",
+        "data": {
+            "id": "F1",
+            "indent": "F1",
+            "idControlArea": "RU",
+			"iObjTag": "F1"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "F2",
+        "data": {
+            "id": "F2",
+            "indent": "F2",
+            "idControlArea": "RU",
+			"iObjTag": "F2"
+        }
+    },
+    {
+        "class": "PpoTelesignalization",
+        "tag": "DGA",
+        "data": {
+            "id": "DGA",
+            "indent": "DGA",
+            "idControlArea": "RU",
+			"iObjTag": "DGA"
+        }
+    }
+]

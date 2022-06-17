@@ -1,0 +1,1630 @@
+[   {
+		"tag": "1SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1SNGK",
+			"plusPoints": ["1"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1SCHGK",
+			"plusPoints": ["1"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2SNGK",
+			"plusPoints": ["2"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2SCHGK",
+			"plusPoints": ["2"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3SNGK",
+			"plusPoints": ["3", "9", "13", "23"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3SCHGK",
+			"plusPoints": ["3"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4SNGK",
+			"plusPoints": ["4"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4SCHGK",
+			"plusPoints": ["4", "18", "26", "30"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "5_7SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "5_7SNGK",
+			"plusPoints": ["5", "7", "17", "21", "27"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "5_7SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "5_7SCHGK",
+			"plusPoints": ["5", "7"],
+			"codeGenerationMode": "PreliminaryKZO",
+			"codeGenerationDirection": "BranchA"
+		}
+	},
+	{
+		"tag": "6_8ASN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "6_8ASNGK",
+			"plusPoints": ["6", "8"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "6_8SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "6_8SNGK",
+			"minusPoints": ["6", "8"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "6_8SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "6_8SCHGK",
+			"plusPoints": ["34", "38"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "9_13SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "9_13SNGK",
+			"plusPoints": ["9", "13", "23"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "9_13SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "9_13SCHGK",
+			"plusPoints": ["9", "13", "3"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "10SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "SH2GK",
+			"plusPoints": ["10", "34", "38"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "11SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "11SNGK",
+			"plusPoints": ["11", "17", "21", "27"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "11SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "11SCHGK",
+			"plusPoints": ["11"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "12SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "12SCHGK",
+			"plusPoints": ["12", "14", "22", "40"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "14_24SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "14_24SCHGK",
+			"plusPoints": ["14", "22", "40"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "15SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "15SNGK",
+			"plusPoints": ["15"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "15SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "15SCHGK",
+			"plusPoints": ["15"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "16_34SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "16_34SNGK",
+			"plusPoints": ["16", "28", "34"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "16_34SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "16_34SCHGK",
+			"plusPoints": ["16", "28", "34", "38"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "17_19SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "17_19SNGK",
+			"plusPoints": ["17", "21", "27"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "17_19SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "17_19SCHGK",
+			"plusPoints": ["11", "17"],
+			"codeGenerationMode": "PreliminaryKZO",
+			"codeGenerationDirection": "BranchA"
+		}
+	},
+	{
+		"tag": "18_26SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "18_26SNGK",
+			"plusPoints": ["4", "18", "26"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "18_26SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "18_26SCHGK",
+			"plusPoints": ["18", "26", "30"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "20SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "20SNGK",
+			"plusPoints": ["20"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "20SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "20SCHGK",
+			"plusPoints": ["20"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "21SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "SH1GK",
+			"plusPoints": ["11", "21", "25"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "23SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "23SNGK",
+			"plusPoints": ["23"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "23SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "23SCHGK",
+			"plusPoints": ["3", "23"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "25SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "SH1GK",
+			"plusPoints": ["21", "25", "27"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "27SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "27SNGK",
+			"plusPoints": ["27"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "27SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "27SCHGK",
+			"plusPoints": ["11", "25", "27"],
+			"codeGenerationMode": "PreliminaryKZO",
+			"codeGenerationDirection": "BranchA"
+		}
+	},
+	{
+		"tag": "29SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "29SNGK",
+			"plusPoints": ["29"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "29SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "29SCHGK",
+			"plusPoints": ["29"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "30SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "30SNGK",
+			"plusPoints": ["4", "30"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "30SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "30SCHGK",
+			"plusPoints": ["30"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "31SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "31SNGK",
+			"plusPoints": ["31"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "31SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "31SCHGK",
+			"plusPoints": ["31"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "32SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "SH4GK",
+			"plusPoints": ["16", "28", "32"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "36_40SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "36_40SCHGK",
+			"plusPoints": ["36", "40"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "38SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "SH4GK",
+			"plusPoints": ["38"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "39SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "39SNGK",
+			"signalUnit": "N3",
+			"own": ["A39SP", "B39SP"],
+			"freeState": ["3P"],
+			"plusPoints": ["39"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "39SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "39SCHGK",
+			"signalUnit": "CH3A",
+			"own": ["A39SP", "B39SP"],
+			"freeState": ["3AP"],
+			"plusPoints": ["39"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "42SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "42SNGK",
+			"plusPoints": ["42"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "42SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "42SCHGK",
+			"plusPoints": ["42"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "44_48SN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "44_48SNGK",
+			"plusPoints": ["44", "46"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "44_48SCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "44_48SCHGK",
+			"plusPoints": ["44", "46"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1NPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1NPNGK",
+			"plusPoints": ["1"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1NPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1NPCHGK",
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1CHPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "SH2GK",
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2NDPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2NDPNGK",
+			"plusPoints": ["9", "13", "23"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2NDPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2NDPCHGK",
+			"own": ["2NDP"],
+			"signalUnit": "6_2NP",
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2CHDPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2CHDPNGK",
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2CHDPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2CHDPCHGK",
+			"plusPoints": ["2"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3NPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3NPNGK",
+			"signalUnit": "NM3",
+			"own": ["A3NP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3NPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3NPCHGK",
+			"signalUnit": "CHDR",
+			"own": ["B3NP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3NP_1",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3NPGK",
+			"signalUnit": "NM3",
+			"own": ["B3NP"],
+			"freeState": ["A3NP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3NP_2",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3NPGK",
+			"signalUnit": "CHDR",
+			"own": ["A3NP"],
+			"freeState": ["B3NP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3CHPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3CHPNGK",
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3CHPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3CHPCHGK",
+			"plusPoints": ["34", "38"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4NDPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4NDPNGK",
+			"plusPoints": ["5", "7", "17", "21", "27"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4NDPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4NDPCHGK",
+			"own": ["4NDP"],
+			"signalUnit": "4_4NP",
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4CHDPN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4CHDPNGK",
+			"own": ["4CHDP"],
+			"signalUnit": "2_4CHP",
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4CHDPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4CHDPCHGK",
+			"plusPoints": ["18", "26", "30"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "CHKAPCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "CHKAPCHGK",
+			"plusPoints": ["14", "22", "40"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "22_36PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "22_36PCHGK",
+			"plusPoints": ["40"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1PNGK",
+			"signalUnit": "N1",
+			"own": ["A1P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1PCHGK",
+			"signalUnit": "CHM1",
+			"own": ["B1P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1P_1",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1PGK",
+			"signalUnit": "N1",
+			"own": ["B1P"],
+			"freeState": ["A1P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1P_2",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1PGK",
+			"signalUnit": "CHM1",
+			"own": ["A1P"],
+			"freeState": ["B1P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1APN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1APNGK",
+			"signalUnit": "NM1A",
+			"own": ["1AP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1APCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1APCHGK",
+			"signalUnit": "CH1A",
+			"own": ["1AP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2PNGK",
+			"signalUnit": "N2",
+			"own": ["A2P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2PCHGK",
+			"signalUnit": "CH2",
+			"own": ["B2P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2P_1",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2PGK",
+			"signalUnit": "N2",
+			"own": ["B2P"],
+			"freeState": ["A2P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "2P_2",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "2PGK",
+			"signalUnit": "CH2",
+			"own": ["A2P"],
+			"freeState": ["B2P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3PNGK",
+			"signalUnit": "N3",
+			"own": ["3P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3PCHGK",
+			"signalUnit": "CH3A",
+			"own": ["3P"],
+			"freeState": ["3AP", "A39SP", "B39SP"],
+			"plusPoints": ["39"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3APN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3APNGK",
+			"signalUnit": "N3",
+			"own": ["3AP"],
+			"freeState": ["3P", "A39SP", "B39SP"],
+			"plusPoints": ["39"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "3APCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "3APCHGK",
+			"signalUnit": "CH3A",
+			"own": ["3AP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4PNGK",
+			"signalUnit": "N4",
+			"own": ["A4P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4PCHGK",
+			"signalUnit": "CH4",
+			"own": ["B4P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4P_1",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4PGK",
+			"signalUnit": "N4",
+			"own": ["B4P"],
+			"freeState": ["A4P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "4P_2",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "4PGK",
+			"signalUnit": "CH4",
+			"own": ["A4P"],
+			"freeState": ["B4P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "5PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "5PCHGK",
+			"signalUnit": "CH5",
+			"own": ["5P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "6PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "6PNGK",
+			"signalUnit": "N6",
+			"own": ["A6P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "6PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "6PCHGK",
+			"signalUnit": "CH6",
+			"own": ["B6P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "6P_1",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "6PGK",
+			"signalUnit": "N6",
+			"own": ["B6P"],
+			"freeState": ["A6P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "6P_2",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "6PGK",
+			"signalUnit": "CH6",
+			"own": ["A6P"],
+			"freeState": ["B6P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "7PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "7PNGK",
+			"signalUnit": "N7",
+			"own": ["A7P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "7PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "7PCHGK",
+			"signalUnit": "CH7",
+			"own": ["B7P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "7P_1",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "7PGK",
+			"signalUnit": "N7",
+			"own": ["B7P"],
+			"freeState": ["A7P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "7P_2",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "7PGK",
+			"signalUnit": "CH7",
+			"own": ["A7P"],
+			"freeState": ["B7P"],
+            "plusPoints": ["42"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "7APN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "7APNGK",
+			"signalUnit": "N7A",
+			"own": ["7AP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "7APCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "7APCHGK",
+			"signalUnit": "CHM7A",
+			"own": ["7AP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "8PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "8PNGK",
+			"signalUnit": "NM8",
+			"own": ["A8P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "8PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "8PCHGK",
+			"signalUnit": "CH8",
+			"own": ["B8P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "8P_1",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "8PGK",
+			"signalUnit": "NM8",
+			"own": ["B8P"],
+			"freeState": ["A8P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "8P_2",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "8PGK",
+			"signalUnit": "CH8",
+			"own": ["A8P"],
+			"freeState": ["B8P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "8APN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "8APNGK",
+			"signalUnit": "N8A",
+			"own": ["8AP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "8APCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "8APCHGK",
+			"signalUnit": "CHM8A",
+			"own": ["8AP"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "11PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "11PCHGK",
+			"signalUnit": "CH11",
+			"own": ["B11P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "11P",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "11PGK",
+			"signalUnit": "CH11",
+			"own": ["A11P"],
+			"freeState": ["B11P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "12PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "12PCHGK",
+			"signalUnit": "CH12",
+			"own": ["B12P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "12P",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "12PGK",
+			"signalUnit": "CH12",
+			"own": ["A12P"],
+			"freeState": ["B12P"],
+			"codeGenerationMode": "Always"
+		}
+	},
+	{
+		"tag": "1N1PN",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1N1PGK",
+			"codeGenerationMode": "OnWhenBusy",
+			"codeGenerationDirection": "Odd"
+		}
+	},
+	{
+		"tag": "1N1PCH",
+		"class": "PpoTrackEncodingPoint",
+		"data": {
+			"encUnitALS": "1N1_3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+			"codeGenerationDirection": "Even"
+		}
+	},
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N3PN",
+		"data": {
+			"encUnitALS": "1N1_3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N3PCH",
+		"data": {
+			"encUnitALS": "1N3_5PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N5PN",
+		"data": {
+			"encUnitALS": "1N3_5PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N5PCH",
+		"data": {
+			"encUnitALS": "1N5_7PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N7PN",
+		"data": {
+			"encUnitALS": "1N5_7PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N7PCH",
+		"data": {
+			"encUnitALS": "1N7_9PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N9PN",
+		"data": {
+			"encUnitALS": "1N7_9PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N9PCH",
+		"data": {
+			"encUnitALS": "1N9_11PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N11PN",
+		"data": {
+			"encUnitALS": "1N9_11PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N11PCH",
+		"data": {
+			"encUnitALS": "1N11_13PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N13PN",
+		"data": {
+			"encUnitALS": "1N11_13PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1N13PCH",
+		"data": {
+			"encUnitALS": "1N13PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N2PN",
+		"data": {
+			"encUnitALS": "2N2PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N2PCH",
+		"data": {
+			"encUnitALS": "2N2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N4PN",
+		"data": {
+			"encUnitALS": "2N2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N4PCH",
+		"data": {
+			"encUnitALS": "2N4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N6PN",
+		"data": {
+			"encUnitALS": "2N4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N6PCH",
+		"data": {
+			"encUnitALS": "2N6_8PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N8PN",
+		"data": {
+			"encUnitALS": "2N6_8PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N8PCH",
+		"data": {
+			"encUnitALS": "2N8_10PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N10PN",
+		"data": {
+			"encUnitALS": "2N8_10PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N10PCH",
+		"data": {
+			"encUnitALS": "2N10_12PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N12PN",
+		"data": {
+			"encUnitALS": "2N10_12PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N12PCH",
+		"data": {
+			"encUnitALS": "2N12_14PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N14PN",
+		"data": {
+			"encUnitALS": "2N12_14PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N14PCH",
+		"data": {
+			"encUnitALS": "2N14_16PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N16PN",
+		"data": {
+			"encUnitALS": "2N14_16PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2N16PCH",
+		"data": {
+			"encUnitALS": "2N16PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N2PN",
+		"data": {
+			"encUnitALS": "4N2PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N2PCH",
+		"data": {
+			"encUnitALS": "4N2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N4PN",
+		"data": {
+			"encUnitALS": "4N2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N4PCH",
+		"data": {
+			"encUnitALS": "4N4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N6PN",
+		"data": {
+			"encUnitALS": "4N4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N6PCH",
+		"data": {
+			"encUnitALS": "4N6_8PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N8PN",
+		"data": {
+			"encUnitALS": "4N6_8PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N8PCH",
+		"data": {
+			"encUnitALS": "4N8_10PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N10PN",
+		"data": {
+			"encUnitALS": "4N8_10PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N10PCH",
+		"data": {
+			"encUnitALS": "4N10_12PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N12PN",
+		"data": {
+			"encUnitALS": "4N10_12PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4N12PCH",
+		"data": {
+			"encUnitALS": "4N12PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1CH1PCH",
+		"data": {
+			"encUnitALS": "1CH1PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1CH1PN",
+		"data": {
+			"encUnitALS": "1CH1_3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1CH3PCH",
+		"data": {
+			"encUnitALS": "1CH1_3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "1CH3PN",
+		"data": {
+			"encUnitALS": "1CH3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH2PCH",
+		"data": {
+			"encUnitALS": "2CH2PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH2PN",
+		"data": {
+			"encUnitALS": "2CH2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH4PCH",
+		"data": {
+			"encUnitALS": "2CH2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH4PN",
+		"data": {
+			"encUnitALS": "2CH4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH6PCH",
+		"data": {
+			"encUnitALS": "2CH4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH6PN",
+		"data": {
+			"encUnitALS": "2CH6_8PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH8PCH",
+		"data": {
+			"encUnitALS": "2CH6_8PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "2CH8PN",
+		"data": {
+			"encUnitALS": "2CH8PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "3CH1PCH",
+		"data": {
+			"encUnitALS": "3CH1PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "3CH1PN",
+		"data": {
+			"encUnitALS": "3CH1_3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "3CH3PCH",
+		"data": {
+			"encUnitALS": "3CH1_3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "3CH3PN",
+		"data": {
+			"encUnitALS": "3CH3PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4CH2PCH",
+		"data": {
+			"encUnitALS": "4CH2PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4CH2PN",
+		"data": {
+			"encUnitALS": "4CH2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4CH4PCH",
+		"data": {
+			"encUnitALS": "4CH2_4PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4CH4PN",
+		"data": {
+			"encUnitALS": "4CH4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4CH6PCH",
+		"data": {
+			"encUnitALS": "4CH4_6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Even"
+         }
+      },
+      {
+         "class": "PpoTrackEncodingPoint",
+         "tag": "4CH6PN",
+		"data": {
+			"encUnitALS": "4CH6PGK",
+			"codeGenerationMode": "OnWhenBusy",
+            "codeGenerationDirection": "Odd"
+         }
+      }
+]

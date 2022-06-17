@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<ObjectsId  Version="2.0"  SummaryBitSize="8840" >
+
+    <!-- File created: 2021.12.15 14:53:57 - Number of objects: 370 -->
+
+    <Obj  Type="RU"      Tag="LEN_VIT"     Name="Парк &quot;Л&quot; и &quot;В&quot;"  Hint=""                           Id="1031"  Indent="32"    BitSize="24" Default="Y" />
+    <Obj  Type="RU"      Tag="SEBEZH"      Name="Парк &quot;С&quot;"                  Hint=""                           Id="1032"  Indent="56"    BitSize="24" />
+    <Obj  Type="SvP"     Tag="NSH"         Name="НШ"                                  Hint="(ПК4201+68)"                Id="1100"  Indent="80"    BitSize="24" />
+    <Obj  Type="SvPv"    Tag="PNML2"       Name="ПНМЛ2"                               Hint=""                           Id="1192"  Indent="104"   BitSize="24" />
+    <Obj  Type="SvPr"    Tag="PNV"         Name="ПНВ"                                 Hint=""                           Id="1301"  Indent="128"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV1"         Name="НВ1"                                 Hint=""                           Id="1111"  Indent="152"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV2"         Name="НВ2"                                 Hint=""                           Id="1112"  Indent="176"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV3"         Name="НВ3"                                 Hint=""                           Id="1113"  Indent="200"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV4"         Name="НВ4"                                 Hint=""                           Id="1114"  Indent="224"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV5"         Name="НВ5"                                 Hint=""                           Id="1115"  Indent="248"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV6"         Name="НВ6"                                 Hint=""                           Id="1116"  Indent="272"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV7"         Name="НВ7"                                 Hint=""                           Id="1117"  Indent="296"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NML1"        Name="НМЛ1"                                Hint=""                           Id="1121"  Indent="320"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NML2"        Name="НМЛ2"                                Hint=""                           Id="1122"  Indent="344"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NML3"        Name="НМЛ3"                                Hint=""                           Id="1123"  Indent="368"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NML4"        Name="НМЛ4"                                Hint=""                           Id="1124"  Indent="392"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHN"         Name="ЧН"                                  Hint="(ПК4236+40)"                Id="1200"  Indent="416"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHL1"        Name="ЧЛ1"                                 Hint=""                           Id="1211"  Indent="440"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHL2"        Name="ЧЛ2"                                 Hint=""                           Id="1212"  Indent="464"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHL3"        Name="ЧЛ3"                                 Hint=""                           Id="1213"  Indent="488"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHL4"        Name="ЧЛ4"                                 Hint=""                           Id="1214"  Indent="512"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHMV2"       Name="ЧМВ2"                                Hint=""                           Id="1222"  Indent="536"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHMV3"       Name="ЧМВ3"                                Hint=""                           Id="1223"  Indent="560"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHMV4"       Name="ЧМВ4"                                Hint=""                           Id="1224"  Indent="584"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHMV5"       Name="ЧМВ5"                                Hint=""                           Id="1225"  Indent="608"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHMV6"       Name="ЧМВ6"                                Hint=""                           Id="1226"  Indent="632"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHMV7"       Name="ЧМВ7"                                Hint=""                           Id="1227"  Indent="656"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NV"          Name="НВ"                                  Hint="(ПК5046+74)"                Id="1300"  Indent="680"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS1"         Name="НС1"                                 Hint=""                           Id="1311"  Indent="704"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS2"         Name="НС2"                                 Hint=""                           Id="1312"  Indent="728"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS3"         Name="НС3"                                 Hint=""                           Id="1313"  Indent="752"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS4"         Name="НС4"                                 Hint=""                           Id="1314"  Indent="776"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS5"         Name="НС5"                                 Hint=""                           Id="1315"  Indent="800"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS6"         Name="НС6"                                 Hint=""                           Id="1316"  Indent="824"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS7"         Name="НС7"                                 Hint=""                           Id="1317"  Indent="848"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="NS8"         Name="НС8"                                 Hint=""                           Id="1318"  Indent="872"   BitSize="24" />
+    <Obj  Type="SvPr"    Tag="PCHS"        Name="ПЧС"                                 Hint=""                           Id="1401"  Indent="896"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS"         Name="ЧС"                                  Hint="(ПК5070+82)"                Id="1400"  Indent="920"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS1"        Name="ЧС1"                                 Hint=""                           Id="1411"  Indent="944"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS2"        Name="ЧС2"                                 Hint=""                           Id="1412"  Indent="968"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS3"        Name="ЧС3"                                 Hint=""                           Id="1413"  Indent="992"   BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS4"        Name="ЧС4"                                 Hint=""                           Id="1414"  Indent="1016"  BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS5"        Name="ЧС5"                                 Hint=""                           Id="1415"  Indent="1040"  BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS6"        Name="ЧС6"                                 Hint=""                           Id="1416"  Indent="1064"  BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS7"        Name="ЧС7"                                 Hint=""                           Id="1417"  Indent="1088"  BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHS8"        Name="ЧС8"                                 Hint=""                           Id="1418"  Indent="1112"  BitSize="24" />
+    <Obj  Type="SvPv"    Tag="PCHS3"       Name="ПЧС3"                                Hint=""                           Id="1493"  Indent="1136"  BitSize="24" />
+    <Obj  Type="SvP"     Tag="NMS1"        Name="НМС1"                                Hint=""                           Id="1321"  Indent="1160"  BitSize="24" />
+    <Obj  Type="SvP"     Tag="CHMS1"       Name="ЧМС1"                                Hint=""                           Id="1421"  Indent="1184"  BitSize="24" />
+    <Obj  Type="AdjAB"   Tag="NSHP"        Name="НШП"                                 Hint=""                           Id="1501"  Indent="1208"  BitSize="24" />
+    <Obj  Type="AdjPAB"  Tag="NVP"         Name="НВП"                                 Hint=""                           Id="1503"  Indent="1232"  BitSize="24" />
+    <Obj  Type="UKSPS"   Tag="NSHUKSPS"    Name="НШУКСПС"                             Hint="(1:ПК4164+00 2:ПК4183+80)"  Id="1511"  Indent="1256"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M1"          Name="М1"                                  Hint=""                           Id="2001"  Indent="1280"  BitSize="24" />
+    <Obj  Type="Vkn"     Tag="V1"          Name="В1"                                  Hint=""                           Id="1901"  Indent="0"     BitSize="0"  />
+    <Obj  Type="AdjAB"   Tag="CHNP"        Name="ЧНП"                                 Hint=""                           Id="1502"  Indent="1304"  BitSize="24" />
+    <Obj  Type="UKSPS"   Tag="CHNUKSPS"    Name="ЧНУКСПС"                             Hint="(1:ПК4279+25 2:ПК4253+25)"  Id="1512"  Indent="1328"  BitSize="24" />
+    <Obj  Type="UKSPS"   Tag="NVUKSPS"     Name="НВУКСПС"                             Hint="(1:ПК5007+70 2:ПК5025+00)"  Id="1513"  Indent="1352"  BitSize="24" />
+    <Obj  Type="AdjPAB"  Tag="CHSP"        Name="ЧСП"                                 Hint=""                           Id="1504"  Indent="1376"  BitSize="24" />
+    <Obj  Type="Vkn"     Tag="V2"          Name="В2"                                  Hint=""                           Id="1902"  Indent="0"     BitSize="0"  />
+    <Obj  Type="Vkn"     Tag="V4"          Name="В4"                                  Hint=""                           Id="1904"  Indent="0"     BitSize="0"  />
+    <Obj  Type="SvM"     Tag="M2"          Name="М2"                                  Hint=""                           Id="2002"  Indent="1400"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M3"          Name="М3"                                  Hint=""                           Id="2003"  Indent="1424"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M13"         Name="М13"                                 Hint=""                           Id="2013"  Indent="1448"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M101"        Name="М101"                                Hint=""                           Id="2101"  Indent="1472"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M102"        Name="М102"                                Hint=""                           Id="2102"  Indent="1496"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M103"        Name="М103"                                Hint=""                           Id="2103"  Indent="1520"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M104"        Name="М104"                                Hint=""                           Id="2104"  Indent="1544"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M105"        Name="М105"                                Hint=""                           Id="2105"  Indent="1568"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M106"        Name="М106"                                Hint=""                           Id="2106"  Indent="1592"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M107"        Name="М107"                                Hint=""                           Id="2107"  Indent="1616"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M108"        Name="М108"                                Hint=""                           Id="2108"  Indent="1640"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M109"        Name="М109"                                Hint=""                           Id="2109"  Indent="1664"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M110"        Name="М110"                                Hint=""                           Id="2110"  Indent="1688"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M111"        Name="М111"                                Hint=""                           Id="2111"  Indent="1712"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M112"        Name="М112"                                Hint=""                           Id="2112"  Indent="1736"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M113"        Name="М113"                                Hint=""                           Id="2113"  Indent="1760"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M114"        Name="М114"                                Hint=""                           Id="2114"  Indent="1784"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M115"        Name="М115"                                Hint=""                           Id="2115"  Indent="1808"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M116"        Name="М116"                                Hint=""                           Id="2116"  Indent="1832"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M117"        Name="М117"                                Hint=""                           Id="2117"  Indent="1856"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M119"        Name="М119"                                Hint=""                           Id="2119"  Indent="1880"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M121"        Name="М121"                                Hint=""                           Id="2121"  Indent="1904"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M123"        Name="М123"                                Hint=""                           Id="2123"  Indent="1928"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M125"        Name="М125"                                Hint=""                           Id="2125"  Indent="1952"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M127"        Name="М127"                                Hint=""                           Id="2127"  Indent="1976"  BitSize="24" />
+    <Obj  Type="UKSPS"   Tag="CHSUKSPS"    Name="ЧСУКСПС"                             Hint="(1:ПК5099+07 2:ПК5089+07)"  Id="1514"  Indent="2000"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M201"        Name="М201"                                Hint=""                           Id="2201"  Indent="2024"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M202"        Name="М202"                                Hint=""                           Id="2202"  Indent="2048"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M203"        Name="М203"                                Hint=""                           Id="2203"  Indent="2072"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M204"        Name="М204"                                Hint=""                           Id="2204"  Indent="2096"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M205"        Name="М205"                                Hint=""                           Id="2205"  Indent="2120"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M206"        Name="М206"                                Hint=""                           Id="2206"  Indent="2144"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M207"        Name="М207"                                Hint=""                           Id="2207"  Indent="2168"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M208"        Name="М208"                                Hint=""                           Id="2208"  Indent="2192"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M209"        Name="М209"                                Hint=""                           Id="2209"  Indent="2216"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M210"        Name="М210"                                Hint=""                           Id="2210"  Indent="2240"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M211"        Name="М211"                                Hint=""                           Id="2211"  Indent="2264"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M212"        Name="М212"                                Hint=""                           Id="2212"  Indent="2288"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M213"        Name="М213"                                Hint=""                           Id="2213"  Indent="2312"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M214"        Name="М214"                                Hint=""                           Id="2214"  Indent="2336"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M216"        Name="М216"                                Hint=""                           Id="2216"  Indent="2360"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M218"        Name="М218"                                Hint=""                           Id="2218"  Indent="2384"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M301"        Name="М301"                                Hint=""                           Id="2301"  Indent="2408"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M302"        Name="М302"                                Hint=""                           Id="2302"  Indent="2432"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M303"        Name="М303"                                Hint=""                           Id="2303"  Indent="2456"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M304"        Name="М304"                                Hint=""                           Id="2304"  Indent="2480"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M305"        Name="М305"                                Hint=""                           Id="2305"  Indent="2504"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M306"        Name="М306"                                Hint=""                           Id="2306"  Indent="2528"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M307"        Name="М307"                                Hint=""                           Id="2307"  Indent="2552"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M308"        Name="М308"                                Hint=""                           Id="2308"  Indent="2576"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M309"        Name="М309"                                Hint=""                           Id="2309"  Indent="2600"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M310"        Name="М310"                                Hint=""                           Id="2310"  Indent="2624"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M311"        Name="М311"                                Hint=""                           Id="2311"  Indent="2648"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M312"        Name="М312"                                Hint=""                           Id="2312"  Indent="2672"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M313"        Name="М313"                                Hint=""                           Id="2313"  Indent="2696"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M314"        Name="М314"                                Hint=""                           Id="2314"  Indent="2720"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M315"        Name="М315"                                Hint=""                           Id="2315"  Indent="2744"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M316"        Name="М316"                                Hint=""                           Id="2316"  Indent="2768"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M317"        Name="М317"                                Hint=""                           Id="2317"  Indent="2792"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M318"        Name="М318"                                Hint=""                           Id="2318"  Indent="2816"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M319"        Name="М319"                                Hint=""                           Id="2319"  Indent="2840"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M320"        Name="М320"                                Hint=""                           Id="2320"  Indent="2864"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M321"        Name="М321"                                Hint=""                           Id="2321"  Indent="2888"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M322"        Name="М322"                                Hint=""                           Id="2322"  Indent="2912"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M323"        Name="М323"                                Hint=""                           Id="2323"  Indent="2936"  BitSize="24" />
+    <Obj  Type="SvM"     Tag="M324"        Name="М324"                                Hint=""                           Id="2324"  Indent="2960"  BitSize="24" />
+    <Obj  Type="Str"     Tag="101"         Name="101"                                 Hint=""                           Id="3101"  Indent="2984"  BitSize="24" />
+    <Obj  Type="Str"     Tag="102"         Name="102"                                 Hint=""                           Id="3102"  Indent="3008"  BitSize="24" />
+    <Obj  Type="Str"     Tag="103"         Name="103"                                 Hint=""                           Id="3103"  Indent="3032"  BitSize="24" />
+    <Obj  Type="Str"     Tag="104"         Name="104"                                 Hint=""                           Id="3104"  Indent="3056"  BitSize="24" />
+    <Obj  Type="Str"     Tag="105"         Name="105"                                 Hint=""                           Id="3105"  Indent="3080"  BitSize="24" />
+    <Obj  Type="Str"     Tag="106"         Name="106"                                 Hint=""                           Id="3106"  Indent="3104"  BitSize="24" />
+    <Obj  Type="Str"     Tag="107"         Name="107"                                 Hint=""                           Id="3107"  Indent="3128"  BitSize="24" />
+    <Obj  Type="Str"     Tag="108"         Name="108"                                 Hint=""                           Id="3108"  Indent="3152"  BitSize="24" />
+    <Obj  Type="Str"     Tag="109"         Name="109"                                 Hint=""                           Id="3109"  Indent="3176"  BitSize="24" />
+    <Obj  Type="Str"     Tag="110"         Name="110"                                 Hint=""                           Id="3110"  Indent="3200"  BitSize="24" />
+    <Obj  Type="Str"     Tag="111"         Name="111"                                 Hint=""                           Id="3111"  Indent="3224"  BitSize="24" />
+    <Obj  Type="Str"     Tag="112"         Name="112"                                 Hint=""                           Id="3112"  Indent="3248"  BitSize="24" />
+    <Obj  Type="Str"     Tag="113"         Name="113"                                 Hint=""                           Id="3113"  Indent="3272"  BitSize="24" />
+    <Obj  Type="Str"     Tag="114"         Name="114"                                 Hint=""                           Id="3114"  Indent="3296"  BitSize="24" />
+    <Obj  Type="Str"     Tag="115"         Name="115"                                 Hint=""                           Id="3115"  Indent="3320"  BitSize="24" />
+    <Obj  Type="Str"     Tag="117"         Name="117"                                 Hint=""                           Id="3117"  Indent="3344"  BitSize="24" />
+    <Obj  Type="Str"     Tag="119"         Name="119"                                 Hint=""                           Id="3119"  Indent="3368"  BitSize="24" />
+    <Obj  Type="Str"     Tag="201"         Name="201"                                 Hint=""                           Id="3201"  Indent="3392"  BitSize="24" />
+    <Obj  Type="Str"     Tag="202"         Name="202"                                 Hint=""                           Id="3202"  Indent="3416"  BitSize="24" />
+    <Obj  Type="Str"     Tag="203"         Name="203"                                 Hint=""                           Id="3203"  Indent="3440"  BitSize="24" />
+    <Obj  Type="Str"     Tag="204"         Name="204"                                 Hint=""                           Id="3204"  Indent="3464"  BitSize="24" />
+    <Obj  Type="Str"     Tag="205"         Name="205"                                 Hint=""                           Id="3205"  Indent="3488"  BitSize="24" />
+    <Obj  Type="Str"     Tag="206"         Name="206"                                 Hint=""                           Id="3206"  Indent="3512"  BitSize="24" />
+    <Obj  Type="Str"     Tag="207"         Name="207"                                 Hint=""                           Id="3207"  Indent="3536"  BitSize="24" />
+    <Obj  Type="Str"     Tag="208"         Name="208"                                 Hint=""                           Id="3208"  Indent="3560"  BitSize="24" />
+    <Obj  Type="Str"     Tag="209"         Name="209"                                 Hint=""                           Id="3209"  Indent="3584"  BitSize="24" />
+    <Obj  Type="Str"     Tag="210"         Name="210"                                 Hint=""                           Id="3210"  Indent="3608"  BitSize="24" />
+    <Obj  Type="Str"     Tag="211"         Name="211"                                 Hint=""                           Id="3211"  Indent="3632"  BitSize="24" />
+    <Obj  Type="Str"     Tag="212"         Name="212"                                 Hint=""                           Id="3212"  Indent="3656"  BitSize="24" />
+    <Obj  Type="Str"     Tag="213"         Name="213"                                 Hint=""                           Id="3213"  Indent="3680"  BitSize="24" />
+    <Obj  Type="Str"     Tag="214"         Name="214"                                 Hint=""                           Id="3214"  Indent="3704"  BitSize="24" />
+    <Obj  Type="Str"     Tag="215"         Name="215"                                 Hint=""                           Id="3215"  Indent="3728"  BitSize="24" />
+    <Obj  Type="Str"     Tag="216"         Name="216"                                 Hint=""                           Id="3216"  Indent="3752"  BitSize="24" />
+    <Obj  Type="Str"     Tag="217SO"       Name="217СО"                               Hint=""                           Id="3217"  Indent="3776"  BitSize="24" />
+    <Obj  Type="Str"     Tag="218SO"       Name="218СО"                               Hint=""                           Id="3218"  Indent="3800"  BitSize="24" />
+    <Obj  Type="Str"     Tag="219"         Name="219"                                 Hint=""                           Id="3219"  Indent="3824"  BitSize="24" />
+    <Obj  Type="Str"     Tag="220"         Name="220"                                 Hint=""                           Id="3220"  Indent="3848"  BitSize="24" />
+    <Obj  Type="Str"     Tag="222"         Name="222"                                 Hint=""                           Id="3222"  Indent="3872"  BitSize="24" />
+    <Obj  Type="Str"     Tag="224"         Name="224"                                 Hint=""                           Id="3224"  Indent="3896"  BitSize="24" />
+    <Obj  Type="Str"     Tag="226SO"       Name="226СО"                               Hint=""                           Id="3226"  Indent="3920"  BitSize="24" />
+    <Obj  Type="Str"     Tag="228"         Name="228"                                 Hint=""                           Id="3228"  Indent="3944"  BitSize="24" />
+    <Obj  Type="Str"     Tag="1"           Name="1"                                   Hint=""                           Id="3001"  Indent="3968"  BitSize="24" />
+    <Obj  Type="Str"     Tag="3"           Name="3"                                   Hint=""                           Id="3003"  Indent="3992"  BitSize="24" />
+    <Obj  Type="Str"     Tag="5"           Name="5"                                   Hint=""                           Id="3005"  Indent="4016"  BitSize="24" />
+    <Obj  Type="Str"     Tag="1SB"         Name="1СБ"                                 Hint=""                           Id="3091"  Indent="4040"  BitSize="24" />
+    <Obj  Type="Str"     Tag="2SB"         Name="2СБ"                                 Hint=""                           Id="3092"  Indent="4064"  BitSize="24" />
+    <Obj  Type="Str"     Tag="3SB"         Name="3СБ"                                 Hint=""                           Id="3093"  Indent="4088"  BitSize="24" />
+    <Obj  Type="Str"     Tag="301SO"       Name="301СО"                               Hint=""                           Id="3301"  Indent="4112"  BitSize="24" />
+    <Obj  Type="Str"     Tag="302"         Name="302"                                 Hint=""                           Id="3302"  Indent="4136"  BitSize="24" />
+    <Obj  Type="Str"     Tag="303"         Name="303"                                 Hint=""                           Id="3303"  Indent="4160"  BitSize="24" />
+    <Obj  Type="Str"     Tag="304"         Name="304"                                 Hint=""                           Id="3304"  Indent="4184"  BitSize="24" />
+    <Obj  Type="Str"     Tag="305"         Name="305"                                 Hint=""                           Id="3305"  Indent="4208"  BitSize="24" />
+    <Obj  Type="Str"     Tag="306SO"       Name="306СО"                               Hint=""                           Id="3306"  Indent="4232"  BitSize="24" />
+    <Obj  Type="Str"     Tag="307SO"       Name="307СО"                               Hint=""                           Id="3307"  Indent="4256"  BitSize="24" />
+    <Obj  Type="Str"     Tag="308"         Name="308"                                 Hint=""                           Id="3308"  Indent="4280"  BitSize="24" />
+    <Obj  Type="Str"     Tag="309"         Name="309"                                 Hint=""                           Id="3309"  Indent="4304"  BitSize="24" />
+    <Obj  Type="Str"     Tag="310"         Name="310"                                 Hint=""                           Id="3310"  Indent="4328"  BitSize="24" />
+    <Obj  Type="Str"     Tag="311SO"       Name="311СО"                               Hint=""                           Id="3311"  Indent="4352"  BitSize="24" />
+    <Obj  Type="Str"     Tag="312"         Name="312"                                 Hint=""                           Id="3312"  Indent="4376"  BitSize="24" />
+    <Obj  Type="Str"     Tag="313"         Name="313"                                 Hint=""                           Id="3313"  Indent="4400"  BitSize="24" />
+    <Obj  Type="Str"     Tag="314"         Name="314"                                 Hint=""                           Id="3314"  Indent="4424"  BitSize="24" />
+    <Obj  Type="Str"     Tag="315"         Name="315"                                 Hint=""                           Id="3315"  Indent="4448"  BitSize="24" />
+    <Obj  Type="Str"     Tag="316"         Name="316"                                 Hint=""                           Id="3316"  Indent="4472"  BitSize="24" />
+    <Obj  Type="Str"     Tag="317"         Name="317"                                 Hint=""                           Id="3317"  Indent="4496"  BitSize="24" />
+    <Obj  Type="Str"     Tag="318"         Name="318"                                 Hint=""                           Id="3318"  Indent="4520"  BitSize="24" />
+    <Obj  Type="Str"     Tag="319"         Name="319"                                 Hint=""                           Id="3319"  Indent="4544"  BitSize="24" />
+    <Obj  Type="Str"     Tag="320"         Name="320"                                 Hint=""                           Id="3320"  Indent="4568"  BitSize="24" />
+    <Obj  Type="Str"     Tag="321"         Name="321"                                 Hint=""                           Id="3321"  Indent="4592"  BitSize="24" />
+    <Obj  Type="Str"     Tag="322"         Name="322"                                 Hint=""                           Id="3322"  Indent="4616"  BitSize="24" />
+    <Obj  Type="Str"     Tag="323"         Name="323"                                 Hint=""                           Id="3323"  Indent="4640"  BitSize="24" />
+    <Obj  Type="Str"     Tag="324"         Name="324"                                 Hint=""                           Id="3324"  Indent="4664"  BitSize="24" />
+    <Obj  Type="Str"     Tag="325"         Name="325"                                 Hint=""                           Id="3325"  Indent="4688"  BitSize="24" />
+    <Obj  Type="Str"     Tag="326"         Name="326"                                 Hint=""                           Id="3326"  Indent="4712"  BitSize="24" />
+    <Obj  Type="Str"     Tag="327"         Name="327"                                 Hint=""                           Id="3327"  Indent="4736"  BitSize="24" />
+    <Obj  Type="Str"     Tag="328"         Name="328"                                 Hint=""                           Id="3328"  Indent="4760"  BitSize="24" />
+    <Obj  Type="Str"     Tag="329"         Name="329"                                 Hint=""                           Id="3329"  Indent="4784"  BitSize="24" />
+    <Obj  Type="Str"     Tag="330"         Name="330"                                 Hint=""                           Id="3330"  Indent="4808"  BitSize="24" />
+    <Obj  Type="Str"     Tag="331"         Name="331"                                 Hint=""                           Id="3331"  Indent="4832"  BitSize="24" />
+    <Obj  Type="Str"     Tag="332"         Name="332"                                 Hint=""                           Id="3332"  Indent="4856"  BitSize="24" />
+    <Obj  Type="Str"     Tag="333"         Name="333"                                 Hint=""                           Id="3333"  Indent="4880"  BitSize="24" />
+    <Obj  Type="Str"     Tag="334SO"       Name="334СО"                               Hint=""                           Id="3334"  Indent="4904"  BitSize="24" />
+    <Obj  Type="Str"     Tag="335"         Name="335"                                 Hint=""                           Id="3335"  Indent="4928"  BitSize="24" />
+    <Obj  Type="Str"     Tag="336"         Name="336"                                 Hint=""                           Id="3336"  Indent="4952"  BitSize="24" />
+    <Obj  Type="Str"     Tag="337"         Name="337"                                 Hint=""                           Id="3337"  Indent="4976"  BitSize="24" />
+    <Obj  Type="Str"     Tag="338"         Name="338"                                 Hint=""                           Id="3338"  Indent="5000"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="1_5SP"       Name="1-5СП"                               Hint=""                           Id="4300"  Indent="5024"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="101SP"       Name="101СП"                               Hint=""                           Id="4101"  Indent="5048"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="103SP"       Name="103СП"                               Hint=""                           Id="4103"  Indent="5072"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="105SP"       Name="105СП"                               Hint=""                           Id="4105"  Indent="5096"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="107_109SP"   Name="107-109СП"                           Hint=""                           Id="4107"  Indent="5120"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="111SP"       Name="111СП"                               Hint=""                           Id="4111"  Indent="5144"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="113_117SP"   Name="113-117СП"                           Hint=""                           Id="4113"  Indent="5168"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="115SP"       Name="115СП"                               Hint=""                           Id="4115"  Indent="5192"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="119SP"       Name="119СП"                               Hint=""                           Id="4119"  Indent="5216"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="102_104SP"   Name="102-104СП"                           Hint=""                           Id="4102"  Indent="5240"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="106_110SP"   Name="106-110СП"                           Hint=""                           Id="4106"  Indent="5264"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="112SP"       Name="112СП"                               Hint=""                           Id="4112"  Indent="5288"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="114SP"       Name="114СП"                               Hint=""                           Id="4114"  Indent="5312"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="201SP"       Name="201СП"                               Hint=""                           Id="4201"  Indent="5336"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="202_206SP"   Name="202-206СП"                           Hint=""                           Id="4202"  Indent="5360"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="203_207SP"   Name="203-207СП"                           Hint=""                           Id="4203"  Indent="5384"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="204SP"       Name="204СП"                               Hint=""                           Id="4204"  Indent="5408"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="208_220SP"   Name="208-220СП"                           Hint=""                           Id="4208"  Indent="5432"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="209_213SP"   Name="209-213СП"                           Hint=""                           Id="4209"  Indent="5456"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="212_216SP"   Name="212-216СП"                           Hint=""                           Id="4212"  Indent="5480"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="214SP"       Name="214СП"                               Hint=""                           Id="4214"  Indent="5504"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="215SP"       Name="215СП"                               Hint=""                           Id="4215"  Indent="5528"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="217SP"       Name="217СП"                               Hint=""                           Id="4217"  Indent="5552"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="218SP"       Name="218СП"                               Hint=""                           Id="4218"  Indent="5576"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="219SP"       Name="219СП"                               Hint=""                           Id="4219"  Indent="5600"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="222_228SP"   Name="222-228СП"                           Hint=""                           Id="4222"  Indent="5624"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="226SP"       Name="226СП"                               Hint=""                           Id="4226"  Indent="5648"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="301_303SP"   Name="301-303СП"                           Hint=""                           Id="4301"  Indent="5672"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="305_307SP"   Name="305-307СП"                           Hint=""                           Id="4305"  Indent="5696"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="309_313SP"   Name="309-313СП"                           Hint=""                           Id="4309"  Indent="5720"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="310_314SP"   Name="310-314СП"                           Hint=""                           Id="4310"  Indent="5744"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="311_317SP"   Name="311-317СП"                           Hint=""                           Id="4311"  Indent="5768"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="312_320SP"   Name="312-320СП"                           Hint=""                           Id="4312"  Indent="5792"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="315_319SP"   Name="315-319СП"                           Hint=""                           Id="4315"  Indent="5816"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="318SP"       Name="318СП"                               Hint=""                           Id="4318"  Indent="5840"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="321_323SP"   Name="321-323СП"                           Hint=""                           Id="4321"  Indent="5864"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="322_326SP"   Name="322-326СП"                           Hint=""                           Id="4322"  Indent="5888"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="325_333SP"   Name="325-333СП"                           Hint=""                           Id="4325"  Indent="5912"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="328_330SP"   Name="328-330СП"                           Hint=""                           Id="4328"  Indent="5936"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="329_335SP"   Name="329-335СП"                           Hint=""                           Id="4329"  Indent="5960"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="332_334SP"   Name="332-334СП"                           Hint=""                           Id="4332"  Indent="5984"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="336SP"       Name="336СП"                               Hint=""                           Id="4336"  Indent="6008"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="337SP"       Name="337СП"                               Hint=""                           Id="4337"  Indent="6032"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="338SP"       Name="338СП"                               Hint=""                           Id="4338"  Indent="6056"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="302SP"       Name="302СП"                               Hint=""                           Id="4302"  Indent="6080"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="308SP"       Name="308СП"                               Hint=""                           Id="4308"  Indent="6104"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="304_306SP"   Name="304-306СП"                           Hint=""                           Id="4304"  Indent="6128"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="327SP"       Name="327СП"                               Hint=""                           Id="4327"  Indent="6152"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="105AP"       Name="105АП"                               Hint=""                           Id="4125"  Indent="6176"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="NSHAP"       Name="НШАП"                                Hint=""                           Id="4410"  Indent="6200"  BitSize="24" />
+    <Obj  Type="Put"     Tag="1LP"         Name="1ЛП"                                 Hint=""                           Id="4510"  Indent="6224"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M101P"       Name="М101П"                               Hint=""                           Id="4911"  Indent="6248"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="M101_103P"   Name="М101/103П"                           Hint=""                           Id="4411"  Indent="6272"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="M102_110P"   Name="М102/110П"                           Hint=""                           Id="4412"  Indent="6296"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="M103_105P"   Name="М103/105П"                           Hint=""                           Id="4413"  Indent="6320"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="M111_113P"   Name="М111/113П"                           Hint=""                           Id="4419"  Indent="6344"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="CHNAP"       Name="ЧНАП"                                Hint=""                           Id="4420"  Indent="6368"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="208_303P"    Name="208/303П"                            Hint=""                           Id="4428"  Indent="6392"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="NVAP"        Name="НВАП"                                Hint=""                           Id="4430"  Indent="6416"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="313_329P"    Name="313/329П"                            Hint=""                           Id="4433"  Indent="6440"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="CHSAP"       Name="ЧСАП"                                Hint=""                           Id="4440"  Indent="6464"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="M302_304P"   Name="М302/304П"                           Hint=""                           Id="4442"  Indent="6488"  BitSize="24" />
+    <Obj  Type="SPU"     Tag="107_304P"    Name="107/304П"                            Hint=""                           Id="4417"  Indent="6512"  BitSize="24" />
+    <Obj  Type="Put"     Tag="IILP"        Name="IIЛП"                                Hint=""                           Id="4520"  Indent="6536"  BitSize="24" />
+    <Obj  Type="Put"     Tag="3LP"         Name="3ЛП"                                 Hint=""                           Id="4530"  Indent="6560"  BitSize="24" />
+    <Obj  Type="Put"     Tag="4ALP"        Name="4АЛП"                                Hint=""                           Id="4541"  Indent="6584"  BitSize="24" />
+    <Obj  Type="Put"     Tag="4BLP"        Name="4БЛП"                                Hint=""                           Id="4542"  Indent="6608"  BitSize="24" />
+    <Obj  Type="Put"     Tag="5LP"         Name="5ЛП"                                 Hint=""                           Id="4550"  Indent="6632"  BitSize="24" />
+    <Obj  Type="Put"     Tag="1VP"         Name="1ВП"                                 Hint=""                           Id="4610"  Indent="6656"  BitSize="24" />
+    <Obj  Type="Put"     Tag="IIAVP"       Name="IIАВП"                               Hint=""                           Id="4621"  Indent="6680"  BitSize="24" />
+    <Obj  Type="Put"     Tag="IIBVP"       Name="IIБВП"                               Hint=""                           Id="4622"  Indent="6704"  BitSize="24" />
+    <Obj  Type="Put"     Tag="3VP"         Name="3ВП"                                 Hint=""                           Id="4630"  Indent="6728"  BitSize="24" />
+    <Obj  Type="Put"     Tag="4VP"         Name="4ВП"                                 Hint=""                           Id="4640"  Indent="6752"  BitSize="24" />
+    <Obj  Type="Put"     Tag="5VP"         Name="5ВП"                                 Hint=""                           Id="4650"  Indent="6776"  BitSize="24" />
+    <Obj  Type="Put"     Tag="6VP"         Name="6ВП"                                 Hint=""                           Id="4660"  Indent="6800"  BitSize="24" />
+    <Obj  Type="Put"     Tag="7VP"         Name="7ВП"                                 Hint=""                           Id="4670"  Indent="6824"  BitSize="24" />
+    <Obj  Type="Put"     Tag="1SP"         Name="1СП"                                 Hint=""                           Id="4710"  Indent="6848"  BitSize="24" />
+    <Obj  Type="Put"     Tag="1ASP"        Name="1АСП"                                Hint=""                           Id="4711"  Indent="6872"  BitSize="24" />
+    <Obj  Type="Put"     Tag="2SP"         Name="2СП"                                 Hint=""                           Id="4720"  Indent="6896"  BitSize="24" />
+    <Obj  Type="Put"     Tag="IIISP"       Name="IIIСП"                               Hint=""                           Id="4730"  Indent="6920"  BitSize="24" />
+    <Obj  Type="Put"     Tag="4SP"         Name="4СП"                                 Hint=""                           Id="4740"  Indent="6944"  BitSize="24" />
+    <Obj  Type="Put"     Tag="5SP"         Name="5СП"                                 Hint=""                           Id="4750"  Indent="6968"  BitSize="24" />
+    <Obj  Type="Put"     Tag="6SP"         Name="6СП"                                 Hint=""                           Id="4760"  Indent="6992"  BitSize="24" />
+    <Obj  Type="Put"     Tag="7SP"         Name="7СП"                                 Hint=""                           Id="4770"  Indent="7016"  BitSize="24" />
+    <Obj  Type="Put"     Tag="8ASP"        Name="8АСП"                                Hint=""                           Id="4781"  Indent="7040"  BitSize="24" />
+    <Obj  Type="Put"     Tag="8BSP"        Name="8БСП"                                Hint=""                           Id="4782"  Indent="7064"  BitSize="24" />
+    <Obj  Type="Put"     Tag="9SP"         Name="9СП"                                 Hint=""                           Id="4790"  Indent="7088"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M109P"       Name="М109П"                               Hint=""                           Id="4919"  Indent="7112"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M115P"       Name="М115П"                               Hint=""                           Id="4915"  Indent="7136"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M204P"       Name="М204П"                               Hint=""                           Id="4924"  Indent="7160"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M309P"       Name="М309П"                               Hint=""                           Id="4939"  Indent="7184"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M310P"       Name="М310П"                               Hint=""                           Id="4932"  Indent="7208"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M311P"       Name="М311П"                               Hint=""                           Id="4933"  Indent="7232"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M316P"       Name="М316П"                               Hint=""                           Id="4936"  Indent="7256"  BitSize="24" />
+    <Obj  Type="Tpk"     Tag="M301P"       Name="М301П"                               Hint=""                           Id="4931"  Indent="7280"  BitSize="24" />
+    <Obj  Type="Put"     Tag="8VP"         Name="8ВП"                                 Hint=""                           Id="4680"  Indent="7304"  BitSize="24" />
+    <Obj  Type="PD"      Tag="P1"          Name="Переезд 420 км"                      Hint="(ПК4201+87)"                Id="5001"  Indent="7328"  BitSize="24" />
+    <Obj  Type="PD"      Tag="P2"          Name="Переезд 421/507 км"                  Hint="(ПК4207+15/ПК5067+86)"      Id="5002"  Indent="7352"  BitSize="24" />
+    <Obj  Type="PD"      Tag="P3"          Name="Переезд 421 км"                      Hint="(ПК4208+43)"                Id="5003"  Indent="7376"  BitSize="24" />
+    <Obj  Type="PD"      Tag="P4"          Name="Переезд 422 км"                      Hint="(ПК4218+77)"                Id="5004"  Indent="7400"  BitSize="24" />
+    <Obj  Type="PD"      Tag="P5"          Name="Переезд 504 км"                      Hint="(ПК5038+04)"                Id="5005"  Indent="7424"  BitSize="24" />
+    <Obj  Type="DN"      Tag="DN"          Name="День/Ночь"                           Hint=""                           Id="9011"  Indent="7448"  BitSize="24" Default="Y" />
+    <Obj  Type="SCHVP"   Tag="SCHVP"       Name="ЩВП"                                 Hint=""                           Id="9020"  Indent="7472"  BitSize="24" />
+    <Obj  Type="VUF"     Tag="F1"          Name="Ф1"                                  Hint=""                           Id="9021"  Indent="7496"  BitSize="24" />
+    <Obj  Type="VUF"     Tag="F2"          Name="Ф2"                                  Hint=""                           Id="9022"  Indent="7520"  BitSize="24" />
+    <Obj  Type="DGA"     Tag="DGA"         Name="ДГА"                                 Hint=""                           Id="9023"  Indent="7544"  BitSize="24" Default="Y" />
+    <Obj  Type="POS"     Tag="POS"         Name="ПОС"                                 Hint=""                           Id="9012"  Indent="7568"  BitSize="24" />
+    <Obj  Type="ARC"     Tag="ARC"         Name="АРЦ"                                 Hint=""                           Id="9040"  Indent="7592"  BitSize="24" Default="Y" />
+    <Obj  Type="TS"      Tag="ADG"         Name="АДГ"                                 Hint=""                           Id="9101"  Indent="7616"  BitSize="24" />
+    <Obj  Type="TS"      Tag="APU"         Name="АПУ"                                 Hint=""                           Id="9102"  Indent="7640"  BitSize="24" />
+    <Obj  Type="TS"      Tag="KPP"         Name="КПП"                                 Hint=""                           Id="9103"  Indent="7664"  BitSize="24" />
+    <Obj  Type="TS"      Tag="KSZ"         Name="КСЗ"                                 Hint=""                           Id="9104"  Indent="7688"  BitSize="24" />
+    <Obj  Type="TS"      Tag="VZU"         Name="ВЗУ"                                 Hint=""                           Id="9105"  Indent="7712"  BitSize="24" />
+    <Obj  Type="TS"      Tag="STRELKI"     Name="СТРЕЛКИ"                             Hint=""                           Id="9031"  Indent="7736"  BitSize="24" />
+    <Obj  Type="TS"      Tag="KTPS"        Name="КТПС"                                Hint=""                           Id="9032"  Indent="7760"  BitSize="24" />
+    <Obj  Type="EO"      Tag="EO1"         Name="ЭО1"                                 Hint=""                           Id="9051"  Indent="7784"  BitSize="24" Default="Y" />
+    <Obj  Type="EO"      Tag="EO2"         Name="ЭО2"                                 Hint=""                           Id="9052"  Indent="7808"  BitSize="24" />
+    <Obj  Type="EO"      Tag="EO3"         Name="ЭО3"                                 Hint=""                           Id="9053"  Indent="7832"  BitSize="24" />
+    <Obj  Type="EO"      Tag="EO4"         Name="ЭО4"                                 Hint=""                           Id="9054"  Indent="7856"  BitSize="24" />
+    <Obj  Type="EO"      Tag="EO5"         Name="ЭО5"                                 Hint=""                           Id="9055"  Indent="7880"  BitSize="24" />
+    <Obj  Type="EO"      Tag="EO6"         Name="ЭО6"                                 Hint=""                           Id="9056"  Indent="7904"  BitSize="24" />
+    <Obj  Type="EO"      Tag="EO7"         Name="ЭО7"                                 Hint=""                           Id="9057"  Indent="7928"  BitSize="24" />
+    <Obj  Type="EO"      Tag="EO9"         Name="ЭО9"                                 Hint=""                           Id="9059"  Indent="7952"  BitSize="24" />
+    <Obj  Type="GRU"     Tag="L_107_304P"  Name="Парк Л (107/304П)"                   Hint=""                           Id="9811"  Indent="7976"  BitSize="24" />
+    <Obj  Type="GRU"     Tag="S_107_304P"  Name="Парк С (107/304П)"                   Hint=""                           Id="9812"  Indent="8000"  BitSize="24" />
+    <Obj  Type="GRU"     Tag="V_208_303P"  Name="Парк В (208/303П)"                   Hint=""                           Id="9821"  Indent="8024"  BitSize="24" />
+    <Obj  Type="GRU"     Tag="S_208_303P"  Name="Парк С (208/303П)"                   Hint=""                           Id="9822"  Indent="8048"  BitSize="24" />
+    <Obj  Type="DNC"     Tag="DNC_1"       Name="ДНЦ-1"                               Hint=""                           Id="9501"  Indent="8072"  BitSize="24" Default="Y" />
+    <Obj  Type="DNC"     Tag="DNC_2"       Name="ДНЦ-2"                               Hint=""                           Id="9502"  Indent="8096"  BitSize="24" />
+    <Obj  Type="DSP"     Tag="DSP"         Name="ДСП"                                 Hint=""                           Id="9500"  Indent="8120"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM1"         Name="Зона ОМ1"                            Hint=""                           Id="5101"  Indent="8144"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM2"         Name="Зона ОМ2"                            Hint=""                           Id="5102"  Indent="8168"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM3"         Name="Зона ОМ3"                            Hint=""                           Id="5103"  Indent="8192"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM4"         Name="Зона ОМ4"                            Hint=""                           Id="5104"  Indent="8216"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM5"         Name="Зона ОМ5"                            Hint=""                           Id="5105"  Indent="8240"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM6"         Name="Зона ОМ6"                            Hint=""                           Id="5106"  Indent="8264"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM7"         Name="Зона ОМ7"                            Hint=""                           Id="5107"  Indent="8288"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM8"         Name="Зона ОМ8"                            Hint=""                           Id="5208"  Indent="8312"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM9"         Name="Зона ОМ9"                            Hint=""                           Id="5209"  Indent="8336"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM10"        Name="Зона ОМ10"                           Hint=""                           Id="5210"  Indent="8360"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM11"        Name="Зона ОМ11"                           Hint=""                           Id="5211"  Indent="8384"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM12"        Name="Зона ОМ12"                           Hint=""                           Id="5212"  Indent="8408"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM13"        Name="Зона ОМ13"                           Hint=""                           Id="5213"  Indent="8432"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM14"        Name="Зона ОМ14"                           Hint=""                           Id="5214"  Indent="8456"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM15"        Name="Зона ОМ15"                           Hint=""                           Id="5215"  Indent="8480"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM16"        Name="Зона ОМ16"                           Hint=""                           Id="5316"  Indent="8504"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM17"        Name="Зона ОМ17"                           Hint=""                           Id="5317"  Indent="8528"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM18"        Name="Зона ОМ18"                           Hint=""                           Id="5318"  Indent="8552"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM19"        Name="Зона ОМ19"                           Hint=""                           Id="5319"  Indent="8576"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM20"        Name="Зона ОМ20"                           Hint=""                           Id="5320"  Indent="8600"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM21"        Name="Зона ОМ21"                           Hint=""                           Id="5321"  Indent="8624"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM22"        Name="Зона ОМ22"                           Hint=""                           Id="5322"  Indent="8648"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM23"        Name="Зона ОМ23"                           Hint=""                           Id="5323"  Indent="8672"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM24"        Name="Зона ОМ24"                           Hint=""                           Id="5324"  Indent="8696"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM25"        Name="Зона ОМ25"                           Hint=""                           Id="5325"  Indent="8720"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM26"        Name="Зона ОМ26"                           Hint=""                           Id="5326"  Indent="8744"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM27"        Name="Зона ОМ27"                           Hint=""                           Id="5327"  Indent="8768"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM28"        Name="Зона ОМ28"                           Hint=""                           Id="5328"  Indent="8792"  BitSize="24" />
+    <Obj  Type="OM"      Tag="OM29"        Name="Зона ОМ29"                           Hint=""                           Id="5129"  Indent="8816"  BitSize="24" />
+
+</ObjectsId>
