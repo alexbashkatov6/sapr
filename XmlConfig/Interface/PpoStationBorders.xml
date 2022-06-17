@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+
+
+      <!-- Увязка по поездному светофору в створе -->
+
+      <IObject  Type="PpoAdjacentStationTrainSignalRi"  Tag="3N_CHDR" >
+
+        <AddrMKI  I="CPU:3:1" VI="CPU:3:2" _1U="CPU:3:3" _2U="CPU:3:4" />
+        <AddrMUI  I="CPU:3:1" VI="CPU:3:2" _1U="CPU:3:3" _2U="CPU:3:4" />
+
+      </IObject>
+
+      <IObject  Type="PpoSignalRelayRepeater"  Tag="3N_CPU" >
+
+        <AddrMBSW  RecordNum="57" />
+
+        <AddrMUI  KO="CPU:3:5" KPS="CPU:3:6" RU="CPU:3:7" ZHZS="CPU:3:8" ZS="CPU:3:8" SU="CPU:3:8" />
+
+      </IObject>
+
+      <IObject  Type="PpoSignalRelayRepeater"  Tag="3N_USO" >
+
+        <AddrMBSW  RecordNum="57" />
+
+        <AddrMUI  KO="USO:2:1:17" KPS="USO:2:1:18" RU="USO:2:1:19" ZK="USO:2:1:20" />
+
+      </IObject>
+
+      <IObject  Type="PpoTrackRelayRepeater"  Tag="3NP" >
+
+        <TrackSensors  IObjTags="A3NP B3NP" />
+
+        <AddrMUI  P="USO:2:1:21" />
+
+      </IObject>
+
+
+
+      <!-- Увязка c ПАБ -->
+
+      <IObject  Type="PpoSemiAutomaticBlockingSystemRi"  Tag="CHKGP" >
+
+        <AddrMKI  SNP="USO:2:1:19" S_1U="USO:2:1:20" _1U="USO:2:1:21"  FP="USO:2:1:22" POS="USO:2:1:23" PS="USO:2:1:24" OP="USO:2:1:25" DSO="USO:2:1:26" KZH="USO:2:1:27" />
+        <AddrMUI  DSO="USO:2:1:25"  OSO="USO:2:1:26" FDP="USO:2:1:27" IFP="USO:2:1:28" OKS="USO:2:1:29" />
+
+      </IObject>
+
+      <IObject  Type="PpoSignalRelayRepeater"  Tag="CHK" >
+
+        <AddrMBSW  RecordNum="15" />
+
+        <AddrMUI  KPS="USO:2:1:30" RU="USO:2:1:31" />
+
+      </IObject>
+
+      <IObject  Type="PpoTrackRelayRepeater"  Tag="CHKAP" >
+
+        <TrackSensors  IObjTags="CHKAP" />
+
+        <AddrMUI  P="USO:2:1:32" />
+
+      </IObject>
+
+      <IObject  Type="PpoTrackRelayRepeater"  Tag="12SP" >
+
+        <TrackSensors  IObjTags="12SP" />
+
+        <AddrMUI  P="USO:2:1:33" />
+
+      </IObject>
+
+
+
+    </InterfaceObjects>
+
+</PPO>

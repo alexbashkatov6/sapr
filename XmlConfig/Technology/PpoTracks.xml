@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Технологические объекты -->
+
+    <TechnologicalObjects>
+
+
+
+      <!-- Стрелочные и бесстрелочные секции -->
+
+      <TObject  Type="PpoPointSection"  Tag="1SP" >
+
+        <TopologicalLinks  ConnPnt1="M3:1"  ConnPnt2="1:0" />
+
+        <TrackSensors  IObjTags="1ASP 1BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="2SP" >
+
+        <TopologicalLinks  ConnPnt1="2:0"  ConnPnt2="M4:1" />
+
+        <TrackSensors  IObjTags="2ASP 2BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="3SP" >
+
+        <TopologicalLinks  ConnPnt1="3:0"  ConnPnt2="M7:0" />
+
+        <TrackSensors  IObjTags="3ASP 3BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="4SP" >
+
+        <TopologicalLinks  ConnPnt1="P14_1:0"  ConnPnt2="4:0" />
+
+        <TrackSensors  IObjTags="4ASP 4BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="5_7SP" >
+
+        <TopologicalLinks  ConnPnt1="M5:1"  ConnPnt2="5:0" />
+
+        <TrackSensors  IObjTags="5_7ASP 5_7BSP 5_7VSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="6_8SP" >
+
+        <TopologicalLinks  ConnPnt1="P14_2:0"  ConnPnt2="8:0" />
+
+        <TrackSensors  IObjTags="6_8ASP 6_8BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="9_13SP" >
+
+        <TopologicalLinks  ConnPnt1="M7:1"  ConnPnt2="9:0" />
+
+        <TrackSensors  IObjTags="9_13ASP 9_13BSP 9_13VSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="10SP" >
+
+        <TopologicalLinks  ConnPnt1="10:0"  ConnPnt2="M8:1" />
+
+        <TrackSensors  IObjTags="10ASP 10BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="11SP" >
+
+        <TopologicalLinks  ConnPnt1="11:0"  ConnPnt2="U6_8:1" />
+
+        <TrackSensors  IObjTags="11ASP 11BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="12SP" >
+
+        <TopologicalLinks  ConnPnt1="M12:0"  ConnPnt2="12:0" />
+
+        <TrackSensors  IObjTags="12ASP 12BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="14_24SP" >
+
+        <TopologicalLinks  ConnPnt1="14:0"  ConnPnt2="P14_6:0" />
+
+        <TrackSensors  IObjTags="14_24ASP 14_24BSP 14_24VSP 14_24GSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="15SP" >
+
+        <TopologicalLinks  ConnPnt1="15:0"  ConnPnt2="CH1A:1" />
+
+        <TrackSensors  IObjTags="15ASP 15BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="16_34SP" >
+
+        <TopologicalLinks  ConnPnt1="34:0"  ConnPnt2="28:0" />
+
+        <TrackSensors  IObjTags="16_34ASP 16_34BSP 16_34VSP 16_34GSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="17_19SP" >
+
+        <TopologicalLinks  ConnPnt1="M9:1"  ConnPnt2="17:0" />
+
+        <TrackSensors  IObjTags="17_19ASP 17_19BSP 17_19VSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="18_26SP" >
+
+        <TopologicalLinks  ConnPnt1="18:0"  ConnPnt2="M14:1" />
+
+        <TrackSensors  IObjTags="18_26ASP 18_26BSP 18_26VSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="20SP" >
+
+        <TopologicalLinks  ConnPnt1="N3:1"  ConnPnt2="20:0" />
+
+        <TrackSensors  IObjTags="20ASP 20BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="21SP" >
+
+        <TopologicalLinks  ConnPnt1="17:1"  ConnPnt2="21:0" />
+
+        <TrackSensors  IObjTags="21ASP 21BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="23SP" >
+
+        <TopologicalLinks  ConnPnt1="M11:1"  ConnPnt2="23:0" />
+
+        <TrackSensors  IObjTags="23ASP 23BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="25SP" >
+
+        <TopologicalLinks  ConnPnt1="25:0"  ConnPnt2="U4_5:1" />
+
+        <TrackSensors  IObjTags="25ASP 25BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="27SP" >
+
+        <TopologicalLinks  ConnPnt1="M13:1"  ConnPnt2="27:0" />
+
+        <TrackSensors  IObjTags="27ASP 27BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="29SP" >
+
+        <TopologicalLinks  ConnPnt1="NM1A:1"  ConnPnt2="29:0" />
+
+        <TrackSensors  IObjTags="29ASP 29BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="30SP" >
+
+        <TopologicalLinks  ConnPnt1="30:0"  ConnPnt2="26:1" />
+
+        <TrackSensors  IObjTags="30ASP 30BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="31SP" >
+
+        <TopologicalLinks  ConnPnt1="31:0"  ConnPnt2="CH3A:1" />
+
+        <TrackSensors  IObjTags="31ASP 31BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="32SP" >
+
+        <TopologicalLinks  ConnPnt1="M20:0"  ConnPnt2="32:0" />
+
+        <TrackSensors  IObjTags="32ASP 32BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="33_37SP" >
+
+        <TopologicalLinks  ConnPnt1="35:0"  ConnPnt2="37:0" />
+
+        <TrackSensors  IObjTags="33_37ASP 33_37BSP 33_37VSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="36_40SP" >
+
+        <TopologicalLinks  ConnPnt1="40:0"  ConnPnt2="36:0" />
+
+        <TrackSensors  IObjTags="36_40ASP 36_40BSP 36_40VSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="38SP" >
+
+        <TopologicalLinks  ConnPnt1="38:0"  ConnPnt2="M20:1" />
+
+        <TrackSensors  IObjTags="38ASP 38BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="39SP" >
+
+        <TopologicalLinks  ConnPnt1="39:0"  ConnPnt2="M27:1" />
+
+        <TrackSensors  IObjTags="39ASP 39BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="41SP" >
+
+        <TopologicalLinks  ConnPnt1="41:0"  ConnPnt2="43:2" />
+
+        <TrackSensors  IObjTags="41ASP 41BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="42SP" >
+
+        <TopologicalLinks  ConnPnt1="N7:1"  ConnPnt2="42:0" />
+
+        <TrackSensors  IObjTags="42ASP 42BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="43_47SP" >
+
+        <TopologicalLinks  ConnPnt1="47:0"  ConnPnt2="M29:1" />
+
+        <TrackSensors  IObjTags="43_47ASP 43_47BSP 43_47VSP 43_47GSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="44_48SP" >
+
+        <TopologicalLinks  ConnPnt1="44:0"  ConnPnt2="CHM8A:1" />
+
+        <TrackSensors  IObjTags="44_48ASP 44_48BSP 44_48VSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="50SP" >
+
+        <TopologicalLinks  ConnPnt1="50:0"  ConnPnt2="48:2" />
+
+        <TrackSensors  IObjTags="50ASP 50BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="52SP" >
+
+        <TopologicalLinks  ConnPnt1="52:0"  ConnPnt2="50:1" />
+
+        <TrackSensors  IObjTags="52ASP 52BSP" />
+
+      </TObject>
+
+      <TObject  Type="PpoPointSection"  Tag="54SP" >
+
+        <TopologicalLinks  ConnPnt1="NM9_12:1"  ConnPnt2="54:0" />
+
+        <TrackSensors  IObjTags="54SP" />
+
+      </TObject>
+
+
+
+      <!-- Участки пути -->
+
+      <TObject  Type="PpoTrackSection"  Tag="1NP" >
+
+        <TopologicalLinks  ConnPnt1="1N:1"  ConnPnt2="M3:0" />
+
+        <TrackSensors  IObjTags="1NP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="1CHP" >
+
+        <TopologicalLinks  ConnPnt1="M8:0"  ConnPnt2="1CH:1" />
+
+        <TrackSensors  IObjTags="1CHP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="2NDP" >
+
+        <TopologicalLinks  ConnPnt1="2ND:1"  ConnPnt2="M1:0" />
+
+        <TrackSensors  IObjTags="2NDP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="2CHDP" >
+
+        <TopologicalLinks  ConnPnt1="M4:0"  ConnPnt2="2CHD:1" />
+
+        <TrackSensors  IObjTags="2CHDP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="3NP" >
+
+        <TopologicalLinks  ConnPnt1="3N:1"  ConnPnt2="NM3:0" />
+
+        <TrackSensors  IObjTags="A3NP B3NP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="3CHP" >
+
+        <TopologicalLinks  ConnPnt1="M6:0"  ConnPnt2="3CH:1" />
+
+        <TrackSensors  IObjTags="3CHP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="4NDP" >
+
+        <TopologicalLinks  ConnPnt1="4ND:1"  ConnPnt2="M5:0" />
+
+        <TrackSensors  IObjTags="4NDP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="4CHDP" >
+
+        <TopologicalLinks  ConnPnt1="M2:0"  ConnPnt2="4CHD:1" />
+
+        <TrackSensors  IObjTags="4CHDP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="M21_M31P" >
+
+        <TopologicalLinks  ConnPnt1="M21:1"  ConnPnt2="M31:0" />
+
+        <TrackSensors  IObjTags="M21_M31P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="22_36P" >
+
+        <TopologicalLinks  ConnPnt1="M22:0"  ConnPnt2="M18:0" />
+
+        <TrackSensors  IObjTags="22_36P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackSection"  Tag="CHKAP" >
+
+        <TopologicalLinks  ConnPnt1="M10:0"  ConnPnt2="CHK:1" />
+
+        <TrackSensors  IObjTags="CHKAP" />
+
+      </TObject>
+
+
+
+      <!-- Приемо-отправочные путм -->
+
+      <TObject  Type="PpoTrackAnD"  Tag="1P" >
+
+        <TopologicalLinks  ConnPnt1="CHM1:0"  ConnPnt2="N1:0" />
+
+        <TrackSensors  IObjTags="A1P B1P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="1AP" >
+
+        <TopologicalLinks  ConnPnt1="CH1A:0"  ConnPnt2="NM1A:0" />
+
+        <TrackSensors  IObjTags="1AP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="2P" >
+
+        <TopologicalLinks  ConnPnt1="CH2:0"  ConnPnt2="N2:0" />
+
+        <TrackSensors  IObjTags="A2P B2P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="3P" >
+
+        <TopologicalLinks  ConnPnt1="M27:0"  ConnPnt2="N3:0" />
+
+        <TrackSensors  IObjTags="3P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="3AP" >
+
+        <TopologicalLinks  ConnPnt1="CH3A:0"  ConnPnt2="M25:0" />
+
+        <TrackSensors  IObjTags="3AP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="4P" >
+
+        <TopologicalLinks  ConnPnt1="CH4:0"  ConnPnt2="N4:0" />
+
+        <TrackSensors  IObjTags="A4P B4P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="5P" >
+
+        <TopologicalLinks  ConnPnt1="CH5:0"  ConnPnt2="5T:0" />
+
+        <TrackSensors  IObjTags="5P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="6P" >
+
+        <TopologicalLinks  ConnPnt1="CH6:0"  ConnPnt2="N6:0" />
+
+        <TrackSensors  IObjTags="A6P B6P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="7P" >
+
+        <TopologicalLinks  ConnPnt1="CH7:0"  ConnPnt2="N7:0" />
+
+        <TrackSensors  IObjTags="A7P B7P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="7AP" >
+
+        <TopologicalLinks  ConnPnt1="CHM7A:0"  ConnPnt2="N7A:0" />
+
+        <TrackSensors  IObjTags="7AP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="8P" >
+
+        <TopologicalLinks  ConnPnt1="CH8:0"  ConnPnt2="NM8:0" />
+
+        <TrackSensors  IObjTags="A8P B8P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="8AP" >
+
+        <TopologicalLinks  ConnPnt1="CHM8A:0"  ConnPnt2="N8A:0" />
+
+        <TrackSensors  IObjTags="8AP" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="9P" >
+
+        <TopologicalLinks  ConnPnt1="9T:0"  ConnPnt2="FNM9:0" />
+
+        <TrackSensors  IObjTags="9P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="10P" >
+
+        <TopologicalLinks  ConnPnt1="10T:0"  ConnPnt2="FNM10:0" />
+
+        <TrackSensors  IObjTags="10P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="11P" >
+
+        <TopologicalLinks  ConnPnt1="CH11:0"  ConnPnt2="FNM11:0" />
+
+        <TrackSensors  IObjTags="A11P B11P" />
+
+      </TObject>
+
+      <TObject  Type="PpoTrackAnD"  Tag="12P" >
+
+        <TopologicalLinks  ConnPnt1="CH12:0"  ConnPnt2="FNM12:0" />
+
+        <TrackSensors  IObjTags="A12P B12P" />
+
+      </TObject>
+
+
+
+      <!-- Тупики и пути необщего пользования -->
+
+      <TObject  Type="PpoLineEnd"  Tag="5T" >
+
+        <TopologicalLinks  ConnPnt0="5P:2" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="9T" >
+
+        <TopologicalLinks  ConnPnt0="9P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="10T" >
+
+        <TopologicalLinks  ConnPnt0="10P:1" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="14_16P" >
+
+        <TopologicalLinks  ConnPnt0="M24:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M15P" >
+
+        <TopologicalLinks  ConnPnt0="M15:0" />
+
+        <TrackSensors  IObjTags="M15P" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="18T" >
+
+        <TopologicalLinks  ConnPnt0="M17:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="19T" >
+
+        <TopologicalLinks  ConnPnt0="M19:0" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M21P" >
+
+        <TopologicalLinks  ConnPnt0="M21:0" />
+
+        <TrackSensors  IObjTags="M21P" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M23P" >
+
+        <TopologicalLinks  ConnPnt0="M23:0" />
+
+        <TrackSensors  IObjTags="M23P" />
+
+      </TObject>
+
+      <TObject  Type="PpoLineEnd"  Tag="M33P" >
+
+        <TopologicalLinks  ConnPnt0="M33:0" />
+
+        <TrackSensors  IObjTags="M33P" />
+
+      </TObject>
+
+
+
+      <!-- Путевые участки АБТЦ -->
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N3P" >
+
+        <TopologicalLinks  ConnPnt1="1N5P:2"  ConnPnt2="1N1P:1" />
+
+        <TrackSensors  IObjTags="1N3P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N5P" >
+
+        <TopologicalLinks  ConnPnt1="1_1NP:1"  ConnPnt2="1N3P:1" />
+
+        <TrackSensors  IObjTags="1N5P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N1P" >
+
+        <TopologicalLinks  ConnPnt1="1N3P:2"  ConnPnt2="1N_1NP:0" />
+
+        <TrackSensors  IObjTags="1N1P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N7P" >
+
+        <TopologicalLinks  ConnPnt1="1N9P:2"  ConnPnt2="1_1NP:0" />
+
+        <TrackSensors  IObjTags="1N7P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N9P" >
+
+        <TopologicalLinks  ConnPnt1="1N11P:2"  ConnPnt2="1N7P:1" />
+
+        <TrackSensors  IObjTags="1N9P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N11P" >
+
+        <TopologicalLinks  ConnPnt1="3_1NP:1"  ConnPnt2="1N9P:1" />
+
+        <TrackSensors  IObjTags="1N11P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1CH3P" >
+
+        <TopologicalLinks  ConnPnt1="1CH1P:2"  ConnPnt2="CHR1_1CHP:0" />
+
+        <TrackSensors  IObjTags="1CH3P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1CH1P" >
+
+        <TopologicalLinks  ConnPnt1="1CH_1CHP:0"  ConnPnt2="1CH3P:1" />
+
+        <TrackSensors  IObjTags="1CH1P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="1N13P" >
+
+        <TopologicalLinks  ConnPnt1="CHD_1NP:0"  ConnPnt2="PP1_1NP:0" />
+
+        <TrackSensors  IObjTags="1N13P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N8P" >
+
+        <TopologicalLinks  ConnPnt1="2N10P:2"  ConnPnt2="4_2NP:1" />
+
+        <TrackSensors  IObjTags="2N8P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N2P" >
+
+        <TopologicalLinks  ConnPnt1="2N4P:2"  ConnPnt2="6_2NP:1" />
+
+        <TrackSensors  IObjTags="2N2P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N4P" >
+
+        <TopologicalLinks  ConnPnt1="2N6P:2"  ConnPnt2="2N2P:1" />
+
+        <TrackSensors  IObjTags="2N4P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N6P" >
+
+        <TopologicalLinks  ConnPnt1="4_2NP:0"  ConnPnt2="2N4P:1" />
+
+        <TrackSensors  IObjTags="2N6P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N12P" >
+
+        <TopologicalLinks  ConnPnt1="F2_2NP:1"  ConnPnt2="2N10P:1" />
+
+        <TrackSensors  IObjTags="2N12P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH2P" >
+
+        <TopologicalLinks  ConnPnt1="2CHD_2CHP:0"  ConnPnt2="2_2CHP:0" />
+
+        <TrackSensors  IObjTags="2CH2P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH8P" >
+
+        <TopologicalLinks  ConnPnt1="2CH6P:2"  ConnPnt2="CHR2_2CHP:0" />
+
+        <TrackSensors  IObjTags="2CH8P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N14P" >
+
+        <TopologicalLinks  ConnPnt1="PP1_2NP:1"  ConnPnt2="2_2NP:1" />
+
+        <TrackSensors  IObjTags="2N14P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N16P" >
+
+        <TopologicalLinks  ConnPnt1="CH_2NP:0"  ConnPnt2="PP1_2NP:0" />
+
+        <TrackSensors  IObjTags="2N16P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH6P" >
+
+        <TopologicalLinks  ConnPnt1="2CH4P:2"  ConnPnt2="2CH8P:1" />
+
+        <TrackSensors  IObjTags="2CH6P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2CH4P" >
+
+        <TopologicalLinks  ConnPnt1="2_2CHP:1"  ConnPnt2="2CH6P:1" />
+
+        <TrackSensors  IObjTags="2CH4P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="2N10P" >
+
+        <TopologicalLinks  ConnPnt1="2N12P:2"  ConnPnt2="2N8P:1" />
+
+        <TrackSensors  IObjTags="2N10P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="3CH1P" >
+
+        <TopologicalLinks  ConnPnt1="3CH_3CHP:0"  ConnPnt2="3CH3P:1" />
+
+        <TrackSensors  IObjTags="3CH1P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="3CH3P" >
+
+        <TopologicalLinks  ConnPnt1="3CH1P:2"  ConnPnt2="CHR3_3CHP:0" />
+
+        <TrackSensors  IObjTags="3CH3P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N6P" >
+
+        <TopologicalLinks  ConnPnt1="2_4NP:0"  ConnPnt2="4N4P:1" />
+
+        <TrackSensors  IObjTags="4N6P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N2P" >
+
+        <TopologicalLinks  ConnPnt1="4N4P:2"  ConnPnt2="4_4NP:1" />
+
+        <TrackSensors  IObjTags="4N2P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N4P" >
+
+        <TopologicalLinks  ConnPnt1="4N6P:2"  ConnPnt2="4N2P:1" />
+
+        <TrackSensors  IObjTags="4N4P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N8P" >
+
+        <TopologicalLinks  ConnPnt1="4N10P:2"  ConnPnt2="2_4NP:1" />
+
+        <TrackSensors  IObjTags="4N8P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4CH6P" >
+
+        <TopologicalLinks  ConnPnt1="4CH4P:2"  ConnPnt2="CHR4_4CHP:0" />
+
+        <TrackSensors  IObjTags="4CH6P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4CH4P" >
+
+        <TopologicalLinks  ConnPnt1="4CH2P:2"  ConnPnt2="4CH6P:1" />
+
+        <TrackSensors  IObjTags="4CH4P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4CH2P" >
+
+        <TopologicalLinks  ConnPnt1="2_4CHP:1"  ConnPnt2="4CH4P:1" />
+
+        <TrackSensors  IObjTags="4CH2P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N10P" >
+
+        <TopologicalLinks  ConnPnt1="4N12P:2"  ConnPnt2="4N8P:1" />
+
+        <TrackSensors  IObjTags="4N10P" />
+
+      </TObject>
+
+      <TObject  Type="PpoInterstationWayTrack"  Tag="4N12P" >
+
+        <TopologicalLinks  ConnPnt1="CHR_4NP:0"  ConnPnt2="4N10P:1" />
+
+        <TrackSensors  IObjTags="4N12P" />
+
+      </TObject>
+
+
+
+    </TechnologicalObjects>
+
+</PPO>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+
+
+      <!-- Увязка АБТЦ c ЭЦ -->
+
+      <IObject  Type="PpoInterstationWayBorderRi"  Tag="1UP" >
+
+        <AddrMKI  SNK="CPU:1:1"   DS="CPU:1:2"  OV="CPU:1:3"  PV="CPU:1:4"  RUU="CPU:1:5"   R="CPU:1:6" />
+        <AddrMKI    I="CPU:1:7" VIP1="CPU:1:8" KZH="CPU:1:9"  KM="CPU:1:13"  P1="CPU:1:14" P2="CPU:1:15" OKV="CPU:1:16" SU="CPU:1:17" />
+
+        <AddrMKI  PKL="USO:2:2:1" RKL="USO:2:2:6" />
+
+        <AddrMUI  SNP="CPU:1:1" SN="CPU:1:2" S1U="CPU:1:3" _1U="CPU:1:4" _2U="CPU:1:5" _3U="CPU:1:6" KP="CPU:1:7"  UB="CPU:1:8" PB="CPU:1:9" />
+
+        <AddrMUI   KV="USO:2:1:9" ZHK="USO:2:1:10" ZK="USO:2:1:11" />
+
+      </IObject>
+
+
+
+      <IObject  Type="PpoInterstationWayBorderRi"  Tag="2PP" >
+
+        <AddrMKI  SNK="CPU:2:1"   DS="CPU:2:2"   OV="CPU:2:3"  PV="CPU:2:4"    RUU="CPU:2:5"   R="CPU:2:6"  />
+        <AddrMKI    I="CPU:2:7" VIP1="CPU:2:8" VIP2="CPU:2:9" KZH="USO:2:1:15"  KM="CPU:2:17"  P1="CPU:2:18" P2="CPU:2:19" OKV="CPU:2:20" SU="CPU:2:21" />
+
+        <AddrMKI  PKL="USO:2:2:11" RKL="USO:2:2:17" />
+
+        <AddrMUI  SNP="CPU:2:1" SN="CPU:2:2" S1U="CPU:2:3" _1U="CPU:2:4" _2U="CPU:2:5" _3U="CPU:2:6" KP="CPU:2:7"  UB="CPU:2:8" PB="CPU:2:9" />
+
+        <AddrMUI   KV="USO:2:1:13" ZHK="USO:2:1:14" ZK="USO:2:1:15" />
+
+      </IObject>
+
+
+
+      <IObject  Type="PpoInterstationWayBorderRi"  Tag="4PP" >
+
+        <AddrMKI  SNK="CPU:4:1"   DS="CPU:4:2"   OV="CPU:4:3"  PV="CPU:4:4"    RUU="CPU:4:5"   R="CPU:4:6"  />
+        <AddrMKI    I="CPU:4:7" VIP1="CPU:4:8" VIP2="CPU:4:9" KZH="USO:2:1:16"  KM="CPU:4:15"  P1="CPU:4:16" P2="CPU:4:17" OKV="CPU:4:18" SU="CPU:4:19" />
+
+        <AddrMKI  PKL="USO:2:2:22" RKL="USO:2:2:29" />
+
+        <AddrMUI  SNP="CPU:4:1" SN="CPU:4:2" S1U="CPU:4:3" _1U="CPU:4:4" _2U="CPU:4:5" _3U="CPU:4:6" KP="CPU:4:7"  UB="CPU:4:8" PB="CPU:4:9" />
+
+        <AddrMUI   KV="USO:2:1:22" ZHK="USO:2:1:23" ZK="USO:2:1:24" />
+
+      </IObject>
+
+
+
+      <IObject  Type="PpoInterstationWayBorderRi"  Tag="1GP" >
+
+        <AddrMKI  SNK="USO:1:1:5"   DS="USO:1:1:6"   OV="USO:1:1:7"   PV="USO:1:1:8"  RUU="USO:1:1:9"   R="USO:1:1:10" />
+        <AddrMKI    I="USO:1:1:11" OKS="USO:1:1:12" VIP="USO:1:1:13" KZH="USO:1:1:14"  P1="USO:1:1:22" P2="USO:1:1:22" OKV="USO:1:1:23" />
+
+        <AddrMKI  P14I="USO:1:1:15" />
+
+        <AddrMKI  PKL="USO:2:2:34" RKL="USO:2:2:36" />
+
+        <AddrMUI  SNP="USO:1:1:7"   SN="USO:1:1:8"  S1U="USO:1:1:9" _1U="USO:1:1:10" _2U="USO:1:1:11" KP="USO:1:1:12"  UB="USO:1:1:13" PB="USO:1:1:14" A="USO:1:1:15" KV="USO:1:1:16" />
+
+      </IObject>
+
+      <IObject  Type="PpoSignalRelayRepeater"  Tag="1CH" >
+
+        <AddrMBSW  RecordNum="8" />
+
+        <AddrMUI  KO="USO:1:1:17" KPS="USO:1:1:18" RU="USO:1:1:19" GM="USO:1:1:20" ZHZS="USO:1:1:21" ZS="USO:1:1:22" ZK="USO:1:1:23" />
+
+      </IObject>
+
+
+
+      <IObject  Type="PpoInterstationWayBorderRi"  Tag="2GP" >
+
+        <AddrMKI  SNK="USO:1:1:29"  DS="USO:1:1:30"  OV="USO:1:1:31"  PV="USO:1:1:32" RUU="USO:1:1:33"  R="USO:1:1:34" />
+        <AddrMKI    I="USO:1:1:35" OKS="USO:1:1:36" VIP="USO:1:1:37" KZH="USO:2:1:17"  KM="USO:1:1:42"  P1="USO:1:1:43" P2="USO:1:1:43" OKV="USO:1:1:44" />
+
+        <AddrMKI  PKL="USO:2:2:39" RKL="USO:2:2:42" />
+
+        <AddrMUI  SNP="USO:1:1:25"  SN="USO:1:1:26" S1U="USO:1:1:27"  _1U="USO:1:1:28"  _2U="USO:1:1:29" KP="USO:1:1:30"  UB="USO:1:1:31" PB="USO:1:1:32" A="USO:1:1:33" KV="USO:1:1:34" />
+
+      </IObject>
+
+      <IObject  Type="PpoSignalRelayRepeater"  Tag="2CHD" >
+
+        <AddrMBSW  RecordNum="23" />
+
+        <AddrMUI  KO="USO:1:1:35" KPS="USO:1:1:36" RU="USO:1:1:37" ZK="USO:1:1:38" />
+
+      </IObject>
+
+
+
+      <IObject  Type="PpoInterstationWayBorderRi"  Tag="3GP" >
+
+        <AddrMKI  SNK="USO:1:2:1"   DS="USO:1:2:2"   OV="USO:1:2:3"   PV="USO:1:2:4"  RUU="USO:1:2:5"   R="USO:1:2:6"  />
+        <AddrMKI    I="USO:1:2:7"  OKS="USO:1:2:8"  VIP="USO:1:2:9"  KZH="USO:1:2:10"  KM="USO:1:2:16" P1="USO:1:2:17" P2="USO:1:2:18" OKV="USO:1:2:19" />
+
+        <AddrMKI  PKL="USO:2:2:46" RKL="USO:2:2:48" />
+
+        <AddrMUI  SNP="USO:1:2:1"   SN="USO:1:2:2"  S1U="USO:1:2:3"   _1U="USO:1:2:4"  _2U="USO:1:2:5" KP="USO:1:2:6"  UB="USO:1:2:7" PB="USO:1:2:8" A="USO:1:2:9" KV="USO:1:2:10" />
+
+      </IObject>
+
+      <IObject  Type="PpoSignalRelayRepeater"  Tag="3CH" >
+
+        <AddrMBSW  RecordNum="21" />
+
+        <AddrMUI  KO="USO:1:2:11" KPS="USO:1:2:12" RU="USO:1:2:13" />
+
+      </IObject>
+
+
+
+      <IObject  Type="PpoInterstationWayBorderRi"  Tag="4GP" >
+
+        <AddrMKI  SNK="USO:1:2:29"  DS="USO:1:2:30"  OV="USO:1:2:31"  PV="USO:1:2:32" RUU="USO:1:2:33"  R="USO:1:2:34" />
+        <AddrMKI    I="USO:1:2:35" OKS="USO:1:2:36" VIP="USO:1:2:37" KZH="USO:2:1:18"  KM="USO:1:2:44"  P1="USO:1:2:45" P2="USO:1:2:46" OKV="USO:1:2:47" />
+
+        <AddrMKI  P14I="USO:1:2:38" />
+
+        <AddrMKI  PKL="USO:2:2:51" RKL="USO:2:2:54" />
+
+        <AddrMUI  SNP="USO:1:2:25"  SN="USO:1:2:26" S1U="USO:1:2:27"  _1U="USO:1:2:28"  _2U="USO:1:2:29" KP="USO:1:2:30"  UB="USO:1:2:31" PB="USO:1:2:32" A="USO:1:2:33" KV="USO:1:2:34" />
+
+      </IObject>
+
+      <IObject  Type="PpoSignalRelayRepeater"  Tag="4CHD" >
+
+        <AddrMBSW  RecordNum="24" />
+
+        <AddrMUI  KO="USO:1:2:35" KPS="USO:1:2:36" RU="USO:1:2:37" ZK="USO:1:2:38" />
+
+      </IObject>
+
+
+
+    </InterfaceObjects>
+
+</PPO>

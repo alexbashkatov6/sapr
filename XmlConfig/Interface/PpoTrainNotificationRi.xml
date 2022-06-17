@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+
+
+      <!-- Извещение на переезд 14 км по 1-му пути -->
+
+      <IObject  Type="PpoTrainNotificationRi"  Tag="P14_1" >
+
+        <AddrMUI  NPI="USO:2:1:37" CHPI="USO:2:1:38" />
+
+      </IObject>
+
+      <!-- Извещение на переезд 14 км по 2-му пути -->
+
+      <IObject  Type="PpoTrainNotificationRi"  Tag="P14_2" >
+
+        <AddrMUI  NPI="USO:2:1:39" CHPI="USO:2:1:40" />
+
+      </IObject>
+
+      <!-- Извещение на переезд 14 км по 3-му пути -->
+
+      <IObject  Type="PpoTrainNotificationRi"  Tag="P14_3" >
+
+        <AddrMUI  NPI="USO:2:1:41" CHPI="USO:2:1:42" />
+
+      </IObject>
+
+      <!-- Извещение на переезд 14 км по 6-му пути -->
+
+      <IObject  Type="PpoTrainNotificationRi"  Tag="P14_6" >
+
+        <AddrMUI  NPI="USO:2:1:43" CHPI="USO:2:1:44" />
+
+      </IObject>
+
+
+
+    </InterfaceObjects>
+
+</PPO>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Поездные маршруты -->
+
+    <TrainRoutes>
+
+
+
+      <!-- Прибытие со станции Ижоры -->
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="3N_NM3" >
+
+        <OperatorSelectors  Begin="3N"  Ends="NM3" />
+
+        <Trace  Start="3N"  Finish="NM3" />
+
+        <SignalingDependence  Dark="ZH" Stop="ZH" OnSide="ZH" OnMain="ZHZ" OnMainGreen="Z" />
+
+      </TrRoute>
+
+
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="1N_CH1A" >
+
+        <OperatorSelectors  Begin="1N"  Ends="CH1A NM1A" />
+
+        <Trace  Start="1N"  Finish="NM1A"  OnCoursePoints="+1 +15"  ProtectivePoints="+3 +13" />
+
+        <SignalingDependence  Dark="ZH" Stop="ZH" OnSide="ZHM" OnMain="ZHZ" OnMainGreen="Z" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="1N_CH2" >
+
+        <OperatorSelectors  Begin="1N"  Ends="CH2 N2" />
+
+        <Trace  Start="1N"  Finish="N2"  OnCoursePoints="-1 -3 +9 +13 +23"  ProtectivePoints="+11 +15 +25" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZHM" OnMain="2ZHM" OnMainGreen="2ZHM" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="1N_CH4" >
+
+        <OperatorSelectors  Begin="1N"  Ends="CH4 N4" />
+
+        <Trace  Start="1N"  Finish="N4"  OnCoursePoints="-1 -3 +9 +13 -23 -25 +27"  ProtectivePoints="+11 +15 -21" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZHM" OnMain="2ZHM" OnMainGreen="2ZHM" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="1N_CH6" >
+
+        <OperatorSelectors  Begin="1N"  Ends="CH6 N6" />
+
+        <Trace  Start="1N"  Finish="N6"  OnCoursePoints="-1 -3 -9 -11 +17 -21"  ProtectivePoints="-7 +15 -25" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZHM" OnMain="2ZHM" OnMainGreen="2ZHM" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="1N_CH7" >
+
+        <OperatorSelectors  Begin="1N"  Ends="CH7 N7" />
+
+        <Trace  Start="1N"  Finish="N7"  OnCoursePoints="-1 -3 -9 -11 -17 +19"  ProtectivePoints="-7 +15" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZH" OnMain="2ZH" OnMainGreen="2ZH" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="1N_CH8" >
+
+        <OperatorSelectors  Begin="1N"  Ends="CH8 NM8" />
+
+        <Trace  Start="1N"  Finish="NM8"  OnCoursePoints="-1 -3 -9 -11 -17 -19"  ProtectivePoints="-7 +15" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZH" OnMain="2ZH" OnMainGreen="2ZH" />
+
+      </TrRoute>
+
+
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="2ND_CH1A" >
+
+        <OperatorSelectors  Begin="2ND"  Ends="CH1A NM1A" />
+
+        <Trace  Start="2ND"  Finish="NM1A"  OnCoursePoints="+3 +9 -13 -15"  ProtectivePoints="+1 +11" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZHM" OnMain="2ZHM" OnMainGreen="2ZHM" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="2ND_CH2" >
+
+        <OperatorSelectors  Begin="2ND"  Ends="CH2 N2" />
+
+        <Trace  Start="2ND"  Finish="N2"  OnCoursePoints="+3 +9 +13 +23"  ProtectivePoints="+1 +11 +15 +25" />
+
+        <SignalingDependence  Dark="ZH" Stop="ZH" OnSide="ZHM" OnMain="ZHZ" OnMainGreen="Z" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="2ND_CH4" >
+
+        <OperatorSelectors  Begin="2ND"  Ends="CH4 N4" />
+
+        <Trace  Start="2ND"  Finish="N4"  OnCoursePoints="+3 +9 +13 -23 -25 +27"  ProtectivePoints="+1 +11 +15 -21" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZHM" OnMain="2ZHM" OnMainGreen="2ZHM" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="2ND_CH6" >
+
+        <OperatorSelectors  Begin="2ND"  Ends="CH6 N6" />
+
+        <Trace  Start="2ND"  Finish="N6"  OnCoursePoints="+3 -9 -11 +17 -21"  ProtectivePoints="+1 -7 +15 -25" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZHM" OnMain="2ZHM" OnMainGreen="2ZHM" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="2ND_CH7" >
+
+        <OperatorSelectors  Begin="2ND"  Ends="CH7 N7" />
+
+        <Trace  Start="2ND"  Finish="N7"  OnCoursePoints="+3 -9 -11 -17 +19"  ProtectivePoints="+1 -7 +15" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZH" OnMain="2ZH" OnMainGreen="2ZH" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="2ND_CH8" >
+
+        <OperatorSelectors  Begin="2ND"  Ends="CH8 NM8" />
+
+        <Trace  Start="2ND"  Finish="NM8"  OnCoursePoints="+3 -9 -11 -17 -19"  ProtectivePoints="+1 -7 +15" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZH" OnMain="2ZH" OnMainGreen="2ZH" />
+
+      </TrRoute>
+
+
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="4ND_CH4" >
+
+        <OperatorSelectors  Begin="4ND"  Ends="CH4 N4" />
+
+        <Trace  Start="4ND"  Finish="N4"  OnCoursePoints="+5 +7 +11 +17 +21 +25 +27"  ProtectivePoints="+9 +23" />
+
+        <SignalingDependence  Dark="ZH" Stop="ZH" OnSide="ZHM" OnMain="ZHZ" OnMainGreen="Z" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="4ND_CH6" >
+
+        <OperatorSelectors  Begin="4ND"  Ends="CH6 N6" />
+
+        <Trace  Start="4ND"  Finish="N6"  OnCoursePoints="+5 +7 +11 +17 -21"  ProtectivePoints="+9 -25" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZHM" OnMain="2ZHM" OnMainGreen="2ZHM" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="4ND_CH7" >
+
+        <OperatorSelectors  Begin="4ND"  Ends="CH7 N7" />
+
+        <Trace  Start="4ND"  Finish="N7"  OnCoursePoints="+5 +7 +11 -17 +19"  ProtectivePoints="+9" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZH" OnMain="2ZH" OnMainGreen="2ZH" />
+
+      </TrRoute>
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="4ND_CH8" >
+
+        <OperatorSelectors  Begin="4ND"  Ends="CH8 NM8" />
+
+        <Trace  Start="4ND"  Finish="NM8"  OnCoursePoints="+5 +7 +11 -17 -19"  ProtectivePoints="+9" />
+
+        <SignalingDependence  Dark="2ZH" Stop="2ZH" OnSide="2ZH" OnMain="2ZH" OnMainGreen="2ZH" />
+
+      </TrRoute>
+
+
+
+    </TrainRoutes>
+
+</PPO>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <Import  URL="PpoSystemEnv.xml" />
+
+    <Import  URL="Interface/PpoCodeGenerators.xml" />
+    <Import  URL="Interface/PpoControlDeviceDerailmentStockCi.xml" />
+    <Import  URL="Interface/PpoInterstationWayBorders.xml" />
+    <Import  URL="Interface/PpoLightSignals.xml" />
+    <Import  URL="Interface/PpoPointMachines.xml" />
+    <Import  URL="Interface/PpoRailCrossingRi.xml" />
+    <Import  URL="Interface/PpoRailFittersWarningAreaRi.xml" />
+    <Import  URL="Interface/PpoStationBorders.xml" />
+    <Import  URL="Interface/PpoTrackReceivers.xml" />
+    <Import  URL="Interface/PpoTrainNotificationRi.xml" />
+
+    <Import  URL="Interface/.xml" />
+
+    <Import  URL="Technology/.xml" />
+
+
+    <!-- Идентификатор проекта -->
+
+    <ProjectId  Tag="Rybatskoe_OktZD"  Stage= "1.0"
+
+      Name="Станция Рыбацкое и прилегающие перегоны Октябрьской ж. д."
+
+      ZHRGA.AdaptedApplicationSoftware  = "ЖРГА.20510-01"
+      ZHRGA.AdaptedTechnologicalProgram = "ЖРГА.50211-01"
+
+      GeographicLocation = "59.830351, 30.505132" />
+
+
+
+</PPO>

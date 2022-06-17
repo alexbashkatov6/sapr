@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Поездные маршруты -->
+
+    <TrainRoutes>
+
+
+
+      <!-- Отправление на станцию Ижоры -->
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="" >
+
+        <OperatorSelectors  Begin=""  Variants=""  Ends="" />
+
+        <Trace  Start=""  Finish=""  OnCoursePoints=""  ProtectivePoints="" />
+
+        <SignalingDependence  Dark="" Stop="" OnSide="" OnMain="" OnMainGreen="" PointerValue="" />
+
+      </TrRoute>
+
+
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="CH3A_3N" >
+
+        <OperatorSelectors  Begin="CH3A"  Ends="3N NM3" />
+
+        <Trace  Start="CH3A"  Finish="CHDRP"  OnCoursePoints="+31"  ProtectivePoints="+29" />
+
+        <SignalingDependence  Dark="ZHB" OnStop="ZHB" OnSide="ZHMB" />
+
+      </TrRoute>
+
+
+
+    </TrainRoutes>
+
+</PPO>

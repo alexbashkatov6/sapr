@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+      <!-- Стрелочные электроприводы -->
+
+      <IObject  Type="PpoPointMachineCi"  Tag="11" >  <AddrMBST  RecordNum="1"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="4"  >  <AddrMBST  RecordNum="2"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="15" >  <AddrMBST  RecordNum="3"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="22" >  <AddrMBST  RecordNum="4"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="33" >  <AddrMBST  RecordNum="5"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="48" >  <AddrMBST  RecordNum="6"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="37" >  <AddrMBST  RecordNum="7"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="44" >  <AddrMBST  RecordNum="8"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="41" >  <AddrMBST  RecordNum="9"  />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="6"  >  <AddrMBST  RecordNum="10" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="26" >  <AddrMBST  RecordNum="11" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="42" >  <AddrMBST  RecordNum="12" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="20" >  <AddrMBST  RecordNum="13" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="54" >  <AddrMBST  RecordNum="14" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="3"  >  <AddrMBST  RecordNum="15" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="12" >  <AddrMBST  RecordNum="16" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="25" >  <AddrMBST  RecordNum="17" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="34" >  <AddrMBST  RecordNum="18" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="29" >  <AddrMBST  RecordNum="19" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="32" >  <AddrMBST  RecordNum="20" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="24" >  <AddrMBST  RecordNum="21" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="18" >  <AddrMBST  RecordNum="22" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="46" >  <AddrMBST  RecordNum="23" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="1"  >  <AddrMBST  RecordNum="24" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="8"  >  <AddrMBST  RecordNum="25" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="5"  >  <AddrMBST  RecordNum="26" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="28" >  <AddrMBST  RecordNum="27" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="27" >  <AddrMBST  RecordNum="28" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="30" >  <AddrMBST  RecordNum="29" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="31" >  <AddrMBST  RecordNum="30" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="2"  >  <AddrMBST  RecordNum="31" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="13" >  <AddrMBST  RecordNum="32" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="14" >  <AddrMBST  RecordNum="33" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="17" >  <AddrMBST  RecordNum="34" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="40" >  <AddrMBST  RecordNum="35" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="35" >  <AddrMBST  RecordNum="36" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="50" >  <AddrMBST  RecordNum="37" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="39" >  <AddrMBST  RecordNum="38" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="52" >  <AddrMBST  RecordNum="39" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="43" >  <AddrMBST  RecordNum="40" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="19" >  <AddrMBST  RecordNum="41" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="21" >  <AddrMBST  RecordNum="42" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="23" >  <AddrMBST  RecordNum="43" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="45" >  <AddrMBST  RecordNum="44" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="47" >  <AddrMBST  RecordNum="45" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="7"  >  <AddrMBST  RecordNum="46" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="9"  >  <AddrMBST  RecordNum="47" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="36" >  <AddrMBST  RecordNum="48" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="38" >  <AddrMBST  RecordNum="49" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="10" >  <AddrMBST  RecordNum="50" />  </IObject>
+      <IObject  Type="PpoPointMachineCi"  Tag="16" >  <AddrMBST  RecordNum="51" />  </IObject>
+
+    </InterfaceObjects>
+
+</PPO>

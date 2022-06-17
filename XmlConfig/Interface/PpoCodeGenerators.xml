@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+      <!-- Генераторы кода АЛС -->
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1SNGK"      >  <AddrMBALSN  RecordNum="1"   />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1SCHGK"     >  <AddrMBALSN  RecordNum="2"   />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2SNGK"      >  <AddrMBALSN  RecordNum="3"   />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2SCHGK"     >  <AddrMBALSN  RecordNum="4"   />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3SNGK"      >  <AddrMBALSN  RecordNum="5"   />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3SCHGK"     >  <AddrMBALSN  RecordNum="6"   />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4SNGK"      >  <AddrMBALSN  RecordNum="7"   />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4SCHGK"     >  <AddrMBALSN  RecordNum="8"   />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="5_7SNGK"    >  <AddrMBALSN  RecordNum="9"   />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="5_7SCHGK"   >  <AddrMBALSN  RecordNum="10"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="6_8ASNGK"   >  <AddrMBALSN  RecordNum="11"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="6_8SNGK"    >  <AddrMBALSN  RecordNum="12"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="6_8SCHGK"   >  <AddrMBALSN  RecordNum="13"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="9_13SNGK"   >  <AddrMBALSN  RecordNum="14"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="9_13SCHGK"  >  <AddrMBALSN  RecordNum="15"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="11SNGK"     >  <AddrMBALSN  RecordNum="16"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="11SCHGK"    >  <AddrMBALSN  RecordNum="17"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="12SCHGK"    >  <AddrMBALSN  RecordNum="18"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="14_24SCHGK" >  <AddrMBALSN  RecordNum="19"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="15SNGK"     >  <AddrMBALSN  RecordNum="20"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="15SCHGK"    >  <AddrMBALSN  RecordNum="21"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="16_34SNGK"  >  <AddrMBALSN  RecordNum="22"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="16_34SCHGK" >  <AddrMBALSN  RecordNum="23"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="17_19SNGK"  >  <AddrMBALSN  RecordNum="24"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="17_19SCHGK" >  <AddrMBALSN  RecordNum="25"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="18_26SNGK"  >  <AddrMBALSN  RecordNum="26"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="18_26SCHGK" >  <AddrMBALSN  RecordNum="27"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="20SNGK"     >  <AddrMBALSN  RecordNum="28"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="20SCHGK"    >  <AddrMBALSN  RecordNum="29"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="23SNGK"     >  <AddrMBALSN  RecordNum="30"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="23SCHGK"    >  <AddrMBALSN  RecordNum="31"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="27SNGK"     >  <AddrMBALSN  RecordNum="32"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="27SCHGK"    >  <AddrMBALSN  RecordNum="33"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="29SNGK"     >  <AddrMBALSN  RecordNum="34"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="29SCHGK"    >  <AddrMBALSN  RecordNum="35"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="30SNGK"     >  <AddrMBALSN  RecordNum="36"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="30SCHGK"    >  <AddrMBALSN  RecordNum="37"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="31SNGK"     >  <AddrMBALSN  RecordNum="38"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="31SCHGK"    >  <AddrMBALSN  RecordNum="39"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="36_40SCHGK" >  <AddrMBALSN  RecordNum="40"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="39SNGK"     >  <AddrMBALSN  RecordNum="41"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="39SCHGK"    >  <AddrMBALSN  RecordNum="42"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="42SNGK"     >  <AddrMBALSN  RecordNum="43"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="42SCHGK"    >  <AddrMBALSN  RecordNum="44"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="44_48SNGK"  >  <AddrMBALSN  RecordNum="45"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="44_48SCHGK" >  <AddrMBALSN  RecordNum="46"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="SH1GK"      >  <AddrMBALSN  RecordNum="47"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="SH2GK"      >  <AddrMBALSN  RecordNum="48"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="SH4GK"      >  <AddrMBALSN  RecordNum="49"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1NPNGK"     >  <AddrMBALSN  RecordNum="50"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1NPCHGK"    >  <AddrMBALSN  RecordNum="51"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2NDPNGK"    >  <AddrMBALSN  RecordNum="52"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2NDPCHGK"   >  <AddrMBALSN  RecordNum="53"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2CHDPNGK"   >  <AddrMBALSN  RecordNum="54"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2CHDPCHGK"  >  <AddrMBALSN  RecordNum="55"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3NPNGK"     >  <AddrMBALSN  RecordNum="56"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3NPCHGK"    >  <AddrMBALSN  RecordNum="57"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3NPGK"      >  <AddrMBALSN  RecordNum="58"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3CHPNGK"    >  <AddrMBALSN  RecordNum="59"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3CHPCHGK"   >  <AddrMBALSN  RecordNum="60"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4NDPNGK"    >  <AddrMBALSN  RecordNum="61"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4NDPCHGK"   >  <AddrMBALSN  RecordNum="62"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4CHDPNGK"   >  <AddrMBALSN  RecordNum="63"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4CHDPCHGK"  >  <AddrMBALSN  RecordNum="64"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="CHKAPCHGK"  >  <AddrMBALSN  RecordNum="65"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="22_36PCHGK" >  <AddrMBALSN  RecordNum="66"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1PNGK"      >  <AddrMBALSN  RecordNum="67"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1PCHGK"     >  <AddrMBALSN  RecordNum="68"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1PGK"       >  <AddrMBALSN  RecordNum="69"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1APNGK"     >  <AddrMBALSN  RecordNum="70"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1APCHGK"    >  <AddrMBALSN  RecordNum="71"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2PNGK"      >  <AddrMBALSN  RecordNum="72"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2PCHGK"     >  <AddrMBALSN  RecordNum="73"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2PGK"       >  <AddrMBALSN  RecordNum="74"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3PNGK"      >  <AddrMBALSN  RecordNum="75"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3PCHGK"     >  <AddrMBALSN  RecordNum="76"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3APNGK"     >  <AddrMBALSN  RecordNum="77"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3APCHGK"    >  <AddrMBALSN  RecordNum="78"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4PNGK"      >  <AddrMBALSN  RecordNum="79"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4PCHGK"     >  <AddrMBALSN  RecordNum="80"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4PGK"       >  <AddrMBALSN  RecordNum="81"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="5PCHGK"     >  <AddrMBALSN  RecordNum="82"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="6PNGK"      >  <AddrMBALSN  RecordNum="83"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="6PCHGK"     >  <AddrMBALSN  RecordNum="84"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="6PGK"       >  <AddrMBALSN  RecordNum="85"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="7PNGK"      >  <AddrMBALSN  RecordNum="86"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="7PCHGK"     >  <AddrMBALSN  RecordNum="87"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="7PGK"       >  <AddrMBALSN  RecordNum="88"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="7APNGK"     >  <AddrMBALSN  RecordNum="89"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="7APCHGK"    >  <AddrMBALSN  RecordNum="90"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="8PNGK"      >  <AddrMBALSN  RecordNum="91"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="8PCHGK"     >  <AddrMBALSN  RecordNum="92"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="8PGK"       >  <AddrMBALSN  RecordNum="93"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="8APNGK"     >  <AddrMBALSN  RecordNum="94"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="8APCHGK"    >  <AddrMBALSN  RecordNum="95"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="11PCHGK"    >  <AddrMBALSN  RecordNum="96"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="11PGK"      >  <AddrMBALSN  RecordNum="97"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="12PCHGK"    >  <AddrMBALSN  RecordNum="98"  />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="12PGK"      >  <AddrMBALSN  RecordNum="99"  />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N1PGK"     >  <AddrMBALSN  RecordNum="100" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N1_3PGK"   >  <AddrMBALSN  RecordNum="101" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N3_5PGK"   >  <AddrMBALSN  RecordNum="102" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N5_7PGK"   >  <AddrMBALSN  RecordNum="103" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N7_9PGK"   >  <AddrMBALSN  RecordNum="104" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N9_11PGK"  >  <AddrMBALSN  RecordNum="105" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N11_13PGK" >  <AddrMBALSN  RecordNum="106" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1N13PGK"    >  <AddrMBALSN  RecordNum="107" />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1CH1PGK"    >  <AddrMBALSN  RecordNum="108" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1CH1_3PGK"  >  <AddrMBALSN  RecordNum="109" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="1CH3PGK"    >  <AddrMBALSN  RecordNum="110" />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N2PGK"     >  <AddrMBALSN  RecordNum="111" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N2_4PGK"   >  <AddrMBALSN  RecordNum="112" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N4_6PGK"   >  <AddrMBALSN  RecordNum="113" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N6_8PGK"   >  <AddrMBALSN  RecordNum="114" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N8_10PGK"  >  <AddrMBALSN  RecordNum="115" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N10_12PGK" >  <AddrMBALSN  RecordNum="116" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N12_14PGK" >  <AddrMBALSN  RecordNum="117" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N14_16PGK" >  <AddrMBALSN  RecordNum="118" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2N16PGK"    >  <AddrMBALSN  RecordNum="119" />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2CH2PGK"    >  <AddrMBALSN  RecordNum="120" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2CH2_4PGK"  >  <AddrMBALSN  RecordNum="121" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2CH4_6PGK"  >  <AddrMBALSN  RecordNum="122" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2CH6_8PGK"  >  <AddrMBALSN  RecordNum="123" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="2CH8PGK"    >  <AddrMBALSN  RecordNum="124" />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3CH1PGK"    >  <AddrMBALSN  RecordNum="125" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3CH1_3PGK"  >  <AddrMBALSN  RecordNum="126" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="3CH3PGK"    >  <AddrMBALSN  RecordNum="127" />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4N2PGK"     >  <AddrMBALSN  RecordNum="128" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4N2_4PGK"   >  <AddrMBALSN  RecordNum="129" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4N4_6PGK"   >  <AddrMBALSN  RecordNum="130" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4N6_8PGK"   >  <AddrMBALSN  RecordNum="131" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4N8_10PGK"  >  <AddrMBALSN  RecordNum="132" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4N10_12PGK" >  <AddrMBALSN  RecordNum="133" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4N12PGK"    >  <AddrMBALSN  RecordNum="134" />  </IObject>
+
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4CH2PGK"    >  <AddrMBALSN  RecordNum="135" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4CH2_4PGK"  >  <AddrMBALSN  RecordNum="136" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4CH4_6PGK"  >  <AddrMBALSN  RecordNum="137" />  </IObject>
+      <IObject  Type="PpoCodeGenetatorALS"  Tag="4CH6PGK"    >  <AddrMBALSN  RecordNum="138" />  </IObject>
+
+    </InterfaceObjects>
+
+</PPO>

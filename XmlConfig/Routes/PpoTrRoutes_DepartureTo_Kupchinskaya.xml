@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Поездные маршруты -->
+
+    <TrainRoutes>
+
+
+
+      <!-- Отправление на станцию Купчинская -->
+
+      <TrRoute  Type="PpoTrainRoute"  Tag="" >
+
+        <OperatorSelectors  Begin=""  Variants=""  Ends="" />
+
+        <Trace  Start=""  Finish=""  OnCoursePoints=""  ProtectivePoints="" />
+
+        <SignalingDependence  Dark="" Stop="" OnSide="" OnMain="" OnMainGreen="" PointerValue="" />
+
+      </TrRoute>
+
+
+
+    </TrainRoutes>
+
+</PPO>

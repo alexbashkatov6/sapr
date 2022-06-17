@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Технологические объекты -->
+
+    <TechnologicalObjects>
+
+
+
+      <!-- Маневровые светофоры -->
+
+      <TObject  Type="PpoShuntingSignal"  Tag="M1" >
+
+        <!-- Параметры -->
+
+        <Parameters  Id="M1" Indent="M1" ControlArea="RU" />
+
+        <!-- Интерфесный объект светофор -->
+
+        <SignalUnitInterface  IObjTag="M1" />
+
+      </TObject>
+
+
+      <!-- Поездные светофоры -->
+
+      <TObject  Type="PpoTrainSignal"  Tag="CHS1" >
+
+        <!-- Параметры -->
+
+        <Parameters  Id="CHS1" Indent="CHS1" ControlArea="RU" StartWarningArea="21SP" RoutePointer="U4" ControlDeviceDerailmentStock="UKSPS_CHK" isInvitationSignalOpeningBefore="yes" arrivalZone="SP1" />
+
+        <!-- Интерфесный объект светофор -->
+
+        <SignalUnitInterface  IObjTag="CHS1" />
+
+        <GroupRoutePointer objs="U4" />
+
+        <DelayOpenSignal  ShuntingRoute="1" TrainRoute="1" />
+
+      </TObject>
+
+
+      <!-- Предупредительные светофоры -->
+
+      <TObject  Type="PpoWarningSignal"  Tag="PCHS" >
+
+        <!-- Параметры -->
+
+        <Parameters  Id="PCHS" Indent="PCHS" ControlArea="RU" />
+
+        <!-- Интерфесный объект светофор -->
+
+        <SignalUnitInterface  IObjTag="PCHS" />
+
+        <!-- Объект основной светофор светофор -->
+
+        <Signal  Tag="CHS" />
+
+      </TObject>
+
+      <!-- Повторительные светофоры -->
+
+      <TObject  Type="PpoRepeatSignal"  Tag="PCHS3" >
+
+        <!-- Параметры -->
+
+        <Parameters  Id="PCHS3" Indent="PCHS3" ControlArea="RU" />
+
+        <!-- Интерфесный объект светофор -->
+
+        <SignalUnitInterface  IObjTag="PCHS3" />
+
+        <!-- Объект основной светофор светофор -->
+
+        <Signal  Tag="CHS3" />
+
+      </TObject>
+
+      <!-- Маршрутные указатели -->
+
+      <TObject  Type="PpoRoutePointer"  Tag="UN1_2" >
+
+        <!-- Параметры -->
+
+        <Parameters  Id="0" Indent="0" ControlArea="RU" />
+
+        <!-- Интерфесный объект маршрутный указатель -->
+
+        <RoutePointerInterface  IObjTag="UN1_2" />
+
+      </TObject>
+
+
+    </TechnologicalObjects>
+
+</PPO>

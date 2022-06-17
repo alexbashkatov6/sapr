@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+      <!-- Путевые приемники -->
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1ASP"     >  <AddrMBRC  RecordNum="1"   />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1BSP"     >  <AddrMBRC  RecordNum="2"   />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2ASP"     >  <AddrMBRC  RecordNum="3"   />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2BSP"     >  <AddrMBRC  RecordNum="4"   />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="3ASP"     >  <AddrMBRC  RecordNum="5"   />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="3BSP"     >  <AddrMBRC  RecordNum="6"   />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4ASP"     >  <AddrMBRC  RecordNum="7"   />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4BSP"     >  <AddrMBRC  RecordNum="8"   />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="5_7ASP"   >  <AddrMBRC  RecordNum="9"   />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="5_7BSP"   >  <AddrMBRC  RecordNum="10"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="5_7VSP"   >  <AddrMBRC  RecordNum="11"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="6_8ASP"   >  <AddrMBRC  RecordNum="12"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="6_8BSP"   >  <AddrMBRC  RecordNum="13"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="9_13ASP"  >  <AddrMBRC  RecordNum="14"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="9_13BSP"  >  <AddrMBRC  RecordNum="15"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="9_13VSP"  >  <AddrMBRC  RecordNum="16"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="10ASP"    >  <AddrMBRC  RecordNum="17"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="10BSP"    >  <AddrMBRC  RecordNum="18"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="11ASP"    >  <AddrMBRC  RecordNum="19"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="11BSP"    >  <AddrMBRC  RecordNum="20"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="12ASP"    >  <AddrMBRC  RecordNum="21"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="12BSP"    >  <AddrMBRC  RecordNum="22"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="14_24ASP" >  <AddrMBRC  RecordNum="23"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="14_24BSP" >  <AddrMBRC  RecordNum="24"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="14_24VSP" >  <AddrMBRC  RecordNum="25"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="14_24GSP" >  <AddrMBRC  RecordNum="26"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="15ASP"    >  <AddrMBRC  RecordNum="27"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="15BSP"    >  <AddrMBRC  RecordNum="28"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="16_34ASP" >  <AddrMBRC  RecordNum="29"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="16_34BSP" >  <AddrMBRC  RecordNum="30"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="16_34VSP" >  <AddrMBRC  RecordNum="31"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="16_34GSP" >  <AddrMBRC  RecordNum="32"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="17_19ASP" >  <AddrMBRC  RecordNum="33"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="17_19BSP" >  <AddrMBRC  RecordNum="34"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="17_19VSP" >  <AddrMBRC  RecordNum="35"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="18_26ASP" >  <AddrMBRC  RecordNum="36"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="18_26BSP" >  <AddrMBRC  RecordNum="37"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="18_26VSP" >  <AddrMBRC  RecordNum="38"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="20ASP"    >  <AddrMBRC  RecordNum="39"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="20BSP"    >  <AddrMBRC  RecordNum="40"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="21ASP"    >  <AddrMBRC  RecordNum="41"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="21BSP"    >  <AddrMBRC  RecordNum="42"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="23ASP"    >  <AddrMBRC  RecordNum="43"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="23BSP"    >  <AddrMBRC  RecordNum="44"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="25ASP"    >  <AddrMBRC  RecordNum="45"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="25BSP"    >  <AddrMBRC  RecordNum="46"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="27ASP"    >  <AddrMBRC  RecordNum="47"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="27BSP"    >  <AddrMBRC  RecordNum="48"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="29ASP"    >  <AddrMBRC  RecordNum="49"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="29BSP"    >  <AddrMBRC  RecordNum="50"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="30ASP"    >  <AddrMBRC  RecordNum="51"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="30BSP"    >  <AddrMBRC  RecordNum="52"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="31ASP"    >  <AddrMBRC  RecordNum="53"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="31BSP"    >  <AddrMBRC  RecordNum="54"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="32ASP"    >  <AddrMBRC  RecordNum="55"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="32BSP"    >  <AddrMBRC  RecordNum="56"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="33_37ASP" >  <AddrMBRC  RecordNum="57"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="33_37BSP" >  <AddrMBRC  RecordNum="58"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="33_37VSP" >  <AddrMBRC  RecordNum="59"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="36_40ASP" >  <AddrMBRC  RecordNum="60"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="36_40BSP" >  <AddrMBRC  RecordNum="61"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="36_40VSP" >  <AddrMBRC  RecordNum="62"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="38ASP"    >  <AddrMBRC  RecordNum="63"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="38BSP"    >  <AddrMBRC  RecordNum="64"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="39ASP"    >  <AddrMBRC  RecordNum="65"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="39BSP"    >  <AddrMBRC  RecordNum="66"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="41ASP"    >  <AddrMBRC  RecordNum="67"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="41BSP"    >  <AddrMBRC  RecordNum="68"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="42ASP"    >  <AddrMBRC  RecordNum="69"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="42BSP"    >  <AddrMBRC  RecordNum="70"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="43_47ASP" >  <AddrMBRC  RecordNum="71"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="43_47BSP" >  <AddrMBRC  RecordNum="72"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="43_47VSP" >  <AddrMBRC  RecordNum="73"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="43_47GSP" >  <AddrMBRC  RecordNum="74"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="44_48ASP" >  <AddrMBRC  RecordNum="75"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="44_48BSP" >  <AddrMBRC  RecordNum="76"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="44_48VSP" >  <AddrMBRC  RecordNum="77"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="50ASP"    >  <AddrMBRC  RecordNum="78"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="50BSP"    >  <AddrMBRC  RecordNum="79"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="52ASP"    >  <AddrMBRC  RecordNum="80"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="52BSP"    >  <AddrMBRC  RecordNum="81"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="54SP"     >  <AddrMBRC  RecordNum="82"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1NP"      >  <AddrMBRC  RecordNum="83"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1CHP"     >  <AddrMBRC  RecordNum="84"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2NDP"     >  <AddrMBRC  RecordNum="85"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2CYDP"    >  <AddrMBRC  RecordNum="86"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A3NP"     >  <AddrMBRC  RecordNum="87"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B3NP"     >  <AddrMBRC  RecordNum="88"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="3CHP"     >  <AddrMBRC  RecordNum="89"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4NDP"     >  <AddrMBRC  RecordNum="90"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4CHDP"    >  <AddrMBRC  RecordNum="91"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="CHKAP"    >  <AddrMBRC  RecordNum="92"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="M15P"     >  <AddrMBRC  RecordNum="93"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="M21P"     >  <AddrMBRC  RecordNum="94"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="M21_M31P" >  <AddrMBRC  RecordNum="95"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="22_36P"   >  <AddrMBRC  RecordNum="96"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="M23P"     >  <AddrMBRC  RecordNum="97"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="M33P"     >  <AddrMBRC  RecordNum="98"  />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A1P"      >  <AddrMBRC  RecordNum="99"  />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B1P"      >  <AddrMBRC  RecordNum="100" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1AP"      >  <AddrMBRC  RecordNum="101" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A2P"      >  <AddrMBRC  RecordNum="102" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B2P"      >  <AddrMBRC  RecordNum="103" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="3P"       >  <AddrMBRC  RecordNum="104" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="3AP"      >  <AddrMBRC  RecordNum="105" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A4P"      >  <AddrMBRC  RecordNum="106" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B4P"      >  <AddrMBRC  RecordNum="107" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="5P"       >  <AddrMBRC  RecordNum="108" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A6P"      >  <AddrMBRC  RecordNum="109" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B6P"      >  <AddrMBRC  RecordNum="110" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A7P"      >  <AddrMBRC  RecordNum="111" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B7P"      >  <AddrMBRC  RecordNum="112" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="7AP"      >  <AddrMBRC  RecordNum="113" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A8P"      >  <AddrMBRC  RecordNum="114" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B8P"      >  <AddrMBRC  RecordNum="115" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="8AP"      >  <AddrMBRC  RecordNum="116" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="9P"       >  <AddrMBRC  RecordNum="117" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="10P"      >  <AddrMBRC  RecordNum="118" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A11P"     >  <AddrMBRC  RecordNum="119" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B11P"     >  <AddrMBRC  RecordNum="120" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="A12P"     >  <AddrMBRC  RecordNum="121" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="B12P"     >  <AddrMBRC  RecordNum="122" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1N1P"     >  <AddrMBRC  RecordNum="123" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1N3P"     >  <AddrMBRC  RecordNum="124" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1N5P"     >  <AddrMBRC  RecordNum="125" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1N7P"     >  <AddrMBRC  RecordNum="126" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1N9P"     >  <AddrMBRC  RecordNum="127" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1N11P"    >  <AddrMBRC  RecordNum="128" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1N13P"    >  <AddrMBRC  RecordNum="129" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1CH1P"    >  <AddrMBRC  RecordNum="130" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="1CH3P"    >  <AddrMBRC  RecordNum="131" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N2P"     >  <AddrMBRC  RecordNum="132" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N4P"     >  <AddrMBRC  RecordNum="133" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N6P"     >  <AddrMBRC  RecordNum="134" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N8P"     >  <AddrMBRC  RecordNum="135" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N10P"    >  <AddrMBRC  RecordNum="136" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N12P"    >  <AddrMBRC  RecordNum="137" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N14P"    >  <AddrMBRC  RecordNum="138" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2N16P"    >  <AddrMBRC  RecordNum="139" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2CH2P"    >  <AddrMBRC  RecordNum="140" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2CH4P"    >  <AddrMBRC  RecordNum="141" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2CH6P"    >  <AddrMBRC  RecordNum="142" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="2CH8P"    >  <AddrMBRC  RecordNum="143" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="3CH1P"    >  <AddrMBRC  RecordNum="144" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="3CH3P"    >  <AddrMBRC  RecordNum="145" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4N2P"     >  <AddrMBRC  RecordNum="146" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4N4P"     >  <AddrMBRC  RecordNum="147" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4N6P"     >  <AddrMBRC  RecordNum="148" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4N8P"     >  <AddrMBRC  RecordNum="149" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4N10P"    >  <AddrMBRC  RecordNum="150" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4N12P"    >  <AddrMBRC  RecordNum="151" />  </IObject>
+
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4CH2P"    >  <AddrMBRC  RecordNum="152" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4CH4P"    >  <AddrMBRC  RecordNum="153" />  </IObject>
+      <IObject  Type="PpoTrackReceiverCi"  Tag="4CH6P"    >  <AddrMBRC  RecordNum="154" />  </IObject>
+
+    </InterfaceObjects>
+
+</PPO>

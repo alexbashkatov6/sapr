@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+      <!-- Светофоры с бесконтактным интерфейсом -->
+
+      <IObject  Type="PpoLightSignalCi"  Tag="N6"     >  <AddrMBSW  RecordNum="1"  />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="N2"     >  <AddrMBSW  RecordNum="2"  />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="N8A"    >  <AddrMBSW  RecordNum="3"  />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="N1"     >  <AddrMBSW  RecordNum="4"  />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="N3"     >  <AddrMBSW  RecordNum="5"  />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M20"    >  <AddrMBSW  RecordNum="6"  />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M22"    >  <AddrMBSW  RecordNum="7"  />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="1CH"    >  <AddrMBSW  RecordNum="8"  />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M2"     >  <AddrMBSW  RecordNum="9"  />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M4"     >  <AddrMBSW  RecordNum="10" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M6"     >  <AddrMBSW  RecordNum="11" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M8"     >  <AddrMBSW  RecordNum="12" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M10"    >  <AddrMBSW  RecordNum="13" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="PCHK"   >  <AddrMBSW  RecordNum="14" />  <Parameters  DefaultLightCode="Yellow" />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CHK"    >  <AddrMBSW  RecordNum="15" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="N7"     >  <AddrMBSW  RecordNum="16" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CHM7A"  >  <AddrMBSW  RecordNum="17" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="NM8"    >  <AddrMBSW  RecordNum="18" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CHM8A"  >  <AddrMBSW  RecordNum="19" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="N4"     >  <AddrMBSW  RecordNum="20" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="3CH"    >  <AddrMBSW  RecordNum="21" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="N7A"    >  <AddrMBSW  RecordNum="22" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="2CHD"   >  <AddrMBSW  RecordNum="23" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="4CHD"   >  <AddrMBSW  RecordNum="24" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M12"    >  <AddrMBSW  RecordNum="25" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M14"    >  <AddrMBSW  RecordNum="26" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M16"    >  <AddrMBSW  RecordNum="27" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M18"    >  <AddrMBSW  RecordNum="28" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M24"    >  <AddrMBSW  RecordNum="29" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M15"    >  <AddrMBSW  RecordNum="32" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M17"    >  <AddrMBSW  RecordNum="33" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M19"    >  <AddrMBSW  RecordNum="34" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M25"    >  <AddrMBSW  RecordNum="35" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M27"    >  <AddrMBSW  RecordNum="36" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M33"    >  <AddrMBSW  RecordNum="37" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M21"    >  <AddrMBSW  RecordNum="38" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M31"    >  <AddrMBSW  RecordNum="39" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M29"    >  <AddrMBSW  RecordNum="40" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M13"    >  <AddrMBSW  RecordNum="41" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH2"    >  <AddrMBSW  RecordNum="42" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH6"    >  <AddrMBSW  RecordNum="43" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH8"    >  <AddrMBSW  RecordNum="44" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M1"     >  <AddrMBSW  RecordNum="45" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M3"     >  <AddrMBSW  RecordNum="46" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M5"     >  <AddrMBSW  RecordNum="47" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M23"    >  <AddrMBSW  RecordNum="48" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH3A"   >  <AddrMBSW  RecordNum="49" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CHM1"   >  <AddrMBSW  RecordNum="50" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="NM9_12" >  <AddrMBSW  RecordNum="51" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="4ND"    >  <AddrMBSW  RecordNum="54" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="1N"     >  <AddrMBSW  RecordNum="55" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="2ND"    >  <AddrMBSW  RecordNum="56" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="3N"     >  <AddrMBSW  RecordNum="57" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH11"   >  <AddrMBSW  RecordNum="58" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH12"   >  <AddrMBSW  RecordNum="59" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M7"     >  <AddrMBSW  RecordNum="60" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M9"     >  <AddrMBSW  RecordNum="61" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="M11"    >  <AddrMBSW  RecordNum="62" />  <Parameters  DefaultLightCode="Blue"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH7"    >  <AddrMBSW  RecordNum="63" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH1A"   >  <AddrMBSW  RecordNum="64" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="NM1A"   >  <AddrMBSW  RecordNum="65" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH4"    >  <AddrMBSW  RecordNum="66" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="NM3"    >  <AddrMBSW  RecordNum="67" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="CH5"    >  <AddrMBSW  RecordNum="68" />  <Parameters  DefaultLightCode="Red"    />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="2_2CHP" >  <AddrMBSW  RecordNum="69" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="2_4CHP" >  <AddrMBSW  RecordNum="70" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="3_1NP"  >  <AddrMBSW  RecordNum="71" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="1_1NP"  >  <AddrMBSW  RecordNum="72" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="2_2NP"  >  <AddrMBSW  RecordNum="73" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="4_2NP"  >  <AddrMBSW  RecordNum="74" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="6_2NP"  >  <AddrMBSW  RecordNum="75" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="2_4NP"  >  <AddrMBSW  RecordNum="76" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+      <IObject  Type="PpoLightSignalCi"  Tag="4_4NP"  >  <AddrMBSW  RecordNum="77" />  <Parameters  DefaultLightCode="Dark"   />  </IObject>
+
+
+
+      <!-- Светофоры с релейно-контактным интерфейсом -->
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CHR1" >
+
+        <AddrMKI  KO="USO:1:1:16" KPS="USO:1:1:17" RU="USO:1:1:18" KMGS="USO:1:1:19" ZHZS="USO:1:1:20" ZS="USO:1:1:21" />
+
+      </IObject>
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CHR2" >
+
+        <AddrMKI  KO="USO:1:1:38" KPS="USO:1:1:39" RU="USO:1:1:40" KMGS="USO:1:1:41" />
+
+      </IObject>
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CHR3" >
+
+        <AddrMKI  KO="USO:1:2:11" KPS="USO:1:2:12" RU="USO:1:2:13" GM="USO:1:2:14" KMGS="USO:1:2:15" />
+
+      </IObject>
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CHR4" >
+      
+        <AddrMKI  KO="USO:1:2:39" KPS="USO:1:2:40" RU="USO:1:2:41" GM="USO:1:2:42" KMGS="USO:1:2:43" />
+
+      </IObject>
+
+
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CHD" >
+
+        <AddrMKI  KO="CPU:1:11" RU="CPU:1:12" />
+
+      </IObject>
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CH" >
+
+        <AddrMKI  KO="CPU:2:11" KPS="CPU:2:12" RU="CPU:2:13" GM="CPU:2:14" KMGS="CPU:2:15" ZHZS="CPU:2:16" ZS="CPU:2:16" />
+
+      </IObject>
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CHDR" >
+
+        <AddrMKI  KO="CPU:3:5" RU="CPU:3:6" SU="CPU:3:8" />
+
+      </IObject>
+
+      <IObject  Type="PpoEntranceLightSignalRi"  Tag="CHR" >
+
+        <AddrMKI  KO="CPU:4:10" KPS="CPU:4:11" RU="CPU:4:12" GM="CPU:4:13" KMGS="CPU:4:14" />
+
+      </IObject>
+                                                     
+                                                     
+                                                     
+    </InterfaceObjects>                              
+                                                     
+</PPO>                                               
+                                                     

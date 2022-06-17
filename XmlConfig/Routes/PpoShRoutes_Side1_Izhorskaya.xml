@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Маневровые маршруты -->
+
+    <ShuntingRoutes>
+
+
+
+      <!-- Нечетная сторона ( "Ижорская горловина" ) -->
+
+      <ShRoute  Type="PpoShuntingRoute"  Tag="" >
+
+        <OperatorSelectors  Begin=""  Variants=""  Ends="" />
+
+        <Trace  Start=""  Finish=""  OnCoursePoints=""  ProtectivePoints="" />
+
+      </ShRoute>
+
+
+
+    </ShuntingRoutes>
+
+</PPO>

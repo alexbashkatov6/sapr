@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<PPO  Version="2.0" >
+
+    <!-- Интерфейсные объекты -->
+
+    <InterfaceObjects>
+
+
+
+      <!-- Зоны оповещения монтеров пути -->
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM2" >
+
+        <AddrMKI  KNM="USO:2:1:36" />
+        <AddrMUI  RRM="USO:2:3:1" OM="USO:2:3:2" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM3" >
+
+        <AddrMKI  KNM="USO:2:1:37" />
+        <AddrMUI  RRM="USO:2:3:3" OM="USO:2:3:4" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM4" >
+
+        <AddrMKI  KNM="USO:2:1:38" />
+        <AddrMUI  RRM="USO:2:3:5" OM="USO:2:3:6" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM5" >
+
+        <AddrMKI  KNM="USO:2:1:39" />
+        <AddrMUI  RRM="USO:2:3:7" OM="USO:2:3:8" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM6" >
+
+        <AddrMKI  KNM="USO:2:1:40" />
+        <AddrMUI  RRM="USO:2:3:9" OM="USO:2:3:10" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM7" >
+
+        <AddrMKI  KNM="USO:2:1:41" />
+        <AddrMUI  RRM="USO:2:3:11" OM="USO:2:3:12" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM8" >
+
+        <AddrMKI  KNM="USO:2:1:42" />
+        <AddrMUI  RRM="USO:2:3:13" OM="USO:2:3:14" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM9" >
+
+        <AddrMKI  KNM="USO:2:1:43" />
+        <AddrMUI  RRM="USO:2:3:15" OM="USO:2:3:16" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM11" >
+
+        <AddrMKI  KNM="USO:2:1:44" />
+        <AddrMUI  RRM="USO:2:3:25" OM="USO:2:3:26" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM12" >
+
+        <AddrMKI  KNM="USO:2:1:45" />
+        <AddrMUI  RRM="USO:2:3:27" OM="USO:2:3:28" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM13" >
+
+        <AddrMKI  KNM="USO:2:1:46" />
+        <AddrMUI  RRM="USO:2:3:29" OM="USO:2:3:30" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM14" >
+
+        <AddrMKI  KNM="USO:2:1:47" />
+        <AddrMUI  RRM="USO:2:3:31" OM="USO:2:3:32" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM15" >
+
+        <AddrMKI  KNM="USO:2:1:48" />
+        <AddrMUI  RRM="USO:2:3:33" OM="USO:2:3:34" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM16" >
+
+        <AddrMKI  KNM="USO:2:1:49" />
+        <AddrMUI  RRM="USO:2:3:35" OM="USO:2:3:36" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM17" >
+
+        <AddrMKI  KNM="USO:2:1:50" />
+        <AddrMUI  RRM="USO:2:3:37" OM="USO:2:3:38" />
+
+      </IObject>
+
+      <IObject  Type="PpoRailFittersWarningAreaRi"  Tag="OM18" >
+
+        <AddrMKI  KNM="USO:2:1:51" />
+        <AddrMUI  RRM="USO:2:3:39" OM="USO:2:3:40" />
+
+      </IObject>
+
+
+
+    </InterfaceObjects>
+
+</PPO>
