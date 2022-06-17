@@ -3,10 +3,11 @@ from __future__ import annotations
 from abc import abstractmethod, ABC
 from copy import copy
 from dataclasses import dataclass, field
-from typing import Any, Iterable, Union, Type
+from typing import Any, Iterable, Union, Type, Optional
 
 from custom_enum import CustomEnum
 from config import SINGLE_ATTRIBUTE_PROPERTIES, NAMED_ATTRIBUTE_PROPERTIES, ADDRESS, PROPERTIES, INTERNAL_STRUCTURE
+from file_object_conversions import attr_name_from_object_to_file
 
 
 class AttributeCommand(CustomEnum):
@@ -74,7 +75,7 @@ class NamedAttribute(AddressedAttribute):
         super().__init__(attr_addr)
         self.single_attribute_type = single_attribute_type
         self.min_count = min_count
-        # self.is_empty =
+        # self.is_empty = True
 
     @abstractmethod
     def file_representation(self) -> dict:
@@ -99,7 +100,7 @@ class UnaryAttribute(NamedAttribute):
         return not self.min_count
 
     @property
-    def file_representation(self) -> dict:
+    def file_representation(self) -> Optional[dict]:
         return self.single_attribute.file_representation
 
     @property
@@ -130,7 +131,9 @@ class ListAttribute(NamedAttribute):
 
     @property
     def file_representation(self):
-        return [single_attribute.file_representation for single_attribute in self.single_attribute_list]
+        result = [single_attribute.file_representation for single_attribute in self.single_attribute_list
+                  if not (single_attribute.file_representation is None)]
+        return result or None
 
     @property
     def attr_exchange_representation(self):
@@ -163,6 +166,7 @@ class ListAttribute(NamedAttribute):
 class SingleAttribute(AddressedAttribute):
     def __init__(self, attr_addr: AttributeAddress = None):
         super().__init__(attr_addr)
+        # self.is_empty = True
 
     @abstractmethod
     def file_representation(self) -> dict:
@@ -184,6 +188,7 @@ class StrSingleAttribute(SingleAttribute):
         self.is_required: bool = True
         self.error_message: str = ""
         self.possible_str_value_storages: Union[Iterable[str], Iterable[Iterable[str]]] = None
+        self.file_value: Any = ""
 
     @property
     def suggested_value(self) -> str:
@@ -221,8 +226,7 @@ class StrSingleAttribute(SingleAttribute):
 
     @property
     def file_representation(self):
-        """ ! last input ? needs to reimplement """
-        return self.displaying_value
+        return self.file_value or None
 
     @property
     def attr_exchange_representation(self):
@@ -245,8 +249,10 @@ class ObjSingleAttribute(SingleAttribute):
         data_attr_names = self.obj.data_attr_names
         for data_attr_name in data_attr_names:
             na: NamedAttribute = getattr(self.obj, data_attr_name)
-            d[data_attr_name] = na.file_representation
-        return d
+            file_representation = na.file_representation
+            if not (file_representation is None):
+                d[attr_name_from_object_to_file(data_attr_name)] = file_representation
+        return d or None
 
     @property
     def attr_exchange_representation(self):

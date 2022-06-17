@@ -2,19 +2,15 @@ from typing import Any
 
 
 class Presentation:
-    def is_empty(self, val: str) -> bool:
-        pass
-
     def convert(self, val: str) -> Any:
         return val
 
 
-class SpacePresentation(Presentation):
-    pass
-
-
 class IntPresentation(Presentation):
-    pass
+    def convert(self, val: str) -> Any:
+        if val and val.isdigit():
+            return int(val)
+        return None
 
 
 class AddressPresentation(Presentation):

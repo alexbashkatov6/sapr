@@ -62,4 +62,9 @@ my_func("sfdfd")
 
 convertion_rule = lambda x: x+1
 print(convertion_rule(4))
-print([1, 2, 3][3])
+# print([1, 2, 3][3])
+
+def f(x):
+    return x or None
+print(f(1))
+print(f(""))

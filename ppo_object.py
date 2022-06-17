@@ -11,12 +11,13 @@ from descr_value_checkers import ValueChecker, ValueInSetChecker, ValueAddressUI
     ValueABInvitSignalOpeningBeforeChecker, ValuePABInvitSignalOpeningBeforeChecker
 from descr_value_suggesters import Suggester, ConstSuggester, AddressSuggester, \
     EqualOtherAttributeSuggester, InterstationDirectiveSuggester
-from descr_value_presentation import Presentation, SpacePresentation, IntPresentation, AddressPresentation
+from descr_value_presentation import Presentation, IntPresentation, AddressPresentation
 from attr_manage_group import AMG_ADR_UI, AMG_ADR_KI
 from attribute_address_access import set_str_attr, get_str_attr
 from attribute_management import AttributeAddress, NamedAttribute, SingleAttribute, AttributeCommand, \
     ComplexAttributeManagementCommand, StrSingleAttribute, ObjSingleAttribute, AttributeIndex, UnaryAttribute
 from aar_descriptor import AttributeAccessRulesDescriptor, cyclic_find
+from file_object_conversions import attr_name_from_file_to_object, attr_name_from_object_to_file
 
 
 class ClassNameDescriptor:
@@ -39,18 +40,14 @@ get_tag = partial(get_str_attr, attr_address=AttributeAddress([AttributeIndex("t
 
 def elementary_attr_handling(address, attr_val) -> list[ComplexAttributeManagementCommand]:
     if isinstance(attr_val, str):
-        print("create SINGLE STR attr", attr_val)
         command = ComplexAttributeManagementCommand(AttributeCommand(AttributeCommand.set_single), address, attr_val)
         return [command]
     elif isinstance(attr_val, int):
-        print("create SINGLE INT attr", attr_val)
         attr_val = str(attr_val)
         command = ComplexAttributeManagementCommand(AttributeCommand(AttributeCommand.set_single), address, attr_val)
         return [command]
     elif isinstance(attr_val, dict):
-        print("create SINGLE OBJ attr", attr_val)
         com_list = address_expansion(attr_val, address)
-        # result_command_list.extend(com_list)
         return com_list
     else:
         assert False
@@ -59,7 +56,7 @@ def elementary_attr_handling(address, attr_val) -> list[ComplexAttributeManageme
 def address_expansion(input_dict: dict, input_address: AttributeAddress) -> list[ComplexAttributeManagementCommand]:
     result_command_list: list[ComplexAttributeManagementCommand] = []
     for attr_name, attr_val in input_dict.items():
-        print("attr name = ", attr_name)
+        attr_name = attr_name_from_file_to_object(attr_name)
         if isinstance(attr_val, list):
             for i, elem in enumerate(attr_val):
                 aa = input_address.expand(AttributeIndex(attr_name, i))
@@ -94,9 +91,11 @@ class PpoObject:
             named_attr: NamedAttribute = getattr(self, data_attr_name)
             if to_file:
                 result = named_attr.file_representation
+                if not (result is None):
+                    data_dict[attr_name_from_object_to_file(data_attr_name)] = result
             else:
                 result = named_attr.attr_exchange_representation
-            data_dict[data_attr_name] = result
+                data_dict[attr_name_from_object_to_file(data_attr_name)] = result
         if is_base_object:
             return json_dict
         else:
@@ -208,6 +207,7 @@ class NotificationPoint(PpoObject):
 
 
 class PpoPoint(PpoObject4i):
+    type_ = AttributeAccessRulesDescriptor(presentation=IntPresentation())
     pointsMonitoring = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("STRELKI"))
     section = AttributeAccessRulesDescriptor()
     railFittersWarningArea = AttributeAccessRulesDescriptor(value_suggester=EqualOtherAttributeSuggester("tag"))

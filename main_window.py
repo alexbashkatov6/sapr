@@ -10,6 +10,7 @@ from PyQt5.QtGui import QWindow
 from PyQt5.QtCore import pyqtSignal, Qt, QObject, QModelIndex
 from PyQt5.Qt import QStandardItemModel, QStandardItem, QMouseEvent, QContextMenuEvent
 
+from file_object_conversions import attr_name_from_object_to_file
 from project_properties_dialog import ProjectPropertiesDialog
 from config import MAIN_CLASSES_TREE, SPACED_STARTS, ONE_LINE_HEIGHT, SINGLE_ATTRIBUTE_PROPERTIES, \
     NAMED_ATTRIBUTE_PROPERTIES, ADDRESS, PROPERTIES, INTERNAL_STRUCTURE, LINE_EDIT_STYLESHEET, \
@@ -426,7 +427,7 @@ class AttributeWidget(QWidget):
     def add_label_with_line_edit(self, label_text: str, address: list) -> tuple[QLabel, CustomAttributeLineEdit]:
         """ single handling """
         horizontal_layout = self.generate_horizontal_widget()
-        label = QLabel(label_text)
+        label = QLabel(attr_name_from_object_to_file(label_text))
         label.setMinimumHeight(20)
         label.setContentsMargins(2, 2, 2, 2)
         horizontal_layout.addWidget(label)

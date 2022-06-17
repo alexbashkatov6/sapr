@@ -77,8 +77,10 @@ class AttributeAccessRulesDescriptor:
                         self.suggest(instance, single_attrib)
                     else:
                         single_attrib.displaying_value = ""
+                        self.form_file_presentation(single_attrib)
                 else:
                     single_attrib.displaying_value = single_attrib.last_input_value
+                    self.form_file_presentation(single_attrib)
                     self.check_value(single_attrib, value)
                 self.equal_others_suggesters_handling(instance)
                 if not single_attrib.possible_str_value_storages:
@@ -98,6 +100,9 @@ class AttributeAccessRulesDescriptor:
         else:
             assert False
 
+    def form_file_presentation(self, single_attrib: StrSingleAttribute):
+        single_attrib.file_value = self.presentation.convert(single_attrib.displaying_value)
+
     def init_attr_in_object(self, instance):
         instance_aa: AttributeAddress = instance.obj_addr
         ca_addr = instance_aa.expand(AttributeIndex(self.name, -1))
@@ -115,7 +120,8 @@ class AttributeAccessRulesDescriptor:
 
     def new_attr_operations(self, instance, named_attr):
         new_sa = named_attr.append_new_sa()
-        self.suggest(instance, new_sa)
+        if isinstance(new_sa, StrSingleAttribute):
+            self.suggest(instance, new_sa)
         self.possible_values_binding(new_sa)
 
     def possible_values_binding(self, str_sa: StrSingleAttribute):
@@ -160,6 +166,7 @@ class AttributeAccessRulesDescriptor:
             single_attrib.displaying_value = single_attrib.suggested_value = self.value_suggester.suggest(instance)
         elif isinstance(self.value_suggester, AddressSuggester):
             single_attrib.displaying_value = single_attrib.suggested_value = self.value_suggester.suggest()
+        self.form_file_presentation(single_attrib)
 
     def check_value(self, str_sa: StrSingleAttribute, value: Any):
         for value_checker in self.value_checkers:
