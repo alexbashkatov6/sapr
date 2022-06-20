@@ -68,3 +68,4 @@ def f(x):
     return x or None
 print(f(1))
 print(f(""))
+print((1,2) == (1,2))

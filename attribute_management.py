@@ -29,8 +29,21 @@ class AttributeAddress:
     def __init__(self, attribute_index_list: list[AttributeIndex] = None):
         self.attribute_index_list = attribute_index_list or []
 
+    def get_first_attr_name(self) -> str:
+        return self.attribute_index_list[0].attr_name
+
     def expand(self, ai: AttributeIndex) -> AttributeAddress:
         return AttributeAddress(self.attribute_index_list + [ai])
+
+    def get_end_slice(self, ai: AttributeIndex) -> AttributeAddress:
+        result_list = []
+        append = False
+        for attr_ind in self.attribute_index_list:
+            if attr_ind == ai:
+                append = True
+            if append:
+                result_list.append(attr_ind)
+        return AttributeAddress(result_list)
 
     def specify_num_of_last(self, num: int) -> AttributeAddress:
         new_ail = copy(self.attribute_index_list)
@@ -226,7 +239,9 @@ class StrSingleAttribute(SingleAttribute):
 
     @property
     def file_representation(self):
-        return self.file_value or None
+        if self.file_value == "":
+            return None
+        return self.file_value  #  or None
 
     @property
     def attr_exchange_representation(self):

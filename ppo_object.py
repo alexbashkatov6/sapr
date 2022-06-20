@@ -11,7 +11,7 @@ from descr_value_checkers import ValueChecker, ValueInSetChecker, ValueAddressUI
     ValueABInvitSignalOpeningBeforeChecker, ValuePABInvitSignalOpeningBeforeChecker
 from descr_value_suggesters import Suggester, ConstSuggester, AddressSuggester, \
     EqualOtherAttributeSuggester, InterstationDirectiveSuggester
-from descr_value_presentation import Presentation, IntPresentation, AddressPresentation
+from descr_value_presentation import Presentation, IntPresentation, AddressPresentation, IfZeroThenIntPresentation
 from attr_manage_group import AMG_ADR_UI, AMG_ADR_KI
 from attribute_address_access import set_str_attr, get_str_attr
 from attribute_management import AttributeAddress, NamedAttribute, SingleAttribute, AttributeCommand, \
@@ -56,6 +56,8 @@ def elementary_attr_handling(address, attr_val) -> list[ComplexAttributeManageme
 def address_expansion(input_dict: dict, input_address: AttributeAddress) -> list[ComplexAttributeManagementCommand]:
     result_command_list: list[ComplexAttributeManagementCommand] = []
     for attr_name, attr_val in input_dict.items():
+        # if attr_name == "Сrossroad":
+        #     print("Сrossroad")
         attr_name = attr_name_from_file_to_object(attr_name)
         if isinstance(attr_val, list):
             for i, elem in enumerate(attr_val):
@@ -102,18 +104,23 @@ class PpoObject:
             return data_dict
 
     def from_dict(self, d: dict):
-        set_tag(self, d["tag"])
-        data = d["data"]
-        command_list = address_expansion(data, self.obj_addr)
-        print("command list = ", len(command_list), [[idx.to_list() for idx in com.attrib_address.attribute_index_list] for com in command_list])
-        for command in command_list:
-            attr_name = command.attrib_address.attribute_index_list[0].attr_name
-            setattr(self, attr_name, command)
+        if "tag" in d:
+            set_tag(self, d["tag"])
+        if "data" in d:
+            data = d["data"]
+            command_list = address_expansion(data, self.obj_addr)
+            # print("command list = ", len(command_list),
+            #       [[idx.to_list() for idx in com.attrib_address.attribute_index_list] for com in command_list])
+            for command in command_list:
+                attr_name = command.attrib_address.attribute_index_list[0].attr_name
+                setattr(self, attr_name, command)
 
 
 class PpoObject2i(PpoObject):
-    id_ = AttributeAccessRulesDescriptor(value_suggester=EqualOtherAttributeSuggester("tag"))
-    indent = AttributeAccessRulesDescriptor(value_suggester=EqualOtherAttributeSuggester("tag"))
+    id_ = AttributeAccessRulesDescriptor(value_suggester=EqualOtherAttributeSuggester("tag"),
+                                         presentation=IfZeroThenIntPresentation())
+    indent = AttributeAccessRulesDescriptor(value_suggester=EqualOtherAttributeSuggester("tag"),
+                                            presentation=IfZeroThenIntPresentation())
 
 
 class PpoObject3i(PpoObject2i):
@@ -130,13 +137,37 @@ class PpoRoutePointer(PpoObject3i):
 
 class PpoRoutePointerRi(PpoObject):
     onRoutePointer = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
-    outputAddrs = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
+    outputAddrs = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI, is_list=True)
+
+
+class StartWarningArea(PpoObject):
+    obj = AttributeAccessRulesDescriptor()
+    point = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                           presentation=IntPresentation())
 
 
 class PpoTrainSignal(PpoObject4i):
+    railCrossing = AttributeAccessRulesDescriptor()
+    delayOpenSignalShRoute = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                            presentation=IntPresentation())
+    delayOpenSignalTrRoute = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                            presentation=IntPresentation())
+    startUp = AttributeAccessRulesDescriptor()
     routePointer = AttributeAccessRulesDescriptor()
+    startWarningArea = AttributeAccessRulesDescriptor(single_attribute_type=StartWarningArea)
     groupRoutePointers = AttributeAccessRulesDescriptor(is_list=True)
     uksps = AttributeAccessRulesDescriptor()
+    shutOffTime = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                 presentation=IntPresentation())
+
+
+class PpoGroupTrainSignal(PpoObject4i):
+    routePointer = AttributeAccessRulesDescriptor()
+
+
+class PpoFictionalSignal(PpoObject4i):
+    groupSignal = AttributeAccessRulesDescriptor()
+    startWarningArea = AttributeAccessRulesDescriptor(single_attribute_type=StartWarningArea)
 
 
 class PpoWarningSignal(PpoObject4i):
@@ -148,23 +179,48 @@ class PpoRepeatSignal(PpoObject4i):
 
 
 class PpoShuntingSignal(PpoObject4i):
-    pass
+    delayOpenSignalShRoute = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                            presentation=IntPresentation())
 
 
 class PpoShuntingSignalWithTrackAnD(PpoObject4i):
+    routePullTrain = AttributeAccessRulesDescriptor()
+
+
+class PpoFictionalRepeatingShuntingSignal(PpoObject4i):
+    groupSignal = AttributeAccessRulesDescriptor()
+
+
+class PpoInterstationWaySignal(PpoObject4i):
+    protectiveTrack = AttributeAccessRulesDescriptor()
+    signalRepeat = AttributeAccessRulesDescriptor()
+    stateInterstationWay = AttributeAccessRulesDescriptor()
+
+
+class PpoInterstationWayFictionalSignal(PpoObject3i):
+    signalRepeat = AttributeAccessRulesDescriptor()
+    stateInterstationWay = AttributeAccessRulesDescriptor()
+
+
+class PpoIndicationSignal(PpoObject4i):
     pass
 
 
 class PpoLightSignalCi(PpoObject):
     mode = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("DN_DSN"))
     addrKa = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker())
-    addrKi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker())
-    addrUi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker())
-    type_ = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker())
+    addrKi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                            presentation=IntPresentation())
+    addrUi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                            presentation=IntPresentation())
+    type_ = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                           presentation=IntPresentation())
 
 
 class PpoTrack(PpoObject3i):
-    length = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(), value_suggester=ConstSuggester("5"))
+    length = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                            value_suggester=ConstSuggester("5"),
+                                            presentation=IntPresentation())
     trackUnit = AttributeAccessRulesDescriptor()
 
 
@@ -173,20 +229,34 @@ class PpoAnDtrack(PpoTrack):
 
 
 class PpoTrackAnDwithPoint(PpoTrack):
-    directionPointAnDTrack = AttributeAccessRulesDescriptor(value_checkers=ValueInSetChecker(["Direction12", "Direction21"]))
+    directionPointAnDTrack = AttributeAccessRulesDescriptor(
+        value_checkers=ValueInSetChecker(["Direction12", "Direction21"]))
     oppositeTrackAnDwithPoint = AttributeAccessRulesDescriptor()
 
 
 class PpoLineEnd(PpoTrack):
+    id_ = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                         presentation=IfZeroThenIntPresentation())
+    indent = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                            presentation=IfZeroThenIntPresentation())
     trackUnit = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("nullptr"))
 
 
 class PpoPointSection(PpoTrack):
-    pass
+    type_ = AttributeAccessRulesDescriptor()
+    crossroad = AttributeAccessRulesDescriptor()
 
 
 class PpoTrackSection(PpoTrack):
     pass
+
+
+class PpoInterstationWayTrack(PpoObject3i):
+    trackUnit = AttributeAccessRulesDescriptor()
+
+
+class PpoIndicationTrack(PpoObject3i):
+    trackUnit = AttributeAccessRulesDescriptor()
 
 
 class AdditionalSwitch(PpoObject):
@@ -228,8 +298,10 @@ class PpoPoint(PpoObject4i):
 
 
 class PpoPointMachineCi(PpoObject):
-    addrKi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker())
-    addrUi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker())
+    addrKi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                            presentation=IntPresentation())
+    addrUi = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                            presentation=IntPresentation())
 
 
 class PpoControlAreaBorder(PpoObject3i):
@@ -237,7 +309,8 @@ class PpoControlAreaBorder(PpoObject3i):
 
 
 class PpoSemiAutomaticBlockingSystem(PpoObject4i):
-    isInvitationSignalOpeningBefore = AttributeAccessRulesDescriptor(value_checkers=ValuePABInvitSignalOpeningBeforeChecker())
+    isInvitationSignalOpeningBefore = AttributeAccessRulesDescriptor(
+        value_checkers=ValuePABInvitSignalOpeningBeforeChecker())
 
 
 class PpoSemiAutomaticBlockingSystemRi(PpoObject):
@@ -262,7 +335,8 @@ class PpoSemiAutomaticBlockingSystemRi(PpoObject):
 
 
 class PpoAutomaticBlockingSystem(PpoObject4i):
-    isInvitationSignalOpeningBefore = AttributeAccessRulesDescriptor(value_checkers=ValueABInvitSignalOpeningBeforeChecker())
+    isInvitationSignalOpeningBefore = AttributeAccessRulesDescriptor(
+        value_checkers=ValueABInvitSignalOpeningBeforeChecker())
     singleTrack = AttributeAccessRulesDescriptor(value_checkers=ValueYesNoChecker())
 
 
@@ -304,26 +378,85 @@ class PpoAutomaticBlockingSystemRi(PpoObject):
     notificationPoints = AttributeAccessRulesDescriptor(is_list=True, single_attribute_type=NotificationPoint)
 
 
-class PpoTrackCrossroad(PpoObject3i):
-    iObjTag = AttributeAccessRulesDescriptor()
-    railCrossing = AttributeAccessRulesDescriptor()
+class PpoAdjacentStationTrainSignal(PpoObject4i):
+    isInvitationSignalOpeningBefore = AttributeAccessRulesDescriptor()
 
 
-class PpoTrainNotificationRi(PpoObject):
-    NPI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
-    CHPI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
+class PpoAdjacentStationTrainSignalRi(PpoObject):
+    addrKI_SNP = AttributeAccessRulesDescriptor()
+    addrKI_S1U = AttributeAccessRulesDescriptor()
+    addrKI_S1P = AttributeAccessRulesDescriptor()
+    addrKI_1U = AttributeAccessRulesDescriptor()
+    addrKI_2U = AttributeAccessRulesDescriptor()
+    addrKI_3U = AttributeAccessRulesDescriptor()
+
+    addrUI_SNP = AttributeAccessRulesDescriptor()
+    addrUI_S1U = AttributeAccessRulesDescriptor()
+    addrUI_S1P = AttributeAccessRulesDescriptor()
+    addrUI_1U = AttributeAccessRulesDescriptor()
+    addrUI_2U = AttributeAccessRulesDescriptor()
+    addrUI_3U = AttributeAccessRulesDescriptor()
+
+    adjEnterSig = AttributeAccessRulesDescriptor()
+    selfSignal = AttributeAccessRulesDescriptor()
+    trackEnter = AttributeAccessRulesDescriptor()
 
 
-class PpoRailCrossingRi(PpoObject):
-    NCHPI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
-    KP_O = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
-    KP_A = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
-    ZG = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
-    KZP = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+class PpoInterstationWayBorder(PpoObject4i):
+    id_ = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                         presentation=IfZeroThenIntPresentation())
+    indent = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                            presentation=IfZeroThenIntPresentation())
+    type_ = AttributeAccessRulesDescriptor()
+    stateInterstationWay = AttributeAccessRulesDescriptor()
+    oppositeBorder = AttributeAccessRulesDescriptor()
+    protectiveTrack = AttributeAccessRulesDescriptor()
+    removalZone1 = AttributeAccessRulesDescriptor(is_list=True)
+    removalZone2 = AttributeAccessRulesDescriptor(is_list=True)
+    removalZone3 = AttributeAccessRulesDescriptor(is_list=True)
+    approachZone1 = AttributeAccessRulesDescriptor(is_list=True)
+    approachZone2 = AttributeAccessRulesDescriptor(is_list=True)
+    approachZone3 = AttributeAccessRulesDescriptor(is_list=True)
+    notificationPoints = AttributeAccessRulesDescriptor(is_list=True)
+    approachZoneCancelRoute = AttributeAccessRulesDescriptor()
 
 
-class PpoRailCrossing(PpoObject4i):
-    crossroad = AttributeAccessRulesDescriptor(is_list=True)
+class PpoInterstationWayBorderRi(PpoObject):
+    addrKI_SNK = AttributeAccessRulesDescriptor()
+    addrKI_DS = AttributeAccessRulesDescriptor()
+    addrKI_OV = AttributeAccessRulesDescriptor()
+    addrKI_PV = AttributeAccessRulesDescriptor()
+    addrKI_RUU = AttributeAccessRulesDescriptor()
+    addrKI_R = AttributeAccessRulesDescriptor()
+    addrKI_KS = AttributeAccessRulesDescriptor()
+    addrKI_I = AttributeAccessRulesDescriptor()
+    addrKI_KZH = AttributeAccessRulesDescriptor()
+    addrKI_VIP1 = AttributeAccessRulesDescriptor()
+    addrKI_VIP2 = AttributeAccessRulesDescriptor()
+    addrKI_VIP3 = AttributeAccessRulesDescriptor()
+    addrKI_KM = AttributeAccessRulesDescriptor()
+    addrKI_OKV = AttributeAccessRulesDescriptor()
+    addrKI_Notification = AttributeAccessRulesDescriptor()
+
+    addrUI_SNP = AttributeAccessRulesDescriptor()
+    addrUI_SN = AttributeAccessRulesDescriptor()
+    addrUI_S1U = AttributeAccessRulesDescriptor()
+    addrUI_S1P = AttributeAccessRulesDescriptor()
+    addrUI_1U = AttributeAccessRulesDescriptor()
+    addrUI_2U = AttributeAccessRulesDescriptor()
+    addrUI_3U = AttributeAccessRulesDescriptor()
+    addrUI_ZU = AttributeAccessRulesDescriptor()
+    addrUI_KP = AttributeAccessRulesDescriptor()
+    addrUI_UB = AttributeAccessRulesDescriptor()
+    addrUI_PB = AttributeAccessRulesDescriptor()
+    addrUI_KV = AttributeAccessRulesDescriptor()
+    addrUI_A = AttributeAccessRulesDescriptor()
+
+    notificationPoints = AttributeAccessRulesDescriptor(is_list=True, single_attribute_type=NotificationPoint)
+
+    enterSignal = AttributeAccessRulesDescriptor()
+    track_P1 = AttributeAccessRulesDescriptor()
+    track_P2 = AttributeAccessRulesDescriptor()
 
 
 class PpoControlDeviceDerailmentStock(PpoObject4i):
@@ -351,23 +484,33 @@ class PpoControlDeviceDerailmentStockCi(PpoObject):
 
 
 class PpoTrackUnit(PpoObject):
-    iObjsTag = AttributeAccessRulesDescriptor()
-    evenTag = AttributeAccessRulesDescriptor()
-    oddTag = AttributeAccessRulesDescriptor()
+    iObjsTag = AttributeAccessRulesDescriptor(is_list=True)
+    oddTag = AttributeAccessRulesDescriptor(is_list=True)
+    evenTag = AttributeAccessRulesDescriptor(is_list=True)
+    longFreeTime = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                  presentation=IntPresentation())
 
 
 class PpoTrackReceiverRi(PpoObject):
     addrKI_P = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
 
 
+class PpoTrackReceiverCi(PpoObject):
+    receiverAddr = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                  presentation=IntPresentation())
+
+
 class PpoLightSignalRi(PpoObject):
     addrKI_KO = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
     addrKI_KPS = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+    addrKI_S = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
     addrKI_RU = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
     addrKI_GM = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
     addrKI_KMGS = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
     addrKI_ZHZS = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
     addrKI_ZS = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+    yellowCode = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                presentation=IntPresentation())
 
 
 class PpoCodeEnablingRelayALS(PpoObject):
@@ -377,10 +520,18 @@ class PpoCodeEnablingRelayALS(PpoObject):
 
 class PpoTrackEncodingPoint(PpoObject):
     encUnitALS = AttributeAccessRulesDescriptor()
-    own = AttributeAccessRulesDescriptor()
-    freeState = AttributeAccessRulesDescriptor()
+    signalUnit = AttributeAccessRulesDescriptor()
+    own = AttributeAccessRulesDescriptor(is_list=True)
+    freeState = AttributeAccessRulesDescriptor(is_list=True)
     plusPoints = AttributeAccessRulesDescriptor(is_list=True)
     minusPoints = AttributeAccessRulesDescriptor(is_list=True)
+    codeGenerationMode = AttributeAccessRulesDescriptor()
+    codeGenerationDirection = AttributeAccessRulesDescriptor()
+
+
+class PpoCodeGeneratorALS(PpoObject):
+    addr = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                          presentation=IntPresentation())
 
 
 class PpoGeneralPurposeRelayInput(PpoObject):
@@ -390,6 +541,34 @@ class PpoGeneralPurposeRelayInput(PpoObject):
 class PpoGeneralPurposeRelayOutput(PpoObject):
     addrUI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
     defaultValue = AttributeAccessRulesDescriptor(value_checkers=ValueZeroOneChecker())
+
+
+class PpoGeneralPurposeRelayTranslator(PpoObject):
+    SrcKI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+    DstUI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
+
+
+class PpoSignalRelayRepeater(PpoObject):
+    addrKI = AttributeAccessRulesDescriptor()
+    KO = AttributeAccessRulesDescriptor()
+    KPS = AttributeAccessRulesDescriptor()
+    RU = AttributeAccessRulesDescriptor()
+    GM = AttributeAccessRulesDescriptor()
+    KMGS = AttributeAccessRulesDescriptor()
+    ZHZS = AttributeAccessRulesDescriptor()
+    ZS = AttributeAccessRulesDescriptor()
+    ZK = AttributeAccessRulesDescriptor()
+
+
+class PpoTrackRelayRepeater(PpoObject):
+    trackReceivers = AttributeAccessRulesDescriptor(is_list=True)
+    longFreeTime = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                  presentation=IntPresentation())
+    AddrMUI = AttributeAccessRulesDescriptor()
+
+
+class PpoGeneralPurposeGroupRelayInput(PpoObject):
+    inputAddr = AttributeAccessRulesDescriptor(is_list=True)
 
 
 class PpoElectricHeating(PpoObject4i):
@@ -404,20 +583,90 @@ class PpoElectricHeatingRi(PpoObject):
 
 
 class TrafficOperatorWorkset(PpoObject2i):
-    num = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(), presentation=IntPresentation())
+    num = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                         presentation=IntPresentation())
     controlArea = AttributeAccessRulesDescriptor(is_list=True, value_checkers=ValueInSetChecker())
     commonRemoteCommands = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("commonRemoteCommands1"))
     confirmedRemoteCommands = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("confirmedRemoteCommands1"))
     key = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0xFFFFFFFFFFFFFFFFULL"))
 
 
-class StationOperatorWorkset(PpoObject2i):
-    num = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(), presentation=IntPresentation())
+class StationOperatorWorkset(PpoObject):
+    num = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                         presentation=IntPresentation())
+    id_ = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                         presentation=IfZeroThenIntPresentation())
+    indent = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                            presentation=IfZeroThenIntPresentation())
     controlArea = AttributeAccessRulesDescriptor(is_list=True, value_checkers=ValueInSetChecker())
 
 
 class ControlArea(PpoObject2i):
-    initialOperatorNum = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(), presentation=IntPresentation())
+    initialOperatorNum = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                        presentation=IntPresentation())
+
+
+class PpoTrackCrossroad(PpoObject3i):
+    id_ = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                         presentation=IfZeroThenIntPresentation())
+    indent = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                            presentation=IfZeroThenIntPresentation())
+    iObjTag = AttributeAccessRulesDescriptor()
+    railCrossing = AttributeAccessRulesDescriptor()
+
+
+class PpoTrainNotificationRi(PpoObject):
+    NPI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
+    CHPI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_UI)
+
+
+class PpoRailCrossingRi(PpoObject):
+    NCHPI = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+    KP_O = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+    KP_A = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+    ZG = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+    KZP = AttributeAccessRulesDescriptor(attribute_management_group=AMG_ADR_KI)
+
+
+class PpoRailCrossing(PpoObject4i):
+    crossroad = AttributeAccessRulesDescriptor(is_list=True)
+
+
+class PpoGroupRailFittersWarningArea(PpoObject):
+    pass
+
+
+class PpoRailFittersWarningAreaRi(PpoObject):
+    AddrMKI_KNM = AttributeAccessRulesDescriptor()
+    AddrMUI_RRM = AttributeAccessRulesDescriptor()
+    AddrMUI_OM = AttributeAccessRulesDescriptor()
+
+
+class PpoRailFittersWarningArea(PpoObject4i):
+    group = AttributeAccessRulesDescriptor()
+    points = AttributeAccessRulesDescriptor(is_list=True)
+
+
+class PpoInterstationWayCrossroad(PpoObject4i):
+    id_ = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                         presentation=IfZeroThenIntPresentation())
+    indent = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("0"),
+                                            presentation=IfZeroThenIntPresentation())
+    timeBlocking3U = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                    presentation=IntPresentation())
+    timeBlocking4U = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                    presentation=IntPresentation())
+    timeOccupancy2U = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                     presentation=IntPresentation())
+    timeOccupancy3U = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                     presentation=IntPresentation())
+    timeOccupancy4U = AttributeAccessRulesDescriptor(value_checkers=ValueStrIsPositiveNumberChecker(),
+                                                     presentation=IntPresentation())
+    _2U = AttributeAccessRulesDescriptor()
+    _3U = AttributeAccessRulesDescriptor()
+    _4UD = AttributeAccessRulesDescriptor()
+    _4U = AttributeAccessRulesDescriptor(is_list=True)
+    _4UB = AttributeAccessRulesDescriptor(is_list=True)
 
 
 class PpoCabinetUsoBk(PpoObject):
@@ -466,3 +715,15 @@ class PpoDieselGenerator(PpoObject3i):
     dieselControl = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("KT"))
     startDieselGenerator = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("ZDGA"))
     stopDieselGenerator = AttributeAccessRulesDescriptor(value_suggester=ConstSuggester("ODGA"))
+
+
+class PpoEncodingUnitsMonitoring(PpoObject):
+    generators = AttributeAccessRulesDescriptor(is_list=True)
+
+
+class PpoTrackSensorsMonitoring(PpoObject):
+    receivers = AttributeAccessRulesDescriptor(is_list=True)
+
+
+class PpoIndicationGroupTrackSensors(PpoObject4i):
+    pass

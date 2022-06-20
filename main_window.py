@@ -98,7 +98,7 @@ class MainWindow(QMainWindow):
         self.ppd.show()
 
     def import_config_file(self):
-        file_name, _ = QFileDialog.getOpenFileName(self, 'Open File', './config_examples/novosokol_json', 'json, xml Files (*.xml *.json)')
+        file_name, _ = QFileDialog.getOpenFileName(self, 'Open File', './config_examples/ribatskoe_json', 'json, xml Files (*.xml *.json)')
         if not file_name:
             return
         self.input_config_file_opened.emit(file_name)

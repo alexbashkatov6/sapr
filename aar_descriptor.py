@@ -62,10 +62,14 @@ class AttributeAccessRulesDescriptor:
         command_, attr_address, value = command.command, command.attrib_address, command.value
         if command_ == AttributeCommand.set_single:
             """ index is already exists """
-            cycle_named_attr, single_attrib = cyclic_find(instance, attr_address, True)
+            cycle_named_attr, single_attrib, obj, slice_address = cyclic_find(instance, attr_address, True)
+            if not (obj is instance):
+                setattr(obj, slice_address.get_first_attr_name(),
+                        ComplexAttributeManagementCommand(command=command_, attrib_address=slice_address, value=value))
+                return
             if not single_attrib:
                 self.new_attr_operations(instance, cycle_named_attr)
-                cycle_named_attr, single_attrib = cyclic_find(instance, attr_address, True)
+                cycle_named_attr, single_attrib, obj, slice_address = cyclic_find(instance, attr_address, True)
             sa_type = cycle_named_attr.single_attribute_type
             if issubclass(sa_type, str):
                 single_attrib: StrSingleAttribute
@@ -89,7 +93,7 @@ class AttributeAccessRulesDescriptor:
                 assert False
             return
         else:
-            cycle_named_attr, _ = cyclic_find(instance, attr_address)
+            cycle_named_attr, _, _, _ = cyclic_find(instance, attr_address)
         if command_ == AttributeCommand.append:
             assert isinstance(cycle_named_attr, ListAttribute)
             self.new_attr_operations(instance, cycle_named_attr)

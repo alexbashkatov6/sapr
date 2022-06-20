@@ -20,7 +20,21 @@ from ppo_object import set_tag, get_tag, PpoObject, PpoAnDtrack, PpoLightSignalC
     PpoTrackCrossroad, PpoTrackUnit, PpoTrackEncodingPoint, PpoTrainSignal, PpoWarningSignal, PpoRepeatSignal, PpoTrack, \
     PpoTrackAnDwithPoint, PpoLineEnd, AdditionalSwitch, SectionAndIgnoreCondition, PpoControlDeviceDerailmentStockCi, \
     PpoCodeEnablingRelayALS, PpoCabinetUsoBk, PpoInsulationResistanceMonitoring, PpoPointMachinesCurrentMonitoring, \
-    PpoControlAreaBorder, PpoShuntingSignal, PpoPointSection, PpoTrackSection
+    PpoControlAreaBorder, PpoShuntingSignal, PpoPointSection, PpoTrackSection, PpoShuntingSignalWithTrackAnD, \
+    PpoFictionalRepeatingShuntingSignal, PpoGroupTrainSignal, StartWarningArea, PpoFictionalSignal, \
+    PpoInterstationWaySignal, PpoIndicationSignal, PpoInterstationWayFictionalSignal, \
+    PpoInterstationWayTrack, PpoIndicationTrack, \
+    PpoCodeGeneratorALS, \
+    PpoGeneralPurposeRelayInput, PpoGeneralPurposeRelayOutput, PpoGeneralPurposeRelayTranslator, \
+    PpoSignalRelayRepeater, PpoTrackRelayRepeater, PpoGeneralPurposeGroupRelayInput, \
+    PpoTrackReceiverRi, PpoTrackReceiverCi, \
+    PpoAdjacentStationTrainSignal, PpoInterstationWayBorder, PpoAdjacentStationTrainSignalRi, PpoInterstationWayBorderRi, \
+    PpoControlDeviceDerailmentStock, \
+    StationOperatorWorkset, ControlArea, \
+    PpoTrainNotificationRi, PpoGroupRailFittersWarningArea, PpoRailFittersWarningAreaRi, PpoRailFittersWarningArea, \
+    PpoInterstationWayCrossroad, \
+    PpoTelesignalization, PpoFireAndSecurityAlarm, PpoPointsMonitoring, PpoDieselGenerator, PpoLightMode, PpoLightModeRi, \
+    PpoEncodingUnitsMonitoring, PpoTrackSensorsMonitoring, PpoIndicationGroupTrackSensors
 
 """ ------------------------------------- Globals ------------------------------------ """
 
@@ -70,6 +84,7 @@ class ObjectsHandler(QObject):
         if file_name.endswith("json"):
             with open(file_name, "r") as f:
                 d = json.load(f)
+                # print("d=", d)
                 for obj_d in d:
                     self.make_ppo_obj_from_dict(obj_d)
 
@@ -93,12 +108,27 @@ class ObjectsHandler(QObject):
         self.send_objects_tree.emit(self.str_objects_tree)
 
     def bind_checkers_storages(self):
+        all_tracks = [self.objects_tree["PpoTrackSection"],
+                      self.objects_tree["PpoPointSection"],
+                      self.objects_tree["PpoTrackAnDwithPoint"],
+                      self.objects_tree["PpoTrackAnD"]]
+        all_physical_signals = [self.objects_tree["PpoTrainSignal"],
+                                self.objects_tree["PpoGroupTrainSignal"],
+                                self.objects_tree["PpoWarningSignal"],
+                                self.objects_tree["PpoRepeatSignal"],
+                                self.objects_tree["PpoShuntingSignal"],
+                                self.objects_tree["PpoShuntingSignalWithTrackAnD"]]
         PpoRoutePointer.routePointer.value_checkers = ValueInSetChecker(self.objects_tree["PpoRoutePointerRi"])
+        StartWarningArea.obj.value_checkers = ValueInSetChecker(all_tracks)
         PpoTrainSignal.routePointer.value_checkers = ValueInSetChecker(self.objects_tree["PpoRoutePointerRi"])
         PpoTrainSignal.groupRoutePointers.value_checkers = ValueInSetChecker(self.objects_tree["PpoRoutePointerRi"])
         PpoTrainSignal.uksps.value_checkers = ValueInSetChecker(self.objects_tree["PpoControlDeviceDerailmentStock"])
+        PpoGroupTrainSignal.routePointer.value_checkers = ValueInSetChecker(self.objects_tree["PpoRoutePointerRi"])
+        PpoFictionalSignal.groupSignal.value_checkers = ValueInSetChecker(self.objects_tree["PpoGroupTrainSignal"])
         PpoWarningSignal.signalTag.value_checkers = ValueInSetChecker(self.objects_tree["PpoTrainSignal"])
         PpoRepeatSignal.signalTag.value_checkers = ValueInSetChecker(self.objects_tree["PpoTrainSignal"])
+        PpoFictionalRepeatingShuntingSignal.groupSignal.value_checkers = ValueInSetChecker(
+            self.objects_tree["PpoGroupTrainSignal"])
         PpoTrack.trackUnit.value_checkers = ValueInSetChecker(self.objects_tree["PpoTrackUnit"])
         PpoTrackAnDwithPoint.oppositeTrackAnDwithPoint.value_checkers = ValueInSetChecker(
             self.objects_tree["PpoTrackAnDwithPoint"])
@@ -123,32 +153,18 @@ class ObjectsHandler(QObject):
         PpoRailCrossing.crossroad.value_checkers = ValueInSetChecker(self.objects_tree["PpoTrackCrossroad"])
         PpoControlDeviceDerailmentStockCi.enterSignal.value_checkers = ValueInSetChecker(
             self.objects_tree["PpoTrainSignal"])
-        PpoTrackUnit.iObjsTag.value_checkers = ValueInSetChecker([self.objects_tree["PpoTrackSection"],
-                                                                  self.objects_tree["PpoPointSection"],
-                                                                  self.objects_tree["PpoTrackAnDwithPoint"],
-                                                                  self.objects_tree["PpoTrackAnD"]])
+        PpoTrackUnit.iObjsTag.value_checkers = ValueInSetChecker(all_tracks)
         PpoTrackUnit.evenTag.value_checkers = ValueInSetChecker(self.objects_tree["PpoTrackEncodingPoint"])
         PpoTrackUnit.oddTag.value_checkers = ValueInSetChecker(self.objects_tree["PpoTrackEncodingPoint"])
         PpoCodeEnablingRelayALS.okv.value_checkers = ValueInSetChecker(
             self.objects_tree["PpoGeneralPurposeRelayOutput"])
         PpoTrackEncodingPoint.encUnitALS.value_checkers = ValueInSetChecker(
             self.objects_tree["PpoCodeEnablingRelayALS"])
-        PpoTrackEncodingPoint.own.value_checkers = ValueInSetChecker([self.objects_tree["PpoTrackSection"],
-                                                                      self.objects_tree["PpoPointSection"],
-                                                                      self.objects_tree["PpoTrackAnDwithPoint"],
-                                                                      self.objects_tree["PpoTrackAnD"]])
-        PpoTrackEncodingPoint.freeState.value_checkers = ValueInSetChecker([self.objects_tree["PpoTrackSection"],
-                                                                            self.objects_tree["PpoPointSection"],
-                                                                            self.objects_tree["PpoTrackAnDwithPoint"],
-                                                                            self.objects_tree["PpoTrackAnD"]])
+        PpoTrackEncodingPoint.own.value_checkers = ValueInSetChecker(all_tracks)
+        PpoTrackEncodingPoint.freeState.value_checkers = ValueInSetChecker(all_tracks)
         PpoTrackEncodingPoint.plusPoints.value_checkers = ValueInSetChecker(self.objects_tree["PpoPoint"])
         PpoTrackEncodingPoint.minusPoints.value_checkers = ValueInSetChecker(self.objects_tree["PpoPoint"])
-        PpoCabinetUsoBk.lightSignals.value_checkers = ValueInSetChecker([self.objects_tree["PpoTrainSignal"],
-                                                                         self.objects_tree["PpoWarningSignal"],
-                                                                         self.objects_tree["PpoRepeatSignal"],
-                                                                         self.objects_tree["PpoShuntingSignal"],
-                                                                         self.objects_tree[
-                                                                             "PpoShuntingSignalWithTrackAnD"]])
+        PpoCabinetUsoBk.lightSignals.value_checkers = ValueInSetChecker(all_physical_signals)
         PpoCabinetUsoBk.hiCratePointMachines.value_checkers = ValueInSetChecker(self.objects_tree["PpoPoint"])
         PpoCabinetUsoBk.loCratePointMachines.value_checkers = ValueInSetChecker(self.objects_tree["PpoPoint"])
         PpoCabinetUsoBk.controlDeviceDerailmentStocks.value_checkers = \

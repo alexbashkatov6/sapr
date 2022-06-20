@@ -2,6 +2,7 @@ from typing import Any
 
 from attribute_management import AttributeAddress, AttributeIndex
 from attribute_address_access import get_str_attr
+from config import DEFAULT_ADDRESS_SUGGESTION
 
 
 class Suggester:
@@ -81,7 +82,7 @@ class AddressSuggester(Suggester):
         self._possible_values = ["USO:::", "CPU:::", "PPO:::"]
 
     def suggest(self):
-        return "USO:::"
+        return DEFAULT_ADDRESS_SUGGESTION
 
 
 DEFAULT_VALUE_SUGGESTER = Suggester()
